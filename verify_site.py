@@ -1,7 +1,7 @@
 import os
 import re
 
-files = ['index.html', 'beliefs.html', 'sacraments.html', 'prayer.html', 'resources.html', 'styles/main.css']
+files = ['index.html', 'beliefs.html', 'sacraments.html', 'prayer.html', 'resources.html', 'history.html', 'structure.html', 'apologetics.html', 'styles/main.css']
 
 # Check existence
 for f in files:

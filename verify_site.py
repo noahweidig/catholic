@@ -12,7 +12,7 @@ for f in files:
 
 # Check links
 def get_links(content):
-    return re.findall(r'href="([^"]+)"', content)
+    return (match.group(1) for match in re.finditer(r'href="([^"]+)"', content))
 
 html_files = [f for f in files if f.endswith('.html')]
 

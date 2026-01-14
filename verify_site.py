@@ -11,8 +11,10 @@ for f in files:
         print(f"FOUND: {f}")
 
 # Check links
+LINK_PATTERN = re.compile(r'href="([^"]+)"')
+
 def get_links(content):
-    return (match.group(1) for match in re.finditer(r'href="([^"]+)"', content))
+    return (match.group(1) for match in LINK_PATTERN.finditer(content))
 
 html_files = [f for f in files if f.endswith('.html')]
 

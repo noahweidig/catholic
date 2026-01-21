@@ -1,8 +1,10 @@
 import os
 import re
 
+LINK_RE = re.compile(r'href="([^"]+)"')
+
 def get_links(content):
-    return (match.group(1) for match in re.finditer(r'href="([^"]+)"', content))
+    return (match.group(1) for match in LINK_RE.finditer(content))
 
 def verify_site():
     files = ['index.html', 'beliefs.html', 'sacraments.html', 'prayer.html', 'resources.html', 'history.html', 'structure.html', 'apologetics.html', 'styles/main.css']

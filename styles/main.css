@@ -1,16 +1,15 @@
 :root {
-    --bg-color: #F9F7F2; /* Off-white, parchment-like */
-    --text-color: #333333; /* Charcoal */
-    --primary-color: #003366; /* Deep Blue */
-    --accent-color: #C5A059; /* Muted Gold */
-    --link-color: #004080;
-    --border-color: #E0E0E0;
+    --bg-color: #f7f4ef;
+    --paper-color: #ffffff;
+    --text-color: #2c2c2c;
+    --primary-color: #002244; /* Royal Navy Blue */
+    --accent-color: #a68b5b; /* Antique Gold */
+    --border-color: #dcd6ce;
+    --hover-color: #8b7355;
 
-    --font-main: 'Georgia', 'Times New Roman', serif;
-    --font-heading: 'Georgia', 'Times New Roman', serif;
-
-    --spacing-unit: 1.5rem;
-    --max-width: 800px;
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Lora', serif;
+    --font-title: 'Cinzel', serif;
 }
 
 * {
@@ -20,38 +19,40 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: var(--font-main);
-    line-height: 1.6;
+    font-family: var(--font-body);
+    line-height: 1.7;
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    -webkit-font-smoothing: antialiased;
+    font-size: 19px;
 }
 
 a {
-    color: var(--link-color);
+    color: var(--primary-color);
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    transition: border-bottom 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 a:hover {
+    color: var(--hover-color);
     border-bottom: 1px solid var(--accent-color);
 }
 
+/* Header & Nav */
 header {
     text-align: center;
-    padding: 3rem 1rem;
-    border-bottom: 1px solid var(--border-color);
-    margin-bottom: 2rem;
+    padding: 3rem 1rem 2rem;
+    border-bottom: 4px double var(--accent-color);
+    background-color: var(--paper-color);
+    margin-bottom: 3rem;
 }
 
 .site-title {
-    font-size: 2.5rem;
+    font-family: var(--font-title);
+    font-size: 3.5rem;
     color: var(--primary-color);
-    font-weight: normal;
-    letter-spacing: 0.05em;
-    margin: 0 0 1rem 0;
+    letter-spacing: 0.1em;
+    margin: 0 0 1.5rem 0;
     text-transform: uppercase;
 }
 
@@ -62,50 +63,63 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
-}
-
-nav li {
-    margin: 0;
+    gap: 2rem;
 }
 
 nav a {
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 0.95rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
+    font-family: var(--font-heading);
+    padding-bottom: 0.2rem;
 }
 
-nav a.active {
+nav a.active, nav a:hover {
     color: var(--primary-color);
     border-bottom: 1px solid var(--accent-color);
 }
 
+/* Main Content */
 main {
-    max-width: var(--max-width);
+    max-width: 850px;
     margin: 0 auto;
-    padding: 0 1.5rem 4rem;
+    padding: 4rem;
+    background: var(--paper-color);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border: 1px solid var(--border-color);
+    margin-bottom: 4rem;
 }
 
+/* Typography */
 h1, h2, h3 {
     color: var(--primary-color);
-    font-weight: normal;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid var(--accent-color);
-    padding-bottom: 1rem;
-    display: inline-block;
-    width: 100%;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+h1::after {
+    content: "†";
+    display: block;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    margin-top: 0.5rem;
+    font-weight: normal;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.5rem;
 }
@@ -115,25 +129,64 @@ p {
 }
 
 blockquote {
-    border-left: 3px solid var(--accent-color);
-    margin: 2rem 0;
-    padding-left: 1.5rem;
+    border-left: none;
+    margin: 2.5rem 0;
+    padding: 1rem 2rem;
     font-style: italic;
-    color: #555;
+    color: #4a4a4a;
+    font-size: 1.1em;
+    text-align: center;
+    position: relative;
+}
+
+blockquote::before {
+    content: "“";
+    display: block;
+    font-size: 4rem;
+    color: var(--accent-color);
+    line-height: 1;
+    margin-bottom: -1rem;
+    font-family: var(--font-heading);
+}
+
+/* Components */
+.drop-cap::first-letter {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    float: left;
+    line-height: 0.8;
+    margin-right: 0.75rem;
+    color: var(--primary-color);
+    font-weight: 700;
 }
 
 ul {
     margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
+/* Footer */
+footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    color: #666;
+    background-color: var(--paper-color);
+    font-family: var(--font-heading);
+    letter-spacing: 0.05em;
+    border-top: 4px double var(--accent-color);
+}
+
+/* Specific Page Styles */
 .sacrament-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
 }
 
 .resource-list {
@@ -142,32 +195,25 @@ li {
 }
 
 .resource-list li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     border-bottom: 1px dotted var(--border-color);
     padding-bottom: 1rem;
 }
 
-footer {
-    text-align: center;
-    padding: 3rem 1rem;
-    border-top: 1px solid var(--border-color);
-    font-size: 0.9rem;
-    color: #666;
-    margin-top: auto;
-}
+@media (max-width: 700px) {
+    main {
+        padding: 2rem 1.5rem;
+        margin: 0;
+        box-shadow: none;
+        border: none;
+        background: transparent;
+    }
 
-/* Utilities */
-.text-center { text-align: center; }
-.drop-cap::first-letter {
-    font-size: 3.5rem;
-    float: left;
-    line-height: 0.8;
-    margin-right: 0.5rem;
-    color: var(--primary-color);
-}
-
-@media (min-width: 600px) {
     .site-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    h1::after {
+        display: none;
     }
 }

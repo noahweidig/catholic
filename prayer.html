@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -17,42 +18,45 @@
     <div class="site-title">Catholic</div>
     <nav aria-label="Main Navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="beliefs.html">Beliefs</a></li>
-            <li><a href="sacraments.html">Sacraments</a></li>
-            <li><a href="prayer.html" class="active" aria-current="page">Prayer</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="structure.html">Structure</a></li>
-            <li><a href="apologetics.html">Apologetics</a></li>
-            <li><a href="resources.html">Resources</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-home"></i> Home</a></li>
+            <li><a href="beliefs.html"><i class="fa-solid fa-book-bible"></i> Beliefs</a></li>
+            <li><a href="sacraments.html"><i class="fa-solid fa-water"></i> Sacraments</a></li>
+            <li><a href="prayer.html" class="active" aria-current="page"><i class="fa-solid fa-hands-praying"></i> Prayer</a></li>
+            <li><a href="history.html"><i class="fa-solid fa-scroll"></i> History</a></li>
+            <li><a href="structure.html"><i class="fa-solid fa-church"></i> Structure</a></li>
+            <li><a href="apologetics.html"><i class="fa-solid fa-shield-halved"></i> Apologetics</a></li>
+            <li><a href="resources.html"><i class="fa-solid fa-bookmark"></i> Resources</a></li>
         </ul>
     </nav>
 </header>
 
-<main>
-    <h1>Prayer & Devotion</h1>
+<section class="page-banner">
+    <h1>Prayer &amp; Devotion</h1>
+    <p>Raising one's mind and heart to God</p>
+</section>
 
-    <p>
+<main>
+    <p class="reveal">
         Prayer is the raising of one's mind and heart to God. It is the lifeblood of the soul. Catholic tradition offers a rich treasure of prayer forms, from the liturgical public prayer of the Church to private devotions.
     </p>
 
-    <h2>The Holy Mass</h2>
-    <p>
+    <h2 class="reveal"><i class="fa-solid fa-place-of-worship"></i> The Holy Mass</h2>
+    <p class="reveal">
         The Mass is the central act of divine worship in the Catholic Church. It is not merely a communal gathering but a participation in the heavenly liturgy. We gather to listen to the Word of God and to receive the Eucharist, uniting our lives with the sacrifice of Christ.
     </p>
 
-    <h2>The Rosary</h2>
-    <p>
+    <h2 class="reveal"><i class="fa-solid fa-circle-notch"></i> The Rosary</h2>
+    <p class="reveal">
         The Rosary is a meditative prayer focused on the life of Christ. While reciting prayers like the Hail Mary, we contemplate the "mysteries" of the Gospel—the Joyful, Luminous, Sorrowful, and Glorious moments in the lives of Jesus and Mary. It is a powerful tool for peace and spiritual growth.
     </p>
 
-    <h2>The Communion of Saints</h2>
-    <p>
+    <h2 class="reveal"><i class="fa-solid fa-users"></i> The Communion of Saints</h2>
+    <p class="reveal">
         Catholics do not worship saints; we honor them as heroes of the faith and ask for their intercession, just as we would ask a friend to pray for us. They are the "great cloud of witnesses" (Hebrews 12:1) who encourage us in our own race toward heaven.
     </p>
 
-    <h2>Forms of Prayer</h2>
-    <ul>
+    <h2 class="reveal"><i class="fa-solid fa-heart"></i> Forms of Prayer</h2>
+    <ul class="reveal">
         <li><strong>Adoration:</strong> Praising God for his own sake, acknowledging him as our Creator.</li>
         <li><strong>Petition:</strong> Asking God for what we need.</li>
         <li><strong>Intercession:</strong> Asking God on behalf of others.</li>
@@ -65,5 +69,6 @@
     <p>&copy; 2026 Catholic Faith. Ad Maiorem Dei Gloriam.</p>
 </footer>
 
+<script src="scripts/main.js"></script>
 </body>
 </html>

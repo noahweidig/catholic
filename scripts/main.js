@@ -39,4 +39,17 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }, { passive: true });
     }
+
+    // Hamburger menu toggle
+    var hamburger = document.querySelector('.hamburger');
+    var nav = document.querySelector('header nav');
+    if (hamburger && nav) {
+        hamburger.addEventListener('click', function () {
+            var isOpen = nav.classList.toggle('open');
+            hamburger.setAttribute('aria-expanded', isOpen);
+            hamburger.querySelector('i').className = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars';
+        });
+    }
 });

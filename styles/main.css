@@ -492,6 +492,22 @@ footer a {
     animation: fadeInUp 0.6s ease 0.15s both;
 }
 
+/* Hamburger button - hidden on desktop */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.hamburger:hover {
+    color: var(--accent-color);
+}
+
 @media (max-width: 700px) {
     main {
         padding: 2rem 1.5rem;
@@ -503,6 +519,7 @@ footer a {
 
     .site-title {
         font-size: 2.5rem;
+        margin-bottom: 0.5rem;
     }
 
     h1::after {
@@ -519,7 +536,35 @@ footer a {
 
     header.scrolled .site-title {
         font-size: 2.5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hamburger {
+        display: block;
+        margin: 0 auto;
+    }
+
+    nav {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+    }
+
+    nav.open {
+        max-height: 500px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0;
+        padding: 0.5rem 0;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+        padding: 0.6rem 0;
+        display: flex;
+        justify-content: center;
     }
 
     .hero {
@@ -532,14 +577,6 @@ footer a {
 
     .page-banner {
         padding: 2rem 1.5rem;
-    }
-
-    nav ul {
-        gap: 0.8rem 1.5rem;
-    }
-
-    nav a {
-        font-size: 0.75rem;
     }
 
     .sacrament-grid section {

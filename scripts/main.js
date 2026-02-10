@@ -21,18 +21,22 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Header shrink on scroll
+    // Header shrink on scroll (throttled with rAF)
     var header = document.querySelector('header');
     if (header) {
-        var lastScroll = 0;
+        var ticking = false;
         window.addEventListener('scroll', function () {
-            var scrollY = window.scrollY;
-            if (scrollY > 60) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
+            if (!ticking) {
+                window.requestAnimationFrame(function () {
+                    if (window.scrollY > 60) {
+                        header.classList.add('scrolled');
+                    } else {
+                        header.classList.remove('scrolled');
+                    }
+                    ticking = false;
+                });
+                ticking = true;
             }
-            lastScroll = scrollY;
         }, { passive: true });
     }
 });

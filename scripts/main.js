@@ -47,9 +47,12 @@ document.addEventListener('DOMContentLoaded', function () {
         hamburger.addEventListener('click', function () {
             var isOpen = nav.classList.toggle('open');
             hamburger.setAttribute('aria-expanded', isOpen);
-            hamburger.querySelector('i').className = isOpen
-                ? 'fa-solid fa-xmark'
-                : 'fa-solid fa-bars';
+            var icon = hamburger.querySelector('i');
+            if (icon) {
+                icon.className = isOpen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars';
+            }
         });
     }
 });

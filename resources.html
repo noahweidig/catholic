@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -17,50 +18,53 @@
     <div class="site-title">Catholic</div>
     <nav aria-label="Main Navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="beliefs.html">Beliefs</a></li>
-            <li><a href="sacraments.html">Sacraments</a></li>
-            <li><a href="prayer.html">Prayer</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="structure.html">Structure</a></li>
-            <li><a href="apologetics.html">Apologetics</a></li>
-            <li><a href="resources.html" class="active" aria-current="page">Resources</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-home"></i> Home</a></li>
+            <li><a href="beliefs.html"><i class="fa-solid fa-book-bible"></i> Beliefs</a></li>
+            <li><a href="sacraments.html"><i class="fa-solid fa-water"></i> Sacraments</a></li>
+            <li><a href="prayer.html"><i class="fa-solid fa-hands-praying"></i> Prayer</a></li>
+            <li><a href="history.html"><i class="fa-solid fa-scroll"></i> History</a></li>
+            <li><a href="structure.html"><i class="fa-solid fa-church"></i> Structure</a></li>
+            <li><a href="apologetics.html"><i class="fa-solid fa-shield-halved"></i> Apologetics</a></li>
+            <li><a href="resources.html" class="active" aria-current="page"><i class="fa-solid fa-bookmark"></i> Resources</a></li>
         </ul>
     </nav>
 </header>
 
-<main>
+<section class="page-banner">
     <h1>Resources</h1>
+    <p>Trusted sources for deepening your understanding</p>
+</section>
 
-    <p>
+<main>
+    <p class="reveal">
         To deepen your understanding of the Catholic faith, we recommend consulting primary sources and trusted explanations. Below are links to foundational documents and helpful websites.
     </p>
 
     <ul class="resource-list">
-        <li>
-            <h3>The Holy Bible</h3>
+        <li class="reveal">
+            <h3><i class="fa-solid fa-book-bible"></i> The Holy Bible</h3>
             <p>The inspired Word of God. Recommended translations include the RSV-2CE (Revised Standard Version - Second Catholic Edition) and the NABRE (New American Bible Revised Edition).</p>
-            <p><a href="https://bible.usccb.org/bible" target="_blank" rel="noopener noreferrer">Read the Bible Online (USCCB)</a></p>
+            <p><a href="https://bible.usccb.org/bible" target="_blank" rel="noopener noreferrer">Read the Bible Online (USCCB) <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
         </li>
-        <li>
-            <h3>Catechism of the Catholic Church</h3>
+        <li class="reveal">
+            <h3><i class="fa-solid fa-book"></i> Catechism of the Catholic Church</h3>
             <p>A systematic presentation of the faith, including the Creed, the Sacraments, the Commandments, and Prayer. It is the sure norm for teaching the faith.</p>
-            <p><a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener noreferrer">Read the Catechism</a></p>
+            <p><a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener noreferrer">Read the Catechism <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
         </li>
-        <li>
-            <h3>Vatican Website</h3>
+        <li class="reveal">
+            <h3><i class="fa-solid fa-globe"></i> Vatican Website</h3>
             <p>The official website of the Holy See, containing encyclicals, homilies, and news from the Pope and the Roman Curia.</p>
-            <p><a href="https://www.vatican.va/" target="_blank" rel="noopener noreferrer">Visit Vatican.va</a></p>
+            <p><a href="https://www.vatican.va/" target="_blank" rel="noopener noreferrer">Visit Vatican.va <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
         </li>
-        <li>
-            <h3>Catholic Answers</h3>
+        <li class="reveal">
+            <h3><i class="fa-solid fa-circle-question"></i> Catholic Answers</h3>
             <p>A lay apostolate dedicated to explaining and defending the Catholic faith. A great resource for specific questions.</p>
-            <p><a href="https://www.catholic.com/" target="_blank" rel="noopener noreferrer">Visit Catholic Answers</a></p>
+            <p><a href="https://www.catholic.com/" target="_blank" rel="noopener noreferrer">Visit Catholic Answers <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
         </li>
-        <li>
-            <h3>New Advent</h3>
+        <li class="reveal">
+            <h3><i class="fa-solid fa-landmark"></i> New Advent</h3>
             <p>Features the Catholic Encyclopedia, writings of the Church Fathers, and the Summa Theologica of St. Thomas Aquinas.</p>
-            <p><a href="https://www.newadvent.org/" target="_blank" rel="noopener noreferrer">Visit New Advent</a></p>
+            <p><a href="https://www.newadvent.org/" target="_blank" rel="noopener noreferrer">Visit New Advent <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
         </li>
     </ul>
 
@@ -70,5 +74,6 @@
     <p>&copy; 2026 Catholic Faith. Ad Maiorem Dei Gloriam.</p>
 </footer>
 
+<script src="scripts/main.js"></script>
 </body>
 </html>

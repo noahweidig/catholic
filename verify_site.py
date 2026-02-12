@@ -10,13 +10,14 @@ def verify_site():
     files = ['index.html', 'beliefs.html', 'sacraments.html', 'prayer.html', 'resources.html', 'history.html', 'structure.html', 'apologetics.html', 'styles/main.css']
 
     # Check existence
+    html_files = []
     for f in files:
         if not os.path.exists(f):
             print(f"MISSING: {f}")
         else:
             print(f"FOUND: {f}")
-
-    html_files = [f for f in files if f.endswith('.html')]
+            if f.endswith('.html'):
+                html_files.append(f)
 
     # Cache for checked links to avoid redundant syscalls
     checked_links = {}

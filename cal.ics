@@ -1,0 +1,3657 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Catholic Faith//Catholic Liturgical Calendar//EN
+X-WR-CALNAME:Catholic Liturgical Calendar
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260101-maryMotherOfGod@noahweidig.com
+DTSTART;VALUE=DATE:20260101
+SUMMARY:Mary, Mother of God
+END:VEVENT
+BEGIN:VEVENT
+UID:20260102-saintsBasilTheGreatAndGregoryNazianzenBishopsAndDoctors@noahweidig.com
+DTSTART;VALUE=DATE:20260102
+SUMMARY:Sts. Basil the Great and Gregory Nazianzen, Bishops and Doctors
+END:VEVENT
+BEGIN:VEVENT
+UID:20260103-theMostHolyNameOfJesus@noahweidig.com
+DTSTART;VALUE=DATE:20260103
+SUMMARY:The Most Holy Name of Jesus
+END:VEVENT
+BEGIN:VEVENT
+UID:20260104-epiphany@noahweidig.com
+DTSTART;VALUE=DATE:20260104
+SUMMARY:Epiphany
+END:VEVENT
+BEGIN:VEVENT
+UID:20260105-saintJohnNeumannBishop@noahweidig.com
+DTSTART;VALUE=DATE:20260105
+SUMMARY:St. John Neumann, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20260106-saintAndreBessetteReligious@noahweidig.com
+DTSTART;VALUE=DATE:20260106
+SUMMARY:St. Andre Bessette, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20260107-saintRaymondOfPenyafortPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260107
+SUMMARY:St. Raymond of Penyafort, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260108-thursdayAfterEpiphany@noahweidig.com
+DTSTART;VALUE=DATE:20260108
+SUMMARY:Thursday after Epiphany
+END:VEVENT
+BEGIN:VEVENT
+UID:20260109-fridayAfterEpiphany@noahweidig.com
+DTSTART;VALUE=DATE:20260109
+SUMMARY:Friday after Epiphany
+END:VEVENT
+BEGIN:VEVENT
+UID:20260110-saturdayAfterEpiphany@noahweidig.com
+DTSTART;VALUE=DATE:20260110
+SUMMARY:Saturday after Epiphany
+END:VEVENT
+BEGIN:VEVENT
+UID:20260111-baptismOfTheLord@noahweidig.com
+DTSTART;VALUE=DATE:20260111
+SUMMARY:Baptism of the Lord
+END:VEVENT
+BEGIN:VEVENT
+UID:20260112-mondayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260112
+SUMMARY:Monday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260113-saintHilaryOfPoitiersBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260113
+SUMMARY:St. Hilary of Poitiers, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260114-wednesdayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260114
+SUMMARY:Wednesday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260115-thursdayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260115
+SUMMARY:Thursday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260116-fridayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260116
+SUMMARY:Friday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260117-saintAnthonyOfEgyptAbbot@noahweidig.com
+DTSTART;VALUE=DATE:20260117
+SUMMARY:St. Anthony of Egypt, Abbot
+END:VEVENT
+BEGIN:VEVENT
+UID:20260118-2ndSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260118
+SUMMARY:2nd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260119-mondayOfThe2ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260119
+SUMMARY:Monday of the 2nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260120-saintsFabianPopeAndSebastianMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260120
+SUMMARY:Sts. Fabian, Pope, and Sebastian, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260121-saintAgnesVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260121
+SUMMARY:St. Agnes, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260122-saintVincentDeaconAndMartyrOrSaintMarianneCopeVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20260122
+SUMMARY:St. Vincent, Deacon and Martyr Or St. Marianne Cope, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20260123-fridayOfThe2ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260123
+SUMMARY:Friday of the 2nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260124-saintFrancisDeSalesBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260124
+SUMMARY:St. Francis de Sales, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260125-3rdSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260125
+SUMMARY:3rd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260126-saintsTimothyAndTitusBishops@noahweidig.com
+DTSTART;VALUE=DATE:20260126
+SUMMARY:Sts. Timothy and Titus, Bishops
+END:VEVENT
+BEGIN:VEVENT
+UID:20260127-saintAngelaMericiVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20260127
+SUMMARY:St. Angela Merici, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20260128-saintThomasAquinasPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260128
+SUMMARY:St. Thomas Aquinas, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260129-thursdayOfThe3rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260129
+SUMMARY:Thursday of the 3rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260130-fridayOfThe3rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260130
+SUMMARY:Friday of the 3rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260131-saintJohnBoscoPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260131
+SUMMARY:St. John Bosco, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260201-4thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260201
+SUMMARY:4th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260202-presentationOfTheLord@noahweidig.com
+DTSTART;VALUE=DATE:20260202
+SUMMARY:Presentation of the Lord
+END:VEVENT
+BEGIN:VEVENT
+UID:20260203-saintBlaseBishopAndMartyrSaintAnsgarBishop@noahweidig.com
+DTSTART;VALUE=DATE:20260203
+SUMMARY:St. Blase, Bishop Martyr and St. Ansgar, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20260204-wednesdayOfThe4thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260204
+SUMMARY:Wednesday of the 4th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260205-saintAgathaVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260205
+SUMMARY:St. Agatha, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260206-saintPaulMikiAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260206
+SUMMARY:St. Paul Miki and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260207-saturdayOfThe4thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260207
+SUMMARY:Saturday of the 4th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260208-5thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260208
+SUMMARY:5th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260209-mondayOfThe5thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260209
+SUMMARY:Monday of the 5th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260210-saintScholasticaVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20260210
+SUMMARY:St. Scholastica, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20260211-ourLadyOfLourdes@noahweidig.com
+DTSTART;VALUE=DATE:20260211
+SUMMARY:Our Lady of Lourdes
+END:VEVENT
+BEGIN:VEVENT
+UID:20260212-thursdayOfThe5thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260212
+SUMMARY:Thursday of the 5th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260213-fridayOfThe5thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260213
+SUMMARY:Friday of the 5th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260214-saintsCyrilMonkAndMethodiusBishop@noahweidig.com
+DTSTART;VALUE=DATE:20260214
+SUMMARY:Sts. Cyril, Monk and Methodius, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20260215-6thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260215
+SUMMARY:6th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260216-mondayOfThe6thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260216
+SUMMARY:Monday of the 6th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260217-sevenHolyFoundersOfTheServiteOrder@noahweidig.com
+DTSTART;VALUE=DATE:20260217
+SUMMARY:Seven Holy Founders of the Servite Order
+END:VEVENT
+BEGIN:VEVENT
+UID:20260218-ashWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20260218
+SUMMARY:Ash Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260219-thursdayAfterAshWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20260219
+SUMMARY:Thursday after Ash Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260220-fridayAfterAshWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20260220
+SUMMARY:Friday after Ash Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260221-saintPeterDamianBishopAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20260221
+SUMMARY:St. Peter Damian, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260222-1stSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260222
+SUMMARY:1st Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260223-saintPolycarpBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260223
+SUMMARY:St. Polycarp, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260224-tuesdayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260224
+SUMMARY:Tuesday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260225-wednesdayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260225
+SUMMARY:Wednesday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260226-thursdayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260226
+SUMMARY:Thursday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260227-fridayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260227
+SUMMARY:Friday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260228-saturdayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260228
+SUMMARY:Saturday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-2ndSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260301
+SUMMARY:2nd Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260302-mondayOfThe2ndWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260302
+SUMMARY:Monday of the 2nd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260303-saintKatharineDrexelVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20260303
+SUMMARY:St. Katharine Drexel, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20260304-saintCasimir@noahweidig.com
+DTSTART;VALUE=DATE:20260304
+SUMMARY:St. Casimir
+END:VEVENT
+BEGIN:VEVENT
+UID:20260305-thursdayOfThe2ndWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260305
+SUMMARY:Thursday of the 2nd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260306-fridayOfThe2ndWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260306
+SUMMARY:Friday of the 2nd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260307-saintsPerpetuaAndFelicityMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260307
+SUMMARY:Sts. Perpetua and Felicity, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260308-3rdSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260308
+SUMMARY:3rd Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260309-saintFrancesOfRomeReligious@noahweidig.com
+DTSTART;VALUE=DATE:20260309
+SUMMARY:St. Frances of Rome, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20260310-tuesdayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260310
+SUMMARY:Tuesday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260311-wednesdayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260311
+SUMMARY:Wednesday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260312-thursdayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260312
+SUMMARY:Thursday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260313-fridayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260313
+SUMMARY:Friday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260314-saturdayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260314
+SUMMARY:Saturday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260315-4thSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260315
+SUMMARY:4th Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260316-mondayOfThe4thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260316
+SUMMARY:Monday of the 4th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260317-saintPatrickBishop@noahweidig.com
+DTSTART;VALUE=DATE:20260317
+SUMMARY:St. Patrick, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20260318-saintCyrilOfJerusalemBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260318
+SUMMARY:St. Cyril of Jerusalem, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260319-josephHusbandOfMary@noahweidig.com
+DTSTART;VALUE=DATE:20260319
+SUMMARY:Joseph, Husband of Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260320-fridayOfThe4thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260320
+SUMMARY:Friday of the 4th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260321-saturdayOfThe4thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260321
+SUMMARY:Saturday of the 4th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260322-5thSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260322
+SUMMARY:5th Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260323-saintTuribiusOfMogrovejoBishop@noahweidig.com
+DTSTART;VALUE=DATE:20260323
+SUMMARY:St. Turibius of Mogrovejo, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20260324-tuesdayOfThe5thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260324
+SUMMARY:Tuesday of the 5th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260325-annunciation@noahweidig.com
+DTSTART;VALUE=DATE:20260325
+SUMMARY:Annunciation
+END:VEVENT
+BEGIN:VEVENT
+UID:20260326-thursdayOfThe5thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260326
+SUMMARY:Thursday of the 5th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260327-fridayOfThe5thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260327
+SUMMARY:Friday of the 5th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260328-saturdayOfThe5thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20260328
+SUMMARY:Saturday of the 5th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20260329-palmSunday@noahweidig.com
+DTSTART;VALUE=DATE:20260329
+SUMMARY:Palm Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260330-mondayOfHolyWeek@noahweidig.com
+DTSTART;VALUE=DATE:20260330
+SUMMARY:Monday of Holy Week
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-tuesdayOfHolyWeek@noahweidig.com
+DTSTART;VALUE=DATE:20260331
+SUMMARY:Tuesday of Holy Week
+END:VEVENT
+BEGIN:VEVENT
+UID:20260401-wednesdayOfHolyWeek@noahweidig.com
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Wednesday of Holy Week
+END:VEVENT
+BEGIN:VEVENT
+UID:20260402-holyThursday@noahweidig.com
+DTSTART;VALUE=DATE:20260402
+SUMMARY:Holy Thursday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260403-goodFriday@noahweidig.com
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Good Friday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260404-holySaturday@noahweidig.com
+DTSTART;VALUE=DATE:20260404
+SUMMARY:Holy Saturday/Easter Vigil
+END:VEVENT
+BEGIN:VEVENT
+UID:20260405-easter@noahweidig.com
+DTSTART;VALUE=DATE:20260405
+SUMMARY:Easter Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260406-easterMonday@noahweidig.com
+DTSTART;VALUE=DATE:20260406
+SUMMARY:Easter Monday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260407-easterTuesday@noahweidig.com
+DTSTART;VALUE=DATE:20260407
+SUMMARY:Easter Tuesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260408-easterWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20260408
+SUMMARY:Easter Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260409-easterThursday@noahweidig.com
+DTSTART;VALUE=DATE:20260409
+SUMMARY:Easter Thursday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260410-easterFriday@noahweidig.com
+DTSTART;VALUE=DATE:20260410
+SUMMARY:Easter Friday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260411-easterSaturday@noahweidig.com
+DTSTART;VALUE=DATE:20260411
+SUMMARY:Easter Saturday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260412-divineMercySunday@noahweidig.com
+DTSTART;VALUE=DATE:20260412
+SUMMARY:Divine Mercy Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260413-saintMartinIPopeAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260413
+SUMMARY:St. Martin I, Pope and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414-tuesdayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Tuesday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260415-wednesdayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260415
+SUMMARY:Wednesday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260416-thursdayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260416
+SUMMARY:Thursday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260417-fridayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260417
+SUMMARY:Friday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418-saturdayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260418
+SUMMARY:Saturday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260419-3rdSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260419
+SUMMARY:3rd Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260420-mondayOfThe3rdWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260420
+SUMMARY:Monday of the 3rd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260421-saintAnselmOfCanterburyBishopAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20260421
+SUMMARY:St. Anselm of Canterbury, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260422-wednesdayOfThe3rdWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260422
+SUMMARY:Wednesday of the 3rd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260423-saintGeorgeMartyrSaintAdalbertBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260423
+SUMMARY:St. George, Martyr/St. Adalbert, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260424-saintFidelisOfSigmaringenPriestAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260424
+SUMMARY:St. Fidelis of Sigmaringen, Priest and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260425-saintMarkTheEvangelist@noahweidig.com
+DTSTART;VALUE=DATE:20260425
+SUMMARY:St. Mark the Evangelist
+END:VEVENT
+BEGIN:VEVENT
+UID:20260426-4thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260426
+SUMMARY:4th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260427-mondayOfThe4thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260427
+SUMMARY:Monday of the 4th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260428-saintPeterChanelPriestAndMartyrSaintLouisGrignonDeMontfortPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260428
+SUMMARY:St. Peter Chanel, Priest and Martyr/St. Louis Grignon de Montfort, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429-saintCatherineOfSienaVirginAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20260429
+SUMMARY:St. Catherine of Siena, Virgin and Doctor of The Church, Patron of Europe
+END:VEVENT
+BEGIN:VEVENT
+UID:20260430-saintPiusVPope@noahweidig.com
+DTSTART;VALUE=DATE:20260430
+SUMMARY:St. Pius V, Pope
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501-saintJosephTheWorker@noahweidig.com
+DTSTART;VALUE=DATE:20260501
+SUMMARY:St. Joseph the Worker
+END:VEVENT
+BEGIN:VEVENT
+UID:20260502-saintAthanasiusBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260502
+SUMMARY:St. Athanasius, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260503-5thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260503
+SUMMARY:5th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260504-mondayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260504
+SUMMARY:Monday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260505-tuesdayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260505
+SUMMARY:Tuesday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260506-wednesdayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260506
+SUMMARY:Wednesday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507-thursdayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260507
+SUMMARY:Thursday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260508-fridayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260508
+SUMMARY:Friday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260509-saturdayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260509
+SUMMARY:Saturday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260510-6thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260510
+SUMMARY:6th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260511-mondayOfThe6thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260511
+SUMMARY:Monday of the 6th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260512-saintsNereusAndAchilleusMartyrsSaintPancrasMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260512
+SUMMARY:Sts. Nereus and Achilleus, Martyrs/St. Pancras, Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260513-ourLadyOfFatima@noahweidig.com
+DTSTART;VALUE=DATE:20260513
+SUMMARY:Our Lady of Fatima
+END:VEVENT
+BEGIN:VEVENT
+UID:20260514-ascension@noahweidig.com
+DTSTART;VALUE=DATE:20260514
+SUMMARY:Ascension of the Lord
+END:VEVENT
+BEGIN:VEVENT
+UID:20260515-saintIsidoreTheFarmer@noahweidig.com
+DTSTART;VALUE=DATE:20260515
+SUMMARY:St. Isidore the Farmer
+END:VEVENT
+BEGIN:VEVENT
+UID:20260516-saturdayOfThe6thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260516
+SUMMARY:Saturday of the 6th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260517-7thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260517
+SUMMARY:7th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260518-saintJohnIPopeAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260518
+SUMMARY:St. John I, Pope and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260519-tuesdayOfThe7thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260519
+SUMMARY:Tuesday of the 7th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520-saintBernardineOfSienaPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260520
+SUMMARY:St. Bernardine of Siena, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521-saintChristopherMagallanesAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260521
+SUMMARY:St. Christopher Magallanes and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260522-saintRitaOfCascia@noahweidig.com
+DTSTART;VALUE=DATE:20260522
+SUMMARY:St. Rita of Cascia
+END:VEVENT
+BEGIN:VEVENT
+UID:20260523-saturdayOfThe7thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20260523
+SUMMARY:Saturday of the 7th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20260524-pentecostSunday@noahweidig.com
+DTSTART;VALUE=DATE:20260524
+SUMMARY:Pentecost Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260525-maryMotherOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20260525
+SUMMARY:Mary, Mother of The Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260526-saintPhilipNeriPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260526
+SUMMARY:St. Philip Neri, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260527-saintAugustineOfCanterburyBishop@noahweidig.com
+DTSTART;VALUE=DATE:20260527
+SUMMARY:St. Augustine of Canterbury, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20260528-thursdayOfThe8thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260528
+SUMMARY:Thursday of the 8th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260529-fridayOfThe8thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260529
+SUMMARY:Friday of the 8th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260530-saturdayOfThe8thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260530
+SUMMARY:Saturday of the 8th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260531-trinitySunday@noahweidig.com
+DTSTART;VALUE=DATE:20260531
+SUMMARY:Trinity Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20260601-saintJustinMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260601
+SUMMARY:St. Justin Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260602-saintsMarcellinusAndPeterMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260602
+SUMMARY:Sts. Marcellinus and Peter, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260603-saintsCharlesLwangaAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260603
+SUMMARY:Sts. Charles Lwanga and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260604-thursdayOfThe9thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260604
+SUMMARY:Thursday of the 9th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260605-saintBonifaceBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260605
+SUMMARY:St. Boniface, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260606-saintNorbertBishop@noahweidig.com
+DTSTART;VALUE=DATE:20260606
+SUMMARY:St. Norbert, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20260607-corpusChristi@noahweidig.com
+DTSTART;VALUE=DATE:20260607
+SUMMARY:Corpus Christi
+END:VEVENT
+BEGIN:VEVENT
+UID:20260608-mondayOfThe10thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260608
+SUMMARY:Monday of the 10th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260609-saintEphremDeaconAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260609
+SUMMARY:St. Ephrem, Deacon and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260610-wednesdayOfThe10thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260610
+SUMMARY:Wednesday of the 10th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260611-saintBarnabasTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20260611
+SUMMARY:St. Barnabas the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20260612-sacredHeartOfJesus@noahweidig.com
+DTSTART;VALUE=DATE:20260612
+SUMMARY:Sacred Heart of Jesus
+END:VEVENT
+BEGIN:VEVENT
+UID:20260613-immaculateHeartOfMary@noahweidig.com
+DTSTART;VALUE=DATE:20260613
+SUMMARY:Immaculate Heart of Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260614-11ThSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260614
+SUMMARY:11th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260615-mondayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260615
+SUMMARY:Monday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260616-tuesdayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260616
+SUMMARY:Tuesday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260617-wednesdayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260617
+SUMMARY:Wednesday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260618-thursdayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260618
+SUMMARY:Thursday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260619-saintRomualdAbbot@noahweidig.com
+DTSTART;VALUE=DATE:20260619
+SUMMARY:St. Romuald, Abbot
+END:VEVENT
+BEGIN:VEVENT
+UID:20260620-saturdayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260620
+SUMMARY:Saturday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260621-12ThSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260621
+SUMMARY:12th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260622-saintPaulinusOfNolaBishopSaintsJohnFisherBishopAndThomasMoreMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260622
+SUMMARY:St. Paulinus of Nola, Bishop/Sts. John Fisher, Bishop and Thomas More, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260623-tuesdayOfThe12ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260623
+SUMMARY:Tuesday of the 12th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260624-birthOfJohnTheBaptist@noahweidig.com
+DTSTART;VALUE=DATE:20260624
+SUMMARY:Birth of John the Baptist
+END:VEVENT
+BEGIN:VEVENT
+UID:20260625-thursdayOfThe12ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260625
+SUMMARY:Thursday of the 12th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260626-fridayOfThe12ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260626
+SUMMARY:Friday of the 12th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260627-saintCyrilOfAlexandriaBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260627
+SUMMARY:St. Cyril of Alexandria, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260628-13ThSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260628
+SUMMARY:13th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260629-peterAndPaulApostles@noahweidig.com
+DTSTART;VALUE=DATE:20260629
+SUMMARY:Sts. Peter and Paul, Apostles
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-firstMartyrsOfTheChurchOfRome@noahweidig.com
+DTSTART;VALUE=DATE:20260630
+SUMMARY:First Martyrs of the Church of Rome
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-blessedJuniperoSerraPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260701
+SUMMARY:Bl. Junipero Serra, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260702-thursdayOfThe13ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260702
+SUMMARY:Thursday of the 13th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260703-saintThomasTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20260703
+SUMMARY:St. Thomas the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20260704-saintElizabethOfPortugal@noahweidig.com
+DTSTART;VALUE=DATE:20260704
+SUMMARY:St. Elizabeth of Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:20260705-14thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260705
+SUMMARY:14th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260706-saintMariaGorettiVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260706
+SUMMARY:St. Maria Goretti, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260707-tuesdayOfThe14thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260707
+SUMMARY:Tuesday of the 14th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260708-wednesdayOfThe14thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260708
+SUMMARY:Wednesday of the 14th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-saintsAugustineZhaoRongPriestAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260709
+SUMMARY:Sts. Augustine Zhao Rong, Priest, and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260710-fridayOfThe14thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260710
+SUMMARY:Friday of the 14th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260711-saintBenedictOfNursiaAbbot@noahweidig.com
+DTSTART;VALUE=DATE:20260711
+SUMMARY:St. Benedict of Nursia, Abbot, Patron of Europe
+END:VEVENT
+BEGIN:VEVENT
+UID:20260712-15thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260712
+SUMMARY:15th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260713-saintHenryBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260713
+SUMMARY:St. Henry, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-saintKateriTekakwithaVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20260714
+SUMMARY:St. Kateri Tekakwitha, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-saintBonaventureBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260715
+SUMMARY:St. Bonaventure, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-ourLadyOfMountCarmel@noahweidig.com
+DTSTART;VALUE=DATE:20260716
+SUMMARY:Our Lady of Mount Carmel
+END:VEVENT
+BEGIN:VEVENT
+UID:20260717-fridayOfThe15thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260717
+SUMMARY:Friday of the 15th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260718-saintCamillusDeLellisPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260718
+SUMMARY:St. Camillus de Lellis, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260719-16thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260719
+SUMMARY:16th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260720-saintApollinaris@noahweidig.com
+DTSTART;VALUE=DATE:20260720
+SUMMARY:St. Apollinaris
+END:VEVENT
+BEGIN:VEVENT
+UID:20260721-saintLawrenceOfBrindisiPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260721
+SUMMARY:St. Lawrence of Brindisi, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260722-saintMaryMagdalene@noahweidig.com
+DTSTART;VALUE=DATE:20260722
+SUMMARY:St. Mary Magdalene
+END:VEVENT
+BEGIN:VEVENT
+UID:20260723-saintBridgetOfSwedenReligious@noahweidig.com
+DTSTART;VALUE=DATE:20260723
+SUMMARY:St. Bridget of Sweden, Religious, Patron of Europe
+END:VEVENT
+BEGIN:VEVENT
+UID:20260724-saintCharbelMakhloufPriestAndHermit@noahweidig.com
+DTSTART;VALUE=DATE:20260724
+SUMMARY:St. Charbel Makhlouf, Priest and Hermit
+END:VEVENT
+BEGIN:VEVENT
+UID:20260725-saintJamesApostle@noahweidig.com
+DTSTART;VALUE=DATE:20260725
+SUMMARY:St. James, Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20260726-17thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260726
+SUMMARY:17th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260727-mondayOfThe17thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260727
+SUMMARY:Monday of the 17th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260728-tuesdayOfThe17thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260728
+SUMMARY:Tuesday of the 17th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260729-saintMartha@noahweidig.com
+DTSTART;VALUE=DATE:20260729
+SUMMARY:St. Martha
+END:VEVENT
+BEGIN:VEVENT
+UID:20260730-saintPeterChrysologusBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260730
+SUMMARY:St. Peter Chrysologus, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20260731-saintIgnatiusOfLoyolaPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260731
+SUMMARY:St. Ignatius of Loyola, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260801-saintAlphonsusMariaDeLiguoriBishopAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20260801
+SUMMARY:St. Alphonsus Maria de Liguori, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260802-18thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260802
+SUMMARY:18th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260803-mondayOfThe18thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260803
+SUMMARY:Monday of the 18th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260804-saintJeanVianneyTheCureOfArsPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260804
+SUMMARY:St. Jean Vianney (the Cure of Ars), Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260805-dedicationOfTheBasilicaOfSaintMaryMajor@noahweidig.com
+DTSTART;VALUE=DATE:20260805
+SUMMARY:Dedication of the Basilica of St. Mary Major
+END:VEVENT
+BEGIN:VEVENT
+UID:20260806-transfiguration@noahweidig.com
+DTSTART;VALUE=DATE:20260806
+SUMMARY:Transfiguration
+END:VEVENT
+BEGIN:VEVENT
+UID:20260807-saintSixtusIiPopeAndCompanionsMartyrsSaintCajetanPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260807
+SUMMARY:St. Sixtus II, Pope, and Companions, Martyrs/St. Cajetan, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260808-saintDominicPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260808
+SUMMARY:St. Dominic, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260809-19thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260809
+SUMMARY:19th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260810-saintLawrenceOfRomeDeaconAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260810
+SUMMARY:St. Lawrence of Rome, Deacon and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260811-saintClareVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20260811
+SUMMARY:St. Clare, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20260812-saintJaneFrancesDeChantalReligious@noahweidig.com
+DTSTART;VALUE=DATE:20260812
+SUMMARY:St. Jane Frances de Chantal, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20260813-saintsPontianPopeAndHippolytusPriestMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260813
+SUMMARY:Sts. Pontian, Pope and Hippolytus, Priest, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260814-saintMaximilianMaryKolbePriestAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260814
+SUMMARY:St. Maximilian Mary Kolbe, Priest and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260815-assumption@noahweidig.com
+DTSTART;VALUE=DATE:20260815
+SUMMARY:The Assumption of the Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260816-20thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260816
+SUMMARY:20th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260817-mondayOfThe20thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260817
+SUMMARY:Monday of the 20th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260818-tuesdayOfThe20thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260818
+SUMMARY:Tuesday of the 20th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260819-saintJohnEudesPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260819
+SUMMARY:St. John Eudes, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260820-saintBernardOfClairvauxAbbotAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20260820
+SUMMARY:St. Bernard of Clairvaux, Abbot and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260821-saintPiusXPope@noahweidig.com
+DTSTART;VALUE=DATE:20260821
+SUMMARY:St. Pius X, Pope
+END:VEVENT
+BEGIN:VEVENT
+UID:20260822-queenshipOfBlessedVirginMary@noahweidig.com
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Queenship of Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260823-21stSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260823
+SUMMARY:21st Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260824-saintBartholomewTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20260824
+SUMMARY:St. Bartholomew the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20260825-saintLouisSaintJosephOfCalasanzPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260825
+SUMMARY:St. Louis/St. Joseph of Calasanz, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260826-wednesdayOfThe21stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Wednesday of the 21st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260827-saintMonica@noahweidig.com
+DTSTART;VALUE=DATE:20260827
+SUMMARY:St. Monica
+END:VEVENT
+BEGIN:VEVENT
+UID:20260828-saintAugustineOfHippoBishopAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20260828
+SUMMARY:St. Augustine of Hippo, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260829-theBeheadingOfSaintJohnTheBaptistMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260829
+SUMMARY:The Beheading of St. John the Baptist, Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260830-22ndSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260830
+SUMMARY:22nd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260831-mondayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260831
+SUMMARY:Monday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260901-tuesdayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260901
+SUMMARY:Tuesday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260902-wednesdayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260902
+SUMMARY:Wednesday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260903-saintGregoryTheGreatPopeAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260903
+SUMMARY:St. Gregory the Great, Pope and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260904-fridayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260904
+SUMMARY:Friday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260905-saturdayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260905
+SUMMARY:Saturday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260906-23rdSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260906
+SUMMARY:23rd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260907-mondayOfThe23rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260907
+SUMMARY:Monday of the 23rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260908-birthOfTheBlessedVirginMary@noahweidig.com
+DTSTART;VALUE=DATE:20260908
+SUMMARY:Birth of the Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260909-saintPeterClaverPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260909
+SUMMARY:St. Peter Claver, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260910-thursdayOfThe23rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260910
+SUMMARY:Thursday of the 23rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260911-fridayOfThe23rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260911
+SUMMARY:Friday of the 23rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260912-holyNameOfTheBlessedVirginMary@noahweidig.com
+DTSTART;VALUE=DATE:20260912
+SUMMARY:Holy Name of the Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260913-24thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260913
+SUMMARY:24th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260914-theExaltationOfTheHolyCross@noahweidig.com
+DTSTART;VALUE=DATE:20260914
+SUMMARY:The Exaltation of the Holy Cross
+END:VEVENT
+BEGIN:VEVENT
+UID:20260915-ourLadyOfSorrows@noahweidig.com
+DTSTART;VALUE=DATE:20260915
+SUMMARY:Our Lady of Sorrows
+END:VEVENT
+BEGIN:VEVENT
+UID:20260916-saintsCorneliusPopeAndCyprianBishopMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260916
+SUMMARY:Sts. Cornelius, Pope, and Cyprian, Bishop, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917-saintRobertBellarmineBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260917
+SUMMARY:St. Robert Bellarmine, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-fridayOfThe24thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260918
+SUMMARY:Friday of the 24th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260919-saintJanuariusBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20260919
+SUMMARY:St. Januarius, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20260920-25thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260920
+SUMMARY:25th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260921-saintMatthewApostleAndEvangelist@noahweidig.com
+DTSTART;VALUE=DATE:20260921
+SUMMARY:St. Matthew, Apostle and Evangelist
+END:VEVENT
+BEGIN:VEVENT
+UID:20260922-tuesdayOfThe25thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260922
+SUMMARY:Tuesday of the 25th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260923-saintPioOfPietrelcinaPadrePioPriest@noahweidig.com
+DTSTART;VALUE=DATE:20260923
+SUMMARY:St. Pio of Pietrelcina (Padre Pio), Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20260924-thursdayOfThe25thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260924
+SUMMARY:Thursday of the 25th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925-fridayOfThe25thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260925
+SUMMARY:Friday of the 25th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260926-saintsCosmasAndDamianMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260926
+SUMMARY:Sts. Cosmas and Damian, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260927-26thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20260927
+SUMMARY:26th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20260928-saintWenceslausMartyrSaintsLawrenceRuizAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20260928
+SUMMARY:St. Wenceslaus, Martyr/Sts. Lawrence Ruiz and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929-saintsMichaelGabrielAndRaphaelArchangels@noahweidig.com
+DTSTART;VALUE=DATE:20260929
+SUMMARY:Sts. Michael, Gabriel and Raphael, Archangels
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930-saintJeromePriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20260930
+SUMMARY:St. Jerome, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261001-saintThereseOfTheChildJesusVirginAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20261001
+SUMMARY:St. Therese of the Child Jesus, Virgin and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261002-guardianAngels@noahweidig.com
+DTSTART;VALUE=DATE:20261002
+SUMMARY:Guardian Angels
+END:VEVENT
+BEGIN:VEVENT
+UID:20261003-saturdayOfThe26thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261003
+SUMMARY:Saturday of the 26th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261004-27thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261004
+SUMMARY:27th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261005-mondayOfThe27thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261005
+SUMMARY:Monday of the 27th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261006-blessedMarieRoseDurocherVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20261006
+SUMMARY:Bl. Marie Rose Durocher, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20261007-ourLadyOfTheRosary@noahweidig.com
+DTSTART;VALUE=DATE:20261007
+SUMMARY:Our Lady of the Rosary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261008-thursdayOfThe27thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Thursday of the 27th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261009-saintDenisAndCompanionsMartyrsSaintJohnLeonardiPriest@noahweidig.com
+DTSTART;VALUE=DATE:20261009
+SUMMARY:St. Denis and Companions Martyrs/St. John Leonardi, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20261010-saturdayOfThe27thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Saturday of the 27th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261011-28thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261011
+SUMMARY:28th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261012-mondayOfThe28thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Monday of the 28th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261013-tuesdayOfThe28thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Tuesday of the 28th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261014-saintCallistusIPopeAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20261014
+SUMMARY:St. Callistus I, Pope and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20261015-saintTeresaOfJesusVirginAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20261015
+SUMMARY:St. Teresa of Jesus, Virgin and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261016-saintHedwigReligiousSaintMargaretMaryAlacoqueVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20261016
+SUMMARY:St. Hedwig, Religious/St. Margaret Mary Alacoque, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20261017-saintIgnatiusOfAntiochBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20261017
+SUMMARY:St. Ignatius of Antioch, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20261018-29thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261018
+SUMMARY:29th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261019-saintsJeanDeBrebeufAndIsaacJoguesPriestsAndCompanionsMartyrsSaintPaulOfTheCrossPriest@noahweidig.com
+DTSTART;VALUE=DATE:20261019
+SUMMARY:Sts. Jean de Brebeuf and Isaac Jogues, Priests and Companions, Martyrs/St. Paul of the Cross, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20261020-saintPaulOfTheCrossPriest@noahweidig.com
+DTSTART;VALUE=DATE:20261020
+SUMMARY:St. Paul of The Cross, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20261021-wednesdayOfThe29thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261021
+SUMMARY:Wednesday of the 29th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261022-popeSaintJohnPaulII@noahweidig.com
+DTSTART;VALUE=DATE:20261022
+SUMMARY:Pope St. John Paul II
+END:VEVENT
+BEGIN:VEVENT
+UID:20261023-saintJohnOfCapistranoPriest@noahweidig.com
+DTSTART;VALUE=DATE:20261023
+SUMMARY:St. John of Capistrano, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20261024-saintAnthonyMaryClaretBishop@noahweidig.com
+DTSTART;VALUE=DATE:20261024
+SUMMARY:St. Anthony Mary Claret, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20261025-30thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261025
+SUMMARY:30th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261026-mondayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261026
+SUMMARY:Monday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261027-tuesdayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261027
+SUMMARY:Tuesday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261028-saintsSimonAndJudeApostles@noahweidig.com
+DTSTART;VALUE=DATE:20261028
+SUMMARY:Sts. Simon and Jude, Apostles
+END:VEVENT
+BEGIN:VEVENT
+UID:20261029-thursdayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261029
+SUMMARY:Thursday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261030-fridayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261030
+SUMMARY:Friday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261031-saturdayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261031
+SUMMARY:Saturday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261101-allSaints@noahweidig.com
+DTSTART;VALUE=DATE:20261101
+SUMMARY:All Saints
+END:VEVENT
+BEGIN:VEVENT
+UID:20261102-allSouls@noahweidig.com
+DTSTART;VALUE=DATE:20261102
+SUMMARY:All Souls
+END:VEVENT
+BEGIN:VEVENT
+UID:20261103-saintMartinDePorresReligious@noahweidig.com
+DTSTART;VALUE=DATE:20261103
+SUMMARY:St. Martin de Porres, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20261104-saintCharlesBorromeoBishop@noahweidig.com
+DTSTART;VALUE=DATE:20261104
+SUMMARY:St. Charles Borromeo, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20261105-thursdayOfThe31stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261105
+SUMMARY:Thursday of the 31st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261106-fridayOfThe31stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Friday of the 31st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261107-saturdayOfThe31stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261107
+SUMMARY:Saturday of the 31st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261108-32ndSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261108
+SUMMARY:32nd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261109-dedicationOfTheLateranBasilica@noahweidig.com
+DTSTART;VALUE=DATE:20261109
+SUMMARY:Dedication of the Lateran Basilica
+END:VEVENT
+BEGIN:VEVENT
+UID:20261110-saintLeoTheGreatPopeAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20261110
+SUMMARY:St. Leo the Great, Pope and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261111-saintMartinOfToursBishop@noahweidig.com
+DTSTART;VALUE=DATE:20261111
+SUMMARY:St. Martin of Tours, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20261112-saintJosaphatBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20261112
+SUMMARY:St. Josaphat, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20261113-saintFrancesXavierCabriniVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20261113
+SUMMARY:St. Frances Xavier Cabrini, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-saturdayOfThe32ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261114
+SUMMARY:Saturday of the 32nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261115-33rdSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261115
+SUMMARY:33rd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261116-saintMargaretOfScotlandSaintGertrudeTheGreatVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20261116
+SUMMARY:St. Margaret of Scotland/St. Gertrude the Great, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20261117-saintElizabethOfHungary@noahweidig.com
+DTSTART;VALUE=DATE:20261117
+SUMMARY:St. Elizabeth of Hungary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-saintRosePhilippineDuchesneVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20261118
+SUMMARY:St. Rose Philippine Duchesne, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-thursdayOfThe33rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261119
+SUMMARY:Thursday of the 33rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-fridayOfThe33rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261120
+SUMMARY:Friday of the 33rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-presentationOfTheBlessedVirginMary@noahweidig.com
+DTSTART;VALUE=DATE:20261121
+SUMMARY:Presentation of The Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-christTheKing@noahweidig.com
+DTSTART;VALUE=DATE:20261122
+SUMMARY:Christ the King
+END:VEVENT
+BEGIN:VEVENT
+UID:20261123-blessedMiguelAgustinProPriestAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20261123
+SUMMARY:Bl. Miguel Agustin Pro, Priest and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20261124-saintAndrewDungLacAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20261124
+SUMMARY:St. Andrew Dung-Lac and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-saintCatherineOfAlexandriaVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20261125
+SUMMARY:St. Catherine of Alexandria, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-thursdayOfThe34thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261126
+SUMMARY:Thursday of the 34th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-fridayOfThe34thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261127
+SUMMARY:Friday of the 34th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-saturdayOfThe34thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20261128
+SUMMARY:Saturday of the 34th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20261129-1stSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261129
+SUMMARY:1st Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261130-saintAndrewTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20261130
+SUMMARY:St. Andrew the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20261201-tuesdayOfThe1stWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Tuesday of the 1st week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-wednesdayOfThe1stWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261202
+SUMMARY:Wednesday of the 1st week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261203-saintFrancisXavierPriest@noahweidig.com
+DTSTART;VALUE=DATE:20261203
+SUMMARY:St. Francis Xavier, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20261204-saintJohnDamascenePriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20261204
+SUMMARY:St. John Damascene, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-saturdayOfThe1stWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261205
+SUMMARY:Saturday of the 1st week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261206-2ndSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261206
+SUMMARY:2nd Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261207-saintAmbroseBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20261207
+SUMMARY:St. Ambrose, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261208-immaculateConception@noahweidig.com
+DTSTART;VALUE=DATE:20261208
+SUMMARY:Immaculate Conception
+END:VEVENT
+BEGIN:VEVENT
+UID:20261209-saintJuanDiegoCuauhtlatoatzin@noahweidig.com
+DTSTART;VALUE=DATE:20261209
+SUMMARY:St. Juan Diego Cuauhtlatoatzin
+END:VEVENT
+BEGIN:VEVENT
+UID:20261210-ourLadyOfLoreto@noahweidig.com
+DTSTART;VALUE=DATE:20261210
+SUMMARY:Our Lady of Loreto
+END:VEVENT
+BEGIN:VEVENT
+UID:20261211-saintDamasusIPope@noahweidig.com
+DTSTART;VALUE=DATE:20261211
+SUMMARY:St. Damasus I, Pope
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-ourLadyOfGuadalupe@noahweidig.com
+DTSTART;VALUE=DATE:20261212
+SUMMARY:Our Lady of Guadalupe
+END:VEVENT
+BEGIN:VEVENT
+UID:20261213-3rdSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261213
+SUMMARY:3rd Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261214-saintJohnOfTheCrossPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20261214
+SUMMARY:St. John of the Cross, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261215-tuesdayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261215
+SUMMARY:Tuesday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261216-wednesdayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261216
+SUMMARY:Wednesday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261217-thursdayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261217
+SUMMARY:Thursday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261218-fridayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261218
+SUMMARY:Friday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261219-saturdayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261219
+SUMMARY:Saturday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261220-4thSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261220
+SUMMARY:4th Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261221-saintPeterCanisiusPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20261221
+SUMMARY:St. Peter Canisius, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20261222-tuesdayOfThe4thWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261222
+SUMMARY:Tuesday of the 4th week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261223-saintJohnOfKantyPriest@noahweidig.com
+DTSTART;VALUE=DATE:20261223
+SUMMARY:St. John of Kenty, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20261224-thursdayOfThe4thWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20261224
+SUMMARY:Thursday of the 4th week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20261225-christmas@noahweidig.com
+DTSTART;VALUE=DATE:20261225
+SUMMARY:Christmas
+END:VEVENT
+BEGIN:VEVENT
+UID:20261226-saintStephenTheFirstMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20261226
+SUMMARY:St. Stephen, The First Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20261227-holyFamily@noahweidig.com
+DTSTART;VALUE=DATE:20261227
+SUMMARY:Holy Family
+END:VEVENT
+BEGIN:VEVENT
+UID:20261228-holyInnocentsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20261228
+SUMMARY:Holy Innocents, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20261229-saintThomasBecketBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20261229
+SUMMARY:St. Thomas Becket, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20261230-6thDayInTheOctaveOfChristmas@noahweidig.com
+DTSTART;VALUE=DATE:20261230
+SUMMARY:6th day in the Octave of Christmas
+END:VEVENT
+BEGIN:VEVENT
+UID:20261231-saintSylvesterIPope@noahweidig.com
+DTSTART;VALUE=DATE:20261231
+SUMMARY:St. Sylvester I, Pope
+END:VEVENT
+BEGIN:VEVENT
+UID:20270101-maryMotherOfGod@noahweidig.com
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Mary, Mother of God
+END:VEVENT
+BEGIN:VEVENT
+UID:20270102-saintsBasilTheGreatAndGregoryNazianzenBishopsAndDoctors@noahweidig.com
+DTSTART;VALUE=DATE:20270102
+SUMMARY:Sts. Basil the Great and Gregory Nazianzen, Bishops and Doctors
+END:VEVENT
+BEGIN:VEVENT
+UID:20270103-epiphany@noahweidig.com
+DTSTART;VALUE=DATE:20270103
+SUMMARY:Epiphany
+END:VEVENT
+BEGIN:VEVENT
+UID:20270104-saintElizabethAnnSetonReligious@noahweidig.com
+DTSTART;VALUE=DATE:20270104
+SUMMARY:St. Elizabeth Ann Seton, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20270105-saintJohnNeumannBishop@noahweidig.com
+DTSTART;VALUE=DATE:20270105
+SUMMARY:St. John Neumann, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20270106-saintAndreBessetteReligious@noahweidig.com
+DTSTART;VALUE=DATE:20270106
+SUMMARY:St. Andre Bessette, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20270107-saintRaymondOfPenyafortPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270107
+SUMMARY:St. Raymond of Penyafort, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270108-fridayAfterEpiphany@noahweidig.com
+DTSTART;VALUE=DATE:20270108
+SUMMARY:Friday after Epiphany
+END:VEVENT
+BEGIN:VEVENT
+UID:20270109-saturdayAfterEpiphany@noahweidig.com
+DTSTART;VALUE=DATE:20270109
+SUMMARY:Saturday after Epiphany
+END:VEVENT
+BEGIN:VEVENT
+UID:20270110-baptismOfTheLord@noahweidig.com
+DTSTART;VALUE=DATE:20270110
+SUMMARY:Baptism of the Lord
+END:VEVENT
+BEGIN:VEVENT
+UID:20270111-mondayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270111
+SUMMARY:Monday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270112-tuesdayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270112
+SUMMARY:Tuesday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270113-saintHilaryOfPoitiersBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270113
+SUMMARY:St. Hilary of Poitiers, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20270114-thursdayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270114
+SUMMARY:Thursday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270115-fridayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Friday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270116-saturdayOfThe1stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270116
+SUMMARY:Saturday of the 1st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270117-2ndSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270117
+SUMMARY:2nd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270118-mondayOfThe2ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270118
+SUMMARY:Monday of the 2nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270119-tuesdayOfThe2ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270119
+SUMMARY:Tuesday of the 2nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270120-saintsFabianPopeAndSebastianMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270120
+SUMMARY:Sts. Fabian, Pope, and Sebastian, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270121-saintAgnesVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270121
+SUMMARY:St. Agnes, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270122-saintVincentDeaconAndMartyrOrSaintMarianneCopeVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20270122
+SUMMARY:St. Vincent, Deacon and Martyr Or St. Marianne Cope, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270123-saturdayOfThe2ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270123
+SUMMARY:Saturday of the 2nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270124-3rdSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270124
+SUMMARY:3rd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270125-conversionOfSaintPaulApostle@noahweidig.com
+DTSTART;VALUE=DATE:20270125
+SUMMARY:Conversion of St. Paul, Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20270126-saintsTimothyAndTitusBishops@noahweidig.com
+DTSTART;VALUE=DATE:20270126
+SUMMARY:Sts. Timothy and Titus, Bishops
+END:VEVENT
+BEGIN:VEVENT
+UID:20270127-saintAngelaMericiVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20270127
+SUMMARY:St. Angela Merici, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270128-saintThomasAquinasPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270128
+SUMMARY:St. Thomas Aquinas, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20270129-fridayOfThe3rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270129
+SUMMARY:Friday of the 3rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270130-saturdayOfThe3rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270130
+SUMMARY:Saturday of the 3rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270131-4thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270131
+SUMMARY:4th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270201-mondayOfThe4thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Monday of the 4th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270202-presentationOfTheLord@noahweidig.com
+DTSTART;VALUE=DATE:20270202
+SUMMARY:Presentation of the Lord
+END:VEVENT
+BEGIN:VEVENT
+UID:20270203-saintBlaseBishopAndMartyrSaintAnsgarBishop@noahweidig.com
+DTSTART;VALUE=DATE:20270203
+SUMMARY:St. Blase, Bishop Martyr and St. Ansgar, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20270204-thursdayOfThe4thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270204
+SUMMARY:Thursday of the 4th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270205-saintAgathaVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270205
+SUMMARY:St. Agatha, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270206-saintPaulMikiAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270206
+SUMMARY:St. Paul Miki and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270207-5thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270207
+SUMMARY:5th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270208-saintJeromeEmilianiSaintJosephineBakhitaVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20270208
+SUMMARY:St. Jerome Emiliani and St. Josephine Bakhita, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270209-tuesdayOfThe5thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270209
+SUMMARY:Tuesday of the 5th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270210-ashWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20270210
+SUMMARY:Ash Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270211-ourLadyOfLourdes@noahweidig.com
+DTSTART;VALUE=DATE:20270211
+SUMMARY:Our Lady of Lourdes
+END:VEVENT
+BEGIN:VEVENT
+UID:20270212-fridayAfterAshWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20270212
+SUMMARY:Friday after Ash Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270213-saturdayAfterAshWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20270213
+SUMMARY:Saturday after Ash Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270214-1stSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270214
+SUMMARY:1st Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270215-mondayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270215
+SUMMARY:Monday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270216-tuesdayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270216
+SUMMARY:Tuesday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270217-sevenHolyFoundersOfTheServiteOrder@noahweidig.com
+DTSTART;VALUE=DATE:20270217
+SUMMARY:Seven Holy Founders of the Servite Order
+END:VEVENT
+BEGIN:VEVENT
+UID:20270218-thursdayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270218
+SUMMARY:Thursday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270219-fridayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270219
+SUMMARY:Friday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270220-saturdayOfThe1stWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270220
+SUMMARY:Saturday of the 1st week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270221-2ndSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270221
+SUMMARY:2nd Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270222-chairOfSaintPeterApostle@noahweidig.com
+DTSTART;VALUE=DATE:20270222
+SUMMARY:Chair of St. Peter, Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20270223-saintPolycarpBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270223
+SUMMARY:St. Polycarp, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270224-wednesdayOfThe2ndWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270224
+SUMMARY:Wednesday of the 2nd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270225-thursdayOfThe2ndWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270225
+SUMMARY:Thursday of the 2nd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270226-fridayOfThe2ndWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270226
+SUMMARY:Friday of the 2nd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270227-saturdayOfThe2ndWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270227
+SUMMARY:Saturday of the 2nd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270228-3rdSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270228
+SUMMARY:3rd Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270301-mondayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Monday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270302-tuesdayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270302
+SUMMARY:Tuesday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270303-saintKatharineDrexelVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20270303
+SUMMARY:St. Katharine Drexel, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270304-saintCasimir@noahweidig.com
+DTSTART;VALUE=DATE:20270304
+SUMMARY:St. Casimir
+END:VEVENT
+BEGIN:VEVENT
+UID:20270305-fridayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270305
+SUMMARY:Friday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270306-saturdayOfThe3rdWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270306
+SUMMARY:Saturday of the 3rd week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270307-4thSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270307
+SUMMARY:4th Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270308-saintJohnOfGodReligious@noahweidig.com
+DTSTART;VALUE=DATE:20270308
+SUMMARY:St. John of God, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20270309-saintFrancesOfRomeReligious@noahweidig.com
+DTSTART;VALUE=DATE:20270309
+SUMMARY:St. Frances of Rome, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20270310-wednesdayOfThe4thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270310
+SUMMARY:Wednesday of the 4th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270311-thursdayOfThe4thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270311
+SUMMARY:Thursday of the 4th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270312-fridayOfThe4thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270312
+SUMMARY:Friday of the 4th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270313-saturdayOfThe4thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270313
+SUMMARY:Saturday of the 4th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270314-5thSundayOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270314
+SUMMARY:5th Sunday of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270315-mondayOfThe5thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Monday of the 5th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270316-tuesdayOfThe5thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270316
+SUMMARY:Tuesday of the 5th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270317-saintPatrickBishop@noahweidig.com
+DTSTART;VALUE=DATE:20270317
+SUMMARY:St. Patrick, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20270318-saintCyrilOfJerusalemBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270318
+SUMMARY:St. Cyril of Jerusalem, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20270319-josephHusbandOfMary@noahweidig.com
+DTSTART;VALUE=DATE:20270319
+SUMMARY:Joseph, Husband of Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270320-saturdayOfThe5thWeekOfLent@noahweidig.com
+DTSTART;VALUE=DATE:20270320
+SUMMARY:Saturday of the 5th week of Lent
+END:VEVENT
+BEGIN:VEVENT
+UID:20270321-palmSunday@noahweidig.com
+DTSTART;VALUE=DATE:20270321
+SUMMARY:Palm Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270322-mondayOfHolyWeek@noahweidig.com
+DTSTART;VALUE=DATE:20270322
+SUMMARY:Monday of Holy Week
+END:VEVENT
+BEGIN:VEVENT
+UID:20270323-tuesdayOfHolyWeek@noahweidig.com
+DTSTART;VALUE=DATE:20270323
+SUMMARY:Tuesday of Holy Week
+END:VEVENT
+BEGIN:VEVENT
+UID:20270324-wednesdayOfHolyWeek@noahweidig.com
+DTSTART;VALUE=DATE:20270324
+SUMMARY:Wednesday of Holy Week
+END:VEVENT
+BEGIN:VEVENT
+UID:20270325-holyThursday@noahweidig.com
+DTSTART;VALUE=DATE:20270325
+SUMMARY:Holy Thursday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270326-goodFriday@noahweidig.com
+DTSTART;VALUE=DATE:20270326
+SUMMARY:Good Friday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270327-holySaturday@noahweidig.com
+DTSTART;VALUE=DATE:20270327
+SUMMARY:Holy Saturday/Easter Vigil
+END:VEVENT
+BEGIN:VEVENT
+UID:20270328-easter@noahweidig.com
+DTSTART;VALUE=DATE:20270328
+SUMMARY:Easter Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270329-easterMonday@noahweidig.com
+DTSTART;VALUE=DATE:20270329
+SUMMARY:Easter Monday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270330-easterTuesday@noahweidig.com
+DTSTART;VALUE=DATE:20270330
+SUMMARY:Easter Tuesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270331-easterWednesday@noahweidig.com
+DTSTART;VALUE=DATE:20270331
+SUMMARY:Easter Wednesday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270401-easterThursday@noahweidig.com
+DTSTART;VALUE=DATE:20270401
+SUMMARY:Easter Thursday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270402-easterFriday@noahweidig.com
+DTSTART;VALUE=DATE:20270402
+SUMMARY:Easter Friday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270403-easterSaturday@noahweidig.com
+DTSTART;VALUE=DATE:20270403
+SUMMARY:Easter Saturday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270404-divineMercySunday@noahweidig.com
+DTSTART;VALUE=DATE:20270404
+SUMMARY:Divine Mercy Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270405-annunciation@noahweidig.com
+DTSTART;VALUE=DATE:20270405
+SUMMARY:Annunciation
+END:VEVENT
+BEGIN:VEVENT
+UID:20270406-tuesdayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270406
+SUMMARY:Tuesday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270407-saintJohnBaptistDeLaSallePriest@noahweidig.com
+DTSTART;VALUE=DATE:20270407
+SUMMARY:St. John Baptist de la Salle, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270408-thursdayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270408
+SUMMARY:Thursday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270409-fridayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270409
+SUMMARY:Friday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270410-saturdayOfThe2ndWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270410
+SUMMARY:Saturday of the 2nd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270411-3rdSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270411
+SUMMARY:3rd Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270412-mondayOfThe3rdWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270412
+SUMMARY:Monday of the 3rd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270413-saintMartinIPopeAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270413
+SUMMARY:St. Martin I, Pope and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270414-wednesdayOfThe3rdWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270414
+SUMMARY:Wednesday of the 3rd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270415-thursdayOfThe3rdWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270415
+SUMMARY:Thursday of the 3rd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270416-fridayOfThe3rdWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270416
+SUMMARY:Friday of the 3rd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270417-saturdayOfThe3rdWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270417
+SUMMARY:Saturday of the 3rd week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270418-4thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270418
+SUMMARY:4th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270419-mondayOfThe4thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270419
+SUMMARY:Monday of the 4th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270420-tuesdayOfThe4thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270420
+SUMMARY:Tuesday of the 4th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270421-saintAnselmOfCanterburyBishopAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20270421
+SUMMARY:St. Anselm of Canterbury, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20270422-thursdayOfThe4thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270422
+SUMMARY:Thursday of the 4th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270423-saintGeorgeMartyrSaintAdalbertBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270423
+SUMMARY:St. George, Martyr/St. Adalbert, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270424-saintFidelisOfSigmaringenPriestAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270424
+SUMMARY:St. Fidelis of Sigmaringen, Priest and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270425-5thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270425
+SUMMARY:5th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270426-mondayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270426
+SUMMARY:Monday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270427-tuesdayOfThe5thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270427
+SUMMARY:Tuesday of the 5th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270428-saintPeterChanelPriestAndMartyrSaintLouisGrignonDeMontfortPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270428
+SUMMARY:St. Peter Chanel, Priest and Martyr/St. Louis Grignon de Montfort, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270429-saintCatherineOfSienaVirginAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20270429
+SUMMARY:St. Catherine of Siena, Virgin and Doctor of The Church, Patron of Europe
+END:VEVENT
+BEGIN:VEVENT
+UID:20270430-saintPiusVPope@noahweidig.com
+DTSTART;VALUE=DATE:20270430
+SUMMARY:St. Pius V, Pope
+END:VEVENT
+BEGIN:VEVENT
+UID:20270501-saintJosephTheWorker@noahweidig.com
+DTSTART;VALUE=DATE:20270501
+SUMMARY:St. Joseph the Worker
+END:VEVENT
+BEGIN:VEVENT
+UID:20270502-6thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270502
+SUMMARY:6th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270503-saintsPhilipAndJamesApostles@noahweidig.com
+DTSTART;VALUE=DATE:20270503
+SUMMARY:Sts. Philip and James, Apostles
+END:VEVENT
+BEGIN:VEVENT
+UID:20270504-tuesdayOfThe6thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270504
+SUMMARY:Tuesday of the 6th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270505-wednesdayOfThe6thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270505
+SUMMARY:Wednesday of the 6th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270506-ascension@noahweidig.com
+DTSTART;VALUE=DATE:20270506
+SUMMARY:Ascension of the Lord
+END:VEVENT
+BEGIN:VEVENT
+UID:20270507-fridayOfThe6thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270507
+SUMMARY:Friday of the 6th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270508-saturdayOfThe6thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270508
+SUMMARY:Saturday of the 6th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270509-7thSundayOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270509
+SUMMARY:7th Sunday of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270510-saintDamienDeVeusterPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270510
+SUMMARY:St. Damien de Veuster, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270511-tuesdayOfThe7thWeekOfEaster@noahweidig.com
+DTSTART;VALUE=DATE:20270511
+SUMMARY:Tuesday of the 7th week of Easter
+END:VEVENT
+BEGIN:VEVENT
+UID:20270512-saintsNereusAndAchilleusMartyrsSaintPancrasMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270512
+SUMMARY:Sts. Nereus and Achilleus, Martyrs/St. Pancras, Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270513-ourLadyOfFatima@noahweidig.com
+DTSTART;VALUE=DATE:20270513
+SUMMARY:Our Lady of Fatima
+END:VEVENT
+BEGIN:VEVENT
+UID:20270514-saintMatthiasTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20270514
+SUMMARY:St. Matthias the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20270515-saintIsidoreTheFarmer@noahweidig.com
+DTSTART;VALUE=DATE:20270515
+SUMMARY:St. Isidore the Farmer
+END:VEVENT
+BEGIN:VEVENT
+UID:20270516-pentecostSunday@noahweidig.com
+DTSTART;VALUE=DATE:20270516
+SUMMARY:Pentecost Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270517-maryMotherOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20270517
+SUMMARY:Mary, Mother of The Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20270518-saintJohnIPopeAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270518
+SUMMARY:St. John I, Pope and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270519-wednesdayOfThe7thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270519
+SUMMARY:Wednesday of the 7th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270520-saintBernardineOfSienaPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270520
+SUMMARY:St. Bernardine of Siena, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270521-saintChristopherMagallanesAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270521
+SUMMARY:St. Christopher Magallanes and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270522-saintRitaOfCascia@noahweidig.com
+DTSTART;VALUE=DATE:20270522
+SUMMARY:St. Rita of Cascia
+END:VEVENT
+BEGIN:VEVENT
+UID:20270523-trinitySunday@noahweidig.com
+DTSTART;VALUE=DATE:20270523
+SUMMARY:Trinity Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:20270524-mondayOfThe8thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270524
+SUMMARY:Monday of the 8th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270525-saintBedeTheVenerablePriestAndDoctorSaintGregoryViiPopeSaintMaryMagdaleneDePazziVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20270525
+SUMMARY:St. Bede the Venerable, Priest and Doctor/St. Gregory VII, Pope/St. Mary Magdalene de Pazzi, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270526-saintPhilipNeriPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270526
+SUMMARY:St. Philip Neri, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270527-saintAugustineOfCanterburyBishop@noahweidig.com
+DTSTART;VALUE=DATE:20270527
+SUMMARY:St. Augustine of Canterbury, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20270528-fridayOfThe8thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270528
+SUMMARY:Friday of the 8th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270529-saturdayOfThe8thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270529
+SUMMARY:Saturday of the 8th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270530-corpusChristi@noahweidig.com
+DTSTART;VALUE=DATE:20270530
+SUMMARY:Corpus Christi
+END:VEVENT
+BEGIN:VEVENT
+UID:20270531-visitationOfTheBlessedVirginMary@noahweidig.com
+DTSTART;VALUE=DATE:20270531
+SUMMARY:Visitation of the Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270601-saintJustinMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270601
+SUMMARY:St. Justin Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270602-saintsMarcellinusAndPeterMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270602
+SUMMARY:Sts. Marcellinus and Peter, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270603-saintsCharlesLwangaAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270603
+SUMMARY:Sts. Charles Lwanga and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270604-sacredHeartOfJesus@noahweidig.com
+DTSTART;VALUE=DATE:20270604
+SUMMARY:Sacred Heart of Jesus
+END:VEVENT
+BEGIN:VEVENT
+UID:20270605-immaculateHeartOfMary@noahweidig.com
+DTSTART;VALUE=DATE:20270605
+SUMMARY:Immaculate Heart of Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270606-10thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270606
+SUMMARY:10th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270607-mondayOfThe10thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270607
+SUMMARY:Monday of the 10th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270608-tuesdayOfThe10thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270608
+SUMMARY:Tuesday of the 10th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270609-saintEphremDeaconAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270609
+SUMMARY:St. Ephrem, Deacon and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20270610-thursdayOfThe10thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270610
+SUMMARY:Thursday of the 10th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270611-saintBarnabasTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20270611
+SUMMARY:St. Barnabas the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20270612-saturdayOfThe10thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270612
+SUMMARY:Saturday of the 10th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270613-11ThSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270613
+SUMMARY:11th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270614-mondayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270614
+SUMMARY:Monday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270615-tuesdayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270615
+SUMMARY:Tuesday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270616-wednesdayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270616
+SUMMARY:Wednesday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270617-thursdayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270617
+SUMMARY:Thursday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270618-fridayOfThe11ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270618
+SUMMARY:Friday of the 11th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270619-saintRomualdAbbot@noahweidig.com
+DTSTART;VALUE=DATE:20270619
+SUMMARY:St. Romuald, Abbot
+END:VEVENT
+BEGIN:VEVENT
+UID:20270620-12ThSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270620
+SUMMARY:12th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270621-saintAloysiusGonzagaReligious@noahweidig.com
+DTSTART;VALUE=DATE:20270621
+SUMMARY:St. Aloysius Gonzaga, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20270622-saintPaulinusOfNolaBishopSaintsJohnFisherBishopAndThomasMoreMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270622
+SUMMARY:St. Paulinus of Nola, Bishop/Sts. John Fisher, Bishop and Thomas More, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270623-wednesdayOfThe12ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270623
+SUMMARY:Wednesday of the 12th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270624-birthOfJohnTheBaptist@noahweidig.com
+DTSTART;VALUE=DATE:20270624
+SUMMARY:Birth of John the Baptist
+END:VEVENT
+BEGIN:VEVENT
+UID:20270625-fridayOfThe12ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270625
+SUMMARY:Friday of the 12th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270626-saturdayOfThe12ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270626
+SUMMARY:Saturday of the 12th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270627-13ThSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270627
+SUMMARY:13th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270628-saintIrenaeusBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270628
+SUMMARY:St. Irenaeus, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270629-peterAndPaulApostles@noahweidig.com
+DTSTART;VALUE=DATE:20270629
+SUMMARY:Sts. Peter and Paul, Apostles
+END:VEVENT
+BEGIN:VEVENT
+UID:20270630-firstMartyrsOfTheChurchOfRome@noahweidig.com
+DTSTART;VALUE=DATE:20270630
+SUMMARY:First Martyrs of the Church of Rome
+END:VEVENT
+BEGIN:VEVENT
+UID:20270701-blessedJuniperoSerraPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270701
+SUMMARY:Bl. Junipero Serra, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270702-fridayOfThe13ThWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270702
+SUMMARY:Friday of the 13th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270703-saintThomasTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20270703
+SUMMARY:St. Thomas the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20270704-14thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270704
+SUMMARY:14th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270705-saintAnthonyZaccariaPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270705
+SUMMARY:St. Anthony Zaccaria, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270706-saintMariaGorettiVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270706
+SUMMARY:St. Maria Goretti, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270707-wednesdayOfThe14thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270707
+SUMMARY:Wednesday of the 14th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270708-thursdayOfThe14thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270708
+SUMMARY:Thursday of the 14th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270709-saintsAugustineZhaoRongPriestAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270709
+SUMMARY:Sts. Augustine Zhao Rong, Priest, and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270710-saturdayOfThe14thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270710
+SUMMARY:Saturday of the 14th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270711-15thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270711
+SUMMARY:15th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270712-mondayOfThe15thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270712
+SUMMARY:Monday of the 15th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270713-saintHenryBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270713
+SUMMARY:St. Henry, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270714-saintKateriTekakwithaVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20270714
+SUMMARY:St. Kateri Tekakwitha, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270715-saintBonaventureBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270715
+SUMMARY:St. Bonaventure, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20270716-ourLadyOfMountCarmel@noahweidig.com
+DTSTART;VALUE=DATE:20270716
+SUMMARY:Our Lady of Mount Carmel
+END:VEVENT
+BEGIN:VEVENT
+UID:20270717-saturdayOfThe15thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270717
+SUMMARY:Saturday of the 15th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270718-16thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270718
+SUMMARY:16th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270719-mondayOfThe16thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270719
+SUMMARY:Monday of the 16th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270720-saintApollinaris@noahweidig.com
+DTSTART;VALUE=DATE:20270720
+SUMMARY:St. Apollinaris
+END:VEVENT
+BEGIN:VEVENT
+UID:20270721-saintLawrenceOfBrindisiPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270721
+SUMMARY:St. Lawrence of Brindisi, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20270722-saintMaryMagdalene@noahweidig.com
+DTSTART;VALUE=DATE:20270722
+SUMMARY:St. Mary Magdalene
+END:VEVENT
+BEGIN:VEVENT
+UID:20270723-saintBridgetOfSwedenReligious@noahweidig.com
+DTSTART;VALUE=DATE:20270723
+SUMMARY:St. Bridget of Sweden, Religious, Patron of Europe
+END:VEVENT
+BEGIN:VEVENT
+UID:20270724-saintCharbelMakhloufPriestAndHermit@noahweidig.com
+DTSTART;VALUE=DATE:20270724
+SUMMARY:St. Charbel Makhlouf, Priest and Hermit
+END:VEVENT
+BEGIN:VEVENT
+UID:20270725-17thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270725
+SUMMARY:17th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270726-saintsJoachimAndAnne@noahweidig.com
+DTSTART;VALUE=DATE:20270726
+SUMMARY:Sts. Joachim and Anne
+END:VEVENT
+BEGIN:VEVENT
+UID:20270727-tuesdayOfThe17thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270727
+SUMMARY:Tuesday of the 17th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270728-wednesdayOfThe17thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270728
+SUMMARY:Wednesday of the 17th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270729-saintMartha@noahweidig.com
+DTSTART;VALUE=DATE:20270729
+SUMMARY:St. Martha
+END:VEVENT
+BEGIN:VEVENT
+UID:20270730-saintPeterChrysologusBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270730
+SUMMARY:St. Peter Chrysologus, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20270731-saintIgnatiusOfLoyolaPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270731
+SUMMARY:St. Ignatius of Loyola, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270801-18thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270801
+SUMMARY:18th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270802-saintEusebiusOfVercelliBishopSaintPeterJulianEymardPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270802
+SUMMARY:St. Eusebius of Vercelli, Bishop/St. Peter Julian Eymard, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270803-tuesdayOfThe18thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270803
+SUMMARY:Tuesday of the 18th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270804-saintJeanVianneyTheCureOfArsPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270804
+SUMMARY:St. Jean Vianney (the Cure of Ars), Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270805-dedicationOfTheBasilicaOfSaintMaryMajor@noahweidig.com
+DTSTART;VALUE=DATE:20270805
+SUMMARY:Dedication of the Basilica of St. Mary Major
+END:VEVENT
+BEGIN:VEVENT
+UID:20270806-transfiguration@noahweidig.com
+DTSTART;VALUE=DATE:20270806
+SUMMARY:Transfiguration
+END:VEVENT
+BEGIN:VEVENT
+UID:20270807-saintSixtusIiPopeAndCompanionsMartyrsSaintCajetanPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270807
+SUMMARY:St. Sixtus II, Pope, and Companions, Martyrs/St. Cajetan, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270808-19thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270808
+SUMMARY:19th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270809-saintTeresaBenedictaOfTheCrossEdithSteinVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270809
+SUMMARY:St. Teresa Benedicta of The Cross (Edith Stein), Virgin and Martyr, Patron of Europe
+END:VEVENT
+BEGIN:VEVENT
+UID:20270810-saintLawrenceOfRomeDeaconAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270810
+SUMMARY:St. Lawrence of Rome, Deacon and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270811-saintClareVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20270811
+SUMMARY:St. Clare, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270812-saintJaneFrancesDeChantalReligious@noahweidig.com
+DTSTART;VALUE=DATE:20270812
+SUMMARY:St. Jane Frances de Chantal, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20270813-saintsPontianPopeAndHippolytusPriestMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270813
+SUMMARY:Sts. Pontian, Pope and Hippolytus, Priest, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270814-saintMaximilianMaryKolbePriestAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20270814
+SUMMARY:St. Maximilian Mary Kolbe, Priest and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20270815-assumption@noahweidig.com
+DTSTART;VALUE=DATE:20270815
+SUMMARY:The Assumption of the Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270816-saintStephenOfHungary@noahweidig.com
+DTSTART;VALUE=DATE:20270816
+SUMMARY:St. Stephen of Hungary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270817-tuesdayOfThe20thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270817
+SUMMARY:Tuesday of the 20th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270818-wednesdayOfThe20thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270818
+SUMMARY:Wednesday of the 20th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270819-saintJohnEudesPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270819
+SUMMARY:St. John Eudes, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270820-saintBernardOfClairvauxAbbotAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20270820
+SUMMARY:St. Bernard of Clairvaux, Abbot and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20270821-saintPiusXPope@noahweidig.com
+DTSTART;VALUE=DATE:20270821
+SUMMARY:St. Pius X, Pope
+END:VEVENT
+BEGIN:VEVENT
+UID:20270822-21stSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270822
+SUMMARY:21st Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270823-saintRoseOfLima@noahweidig.com
+DTSTART;VALUE=DATE:20270823
+SUMMARY:St. Rose of Lima, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20270824-saintBartholomewTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20270824
+SUMMARY:St. Bartholomew the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20270825-saintLouisSaintJosephOfCalasanzPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270825
+SUMMARY:St. Louis/St. Joseph of Calasanz, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270826-thursdayOfThe21stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270826
+SUMMARY:Thursday of the 21st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270827-saintMonica@noahweidig.com
+DTSTART;VALUE=DATE:20270827
+SUMMARY:St. Monica
+END:VEVENT
+BEGIN:VEVENT
+UID:20270828-saintAugustineOfHippoBishopAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20270828
+SUMMARY:St. Augustine of Hippo, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20270829-22ndSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270829
+SUMMARY:22nd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270830-mondayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270830
+SUMMARY:Monday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270831-tuesdayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270831
+SUMMARY:Tuesday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270901-wednesdayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270901
+SUMMARY:Wednesday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270902-thursdayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270902
+SUMMARY:Thursday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270903-saintGregoryTheGreatPopeAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270903
+SUMMARY:St. Gregory the Great, Pope and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20270904-saturdayOfThe22ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270904
+SUMMARY:Saturday of the 22nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270905-23rdSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270905
+SUMMARY:23rd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270906-mondayOfThe23rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270906
+SUMMARY:Monday of the 23rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270907-tuesdayOfThe23rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270907
+SUMMARY:Tuesday of the 23rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270908-birthOfTheBlessedVirginMary@noahweidig.com
+DTSTART;VALUE=DATE:20270908
+SUMMARY:Birth of the Bl. Virgin Mary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270909-saintPeterClaverPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270909
+SUMMARY:St. Peter Claver, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270910-fridayOfThe23rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270910
+SUMMARY:Friday of the 23rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270911-saturdayOfThe23rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270911
+SUMMARY:Saturday of the 23rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270912-24thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270912
+SUMMARY:24th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270913-saintJohnChrysostomBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270913
+SUMMARY:St. John Chrysostom, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20270914-theExaltationOfTheHolyCross@noahweidig.com
+DTSTART;VALUE=DATE:20270914
+SUMMARY:The Exaltation of the Holy Cross
+END:VEVENT
+BEGIN:VEVENT
+UID:20270915-ourLadyOfSorrows@noahweidig.com
+DTSTART;VALUE=DATE:20270915
+SUMMARY:Our Lady of Sorrows
+END:VEVENT
+BEGIN:VEVENT
+UID:20270916-saintsCorneliusPopeAndCyprianBishopMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270916
+SUMMARY:Sts. Cornelius, Pope, and Cyprian, Bishop, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270917-saintRobertBellarmineBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270917
+SUMMARY:St. Robert Bellarmine, Bishop and Doctor of the Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20270918-saturdayOfThe24thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270918
+SUMMARY:Saturday of the 24th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270919-25thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270919
+SUMMARY:25th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270920-saintAndrewKimTaegonPriestAndPaulChongHasangAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270920
+SUMMARY:St. Andrew Kim Taegon, Priest, and Paul Chong Hasang and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270921-saintMatthewApostleAndEvangelist@noahweidig.com
+DTSTART;VALUE=DATE:20270921
+SUMMARY:St. Matthew, Apostle and Evangelist
+END:VEVENT
+BEGIN:VEVENT
+UID:20270922-wednesdayOfThe25thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270922
+SUMMARY:Wednesday of the 25th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270923-saintPioOfPietrelcinaPadrePioPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270923
+SUMMARY:St. Pio of Pietrelcina (Padre Pio), Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270924-fridayOfThe25thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270924
+SUMMARY:Friday of the 25th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270925-saturdayOfThe25thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270925
+SUMMARY:Saturday of the 25th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270926-26thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20270926
+SUMMARY:26th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20270927-saintVincentDePaulPriest@noahweidig.com
+DTSTART;VALUE=DATE:20270927
+SUMMARY:St. Vincent de Paul, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20270928-saintWenceslausMartyrSaintsLawrenceRuizAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20270928
+SUMMARY:St. Wenceslaus, Martyr/Sts. Lawrence Ruiz and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20270929-saintsMichaelGabrielAndRaphaelArchangels@noahweidig.com
+DTSTART;VALUE=DATE:20270929
+SUMMARY:Sts. Michael, Gabriel and Raphael, Archangels
+END:VEVENT
+BEGIN:VEVENT
+UID:20270930-saintJeromePriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20270930
+SUMMARY:St. Jerome, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271001-saintThereseOfTheChildJesusVirginAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20271001
+SUMMARY:St. Therese of the Child Jesus, Virgin and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271002-guardianAngels@noahweidig.com
+DTSTART;VALUE=DATE:20271002
+SUMMARY:Guardian Angels
+END:VEVENT
+BEGIN:VEVENT
+UID:20271003-27thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271003
+SUMMARY:27th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271004-saintFrancisOfAssisi@noahweidig.com
+DTSTART;VALUE=DATE:20271004
+SUMMARY:St. Francis of Assisi
+END:VEVENT
+BEGIN:VEVENT
+UID:20271005-tuesdayOfThe27thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271005
+SUMMARY:Tuesday of the 27th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271006-blessedMarieRoseDurocherVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20271006
+SUMMARY:Bl. Marie Rose Durocher, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20271007-ourLadyOfTheRosary@noahweidig.com
+DTSTART;VALUE=DATE:20271007
+SUMMARY:Our Lady of the Rosary
+END:VEVENT
+BEGIN:VEVENT
+UID:20271008-fridayOfThe27thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271008
+SUMMARY:Friday of the 27th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271009-saintDenisAndCompanionsMartyrsSaintJohnLeonardiPriest@noahweidig.com
+DTSTART;VALUE=DATE:20271009
+SUMMARY:St. Denis and Companions Martyrs/St. John Leonardi, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20271010-28thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271010
+SUMMARY:28th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271011-popeSaintJohnXXIII@noahweidig.com
+DTSTART;VALUE=DATE:20271011
+SUMMARY:Pope St. John XXIII
+END:VEVENT
+BEGIN:VEVENT
+UID:20271012-tuesdayOfThe28thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271012
+SUMMARY:Tuesday of the 28th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271013-wednesdayOfThe28thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271013
+SUMMARY:Wednesday of the 28th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271014-saintCallistusIPopeAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20271014
+SUMMARY:St. Callistus I, Pope and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20271015-saintTeresaOfJesusVirginAndDoctorOfTheChurch@noahweidig.com
+DTSTART;VALUE=DATE:20271015
+SUMMARY:St. Teresa of Jesus, Virgin and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271016-saintHedwigReligiousSaintMargaretMaryAlacoqueVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20271016
+SUMMARY:St. Hedwig, Religious/St. Margaret Mary Alacoque, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20271017-29thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271017
+SUMMARY:29th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271018-saintLukeTheEvangelist@noahweidig.com
+DTSTART;VALUE=DATE:20271018
+SUMMARY:St. Luke the Evangelist
+END:VEVENT
+BEGIN:VEVENT
+UID:20271019-saintsJeanDeBrebeufAndIsaacJoguesPriestsAndCompanionsMartyrsSaintPaulOfTheCrossPriest@noahweidig.com
+DTSTART;VALUE=DATE:20271019
+SUMMARY:Sts. Jean de Brebeuf and Isaac Jogues, Priests and Companions, Martyrs/St. Paul of the Cross, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20271020-saintPaulOfTheCrossPriest@noahweidig.com
+DTSTART;VALUE=DATE:20271020
+SUMMARY:St. Paul of The Cross, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20271021-thursdayOfThe29thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271021
+SUMMARY:Thursday of the 29th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271022-popeSaintJohnPaulII@noahweidig.com
+DTSTART;VALUE=DATE:20271022
+SUMMARY:Pope St. John Paul II
+END:VEVENT
+BEGIN:VEVENT
+UID:20271023-saintJohnOfCapistranoPriest@noahweidig.com
+DTSTART;VALUE=DATE:20271023
+SUMMARY:St. John of Capistrano, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20271024-30thSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271024
+SUMMARY:30th Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271025-mondayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271025
+SUMMARY:Monday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271026-tuesdayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271026
+SUMMARY:Tuesday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271027-wednesdayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271027
+SUMMARY:Wednesday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271028-saintsSimonAndJudeApostles@noahweidig.com
+DTSTART;VALUE=DATE:20271028
+SUMMARY:Sts. Simon and Jude, Apostles
+END:VEVENT
+BEGIN:VEVENT
+UID:20271029-fridayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271029
+SUMMARY:Friday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271030-saturdayOfThe30thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271030
+SUMMARY:Saturday of the 30th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271031-31stSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271031
+SUMMARY:31st Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271101-allSaints@noahweidig.com
+DTSTART;VALUE=DATE:20271101
+SUMMARY:All Saints
+END:VEVENT
+BEGIN:VEVENT
+UID:20271102-allSouls@noahweidig.com
+DTSTART;VALUE=DATE:20271102
+SUMMARY:All Souls
+END:VEVENT
+BEGIN:VEVENT
+UID:20271103-saintMartinDePorresReligious@noahweidig.com
+DTSTART;VALUE=DATE:20271103
+SUMMARY:St. Martin de Porres, Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:20271104-saintCharlesBorromeoBishop@noahweidig.com
+DTSTART;VALUE=DATE:20271104
+SUMMARY:St. Charles Borromeo, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20271105-fridayOfThe31stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271105
+SUMMARY:Friday of the 31st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271106-saturdayOfThe31stWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271106
+SUMMARY:Saturday of the 31st week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271107-32ndSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271107
+SUMMARY:32nd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271108-mondayOfThe32ndWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271108
+SUMMARY:Monday of the 32nd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271109-dedicationOfTheLateranBasilica@noahweidig.com
+DTSTART;VALUE=DATE:20271109
+SUMMARY:Dedication of the Lateran Basilica
+END:VEVENT
+BEGIN:VEVENT
+UID:20271110-saintLeoTheGreatPopeAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20271110
+SUMMARY:St. Leo the Great, Pope and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271111-saintMartinOfToursBishop@noahweidig.com
+DTSTART;VALUE=DATE:20271111
+SUMMARY:St. Martin of Tours, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20271112-saintJosaphatBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20271112
+SUMMARY:St. Josaphat, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20271113-saintFrancesXavierCabriniVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20271113
+SUMMARY:St. Frances Xavier Cabrini, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20271114-33rdSundayOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271114
+SUMMARY:33rd Sunday of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271115-saintAlbertTheGreatBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20271115
+SUMMARY:St. Albert the Great, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271116-saintMargaretOfScotlandSaintGertrudeTheGreatVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20271116
+SUMMARY:St. Margaret of Scotland/St. Gertrude the Great, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20271117-saintElizabethOfHungary@noahweidig.com
+DTSTART;VALUE=DATE:20271117
+SUMMARY:St. Elizabeth of Hungary
+END:VEVENT
+BEGIN:VEVENT
+UID:20271118-saintRosePhilippineDuchesneVirgin@noahweidig.com
+DTSTART;VALUE=DATE:20271118
+SUMMARY:St. Rose Philippine Duchesne, Virgin
+END:VEVENT
+BEGIN:VEVENT
+UID:20271119-fridayOfThe33rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271119
+SUMMARY:Friday of the 33rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271120-saturdayOfThe33rdWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271120
+SUMMARY:Saturday of the 33rd week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271121-christTheKing@noahweidig.com
+DTSTART;VALUE=DATE:20271121
+SUMMARY:Christ the King
+END:VEVENT
+BEGIN:VEVENT
+UID:20271122-saintCeciliaVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20271122
+SUMMARY:St. Cecilia, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20271123-blessedMiguelAgustinProPriestAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20271123
+SUMMARY:Bl. Miguel Agustin Pro, Priest and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20271124-saintAndrewDungLacAndCompanionsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20271124
+SUMMARY:St. Andrew Dung-Lac and Companions, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20271125-saintCatherineOfAlexandriaVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20271125
+SUMMARY:St. Catherine of Alexandria, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20271126-fridayOfThe34thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271126
+SUMMARY:Friday of the 34th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271127-saturdayOfThe34thWeekOfOrdinaryTime@noahweidig.com
+DTSTART;VALUE=DATE:20271127
+SUMMARY:Saturday of the 34th week of Ordinary Time
+END:VEVENT
+BEGIN:VEVENT
+UID:20271128-1stSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271128
+SUMMARY:1st Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271129-mondayOfThe1stWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271129
+SUMMARY:Monday of the 1st week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271130-saintAndrewTheApostle@noahweidig.com
+DTSTART;VALUE=DATE:20271130
+SUMMARY:St. Andrew the Apostle
+END:VEVENT
+BEGIN:VEVENT
+UID:20271201-wednesdayOfThe1stWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271201
+SUMMARY:Wednesday of the 1st week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271202-thursdayOfThe1stWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271202
+SUMMARY:Thursday of the 1st week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271203-saintFrancisXavierPriest@noahweidig.com
+DTSTART;VALUE=DATE:20271203
+SUMMARY:St. Francis Xavier, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20271204-saintJohnDamascenePriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20271204
+SUMMARY:St. John Damascene, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271205-2ndSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271205
+SUMMARY:2nd Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271206-saintNicholasBishop@noahweidig.com
+DTSTART;VALUE=DATE:20271206
+SUMMARY:St. Nicholas, Bishop
+END:VEVENT
+BEGIN:VEVENT
+UID:20271207-saintAmbroseBishopAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20271207
+SUMMARY:St. Ambrose, Bishop and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271208-immaculateConception@noahweidig.com
+DTSTART;VALUE=DATE:20271208
+SUMMARY:Immaculate Conception
+END:VEVENT
+BEGIN:VEVENT
+UID:20271209-saintJuanDiegoCuauhtlatoatzin@noahweidig.com
+DTSTART;VALUE=DATE:20271209
+SUMMARY:St. Juan Diego Cuauhtlatoatzin
+END:VEVENT
+BEGIN:VEVENT
+UID:20271210-ourLadyOfLoreto@noahweidig.com
+DTSTART;VALUE=DATE:20271210
+SUMMARY:Our Lady of Loreto
+END:VEVENT
+BEGIN:VEVENT
+UID:20271211-saintDamasusIPope@noahweidig.com
+DTSTART;VALUE=DATE:20271211
+SUMMARY:St. Damasus I, Pope
+END:VEVENT
+BEGIN:VEVENT
+UID:20271212-3rdSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271212
+SUMMARY:3rd Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271213-saintLucyOfSyracuseVirginAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20271213
+SUMMARY:St. Lucy of Syracuse, Virgin and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20271214-saintJohnOfTheCrossPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20271214
+SUMMARY:St. John of the Cross, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271215-wednesdayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271215
+SUMMARY:Wednesday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271216-thursdayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271216
+SUMMARY:Thursday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271217-fridayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271217
+SUMMARY:Friday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271218-saturdayOfThe3rdWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271218
+SUMMARY:Saturday of the 3rd week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271219-4thSundayOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271219
+SUMMARY:4th Sunday of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271220-mondayOfThe4thWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271220
+SUMMARY:Monday of the 4th week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271221-saintPeterCanisiusPriestAndDoctor@noahweidig.com
+DTSTART;VALUE=DATE:20271221
+SUMMARY:St. Peter Canisius, Priest and Doctor
+END:VEVENT
+BEGIN:VEVENT
+UID:20271222-wednesdayOfThe4thWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271222
+SUMMARY:Wednesday of the 4th week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271223-saintJohnOfKantyPriest@noahweidig.com
+DTSTART;VALUE=DATE:20271223
+SUMMARY:St. John of Kenty, Priest
+END:VEVENT
+BEGIN:VEVENT
+UID:20271224-fridayOfThe4thWeekOfAdvent@noahweidig.com
+DTSTART;VALUE=DATE:20271224
+SUMMARY:Friday of the 4th week of Advent
+END:VEVENT
+BEGIN:VEVENT
+UID:20271225-christmas@noahweidig.com
+DTSTART;VALUE=DATE:20271225
+SUMMARY:Christmas
+END:VEVENT
+BEGIN:VEVENT
+UID:20271226-holyFamily@noahweidig.com
+DTSTART;VALUE=DATE:20271226
+SUMMARY:Holy Family
+END:VEVENT
+BEGIN:VEVENT
+UID:20271227-saintJohnTheApostleAndEvangelist@noahweidig.com
+DTSTART;VALUE=DATE:20271227
+SUMMARY:St. John the Apostle and Evangelist
+END:VEVENT
+BEGIN:VEVENT
+UID:20271228-holyInnocentsMartyrs@noahweidig.com
+DTSTART;VALUE=DATE:20271228
+SUMMARY:Holy Innocents, Martyrs
+END:VEVENT
+BEGIN:VEVENT
+UID:20271229-saintThomasBecketBishopAndMartyr@noahweidig.com
+DTSTART;VALUE=DATE:20271229
+SUMMARY:St. Thomas Becket, Bishop and Martyr
+END:VEVENT
+BEGIN:VEVENT
+UID:20271230-6thDayInTheOctaveOfChristmas@noahweidig.com
+DTSTART;VALUE=DATE:20271230
+SUMMARY:6th day in the Octave of Christmas
+END:VEVENT
+BEGIN:VEVENT
+UID:20271231-saintSylvesterIPope@noahweidig.com
+DTSTART;VALUE=DATE:20271231
+SUMMARY:St. Sylvester I, Pope
+END:VEVENT
+END:VCALENDAR

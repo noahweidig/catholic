@@ -639,3 +639,43 @@ header.liturgical-white #liturgical-day { color: var(--liturgical-white); }
 header.liturgical-red #liturgical-day { color: var(--liturgical-red); }
 header.liturgical-rose #liturgical-day { color: var(--liturgical-rose); }
 header.liturgical-gold #liturgical-day { color: var(--liturgical-gold); }
+
+/* Calendar Subscription */
+.calendar-subscription {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.calendar-subscription input {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--text-color);
+    background: #fff;
+    border-radius: 4px;
+}
+
+.calendar-subscription .copy-btn {
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.calendar-subscription .copy-btn:hover {
+    background: var(--hover-color);
+}

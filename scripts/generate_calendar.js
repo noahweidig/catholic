@@ -7,6 +7,36 @@ const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
 
+// Helper to determine rank value
+function getRankValue(rank) {
+    switch (rank) {
+        case 'SOLEMNITY': return 5;
+        case 'FEAST': return 4;
+        case 'MEMORIAL': return 3;
+        case 'OPTIONAL_MEMORIAL': return 2;
+        default: return 1; // WEEKDAY, FERIA, etc.
+    }
+}
+
+// Helper for Title Case
+function toTitleCase(str) {
+    const smallWords = /^(a|an|the|and|but|or|for|nor|on|at|to|from|by|in|of)$/i;
+    // Roman numerals regex (simple 1-39 coverage for Popes/Kings usually found in calendar)
+    // I, II, III, IV, V, VI, VII, VIII, IX, X, ... XXXIX
+    const romanNumerals = /^(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX|XXI|XXII|XXIII|XXIV|XXV|XXVI|XXVII|XXVIII|XXIX|XXX|XXXI|XXXII|XXXIII|XXXIV|XXXV|XXXVI|XXXVII|XXXVIII|XXXIX)$/i;
+
+    return str.replace(/\w\S*/g, (txt, offset) => {
+        // Check for Roman Numerals first
+        if (romanNumerals.test(txt)) {
+            return txt.toUpperCase();
+        }
+        if (offset !== 0 && smallWords.test(txt)) {
+            return txt.toLowerCase();
+        }
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
+
 async function generateICS() {
     try {
         const today = new Date();
@@ -24,7 +54,6 @@ async function generateICS() {
         for (const year of years) {
             const calendar = await romcal.generateCalendar(year);
             // Merge into allEvents
-            // calendar is { dateStr: [events] }
             Object.assign(allEvents, calendar);
         }
 
@@ -42,44 +71,45 @@ async function generateICS() {
 
         for (const dateStr of dates) {
             const events = allEvents[dateStr];
+            if (!events || events.length === 0) continue;
 
-            for (const event of events) {
-                const dtStart = dateStr.replace(/-/g, ''); // YYYYMMDD
+            // Prioritize events: Highest rank first.
+            const sortedEvents = [...events].sort((a, b) => {
+                const rankA = getRankValue(a.rank);
+                const rankB = getRankValue(b.rank);
+                return rankB - rankA; // Descending
+            });
 
-                // Format name
-                let summary = event.name;
-                summary = summary.replace(/Saint /g, 'St. ');
-                summary = summary.replace(/Saints /g, 'Sts. ');
-                summary = summary.replace(/Blessed /g, 'Bl. ');
+            const selectedEvent = sortedEvents[0];
+            const dtStart = dateStr.replace(/-/g, ''); // YYYYMMDD
 
-                let descriptionParts = [];
-                if (event.rank) {
-                    // Convert rank to readable format if needed, or keep as is.
-                    // usually generic ranks like SOLEMNITY are uppercase.
-                    // But in v3 rank might be readable string?
-                    // README says `rank: 'SOLEMNITY'` and `rankName: 'Solemnity'` (localized?)
-                    // Let's use rankName if available, else rank.
-                    descriptionParts.push(`Rank: ${event.rankName || event.rank}`);
-                }
-                if (event.colors && event.colors.length > 0) {
-                     // Colors are usually uppercase strings in v3 (e.g. WHITE)
-                     // Map to Title Case?
-                     const formattedColors = event.colors.map(c => c.charAt(0) + c.slice(1).toLowerCase()).join(', ');
-                     descriptionParts.push(`Color: ${formattedColors}`);
-                }
+            // Format name
+            let summary = selectedEvent.name;
 
-                const description = descriptionParts.join('\\n');
-
-                // Create VEVENT
-                icsContent.push('BEGIN:VEVENT');
-                icsContent.push(`UID:${dtStart}-${event.id}@noahweidig.com`);
-                icsContent.push(`DTSTART;VALUE=DATE:${dtStart}`);
-                icsContent.push(`SUMMARY:${summary}`);
-                if (description) {
-                    icsContent.push(`DESCRIPTION:${description}`);
-                }
-                icsContent.push('END:VEVENT');
+            // Remove titles: split by comma and take first part
+            if (summary.includes(',')) {
+                summary = summary.split(',')[0];
             }
+
+            // Replace "Saint "/"Saints "/"Blessed " with "St. "/"Sts. "/"Bl. "
+            summary = summary.replace(/Saint /g, 'St. ');
+            summary = summary.replace(/Saints /g, 'Sts. ');
+            summary = summary.replace(/Blessed /g, 'Bl. ');
+
+            // Replace " and " with " & "
+            summary = summary.replace(/ and /g, ' & ');
+
+            // Apply Title Case
+            summary = toTitleCase(summary);
+
+            // Create VEVENT
+            icsContent.push('BEGIN:VEVENT');
+            // Use date as UID part to ensure uniqueness per day in this generated calendar
+            icsContent.push(`UID:${dtStart}-catholic-calendar@noahweidig.com`);
+            icsContent.push(`DTSTART;VALUE=DATE:${dtStart}`);
+            icsContent.push(`SUMMARY:${summary}`);
+            // No DESCRIPTION
+            icsContent.push('END:VEVENT');
         }
 
         icsContent.push('END:VCALENDAR');

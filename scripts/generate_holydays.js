@@ -1,19 +1,12 @@
-// Silence i18next support notice
-const originalInfo = console.info;
-console.info = () => {};
-
-const { Romcal } = require('romcal');
 const fs = require('fs');
 const path = require('path');
+const { getAscensionDate } = require('./liturgical_utils');
 
-async function generateHolydays() {
+function generateHolydays() {
     try {
         const today = new Date();
         const startYear = today.getFullYear();
         const endYear = 2100;
-
-        // Use General Roman Calendar to ensure Ascension is on Thursday
-        const romcal = new Romcal();
 
         let icsContent = [
             'BEGIN:VCALENDAR',
@@ -30,18 +23,11 @@ async function generateHolydays() {
             const yearEvents = [];
 
             // 1. Ascension Thursday (Variable)
-            const calendar = await romcal.generateCalendar(year);
-            const events = Object.values(calendar).flat();
-            const ascension = events.find(e => e.id === 'ascension_of_the_lord');
-
-            if (ascension) {
-                yearEvents.push({
-                    date: ascension.date, // YYYY-MM-DD
-                    title: 'Ascension Thursday'
-                });
-            } else {
-                console.warn(`Ascension not found for year ${year}`);
-            }
+            const ascensionDate = getAscensionDate(year);
+            yearEvents.push({
+                date: ascensionDate,
+                title: 'Ascension Thursday'
+            });
 
             // 2. Fixed Holy Days
             const fixedEvents = [

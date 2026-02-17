@@ -6,6 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
+const { getAscensionDate } = require('./liturgical_utils');
 
 // Helper to determine rank value
 function getRankValue(rank) {
@@ -52,7 +53,7 @@ async function generateSundaysHolydays() {
         const endYear = 2100;
 
         const romcalUS = new Romcal({ localizedCalendar: UnitedStates_En });
-        const romcalGeneral = new Romcal(); // For Ascension Thursday date
+        // romcalGeneral removed as we calculate Ascension directly
 
         let icsContent = [
             'BEGIN:VCALENDAR',
@@ -99,14 +100,10 @@ async function generateSundaysHolydays() {
             // 2. Get Holy Days
             const holyDays = [];
 
-            // Ascension Thursday (General Roman)
-            const generalCalendar = await romcalGeneral.generateCalendar(year);
-            const genEvents = Object.values(generalCalendar).flat();
-            const ascension = genEvents.find(e => e.id === 'ascension_of_the_lord');
-
-            if (ascension) {
-                holyDays.push({ date: ascension.date, title: 'Ascension Thursday' });
-            }
+            // Ascension Thursday (Variable)
+            // Use helper instead of generating full General Roman Calendar
+            const ascensionDate = getAscensionDate(year);
+            holyDays.push({ date: ascensionDate, title: 'Ascension Thursday' });
 
             // Fixed Holy Days
             holyDays.push(

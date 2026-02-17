@@ -28,7 +28,7 @@ def verify_site():
             links = get_links(content)
             print(f"Checking links in {f}...")
             for link in links:
-                if link.startswith('http') or link.startswith('https'):
+                if link.startswith('http') or link.startswith('https') or link.startswith('#'):
                     continue
 
                 if link in checked_links:

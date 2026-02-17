@@ -679,3 +679,26 @@ header.liturgical-gold #liturgical-day { color: var(--liturgical-gold); }
 .calendar-subscription .copy-btn:hover {
     background: var(--hover-color);
 }
+
+/* Accessibility: Skip Link */
+.skip-link {
+    position: absolute;
+    top: -9999px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary-color);
+    color: #fff;
+    padding: 1rem 2rem;
+    z-index: 10000;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    border-radius: 0 0 4px 4px;
+    transition: top 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}

@@ -1,0 +1,2 @@
+🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+{"name":"The Seven Holy Founders of the Servite Order","color":"white"}

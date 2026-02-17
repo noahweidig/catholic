@@ -8,6 +8,14 @@
     --hover-color: #8b7355;
     --accent-light: rgba(166, 139, 91, 0.12);
 
+    /* Liturgical Colors */
+    --liturgical-green: #556B2F;
+    --liturgical-purple: #4B0082;
+    --liturgical-white: #D4AF37;
+    --liturgical-red: #8B0000;
+    --liturgical-rose: #C71585;
+    --liturgical-gold: #D4AF37;
+
     --font-heading: 'Cinzel', serif;
     --font-body: 'Lora', serif;
     --font-title: 'Cinzel', serif;
@@ -606,3 +614,28 @@ footer a {
         scroll-behavior: auto;
     }
 }
+
+/* Liturgical Day Styles */
+#liturgical-day {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+    color: var(--primary-color);
+}
+
+header.liturgical-green { border-bottom-color: var(--liturgical-green); }
+header.liturgical-purple { border-bottom-color: var(--liturgical-purple); }
+header.liturgical-white { border-bottom-color: var(--liturgical-white); }
+header.liturgical-red { border-bottom-color: var(--liturgical-red); }
+header.liturgical-rose { border-bottom-color: var(--liturgical-rose); }
+header.liturgical-gold { border-bottom-color: var(--liturgical-gold); }
+
+header.liturgical-green #liturgical-day { color: var(--liturgical-green); }
+header.liturgical-purple #liturgical-day { color: var(--liturgical-purple); }
+header.liturgical-white #liturgical-day { color: var(--liturgical-white); }
+header.liturgical-red #liturgical-day { color: var(--liturgical-red); }
+header.liturgical-rose #liturgical-day { color: var(--liturgical-rose); }
+header.liturgical-gold #liturgical-day { color: var(--liturgical-gold); }

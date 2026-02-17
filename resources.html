@@ -70,9 +70,46 @@
             <p>Features the Catholic Encyclopedia, writings of the Church Fathers, and the Summa Theologica of St. Thomas Aquinas.</p>
             <p><a href="https://www.newadvent.org/" target="_blank" rel="noopener noreferrer">Visit New Advent <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
         </li>
+        <li class="reveal">
+            <h3><i class="fa-solid fa-calendar-days"></i> Catholic Liturgical Calendar</h3>
+            <p>Subscribe to the liturgical calendar on your device. It includes feasts, solemnities, and memorials.</p>
+            <div class="calendar-subscription">
+                <input type="text" value="webcal://noahweidig.com/catholic/cal.ics" id="calendar-url" readonly>
+                <button onclick="copyCalendarUrl()" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+            </div>
+            <p id="copy-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+        </li>
     </ul>
 
 </main>
+
+<script>
+    function copyCalendarUrl() {
+        var copyText = document.getElementById("calendar-url");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+        navigator.clipboard.writeText(copyText.value).then(function() {
+            var msg = document.getElementById("copy-message");
+            msg.style.display = "block";
+            setTimeout(function() {
+                msg.style.display = "none";
+            }, 3000);
+        }, function(err) {
+            console.error('Could not copy text: ', err);
+            // Fallback for older browsers
+            try {
+                document.execCommand('copy');
+                var msg = document.getElementById("copy-message");
+                msg.style.display = "block";
+                setTimeout(function() {
+                    msg.style.display = "none";
+                }, 3000);
+            } catch (err) {
+                console.error('Fallback: Oops, unable to copy', err);
+            }
+        });
+    }
+</script>
 
 <footer>
     <p>&copy; 2026 Catholic Faith. Ad Maiorem Dei Gloriam.</p>

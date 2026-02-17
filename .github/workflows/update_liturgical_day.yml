@@ -2,7 +2,7 @@ name: Update Liturgical Day
 
 on:
   schedule:
-    - cron: '0 8 * * *' # 8:00 AM UTC (3:00 AM EST)
+    - cron: '1 5 * * *' # 12:01 AM EST (05:01 UTC)
   workflow_dispatch:
 
 jobs:
@@ -21,20 +21,29 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
+      - name: Install Node dependencies
         run: npm ci
 
-      - name: Update liturgical day
-        run: node scripts/update_liturgical_day.js
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: |
+          pip install catholic-mass-readings
+
+      - name: Update today's readings
+        run: python scripts/update_today.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add index.html
+          git add index.html today.html
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update liturgical day"
+            git commit -m "Update liturgical day and readings"
             git push
           fi

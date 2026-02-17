@@ -76,7 +76,7 @@
 
             <h4>Full Calendar</h4>
             <div class="calendar-subscription">
-                <input type="text" value="webcal://noahweidig.com/catholic/cal.ics" id="calendar-url" readonly>
+                <input type="text" value="webcal://noahweidig.com/catholic/litcal.ics" id="calendar-url" readonly>
                 <button onclick="copyCalendarUrl('calendar-url', 'copy-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
             <p id="copy-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
@@ -87,6 +87,13 @@
                 <button onclick="copyCalendarUrl('holydays-url', 'holydays-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
             <p id="holydays-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+
+            <h4 style="margin-top: 1rem;">Sundays & Holy Days</h4>
+            <div class="calendar-subscription">
+                <input type="text" value="webcal://noahweidig.com/catholic/sundaysholydays.ics" id="sundays-holydays-url" readonly>
+                <button onclick="copyCalendarUrl('sundays-holydays-url', 'sundays-holydays-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+            </div>
+            <p id="sundays-holydays-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
         </li>
     </ul>
 

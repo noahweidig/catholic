@@ -72,24 +72,33 @@
         </li>
         <li class="reveal">
             <h3><i class="fa-solid fa-calendar-days"></i> Catholic Liturgical Calendar</h3>
-            <p>Subscribe to the liturgical calendar on your device. It includes feasts, solemnities, and memorials.</p>
+            <p>Subscribe to the liturgical calendar on your device. Choose between the full calendar or just Holy Days of Obligation.</p>
+
+            <h4>Full Calendar</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/cal.ics" id="calendar-url" readonly>
-                <button onclick="copyCalendarUrl()" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <button onclick="copyCalendarUrl('calendar-url', 'copy-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
             <p id="copy-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+
+            <h4 style="margin-top: 1rem;">Holy Days of Obligation (US)</h4>
+            <div class="calendar-subscription">
+                <input type="text" value="webcal://noahweidig.com/catholic/holydays.ics" id="holydays-url" readonly>
+                <button onclick="copyCalendarUrl('holydays-url', 'holydays-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+            </div>
+            <p id="holydays-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
         </li>
     </ul>
 
 </main>
 
 <script>
-    function copyCalendarUrl() {
-        var copyText = document.getElementById("calendar-url");
+    function copyCalendarUrl(inputId, messageId) {
+        var copyText = document.getElementById(inputId);
         copyText.select();
         copyText.setSelectionRange(0, 99999); /* For mobile devices */
         navigator.clipboard.writeText(copyText.value).then(function() {
-            var msg = document.getElementById("copy-message");
+            var msg = document.getElementById(messageId);
             msg.style.display = "block";
             setTimeout(function() {
                 msg.style.display = "none";
@@ -99,7 +108,7 @@
             // Fallback for older browsers
             try {
                 document.execCommand('copy');
-                var msg = document.getElementById("copy-message");
+                var msg = document.getElementById(messageId);
                 msg.style.display = "block";
                 setTimeout(function() {
                     msg.style.display = "none";

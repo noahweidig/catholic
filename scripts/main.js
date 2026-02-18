@@ -28,9 +28,11 @@ document.addEventListener('DOMContentLoaded', function () {
         window.addEventListener('scroll', function () {
             if (!ticking) {
                 window.requestAnimationFrame(function () {
+                    // Implement hysteresis to prevent shaking loop
+                    // Only remove 'scrolled' if we are significantly higher than the trigger point
                     if (window.scrollY > 60) {
                         header.classList.add('scrolled');
-                    } else {
+                    } else if (window.scrollY < 15) {
                         header.classList.remove('scrolled');
                     }
                     ticking = false;

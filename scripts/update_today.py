@@ -2,6 +2,7 @@ import asyncio
 import json
 import subprocess
 import re
+import html
 from datetime import datetime
 from catholic_mass_readings import USCCB
 
@@ -39,7 +40,8 @@ def format_readings_html(mass_object):
 
     # Title/Feast Name
     if hasattr(mass_object, 'title') and mass_object.title:
-         html_parts.append(f'<h2 style="text-align: center; justify-content: center; margin-bottom: 2rem;">{mass_object.title}</h2>')
+         safe_title = html.escape(mass_object.title)
+         html_parts.append(f'<h2 style="text-align: center; justify-content: center; margin-bottom: 2rem;">{safe_title}</h2>')
 
     data = mass_object.to_dict()
     sections = data.get('sections', [])
@@ -48,7 +50,8 @@ def format_readings_html(mass_object):
         html_parts.append('<div class="reading-section">')
         header = section.get('header', '')
         if header:
-            html_parts.append(f'    <h3 class="reading-header">{header}</h3>')
+            safe_header = html.escape(header)
+            html_parts.append(f'    <h3 class="reading-header">{safe_header}</h3>')
 
         readings = section.get('readings', [])
         for reading in readings:
@@ -56,18 +59,19 @@ def format_readings_html(mass_object):
             verses_list = reading.get('verses', [])
             citation = ""
             if verses_list:
-                citation = ", ".join([v.get('text', '') for v in verses_list])
+                citation = ", ".join([html.escape(v.get('text', '')) for v in verses_list])
 
             if citation:
                 html_parts.append(f'    <span class="reading-citation">{citation}</span>')
 
             text = reading.get('text', '')
+            safe_text = html.escape(text)
 
             # Simple formatting for responses
-            if text.strip().startswith('R.'):
-                text = text.replace('R.', '<span class="response-text">R.</span>', 1)
+            if safe_text.strip().startswith('R.'):
+                safe_text = safe_text.replace('R.', '<span class="response-text">R.</span>', 1)
 
-            html_parts.append(f'    <p class="reading-text">{text}</p>')
+            html_parts.append(f'    <p class="reading-text">{safe_text}</p>')
 
         html_parts.append('</div>')
 
@@ -183,6 +187,9 @@ async def main():
         display_name = readings.title
     else:
         display_name = romcal_name
+
+    # Escape display name for HTML safety
+    display_name = html.escape(display_name)
 
     print(f"Updating files... Color: {color}, Name: {display_name}")
 

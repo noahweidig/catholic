@@ -1,11 +1,22 @@
 // Helper functions for liturgical calculations
 
+// Caches for expensive calculations to avoid re-computation
+// We store timestamps for Easter to avoid Date object mutation issues
+const easterCache = new Map();
+const ashWedCache = new Map();
+const goodFriCache = new Map();
+const ascensionCache = new Map();
+
 /**
  * Calculates the date of Easter Sunday for a given year using the Meeus/Jones/Butcher algorithm.
  * @param {number} year
  * @returns {Date} Easter Sunday date (UTC midnight)
  */
 function getEasterDate(year) {
+    if (easterCache.has(year)) {
+        return new Date(easterCache.get(year));
+    }
+
     const a = year % 19;
     const b = Math.floor(year / 100);
     const c = year % 100;
@@ -21,7 +32,10 @@ function getEasterDate(year) {
     const month = Math.floor((h + l - 7 * m + 114) / 31);
     const day = ((h + l - 7 * m + 114) % 31) + 1;
     // Return date in UTC to avoid timezone issues, consistent with Romcal output
-    return new Date(Date.UTC(year, month - 1, day));
+    const date = new Date(Date.UTC(year, month - 1, day));
+
+    easterCache.set(year, date.getTime());
+    return date;
 }
 
 /**
@@ -30,9 +44,16 @@ function getEasterDate(year) {
  * @returns {string} Date string in YYYY-MM-DD format
  */
 function getAshWednesdayDate(year) {
+    if (ashWedCache.has(year)) {
+        return ashWedCache.get(year);
+    }
+
     const easter = getEasterDate(year);
     const ashWed = new Date(easter.getTime() - 46 * 24 * 60 * 60 * 1000);
-    return ashWed.toISOString().split('T')[0];
+    const dateStr = ashWed.toISOString().split('T')[0];
+
+    ashWedCache.set(year, dateStr);
+    return dateStr;
 }
 
 /**
@@ -41,9 +62,16 @@ function getAshWednesdayDate(year) {
  * @returns {string} Date string in YYYY-MM-DD format
  */
 function getGoodFridayDate(year) {
+    if (goodFriCache.has(year)) {
+        return goodFriCache.get(year);
+    }
+
     const easter = getEasterDate(year);
     const goodFri = new Date(easter.getTime() - 2 * 24 * 60 * 60 * 1000);
-    return goodFri.toISOString().split('T')[0];
+    const dateStr = goodFri.toISOString().split('T')[0];
+
+    goodFriCache.set(year, dateStr);
+    return dateStr;
 }
 
 /**
@@ -52,10 +80,17 @@ function getGoodFridayDate(year) {
  * @returns {string} Date string in YYYY-MM-DD format
  */
 function getAscensionDate(year) {
+    if (ascensionCache.has(year)) {
+        return ascensionCache.get(year);
+    }
+
     const easter = getEasterDate(year);
     // Add 39 days in milliseconds
     const ascension = new Date(easter.getTime() + 39 * 24 * 60 * 60 * 1000);
-    return ascension.toISOString().split('T')[0];
+    const dateStr = ascension.toISOString().split('T')[0];
+
+    ascensionCache.set(year, dateStr);
+    return dateStr;
 }
 
 /**

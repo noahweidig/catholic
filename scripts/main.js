@@ -57,4 +57,53 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+    // Calendar copy functionality (Event Delegation)
+    document.addEventListener('click', function(e) {
+        var btn = e.target.closest('.copy-btn');
+        if (!btn) return;
+
+        var inputId = btn.getAttribute('data-input-id');
+        var messageId = btn.getAttribute('data-message-id');
+
+        if (inputId && messageId) {
+            var copyText = document.getElementById(inputId);
+            if (copyText) {
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); // For mobile devices
+
+                // Success handler
+                var showSuccess = function() {
+                    var msg = document.getElementById(messageId);
+                    if (msg) {
+                        msg.style.display = "block";
+                        setTimeout(function() {
+                            msg.style.display = "none";
+                        }, 3000);
+                    }
+                };
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(copyText.value).then(showSuccess).catch(function(err) {
+                        console.error('Clipboard API failed', err);
+                        // Fallback
+                        try {
+                            document.execCommand('copy');
+                            showSuccess();
+                        } catch (e) {
+                            console.error('Fallback failed', e);
+                        }
+                    });
+                } else {
+                    // Fallback for older browsers
+                    try {
+                        document.execCommand('copy');
+                        showSuccess();
+                    } catch (err) {
+                        console.error('Fallback: Oops, unable to copy', err);
+                    }
+                }
+            }
+        }
+    });
 });

@@ -1,0 +1,3475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Catholic Faith//Fast & Abstinence//EN
+X-WR-CALNAME:Days of Fast & Abstinence (US)
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20260218-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260218
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20260220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260220
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20260227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20260306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260306
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20260313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260313
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20260320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260320
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20260327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260327
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20260403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20270210-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20270210
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20270212-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20270212
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20270219-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20270219
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20270226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20270226
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20270305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20270305
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20270312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20270312
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20270326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20270326
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280301
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280310
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280324
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280331-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280331
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280407-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280407
+SUMMARY:St. John Baptist De La Salle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20280414-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20280414
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290214-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290214
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290216-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290216
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290223
+SUMMARY:St. Polycarp
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290302
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290316
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20290330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20290330
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300306
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300315
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300322
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300329
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300405
+SUMMARY:St. Vincent Ferrer
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300412-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300412
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20300419-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20300419
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310226
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310228
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310314
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310321
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310328
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310404-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310404
+SUMMARY:St. Isidore
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20310411-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20310411
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20320211-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20320211
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20320213-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20320213
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20320220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20320220
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20320227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20320227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20320305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20320305
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20320312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20320312
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20320326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20320326
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20330302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20330302
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20330304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20330304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20330311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20330311
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20330318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20330318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20330401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20330401
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20330408-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20330408
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20330415-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20330415
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340222-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340222
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340224
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340310
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340324
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340331-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340331
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20340407-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20340407
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350207-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350207
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350209-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350209
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350216-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350216
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350223
+SUMMARY:St. Polycarp
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350302
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350316
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20350323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20350323
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360227
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360229-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360229
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360314
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360321
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360328
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360404-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360404
+SUMMARY:St. Isidore
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20360411-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20360411
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370218-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370218
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370220
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370306
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370313
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370320
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370327
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20370403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20370403
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20380310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20380310
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20380312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20380312
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20380326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20380326
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20380402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20380402
+SUMMARY:St. Francis of Paola
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20380409-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20380409
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20380416-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20380416
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20380423-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20380423
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20390223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20390223
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20390225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20390225
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20390304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20390304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20390311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20390311
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20390318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20390318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20390401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20390401
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20390408-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20390408
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400215-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400215
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400217-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400217
+SUMMARY:The Seven Holy Founders of the Servite Order
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400224
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400302
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400316
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20400330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20400330
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410306
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410315
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410322
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410329
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410405
+SUMMARY:St. Vincent Ferrer
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410412-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410412
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20410419-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20410419
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420219-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420219
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420221
+SUMMARY:St. Peter Damian
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420228
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420314
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420321
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420328
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20420404-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20420404
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430211-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430211
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430213-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430213
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430220
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430306
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430313
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430320
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20430327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20430327
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20440302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20440302
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20440304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20440304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20440311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20440311
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20440318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20440318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20440401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20440401
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20440408-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20440408
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20440415-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20440415
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450222-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450222
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450224
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450310
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450324
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450331-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450331
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20450407-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20450407
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460207-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460207
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460209-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460209
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460216-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460216
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460223
+SUMMARY:St. Polycarp
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460302
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460316
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20460323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20460323
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470227
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470301
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470315
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470322
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470329
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470405
+SUMMARY:St. Vincent Ferrer
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20470412-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20470412
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480219-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480219
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480221
+SUMMARY:St. Peter Damian
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480228
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480306
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480313
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480320
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480327
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20480403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20480403
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20490303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20490303
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20490305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20490305
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20490312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20490312
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20490326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20490326
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20490402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20490402
+SUMMARY:St. Francis of Paola
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20490409-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20490409
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20490416-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20490416
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20500223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20500223
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20500225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20500225
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20500304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20500304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20500311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20500311
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20500318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20500318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20500401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20500401
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20500408-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20500408
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510215-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510215
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510217-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510217
+SUMMARY:The Seven Holy Founders of the Servite Order
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510224
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510310
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510324
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20510331-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20510331
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520306
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520315
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520322
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520329
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520405
+SUMMARY:St. Vincent Ferrer
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520412-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520412
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20520419-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20520419
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530219-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530219
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530221
+SUMMARY:St. Peter Damian
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530228
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530314
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530321
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530328
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20530404-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20530404
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540211-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540211
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540213-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540213
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540220
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540306
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540313
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540320
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20540327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20540327
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20550303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20550303
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20550305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20550305
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20550312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20550312
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20550326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20550326
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20550402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20550402
+SUMMARY:St. Francis of Paola
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20550409-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20550409
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20550416-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20550416
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560216-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560216
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560218-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560218
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560225
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560310
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560324
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20560331-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20560331
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570307
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570316
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570330
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570406-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570406
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570413-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570413
+SUMMARY:St. Martin I
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20570420-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20570420
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580227
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580301
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580315
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580322
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580329
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580405
+SUMMARY:St. Vincent Ferrer
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20580412-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20580412
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590212-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590212
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590214-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590214
+SUMMARY:Sts. Cyril
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590221
+SUMMARY:St. Peter Damian
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590228
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590314
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590321
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20590328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20590328
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20600303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20600303
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20600305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20600305
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20600312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20600312
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20600326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20600326
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20600402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20600402
+SUMMARY:St. Francis of Paola
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20600409-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20600409
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20600416-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20600416
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20610223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20610223
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20610225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20610225
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20610304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20610304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20610311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20610311
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20610318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20610318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20610401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20610401
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20610408-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20610408
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620208-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620208
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620210-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620210
+SUMMARY:St. Scholastica
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620217-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620217
+SUMMARY:The Seven Holy Founders of the Servite Order
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620224
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620310
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20620324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20620324
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630228
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630302
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630316
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630330
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630406-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630406
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20630413-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20630413
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640220
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640222-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640222
+SUMMARY:The Chair of St. Peter the Apostle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640229-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640229
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640314
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640321
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640328
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20640404-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20640404
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650211-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650211
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650213-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650213
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650220
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650306
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650313
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650320
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20650327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20650327
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20660224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20660224
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20660226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20660226
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20660305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20660305
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20660312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20660312
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20660326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20660326
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20660402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20660402
+SUMMARY:St. Francis of Paola
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20660409-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20660409
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20670216-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20670216
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20670218-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20670218
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20670225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20670225
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20670304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20670304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20670311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20670311
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20670318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20670318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20670401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20670401
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680307
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680316
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680330
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680406-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680406
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680413-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680413
+SUMMARY:St. Martin I
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20680420-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20680420
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690227
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690301
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690315
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690322
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690329
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690405
+SUMMARY:St. Vincent Ferrer
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20690412-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20690412
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700212-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700212
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700214-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700214
+SUMMARY:Sts. Cyril
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700221
+SUMMARY:St. Peter Damian
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700228
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700314
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700321
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20700328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20700328
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710304
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710306
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710313
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710320
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710327
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710403
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710410-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710410
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20710417-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20710417
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20720224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20720224
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20720226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20720226
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20720304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20720304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20720311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20720311
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20720318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20720318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20720401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20720401
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20720408-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20720408
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730208-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730208
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730210-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730210
+SUMMARY:St. Scholastica
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730217-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730217
+SUMMARY:The Seven Holy Founders of the Servite Order
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730224
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730310
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20730324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20730324
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740228
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740302
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740316
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740330
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740406-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740406
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20740413-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20740413
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750220-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750220
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750222-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750222
+SUMMARY:The Chair of St. Peter the Apostle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750301
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750315
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750322
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750329
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20750405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20750405
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760304
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760306
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760313
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760320
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760327
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760403
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760410-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760410
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20760417-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20760417
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20770224-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20770224
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20770226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20770226
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20770305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20770305
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20770312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20770312
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20770326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20770326
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20770402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20770402
+SUMMARY:St. Francis of Paola
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20770409-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20770409
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20780216-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20780216
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20780218-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20780218
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20780225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20780225
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20780304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20780304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20780311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20780311
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20780318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20780318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20780401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20780401
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790308
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790310
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790324
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790331-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790331
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790407-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790407
+SUMMARY:St. John Baptist De La Salle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790414-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790414
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20790421-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20790421
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800221
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800223
+SUMMARY:St. Polycarp
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800301
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800315
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800322
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800329
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20800405-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20800405
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810212-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810212
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810214-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810214
+SUMMARY:Sts. Cyril
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810221
+SUMMARY:St. Peter Damian
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810228
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810314
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810321
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20810328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20810328
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820304
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820306
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820313
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820320
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820327
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820403
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820410-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820410
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20820417-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20820417
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20830217-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20830217
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20830219-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20830219
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20830226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20830226
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20830305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20830305
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20830312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20830312
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20830326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20830326
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20830402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20830402
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840209-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840209
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840211-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840211
+SUMMARY:Our Lady of Lourdes
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840218-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840218
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840225
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840310
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20840324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20840324
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850228-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850228
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850302
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850316
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850330
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850406-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850406
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20850413-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20850413
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860213-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860213
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860215-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860215
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860222-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860222
+SUMMARY:The Chair of St. Peter the Apostle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860301
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860315
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860322
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20860329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20860329
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870305
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870314
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870321
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870328
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870404-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870404
+SUMMARY:St. Isidore
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870411-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870411
+SUMMARY:St. Stanislaus
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20870418-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20870418
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20880225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20880225
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20880227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20880227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20880305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20880305
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20880312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20880312
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20880326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20880326
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20880402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20880402
+SUMMARY:St. Francis of Paola
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20880409-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20880409
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20890216-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20890216
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20890218-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20890218
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20890225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20890225
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20890304-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20890304
+SUMMARY:St. Casimir
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20890311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20890311
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20890318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20890318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20890401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20890401
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900301
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900303-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900303
+SUMMARY:St. Katharine Drexel
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900310-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900310
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900317-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900317
+SUMMARY:St. Patrick
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900324-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900324
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900331-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900331
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900407-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900407
+SUMMARY:St. John Baptist De La Salle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20900414-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20900414
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910221-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910221
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910223-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910223
+SUMMARY:St. Polycarp
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910302
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910316
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910330
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20910406-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20910406
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920213-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920213
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920215-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920215
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920222-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920222
+SUMMARY:The Chair of St. Peter the Apostle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920229-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920229
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920314
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920321
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20920328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20920328
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930225
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930306
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930313
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930320
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930327
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930403
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20930410-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20930410
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20940217-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20940217
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20940219-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20940219
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20940226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20940226
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20940305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20940305
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20940312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20940312
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20940326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20940326
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20940402-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20940402
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20950309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20950309
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20950311-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20950311
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20950318-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20950318
+SUMMARY:St. Cyril of Jerusalem
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20950401-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20950401
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20950408-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20950408
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20950415-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20950415
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20950422-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20950422
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960229-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960229
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960302-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960302
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960309-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960309
+SUMMARY:St. Frances of Rome
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960316-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960316
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960323-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960323
+SUMMARY:St. Turibius of Mogrovejo
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960330-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960330
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960406-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960406
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20960413-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20960413
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970213-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970213
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970215-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970215
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970222-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970222
+SUMMARY:The Chair of St. Peter the Apostle
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970301-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970301
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970308-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970308
+SUMMARY:St. John of God
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970315-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970315
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970322-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970322
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20970329-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20970329
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980305
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980307-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980307
+SUMMARY:Sts. Perpetua & Felicity
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980314-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980314
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980321-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980321
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980328-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980328
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980404-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980404
+SUMMARY:St. Isidore
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980411-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980411
+SUMMARY:St. Stanislaus
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20980418-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20980418
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990225-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990225
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990227-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990227
+SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990306-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990306
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990313-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990313
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990320-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990320
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990327-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990327
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990403-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990403
+SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:20990410-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:20990410
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:21000210-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:21000210
+SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:21000212-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:21000212
+SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:21000219-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:21000219
+SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:21000226-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:21000226
+SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:21000305-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:21000305
+SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:21000312-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:21000312
+SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
+END:VEVENT
+BEGIN:VEVENT
+UID:21000326-fastabstain-calendar@noahweidig.com
+DTSTART;VALUE=DATE:21000326
+SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
+END:VEVENT
+END:VCALENDAR

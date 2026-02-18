@@ -248,6 +248,7 @@ BEGIN:VEVENT
 UID:20260218-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260218
 SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260219-catholic-calendar@noahweidig.com
@@ -258,6 +259,7 @@ BEGIN:VEVENT
 UID:20260220-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260220
 SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260221-catholic-calendar@noahweidig.com
@@ -293,6 +295,7 @@ BEGIN:VEVENT
 UID:20260227-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260227
 SUMMARY:St. Gregory of Narek
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260228-catholic-calendar@noahweidig.com
@@ -328,6 +331,7 @@ BEGIN:VEVENT
 UID:20260306-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260306
 SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260307-catholic-calendar@noahweidig.com
@@ -363,6 +367,7 @@ BEGIN:VEVENT
 UID:20260313-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260313
 SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260314-catholic-calendar@noahweidig.com
@@ -398,6 +403,7 @@ BEGIN:VEVENT
 UID:20260320-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260320
 SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260321-catholic-calendar@noahweidig.com
@@ -433,6 +439,7 @@ BEGIN:VEVENT
 UID:20260327-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260327
 SUMMARY:Friday of the Fifth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260328-catholic-calendar@noahweidig.com
@@ -468,6 +475,7 @@ BEGIN:VEVENT
 UID:20260403-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260403
 SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260404-catholic-calendar@noahweidig.com
@@ -2033,6 +2041,7 @@ BEGIN:VEVENT
 UID:20270210-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270210
 SUMMARY:Ash Wednesday
+DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270211-catholic-calendar@noahweidig.com
@@ -2043,6 +2052,7 @@ BEGIN:VEVENT
 UID:20270212-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270212
 SUMMARY:Friday After Ash Wednesday
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270213-catholic-calendar@noahweidig.com
@@ -2078,6 +2088,7 @@ BEGIN:VEVENT
 UID:20270219-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270219
 SUMMARY:Friday of the First Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270220-catholic-calendar@noahweidig.com
@@ -2113,6 +2124,7 @@ BEGIN:VEVENT
 UID:20270226-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270226
 SUMMARY:Friday of the Second Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270227-catholic-calendar@noahweidig.com
@@ -2148,6 +2160,7 @@ BEGIN:VEVENT
 UID:20270305-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270305
 SUMMARY:Friday of the Third Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270306-catholic-calendar@noahweidig.com
@@ -2183,6 +2196,7 @@ BEGIN:VEVENT
 UID:20270312-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270312
 SUMMARY:Friday of the Fourth Week of Lent
+DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270313-catholic-calendar@noahweidig.com
@@ -2253,6 +2267,7 @@ BEGIN:VEVENT
 UID:20270326-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270326
 SUMMARY:Friday of the Passion of the Lord
+DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270327-catholic-calendar@noahweidig.com

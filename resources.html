@@ -77,70 +77,43 @@
 
             <h4>Full Calendar</h4>
             <div class="calendar-subscription">
-                <input type="text" value="webcal://noahweidig.com/catholic/litcal.ics" id="calendar-url" readonly>
-                <button onclick="copyCalendarUrl('calendar-url', 'copy-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <input type="text" value="webcal://noahweidig.com/catholic/litcal.ics" id="calendar-url" aria-label="Full Liturgical Calendar subscription URL" readonly>
+                <button data-input-id="calendar-url" data-message-id="copy-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="copy-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="copy-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
 
             <h4 style="margin-top: 1rem;">Holy Days of Obligation (US)</h4>
             <div class="calendar-subscription">
-                <input type="text" value="webcal://noahweidig.com/catholic/holydays.ics" id="holydays-url" readonly>
-                <button onclick="copyCalendarUrl('holydays-url', 'holydays-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <input type="text" value="webcal://noahweidig.com/catholic/holydays.ics" id="holydays-url" aria-label="Holy Days of Obligation subscription URL" readonly>
+                <button data-input-id="holydays-url" data-message-id="holydays-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="holydays-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="holydays-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
 
             <h4 style="margin-top: 1rem;">Sundays & Holy Days</h4>
             <div class="calendar-subscription">
-                <input type="text" value="webcal://noahweidig.com/catholic/sundaysholydays.ics" id="sundays-holydays-url" readonly>
-                <button onclick="copyCalendarUrl('sundays-holydays-url', 'sundays-holydays-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <input type="text" value="webcal://noahweidig.com/catholic/sundaysholydays.ics" id="sundays-holydays-url" aria-label="Sundays and Holy Days subscription URL" readonly>
+                <button data-input-id="sundays-holydays-url" data-message-id="sundays-holydays-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="sundays-holydays-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="sundays-holydays-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
 
             <h4 style="margin-top: 1rem;">Days of Fast & Abstinence (US)</h4>
             <div class="calendar-subscription">
-                <input type="text" value="webcal://noahweidig.com/catholic/fastabstain.ics" id="fastabstain-url" readonly>
-                <button onclick="copyCalendarUrl('fastabstain-url', 'fastabstain-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <input type="text" value="webcal://noahweidig.com/catholic/fastabstain.ics" id="fastabstain-url" aria-label="Days of Fast and Abstinence subscription URL" readonly>
+                <button data-input-id="fastabstain-url" data-message-id="fastabstain-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="fastabstain-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="fastabstain-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
 
             <h4 style="margin-top: 1rem;">Major Feasts & Fast Days</h4>
             <div class="calendar-subscription">
-                <input type="text" value="webcal://noahweidig.com/catholic/majorfeasts.ics" id="majorfeasts-url" readonly>
-                <button onclick="copyCalendarUrl('majorfeasts-url', 'majorfeasts-message')" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <input type="text" value="webcal://noahweidig.com/catholic/majorfeasts.ics" id="majorfeasts-url" aria-label="Major Feasts and Fast Days subscription URL" readonly>
+                <button data-input-id="majorfeasts-url" data-message-id="majorfeasts-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="majorfeasts-message" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="majorfeasts-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
         </li>
     </ul>
 
 </main>
 
-<script>
-    function copyCalendarUrl(inputId, messageId) {
-        var copyText = document.getElementById(inputId);
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); /* For mobile devices */
-        navigator.clipboard.writeText(copyText.value).then(function() {
-            var msg = document.getElementById(messageId);
-            msg.style.display = "block";
-            setTimeout(function() {
-                msg.style.display = "none";
-            }, 3000);
-        }, function(err) {
-            console.error('Could not copy text: ', err);
-            // Fallback for older browsers
-            try {
-                document.execCommand('copy');
-                var msg = document.getElementById(messageId);
-                msg.style.display = "block";
-                setTimeout(function() {
-                    msg.style.display = "none";
-                }, 3000);
-            } catch (err) {
-                console.error('Fallback: Oops, unable to copy', err);
-            }
-        });
-    }
-</script>
 
 <footer>
     <p>&copy; 2026 Catholic Faith. Ad Maiorem Dei Gloriam.</p>

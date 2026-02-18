@@ -6,6 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
+const { getFastAbstinenceDescription } = require('./liturgical_utils');
 
 // Helper to determine rank value
 function getRankValue(rank) {
@@ -108,7 +109,12 @@ async function generateICS() {
             icsContent.push(`UID:${dtStart}-catholic-calendar@noahweidig.com`);
             icsContent.push(`DTSTART;VALUE=DATE:${dtStart}`);
             icsContent.push(`SUMMARY:${summary}`);
-            // No DESCRIPTION
+
+            const description = getFastAbstinenceDescription(dateStr, selectedEvent.rank);
+            if (description) {
+                icsContent.push(`DESCRIPTION:${description}`);
+            }
+
             icsContent.push('END:VEVENT');
         }
 

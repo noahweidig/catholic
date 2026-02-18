@@ -5,6 +5,11 @@ import re
 from datetime import datetime
 from catholic_mass_readings import USCCB
 
+# Compiled Regex Patterns
+HEADER_REGEX = re.compile(r'(<header[^>]*class=["\'])(.*?)(["\'][^>]*>)')
+DAY_REGEX = re.compile(r'(<div id="liturgical-day">)(.*?)(</div>)')
+MAIN_REGEX = re.compile(r'(<main id="readings-content">)(.*?)(</main>)', re.DOTALL)
+
 async def get_liturgical_info():
     try:
         process = subprocess.run(
@@ -34,7 +39,7 @@ def format_readings_html(mass_object):
 
     # Title/Feast Name
     if hasattr(mass_object, 'title') and mass_object.title:
-         html_parts.append(f'<h2 style="text-align: center; margin-bottom: 2rem;">{mass_object.title}</h2>')
+         html_parts.append(f'<h2 style="text-align: center; justify-content: center; margin-bottom: 2rem;">{mass_object.title}</h2>')
 
     data = mass_object.to_dict()
     sections = data.get('sections', [])
@@ -70,13 +75,12 @@ def format_readings_html(mass_object):
     return "\n".join(html_parts)
 
 def update_file_header(filepath, color, feast_name, is_index=False):
+    """Updates only the header and liturgical day in a file (e.g., index.html)."""
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
         # Update header class
-        header_regex = r'(<header[^>]*class=["\'])(.*?)(["\'][^>]*>)'
-
         def header_class_replacement(match):
             prefix = match.group(1)
             existing_classes = match.group(2).split()
@@ -87,11 +91,9 @@ def update_file_header(filepath, color, feast_name, is_index=False):
 
             return f'{prefix}{" ".join(new_classes)}{suffix}'
 
-        content = re.sub(header_regex, header_class_replacement, content)
+        content = HEADER_REGEX.sub(header_class_replacement, content)
 
         # Update #liturgical-day content
-        day_regex = r'(<div id="liturgical-day">)(.*?)(</div>)'
-
         date_str = datetime.now().strftime("%B %d, %Y")
 
         if is_index:
@@ -102,7 +104,7 @@ def update_file_header(filepath, color, feast_name, is_index=False):
         def day_replacement(match):
             return f'{match.group(1)}{new_content}{match.group(3)}'
 
-        content = re.sub(day_regex, day_replacement, content)
+        content = DAY_REGEX.sub(day_replacement, content)
 
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
@@ -111,28 +113,51 @@ def update_file_header(filepath, color, feast_name, is_index=False):
     except Exception as e:
         print(f"Error updating header in {filepath}: {e}")
 
-def update_readings_content(filepath, html_content):
+def update_today_file(filepath, color, html_content):
+    """Updates today.html efficiently in one pass."""
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        main_regex = r'(<main id="readings-content">)(.*?)(</main>)'
+        # Update header class
+        def header_class_replacement(match):
+            prefix = match.group(1)
+            existing_classes = match.group(2).split()
+            suffix = match.group(3)
 
+            new_classes = [c for c in existing_classes if not c.startswith('liturgical-')]
+            new_classes.append(f'liturgical-{color}')
+
+            return f'{prefix}{" ".join(new_classes)}{suffix}'
+
+        content = HEADER_REGEX.sub(header_class_replacement, content)
+
+        # Update #liturgical-day content (Just the date for today.html)
+        date_str = datetime.now().strftime("%B %d, %Y")
+
+        def day_replacement(match):
+            return f'{match.group(1)}{date_str}{match.group(3)}'
+
+        content = DAY_REGEX.sub(day_replacement, content)
+
+        # Update readings content
         def main_replacement(match):
             return f'{match.group(1)}\n{html_content}\n{match.group(3)}'
 
-        # Use re.DOTALL so . matches newlines
-        new_content = re.sub(main_regex, main_replacement, content, flags=re.DOTALL)
+        # Use sub to replace the main content
+        new_content = MAIN_REGEX.sub(main_replacement, content)
 
         if new_content == content:
              print(f"Warning: readings placeholder not found or unchanged in {filepath}")
+        else:
+             content = new_content
 
         with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(new_content)
+            f.write(content)
 
-        print(f"Updated readings in {filepath}")
+        print(f"Updated {filepath} (Header + Readings)")
     except Exception as e:
-        print(f"Error updating readings in {filepath}: {e}")
+        print(f"Error updating {filepath}: {e}")
 
 
 async def main():
@@ -161,11 +186,10 @@ async def main():
 
     print(f"Updating files... Color: {color}, Name: {display_name}")
 
-    # Update today.html
-    update_file_header('today.html', color, display_name, is_index=False)
-    update_readings_content('today.html', readings_html)
+    # Update today.html (Single pass efficiency)
+    update_today_file('today.html', color, readings_html)
 
-    # Update index.html
+    # Update index.html (Only header needs update)
     update_file_header('index.html', color, display_name, is_index=True)
 
     print("Done.")

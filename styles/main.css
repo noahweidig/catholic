@@ -449,6 +449,116 @@ footer a {
     color: var(--accent-color);
 }
 
+/* Expandable sections (details/summary) */
+details {
+    margin-bottom: 1rem;
+    border-left: 3px solid var(--accent-color);
+    padding-left: 1.2rem;
+    transition: background 0.3s ease;
+}
+
+details[open] {
+    background: var(--accent-light);
+    border-radius: 0 6px 6px 0;
+    padding: 0.5rem 1.2rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+summary {
+    cursor: pointer;
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    color: var(--primary-color);
+    padding: 0.6rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    transition: color 0.3s ease;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: '\f054';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 0.7em;
+    color: var(--accent-color);
+    transition: transform 0.3s ease;
+    display: inline-block;
+    width: 1em;
+    flex-shrink: 0;
+}
+
+details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+summary:hover {
+    color: var(--hover-color);
+}
+
+details p, details ul {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+details .scripture-ref {
+    font-style: italic;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Mystery groups */
+.mystery-group {
+    margin-bottom: 2rem;
+}
+
+.mystery-group h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.mystery-group h3 i {
+    color: var(--accent-color);
+    font-size: 0.85em;
+}
+
+.mystery-day {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-body);
+}
+
+/* Mass section parts */
+.mass-part {
+    margin-bottom: 1.5rem;
+}
+
+.mass-part h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.mass-part h3 i {
+    color: var(--accent-color);
+    font-size: 0.85em;
+}
+
 /* Decorative divider */
 .divider {
     text-align: center;

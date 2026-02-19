@@ -25,15 +25,20 @@ document.addEventListener('DOMContentLoaded', function () {
     var header = document.querySelector('header');
     if (header) {
         var ticking = false;
+        var transitioning = false;
         window.addEventListener('scroll', function () {
             if (!ticking) {
                 window.requestAnimationFrame(function () {
-                    // Implement hysteresis to prevent shaking loop
-                    // Only remove 'scrolled' if we are significantly higher than the trigger point
-                    if (window.scrollY > 60) {
-                        header.classList.add('scrolled');
-                    } else if (window.scrollY < 15) {
-                        header.classList.remove('scrolled');
+                    if (!transitioning) {
+                        if (window.scrollY > 80 && !header.classList.contains('scrolled')) {
+                            header.classList.add('scrolled');
+                            transitioning = true;
+                            setTimeout(function () { transitioning = false; }, 450);
+                        } else if (window.scrollY < 5 && header.classList.contains('scrolled')) {
+                            header.classList.remove('scrolled');
+                            transitioning = true;
+                            setTimeout(function () { transitioning = false; }, 450);
+                        }
                     }
                     ticking = false;
                 });

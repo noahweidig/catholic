@@ -102,8 +102,8 @@ async function generateFastAbstain() {
             for (const [dateStr, events] of Object.entries(romcalEvents)) {
                 // Check if date is strictly between Ash Wed and Good Fri
                 if (dateStr > ashWed && dateStr < goodFri) {
-                     const d = new Date(dateStr);
-                     if (d.getUTCDay() === 5) { // Friday
+                     // Check Friday (5)
+                     if (events[0].calendar.dayOfWeek === 5) {
                          // Check Solemnity
                          const isSolemnity = events.some(e => e.rank === 'SOLEMNITY');
 

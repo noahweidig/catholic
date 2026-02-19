@@ -99,7 +99,7 @@ function getAscensionDate(year) {
  * @param {string} [rank] Romcal rank ('SOLEMNITY', etc.)
  * @returns {string|null} Description or null
  */
-function getFastAbstinenceDescription(dateStr, rank) {
+function getFastAbstinenceDescription(dateStr, rank, dayOfWeek) {
     const year = parseInt(dateStr.split('-')[0], 10);
     const ashWed = getAshWednesdayDate(year);
     const goodFri = getGoodFridayDate(year);
@@ -119,9 +119,17 @@ function getFastAbstinenceDescription(dateStr, rank) {
     // Holy Thursday is not a day of abstinence (unless it's Good Fri, which it isn't).
     // So strictly between AshWed and GoodFri.
     if (dateStr > ashWed && dateStr < goodFri) {
-        const d = new Date(dateStr);
-        // getUTCDay: 0=Sun, 5=Fri
-        if (d.getUTCDay() === 5) {
+        let isFriday = false;
+
+        if (dayOfWeek !== undefined) {
+            isFriday = (dayOfWeek === 5);
+        } else {
+            const d = new Date(dateStr);
+            // getUTCDay: 0=Sun, 5=Fri
+            isFriday = (d.getUTCDay() === 5);
+        }
+
+        if (isFriday) {
             // It is a Friday in Lent.
             // Check rank. If Solemnity, no abstinence.
             if (rank === 'SOLEMNITY') {

@@ -86,15 +86,14 @@ async function generateMajorFeasts() {
                 }
 
                 // 2. Check Sunday
-                const d = new Date(dateStr);
                 // getUTCDay: 0=Sun
-                if (d.getUTCDay() === 0) {
+                if (selectedEvent.calendar.dayOfWeek === 0) {
                     include = true;
                 }
 
                 // 3. Check Fast & Abstinence
                 // We calculate description regardless, but if it exists, we force include.
-                const fastDesc = getFastAbstinenceDescription(dateStr, selectedEvent.rank);
+                const fastDesc = getFastAbstinenceDescription(dateStr, selectedEvent.rank, selectedEvent.calendar.dayOfWeek);
                 if (fastDesc) {
                     include = true;
                 }

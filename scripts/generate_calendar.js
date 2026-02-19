@@ -110,7 +110,7 @@ async function generateICS() {
             icsContent.push(`DTSTART;VALUE=DATE:${dtStart}`);
             icsContent.push(`SUMMARY:${summary}`);
 
-            const description = getFastAbstinenceDescription(dateStr, selectedEvent.rank);
+            const description = getFastAbstinenceDescription(dateStr, selectedEvent.rank, selectedEvent.calendar.dayOfWeek);
             if (description) {
                 icsContent.push(`DESCRIPTION:${description}`);
             }

@@ -6,7 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getFastAbstinenceDescription } = require('./liturgical_utils');
+const { getFastAbstinenceDescription, toTitleCase } = require('./liturgical_utils');
 
 // Helper to determine rank value (same as generate_calendar.js)
 function getRankValue(rank) {
@@ -17,22 +17,6 @@ function getRankValue(rank) {
         case 'OPTIONAL_MEMORIAL': return 2;
         default: return 1; // WEEKDAY, FERIA, etc.
     }
-}
-
-// Helper for Title Case (same as generate_calendar.js)
-function toTitleCase(str) {
-    const smallWords = /^(a|an|the|and|but|or|for|nor|on|at|to|from|by|in|of)$/i;
-    const romanNumerals = /^(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX|XXI|XXII|XXIII|XXIV|XXV|XXVI|XXVII|XXVIII|XXIX|XXX|XXXI|XXXII|XXXIII|XXXIV|XXXV|XXXVI|XXXVII|XXXVIII|XXXIX)$/i;
-
-    return str.replace(/\w\S*/g, (txt, offset) => {
-        if (romanNumerals.test(txt)) {
-            return txt.toUpperCase();
-        }
-        if (offset !== 0 && smallWords.test(txt)) {
-            return txt.toLowerCase();
-        }
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-    });
 }
 
 function formatSummary(summary) {

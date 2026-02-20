@@ -41,7 +41,7 @@ def format_readings_html(mass_object):
     # Title/Feast Name
     if hasattr(mass_object, 'title') and mass_object.title:
          safe_title = html.escape(mass_object.title)
-         html_parts.append(f'<h2 style="text-align: center; justify-content: center; margin-bottom: 2rem;">{safe_title}</h2>')
+         html_parts.append(f'<h2 class="reading-feast-title">{safe_title}</h2>')
 
     data = mass_object.to_dict()
     sections = data.get('sections', [])

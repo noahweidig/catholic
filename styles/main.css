@@ -812,3 +812,47 @@ header.liturgical-gold #liturgical-day { color: var(--liturgical-gold); }
     outline: 2px solid var(--accent-color);
     outline-offset: 2px;
 }
+
+/* Back to Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+#back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#back-to-top:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
+#back-to-top:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+    #back-to-top {
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+}

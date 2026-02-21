@@ -812,3 +812,57 @@ header.liturgical-gold #liturgical-day { color: var(--liturgical-gold); }
     outline: 2px solid var(--accent-color);
     outline-offset: 2px;
 }
+
+/* Refactored inline styles */
+.reading-feast-title {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.copy-success-message {
+    display: none;
+    color: var(--liturgical-green);
+    font-size: 0.9em;
+    margin-top: 0.5rem;
+}
+
+.calendar-subsection-title {
+    margin-top: 1rem;
+}
+
+/* Moved from today.html */
+.readings-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.reading-section {
+    margin-bottom: 3rem;
+}
+.reading-header {
+    text-align: center;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+.reading-citation {
+    font-style: italic;
+    color: var(--accent-color);
+    text-align: center;
+    display: block;
+    margin-top: 0.5rem;
+}
+.reading-text {
+    text-align: justify;
+}
+.verse-number {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: #888;
+    margin-right: 0.2em;
+}
+.response-text {
+    font-weight: bold;
+    font-style: italic;
+}

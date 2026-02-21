@@ -25,21 +25,19 @@ document.addEventListener('DOMContentLoaded', function () {
     var header = document.querySelector('header');
     if (header) {
         var ticking = false;
-        var transitioning = false;
         window.addEventListener('scroll', function () {
             if (!ticking) {
                 window.requestAnimationFrame(function () {
-                    if (!transitioning) {
-                        if (window.scrollY > 80 && !header.classList.contains('scrolled')) {
-                            header.classList.add('scrolled');
-                            transitioning = true;
-                            setTimeout(function () { transitioning = false; }, 450);
-                        } else if (window.scrollY < 5 && header.classList.contains('scrolled')) {
-                            header.classList.remove('scrolled');
-                            transitioning = true;
-                            setTimeout(function () { transitioning = false; }, 450);
-                        }
+                    // Optimized: Use hysteresis (80px vs 15px) instead of timeout blocking
+                    var scrollY = window.scrollY;
+                    var isScrolled = header.classList.contains('scrolled');
+
+                    if (scrollY > 80 && !isScrolled) {
+                        header.classList.add('scrolled');
+                    } else if (scrollY < 15 && isScrolled) {
+                        header.classList.remove('scrolled');
                     }
+
                     ticking = false;
                 });
                 ticking = true;

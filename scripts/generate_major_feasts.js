@@ -77,7 +77,7 @@ async function generateMajorFeasts() {
 
                 // 3. Check Fast & Abstinence
                 // We calculate description regardless, but if it exists, we force include.
-                const fastDesc = getFastAbstinenceDescription(dateStr, selectedEvent.rank, selectedEvent.calendar.dayOfWeek);
+                const fastDesc = getFastAbstinenceDescription(dateStr, selectedEvent.rank, selectedEvent.calendar.dayOfWeek, year);
                 if (fastDesc) {
                     include = true;
                 }

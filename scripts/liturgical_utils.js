@@ -97,10 +97,13 @@ function getAscensionDate(year) {
  * Determines if a date is a Fast or Abstinence day and returns the description.
  * @param {string} dateStr YYYY-MM-DD
  * @param {string} [rank] Romcal rank ('SOLEMNITY', etc.)
+ * @param {number} [dayOfWeek] 0-6
+ * @param {number} [yearArg] Optional year to avoid parsing
  * @returns {string|null} Description or null
  */
-function getFastAbstinenceDescription(dateStr, rank, dayOfWeek) {
-    const year = parseInt(dateStr.split('-')[0], 10);
+function getFastAbstinenceDescription(dateStr, rank, dayOfWeek, yearArg) {
+    // Optimization: Use passed year if available, otherwise parse using substring (faster than split)
+    const year = yearArg || parseInt(dateStr.substring(0, 4), 10);
     const ashWed = getAshWednesdayDate(year);
     const goodFri = getGoodFridayDate(year);
 

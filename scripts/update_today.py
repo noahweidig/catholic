@@ -80,6 +80,11 @@ def format_readings_html(mass_object):
 
 def update_file_header(filepath, color, feast_name, is_index=False):
     """Updates only the header and liturgical day in a file (e.g., index.html)."""
+    # Security: Validate color to prevent XSS injection
+    if not re.fullmatch(r'^[a-z]+(-[a-z]+)*$', color):
+        print(f"Warning: Invalid color '{color}' detected. Resetting to 'green'.")
+        color = 'green'
+
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -119,6 +124,11 @@ def update_file_header(filepath, color, feast_name, is_index=False):
 
 def update_today_file(filepath, color, html_content):
     """Updates today.html efficiently in one pass."""
+    # Security: Validate color to prevent XSS injection
+    if not re.fullmatch(r'^[a-z]+(-[a-z]+)*$', color):
+        print(f"Warning: Invalid color '{color}' detected. Resetting to 'green'.")
+        color = 'green'
+
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()

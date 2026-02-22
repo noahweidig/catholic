@@ -1,0 +1,4 @@
+## 2026-02-22 - Supply Chain Security: Pin Python dependencies
+**Vulnerability:** The GitHub Actions workflow installed Python dependencies using `pip install package_name` without specifying a version. This made the build process susceptible to breaking changes or malicious code injection if a new, compromised version of the package were released (supply chain attack).
+**Learning:** Reproducibility and security in CI/CD pipelines require explicit version pinning. Relying on "latest" implicitly trusts the package registry and maintainers at all times, which is a risk.
+**Prevention:** Always use a `requirements.txt` file (or similar lock file mechanism) with pinned versions (e.g., `package==1.0.0`) for all dependencies, and install using `pip install -r requirements.txt`. This ensures that the exact same code is used every time the workflow runs.

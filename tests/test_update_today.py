@@ -33,7 +33,7 @@ def test_format_readings_html_with_title_only():
     """Test with a title but no sections."""
     mass = MockMassObject("Test Title", [])
     result = format_readings_html(mass)
-    assert '<h2 style="text-align: center; justify-content: center; margin-bottom: 2rem;">Test Title</h2>' in result
+    assert '<h2 class="reading-feast-title">Test Title</h2>' in result
 
 def test_format_readings_html_full_mass():
     """Test with multiple sections, citations, and responses."""
@@ -73,7 +73,7 @@ def test_format_readings_html_full_mass():
     result = format_readings_html(mass)
 
     # Check Title
-    assert '<h2 style="text-align: center; justify-content: center; margin-bottom: 2rem;">Full Mass</h2>' in result
+    assert '<h2 class="reading-feast-title">Full Mass</h2>' in result
 
     # Check Section 1
     assert '<h3 class="reading-header">First Reading</h3>' in result

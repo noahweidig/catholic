@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; base-uri 'self'; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; base-uri 'self'; object-src 'none';">
     <title>Resources - Catholic Faith</title>
     <meta name="description" content="Trusted resources for learning more about the Catholic faith.">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -81,35 +81,35 @@
                 <input type="text" value="webcal://noahweidig.com/catholic/litcal.ics" id="calendar-url" aria-label="Full Liturgical Calendar subscription URL" readonly>
                 <button data-input-id="calendar-url" data-message-id="copy-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="copy-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="copy-message" role="alert" class="copy-success-message"><i class="fa-solid fa-check"></i> Link copied!</p>
 
-            <h4 style="margin-top: 1rem;">Holy Days of Obligation (US)</h4>
+            <h4 class="calendar-subsection-title">Holy Days of Obligation (US)</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/holydays.ics" id="holydays-url" aria-label="Holy Days of Obligation subscription URL" readonly>
                 <button data-input-id="holydays-url" data-message-id="holydays-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="holydays-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="holydays-message" role="alert" class="copy-success-message"><i class="fa-solid fa-check"></i> Link copied!</p>
 
-            <h4 style="margin-top: 1rem;">Sundays & Holy Days</h4>
+            <h4 class="calendar-subsection-title">Sundays & Holy Days</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/sundaysholydays.ics" id="sundays-holydays-url" aria-label="Sundays and Holy Days subscription URL" readonly>
                 <button data-input-id="sundays-holydays-url" data-message-id="sundays-holydays-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="sundays-holydays-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="sundays-holydays-message" role="alert" class="copy-success-message"><i class="fa-solid fa-check"></i> Link copied!</p>
 
-            <h4 style="margin-top: 1rem;">Days of Fast & Abstinence (US)</h4>
+            <h4 class="calendar-subsection-title">Days of Fast & Abstinence (US)</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/fastabstain.ics" id="fastabstain-url" aria-label="Days of Fast and Abstinence subscription URL" readonly>
                 <button data-input-id="fastabstain-url" data-message-id="fastabstain-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="fastabstain-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="fastabstain-message" role="alert" class="copy-success-message"><i class="fa-solid fa-check"></i> Link copied!</p>
 
-            <h4 style="margin-top: 1rem;">Major Feasts & Fast Days</h4>
+            <h4 class="calendar-subsection-title">Major Feasts & Fast Days</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/majorfeasts.ics" id="majorfeasts-url" aria-label="Major Feasts and Fast Days subscription URL" readonly>
                 <button data-input-id="majorfeasts-url" data-message-id="majorfeasts-message" class="copy-btn"><i class="fa-solid fa-copy"></i> Copy Link</button>
             </div>
-            <p id="majorfeasts-message" role="alert" style="display:none; color: var(--liturgical-green); font-size: 0.9em; margin-top: 0.5rem;"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="majorfeasts-message" role="alert" class="copy-success-message"><i class="fa-solid fa-check"></i> Link copied!</p>
         </li>
     </ul>
 

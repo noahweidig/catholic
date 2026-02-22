@@ -41,7 +41,7 @@ def format_readings_html(mass_object):
     # Title/Feast Name
     if hasattr(mass_object, 'title') and mass_object.title:
          safe_title = html.escape(mass_object.title)
-         html_parts.append(f'<h2 style="text-align: center; justify-content: center; margin-bottom: 2rem;">{safe_title}</h2>')
+         html_parts.append(f'<h2 class="reading-feast-title">{safe_title}</h2>')
 
     data = mass_object.to_dict()
     sections = data.get('sections', [])
@@ -80,6 +80,11 @@ def format_readings_html(mass_object):
 
 def update_file_header(filepath, color, feast_name, is_index=False):
     """Updates only the header and liturgical day in a file (e.g., index.html)."""
+    # Security: Validate color to prevent XSS injection
+    if not re.fullmatch(r'^[a-z]+(-[a-z]+)*$', color):
+        print(f"Warning: Invalid color '{color}' detected. Resetting to 'green'.")
+        color = 'green'
+
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -119,6 +124,11 @@ def update_file_header(filepath, color, feast_name, is_index=False):
 
 def update_today_file(filepath, color, html_content):
     """Updates today.html efficiently in one pass."""
+    # Security: Validate color to prevent XSS injection
+    if not re.fullmatch(r'^[a-z]+(-[a-z]+)*$', color):
+        print(f"Warning: Invalid color '{color}' detected. Resetting to 'green'.")
+        color = 'green'
+
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()

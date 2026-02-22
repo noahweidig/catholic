@@ -97,10 +97,13 @@ function getAscensionDate(year) {
  * Determines if a date is a Fast or Abstinence day and returns the description.
  * @param {string} dateStr YYYY-MM-DD
  * @param {string} [rank] Romcal rank ('SOLEMNITY', etc.)
+ * @param {number} [dayOfWeek] 0-6
+ * @param {number} [yearArg] Optional year to avoid parsing
  * @returns {string|null} Description or null
  */
-function getFastAbstinenceDescription(dateStr, rank, dayOfWeek) {
-    const year = parseInt(dateStr.split('-')[0], 10);
+function getFastAbstinenceDescription(dateStr, rank, dayOfWeek, yearArg) {
+    // Optimization: Use passed year if available, otherwise parse using substring (faster than split)
+    const year = yearArg || parseInt(dateStr.substring(0, 4), 10);
     const ashWed = getAshWednesdayDate(year);
     const goodFri = getGoodFridayDate(year);
 
@@ -142,10 +145,33 @@ function getFastAbstinenceDescription(dateStr, rank, dayOfWeek) {
     return null;
 }
 
+// Optimization: Pre-compile Regexes
+const smallWords = /^(a|an|the|and|but|or|for|nor|on|at|to|from|by|in|of)$/i;
+const romanNumerals = /^(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX|XXI|XXII|XXIII|XXIV|XXV|XXVI|XXVII|XXVIII|XXIX|XXX|XXXI|XXXII|XXXIII|XXXIV|XXXV|XXXVI|XXXVII|XXXVIII|XXXIX)$/i;
+
+/**
+ * Converts a string to Title Case.
+ * @param {string} str
+ * @returns {string}
+ */
+function toTitleCase(str) {
+    return str.replace(/\w\S*/g, (txt, offset) => {
+        // Check for Roman Numerals first
+        if (romanNumerals.test(txt)) {
+            return txt.toUpperCase();
+        }
+        if (offset !== 0 && smallWords.test(txt)) {
+            return txt.toLowerCase();
+        }
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
+
 module.exports = {
     getEasterDate,
     getAscensionDate,
     getAshWednesdayDate,
     getGoodFridayDate,
-    getFastAbstinenceDescription
+    getFastAbstinenceDescription,
+    toTitleCase
 };

@@ -25,21 +25,19 @@ document.addEventListener('DOMContentLoaded', function () {
     var header = document.querySelector('header');
     if (header) {
         var ticking = false;
-        var transitioning = false;
         window.addEventListener('scroll', function () {
             if (!ticking) {
                 window.requestAnimationFrame(function () {
-                    if (!transitioning) {
-                        if (window.scrollY > 80 && !header.classList.contains('scrolled')) {
-                            header.classList.add('scrolled');
-                            transitioning = true;
-                            setTimeout(function () { transitioning = false; }, 450);
-                        } else if (window.scrollY < 5 && header.classList.contains('scrolled')) {
-                            header.classList.remove('scrolled');
-                            transitioning = true;
-                            setTimeout(function () { transitioning = false; }, 450);
-                        }
+                    // Optimized: Use hysteresis (80px vs 15px) instead of timeout blocking
+                    var scrollY = window.scrollY;
+                    var isScrolled = header.classList.contains('scrolled');
+
+                    if (scrollY > 80 && !isScrolled) {
+                        header.classList.add('scrolled');
+                    } else if (scrollY < 15 && isScrolled) {
+                        header.classList.remove('scrolled');
                     }
+
                     ticking = false;
                 });
                 ticking = true;
@@ -74,9 +72,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (inputId && messageId) {
             var copyText = document.getElementById(inputId);
             if (copyText) {
-                copyText.select();
-                copyText.setSelectionRange(0, 99999); // For mobile devices
-
                 // Success handler
                 var showSuccess = function() {
                     var msg = document.getElementById(messageId);
@@ -88,25 +83,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 };
 
-                if (navigator.clipboard && navigator.clipboard.writeText) {
-                    navigator.clipboard.writeText(copyText.value).then(showSuccess).catch(function(err) {
-                        console.error('Clipboard API failed', err);
-                        // Fallback
-                        try {
-                            document.execCommand('copy');
-                            showSuccess();
-                        } catch (e) {
-                            console.error('Fallback failed', e);
-                        }
-                    });
-                } else {
-                    // Fallback for older browsers
+                var fallbackCopy = function() {
                     try {
+                        copyText.select();
+                        copyText.setSelectionRange(0, 99999); // For mobile devices
                         document.execCommand('copy');
                         showSuccess();
+
+                        // Restore focus to button and clear selection
+                        if (window.getSelection) {
+                            window.getSelection().removeAllRanges();
+                        }
+                        btn.focus();
                     } catch (err) {
                         console.error('Fallback: Oops, unable to copy', err);
                     }
+                };
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(copyText.value)
+                        .then(showSuccess)
+                        .catch(function(err) {
+                            console.error('Clipboard API failed', err);
+                            fallbackCopy();
+                        });
+                } else {
+                    fallbackCopy();
                 }
             }
         }
@@ -129,6 +131,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('scroll', function() {
         window.requestAnimationFrame(toggleBackToTop);
+    backToTopBtn.className = 'back-to-top';
+    backToTopBtn.setAttribute('aria-label', 'Back to top');
+    backToTopBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+    document.body.appendChild(backToTopBtn);
+
+    var backToTopTicking = false;
+    window.addEventListener('scroll', function() {
+        if (!backToTopTicking) {
+            window.requestAnimationFrame(function() {
+                if (window.scrollY > 300) {
+                    backToTopBtn.classList.add('visible');
+                } else {
+                    backToTopBtn.classList.remove('visible');
+                }
+                backToTopTicking = false;
+            });
+            backToTopTicking = true;
+        }
     }, { passive: true });
 
     backToTopBtn.addEventListener('click', function() {
@@ -136,5 +156,6 @@ document.addEventListener('DOMContentLoaded', function () {
             top: 0,
             behavior: 'smooth'
         });
+        backToTopBtn.blur();
     });
 });

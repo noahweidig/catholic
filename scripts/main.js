@@ -72,9 +72,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (inputId && messageId) {
             var copyText = document.getElementById(inputId);
             if (copyText) {
-                copyText.select();
-                copyText.setSelectionRange(0, 99999); // For mobile devices
-
                 // Success handler
                 var showSuccess = function() {
                     var msg = document.getElementById(messageId);
@@ -86,25 +83,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 };
 
-                if (navigator.clipboard && navigator.clipboard.writeText) {
-                    navigator.clipboard.writeText(copyText.value).then(showSuccess).catch(function(err) {
-                        console.error('Clipboard API failed', err);
-                        // Fallback
-                        try {
-                            document.execCommand('copy');
-                            showSuccess();
-                        } catch (e) {
-                            console.error('Fallback failed', e);
-                        }
-                    });
-                } else {
-                    // Fallback for older browsers
+                var fallbackCopy = function() {
                     try {
+                        copyText.select();
+                        copyText.setSelectionRange(0, 99999); // For mobile devices
                         document.execCommand('copy');
                         showSuccess();
+
+                        // Restore focus to button and clear selection
+                        if (window.getSelection) {
+                            window.getSelection().removeAllRanges();
+                        }
+                        btn.focus();
                     } catch (err) {
                         console.error('Fallback: Oops, unable to copy', err);
                     }
+                };
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(copyText.value)
+                        .then(showSuccess)
+                        .catch(function(err) {
+                            console.error('Clipboard API failed', err);
+                            fallbackCopy();
+                        });
+                } else {
+                    fallbackCopy();
                 }
             }
         }

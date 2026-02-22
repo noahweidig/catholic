@@ -116,6 +116,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Back to Top Button
     var backToTopBtn = document.createElement('button');
+    backToTopBtn.id = 'back-to-top';
+    backToTopBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+    backToTopBtn.setAttribute('aria-label', 'Back to top');
+    document.body.appendChild(backToTopBtn);
+
+    var toggleBackToTop = function() {
+        if (window.scrollY > 300) {
+            backToTopBtn.classList.add('visible');
+        } else {
+            backToTopBtn.classList.remove('visible');
+        }
+    };
+
+    window.addEventListener('scroll', function() {
+        window.requestAnimationFrame(toggleBackToTop);
     backToTopBtn.className = 'back-to-top';
     backToTopBtn.setAttribute('aria-label', 'Back to top');
     backToTopBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';

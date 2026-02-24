@@ -920,3 +920,224 @@ header.liturgical-gold #liturgical-day { color: var(--liturgical-gold); }
     font-weight: bold;
     font-style: italic;
 }
+
+/* Menubar redesign */
+body.theme-dark {
+    --bg-color: #11171e;
+    --paper-color: #17212d;
+    --text-color: #e7e5df;
+    --primary-color: #d9e8ff;
+    --accent-color: #d6b67a;
+    --border-color: #324252;
+    --hover-color: #f0cd8f;
+    --accent-light: rgba(214, 182, 122, 0.16);
+}
+
+header {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) auto minmax(220px, 1fr);
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    padding: 1rem 1.2rem;
+}
+
+header.scrolled,
+header.scrolled .site-title {
+    padding: 1rem 1.2rem;
+    margin: 0;
+    font-size: inherit;
+}
+
+#liturgical-day {
+    margin: 0;
+    font-size: 0.72rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#liturgical-day a {
+    border-bottom: none;
+}
+
+.site-title {
+    grid-column: 3;
+    justify-self: end;
+    margin: 0;
+    font-size: 1.45rem;
+    letter-spacing: 0.08em;
+}
+
+.brand-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-title);
+    text-transform: uppercase;
+    border-bottom: none;
+    white-space: nowrap;
+}
+
+.brand-logo {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+header nav {
+    grid-column: 2;
+}
+
+.menu-root {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.menu-root > li {
+    position: relative;
+}
+
+.menu-root > li > a,
+.menu-trigger {
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--text-color);
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    font-size: 0.76rem;
+    padding: 0.5rem 0.55rem;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    cursor: pointer;
+}
+
+.menu-trigger i:last-child {
+    font-size: 0.7em;
+}
+
+.menu-root > li > a:hover,
+.menu-root > li > a.active,
+.menu-trigger:hover,
+.menu-trigger.active,
+.menu-dropdown.open > .menu-trigger {
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.45rem);
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0.4rem;
+    background: var(--paper-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    min-width: 190px;
+    box-shadow: 0 8px 25px rgba(0, 34, 68, 0.15);
+    z-index: 25;
+}
+
+.menu-dropdown.open .submenu {
+    display: block;
+}
+
+.submenu a {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.45rem 0.55rem;
+    border-radius: 0.45rem;
+    border-bottom: none;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+}
+
+.submenu a:hover,
+.submenu a.active {
+    background: var(--accent-light);
+}
+
+.menu-utilities {
+    position: absolute;
+    right: 10.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.icon-btn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    background: var(--paper-color);
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    color: var(--primary-color);
+    border-color: var(--accent-color);
+}
+
+.hamburger {
+    display: none !important;
+}
+
+@media (max-width: 980px) {
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 0.55rem;
+        text-align: center;
+        padding: 0.8rem 0.75rem;
+        position: sticky;
+    }
+
+    #liturgical-day,
+    header nav,
+    .site-title,
+    .menu-utilities {
+        grid-column: 1;
+        position: static;
+        justify-self: center;
+    }
+
+
+    header nav {
+        max-height: none;
+        overflow: visible;
+    }
+    .menu-root {
+        overflow-x: auto;
+        width: 100%;
+        justify-content: flex-start;
+        padding-bottom: 0.2rem;
+    }
+
+    .menu-root::-webkit-scrollbar {
+        height: 5px;
+    }
+
+    .menu-root::-webkit-scrollbar-thumb {
+        background: var(--accent-color);
+        border-radius: 999px;
+    }
+}

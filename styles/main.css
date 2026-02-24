@@ -53,6 +53,19 @@
     box-sizing: border-box;
 }
 
+/* Accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -713,10 +726,17 @@ header.liturgical-gold   { border-bottom-color: var(--liturgical-gold); }
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    min-width: 140px;
+    justify-content: center;
 }
 
 .calendar-subscription .copy-btn:hover {
     background: var(--hover-color);
+}
+
+.calendar-subscription .copy-btn.success {
+    background-color: var(--liturgical-green);
+    cursor: default;
 }
 
 /* Accessibility: Skip Link */

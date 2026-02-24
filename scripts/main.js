@@ -415,11 +415,35 @@ document.addEventListener('DOMContentLoaded', function () {
                 var showSuccess = function() {
                     var msg = document.getElementById(messageId);
                     if (msg) {
+                        // Triggers screen reader announcement (via role="alert")
                         msg.style.display = "block";
                         setTimeout(function() {
                             msg.style.display = "none";
                         }, 3000);
                     }
+
+                    // Button visual feedback
+                    if (!btn.classList.contains('success')) {
+                        btn.dataset.originalHtml = btn.innerHTML;
+                        btn.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+                        btn.classList.add('success');
+                    }
+
+                    // Clear previous timeout if any
+                    if (btn.dataset.timeoutId) {
+                        clearTimeout(parseInt(btn.dataset.timeoutId, 10));
+                    }
+
+                    var timeoutId = setTimeout(function() {
+                        if (btn.dataset.originalHtml) {
+                            btn.innerHTML = btn.dataset.originalHtml;
+                        }
+                        btn.classList.remove('success');
+                        delete btn.dataset.timeoutId;
+                        delete btn.dataset.originalHtml;
+                    }, 2000);
+
+                    btn.dataset.timeoutId = timeoutId;
                 };
 
                 var fallbackCopy = function() {

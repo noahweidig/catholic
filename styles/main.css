@@ -1002,7 +1002,6 @@ header nav {
 
 .menu-root > li > a,
 .menu-trigger {
-    border: 1px solid transparent;
     background: transparent;
     color: var(--text-color);
     font-family: var(--font-heading);
@@ -1010,14 +1009,26 @@ header nav {
     letter-spacing: 0.09em;
     font-size: 0.76rem;
     padding: 0.45rem 0.6rem;
-    border-radius: 999px;
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
     cursor: pointer;
-    transition: border-color 0.2s, color 0.2s, background 0.2s;
+    transition: color 0.2s;
     text-decoration: none;
-    border-bottom: none;
+    border: none;
+    position: relative;
+}
+
+.menu-root > li > a::after,
+.menu-trigger::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent-color), var(--hover-color));
+    transition: width 0.35s ease;
 }
 
 .menu-trigger i:last-child {
@@ -1034,9 +1045,15 @@ header nav {
 .menu-trigger:hover,
 .menu-trigger.active,
 .menu-dropdown.open > .menu-trigger {
-    border-color: var(--accent-color);
     color: var(--primary-color);
-    background: var(--accent-light);
+}
+
+.menu-root > li > a:hover::after,
+.menu-root > li > a.active::after,
+.menu-trigger:hover::after,
+.menu-trigger.active::after,
+.menu-dropdown.open > .menu-trigger::after {
+    width: 100%;
 }
 
 /* Dropdown submenus */

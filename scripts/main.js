@@ -1,4 +1,194 @@
 document.addEventListener('DOMContentLoaded', function () {
+    function setupMenubar() {
+        var header = document.querySelector('header');
+        var nav = header ? header.querySelector('nav') : null;
+        if (!header || !nav) return;
+
+        var siteTitle = header.querySelector('.site-title');
+        var activeLink = nav.querySelector('a.active');
+        var activeHref = activeLink ? activeLink.getAttribute('href') : '';
+
+        var menuGroups = [
+            {
+                label: 'Home',
+                icon: 'fa-solid fa-house',
+                href: 'index.html'
+            },
+            {
+                label: 'Faith',
+                icon: 'fa-solid fa-cross',
+                links: [
+                    { label: 'Beliefs', href: 'beliefs.html', icon: 'fa-solid fa-book-bible' },
+                    { label: 'Sacraments', href: 'sacraments.html', icon: 'fa-solid fa-water' },
+                    { label: 'Prayer', href: 'prayer.html', icon: 'fa-solid fa-hands-praying' }
+                ]
+            },
+            {
+                label: 'Church',
+                icon: 'fa-solid fa-church',
+                links: [
+                    { label: 'History', href: 'history.html', icon: 'fa-solid fa-scroll' },
+                    { label: 'Structure', href: 'structure.html', icon: 'fa-solid fa-building-columns' },
+                    { label: 'Apologetics', href: 'apologetics.html', icon: 'fa-solid fa-shield-halved' }
+                ]
+            },
+            {
+                label: 'Resources',
+                icon: 'fa-solid fa-bookmark',
+                links: [
+                    { label: 'Today', href: 'today.html', icon: 'fa-solid fa-calendar-day' },
+                    { label: 'Resources', href: 'resources.html', icon: 'fa-solid fa-book-open' }
+                ]
+            }
+        ];
+
+        var navList = document.createElement('ul');
+        navList.className = 'menu-root';
+
+        menuGroups.forEach(function (group) {
+            var item = document.createElement('li');
+
+            if (group.links) {
+                item.className = 'menu-dropdown';
+
+                var button = document.createElement('button');
+                button.className = 'menu-trigger';
+                button.type = 'button';
+                button.setAttribute('aria-expanded', 'false');
+                button.innerHTML = '<i class="' + group.icon + '"></i>' + group.label + ' <i class="fa-solid fa-chevron-down"></i>';
+
+                var subMenu = document.createElement('ul');
+                subMenu.className = 'submenu';
+
+                var containsActive = false;
+                group.links.forEach(function (linkObj) {
+                    var subItem = document.createElement('li');
+                    var link = document.createElement('a');
+                    link.href = linkObj.href;
+                    link.innerHTML = '<i class="' + linkObj.icon + '"></i>' + linkObj.label;
+                    if (activeHref === linkObj.href) {
+                        link.classList.add('active');
+                        link.setAttribute('aria-current', 'page');
+                        containsActive = true;
+                    }
+                    subItem.appendChild(link);
+                    subMenu.appendChild(subItem);
+                });
+
+                if (containsActive) {
+                    button.classList.add('active');
+                }
+
+                button.addEventListener('click', function () {
+                    var isOpen = item.classList.toggle('open');
+                    button.setAttribute('aria-expanded', String(isOpen));
+                });
+
+                item.appendChild(button);
+                item.appendChild(subMenu);
+            } else {
+                var topLink = document.createElement('a');
+                topLink.href = group.href;
+                topLink.innerHTML = '<i class="' + group.icon + '"></i>' + group.label;
+                if (activeHref === group.href) {
+                    topLink.classList.add('active');
+                    topLink.setAttribute('aria-current', 'page');
+                }
+                item.appendChild(topLink);
+            }
+
+            navList.appendChild(item);
+        });
+
+        nav.innerHTML = '';
+        nav.appendChild(navList);
+
+        var utilities = document.createElement('div');
+        utilities.className = 'menu-utilities';
+        utilities.innerHTML = [
+            '<button type="button" class="icon-btn nav-search" aria-label="Search the site"><i class="fa-solid fa-magnifying-glass"></i></button>',
+            '<button type="button" class="icon-btn theme-toggle" aria-label="Toggle dark mode" aria-pressed="false"><i class="fa-solid fa-moon"></i></button>'
+        ].join('');
+        header.appendChild(utilities);
+
+        if (siteTitle) {
+            siteTitle.innerHTML = '<a href="index.html" class="brand-link"><img src="images/favicon.svg" alt="Catholic logo" class="brand-logo">Catholic</a>';
+            siteTitle.setAttribute('aria-label', 'Catholic home');
+        }
+
+        var searchButton = header.querySelector('.nav-search');
+        var themeButton = header.querySelector('.theme-toggle');
+        var searchTargets = [
+            { label: 'Home', href: 'index.html' },
+            { label: 'Today', href: 'today.html' },
+            { label: 'Beliefs', href: 'beliefs.html' },
+            { label: 'Sacraments', href: 'sacraments.html' },
+            { label: 'Prayer', href: 'prayer.html' },
+            { label: 'History', href: 'history.html' },
+            { label: 'Structure', href: 'structure.html' },
+            { label: 'Apologetics', href: 'apologetics.html' },
+            { label: 'Resources', href: 'resources.html' }
+        ];
+
+        if (searchButton) {
+            searchButton.addEventListener('click', function () {
+                var query = window.prompt('Search for a page (e.g., Prayer, Sacraments, Today):');
+                if (!query) return;
+                var normalizedQuery = query.trim().toLowerCase();
+                var match = searchTargets.find(function (target) {
+                    return target.label.toLowerCase().indexOf(normalizedQuery) !== -1;
+                });
+                if (match) {
+                    window.location.href = match.href;
+                } else {
+                    window.alert('No matching page found. Try: Home, Today, Beliefs, Sacraments, Prayer, History, Structure, Apologetics, Resources.');
+                }
+            });
+        }
+
+        var savedTheme = window.localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('theme-dark');
+        }
+
+        function updateThemeButton() {
+            if (!themeButton) return;
+            var isDark = document.body.classList.contains('theme-dark');
+            var icon = themeButton.querySelector('i');
+            themeButton.setAttribute('aria-pressed', String(isDark));
+            themeButton.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+            if (icon) {
+                icon.className = isDark ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+            }
+        }
+
+        updateThemeButton();
+
+        if (themeButton) {
+            themeButton.addEventListener('click', function () {
+                document.body.classList.toggle('theme-dark');
+                var isDark = document.body.classList.contains('theme-dark');
+                window.localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                updateThemeButton();
+            });
+        }
+
+        document.addEventListener('click', function (event) {
+            var openMenus = nav.querySelectorAll('.menu-dropdown.open');
+            openMenus.forEach(function (menu) {
+                if (!menu.contains(event.target)) {
+                    menu.classList.remove('open');
+                    var trigger = menu.querySelector('.menu-trigger');
+                    if (trigger) {
+                        trigger.setAttribute('aria-expanded', 'false');
+                    }
+                }
+            });
+        });
+    }
+
+    setupMenubar();
+
     // Scroll reveal animation using Intersection Observer
     var revealElements = document.querySelectorAll('.reveal');
     if (revealElements.length > 0 && 'IntersectionObserver' in window) {

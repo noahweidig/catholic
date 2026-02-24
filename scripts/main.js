@@ -241,12 +241,24 @@ document.addEventListener('DOMContentLoaded', function () {
     if (hamburger && nav) {
         hamburger.addEventListener('click', function () {
             var isOpen = nav.classList.toggle('open');
-            hamburger.setAttribute('aria-expanded', isOpen);
+            hamburger.setAttribute('aria-expanded', String(isOpen));
             var icon = hamburger.querySelector('i');
             if (icon) {
                 icon.className = isOpen
                     ? 'fa-solid fa-xmark'
                     : 'fa-solid fa-bars';
+            }
+        });
+
+        // Close mobile nav on outside click
+        document.addEventListener('click', function (event) {
+            if (nav.classList.contains('open') &&
+                !nav.contains(event.target) &&
+                !hamburger.contains(event.target)) {
+                nav.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', 'false');
+                var icon = hamburger.querySelector('i');
+                if (icon) icon.className = 'fa-solid fa-bars';
             }
         });
     }

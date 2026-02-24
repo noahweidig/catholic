@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var utilities = document.createElement('div');
         utilities.className = 'menu-utilities';
         utilities.innerHTML = [
-            '<button type="button" class="icon-btn nav-search" aria-label="Search the site"><i class="fa-solid fa-magnifying-glass"></i></button>',
+            '<button type="button" class="icon-btn nav-search" aria-label="Search the site" title="Search (\u2318K)"><i class="fa-solid fa-magnifying-glass"></i></button>',
             '<button type="button" class="icon-btn theme-toggle" aria-label="Toggle dark mode" aria-pressed="false"><i class="fa-solid fa-moon"></i></button>'
         ].join('');
         header.appendChild(utilities);
@@ -119,32 +119,169 @@ document.addEventListener('DOMContentLoaded', function () {
         var searchButton = header.querySelector('.nav-search');
         var themeButton = header.querySelector('.theme-toggle');
         var searchTargets = [
-            { label: 'Home', href: 'index.html' },
-            { label: 'Today', href: 'today.html' },
-            { label: 'Beliefs', href: 'beliefs.html' },
-            { label: 'Sacraments', href: 'sacraments.html' },
-            { label: 'Prayer', href: 'prayer.html' },
-            { label: 'History', href: 'history.html' },
-            { label: 'Structure', href: 'structure.html' },
-            { label: 'Apologetics', href: 'apologetics.html' },
-            { label: 'Resources', href: 'resources.html' }
+            { label: 'Home', href: 'index.html', icon: 'fa-solid fa-house', desc: 'Welcome and introduction to the Catholic faith', keywords: ['home', 'welcome', 'intro', 'start', 'beginning'] },
+            { label: "Today's Liturgy", href: 'today.html', icon: 'fa-solid fa-calendar-day', desc: 'Daily Mass readings and feast day', keywords: ['today', 'liturgy', 'daily', 'readings', 'mass', 'feast', 'gospel', 'psalm'] },
+            { label: 'Beliefs', href: 'beliefs.html', icon: 'fa-solid fa-book-bible', desc: 'Core beliefs: Trinity, Christ, Scripture, Salvation', keywords: ['beliefs', 'believe', 'faith', 'trinity', 'god', 'jesus', 'christ', 'scripture', 'bible', 'salvation', 'grace', 'eucharist', 'mary', 'sin', 'purgatory', 'saints', 'creed', 'moral', 'commandments'] },
+            { label: 'Sacraments', href: 'sacraments.html', icon: 'fa-solid fa-water', desc: 'The seven sacraments instituted by Christ', keywords: ['sacraments', 'baptism', 'confirmation', 'eucharist', 'communion', 'reconciliation', 'confession', 'anointing', 'holy orders', 'matrimony', 'marriage', 'ordination'] },
+            { label: 'Prayer', href: 'prayer.html', icon: 'fa-solid fa-hands-praying', desc: 'The Mass, the Rosary, and forms of prayer', keywords: ['prayer', 'pray', 'mass', 'rosary', 'mysteries', 'joyful', 'luminous', 'sorrowful', 'glorious', 'devotion', 'saints', 'adoration', 'petition', 'intercession', 'thanksgiving', 'hail mary', 'our father'] },
+            { label: 'History', href: 'history.html', icon: 'fa-solid fa-scroll', desc: 'Two thousand years of Church history', keywords: ['history', 'timeline', 'apostles', 'councils', 'popes', 'reformation', 'tradition', 'ancient', 'medieval', 'modern'] },
+            { label: 'Structure', href: 'structure.html', icon: 'fa-solid fa-building-columns', desc: 'How the Church is organized', keywords: ['structure', 'pope', 'bishop', 'priest', 'deacon', 'cardinal', 'diocese', 'parish', 'vatican', 'hierarchy', 'organization', 'clergy', 'laity'] },
+            { label: 'Apologetics', href: 'apologetics.html', icon: 'fa-solid fa-shield-halved', desc: 'Defending and explaining the faith', keywords: ['apologetics', 'defend', 'explain', 'questions', 'objections', 'answers', 'protestant', 'scripture', 'authority', 'tradition'] },
+            { label: 'Resources', href: 'resources.html', icon: 'fa-solid fa-book-open', desc: 'Further reading, links, and calendars', keywords: ['resources', 'links', 'reading', 'books', 'calendar', 'subscribe', 'catechism', 'learn', 'study'] }
         ];
 
-        if (searchButton) {
-            searchButton.addEventListener('click', function () {
-                var query = window.prompt('Search for a page (e.g., Prayer, Sacraments, Today):');
-                if (!query) return;
-                var normalizedQuery = query.trim().toLowerCase();
-                var match = searchTargets.find(function (target) {
-                    return target.label.toLowerCase().indexOf(normalizedQuery) !== -1;
-                });
-                if (match) {
-                    window.location.href = match.href;
-                } else {
-                    window.alert('No matching page found. Try: Home, Today, Beliefs, Sacraments, Prayer, History, Structure, Apologetics, Resources.');
-                }
-            });
+        // Build search overlay
+        var overlay = document.createElement('div');
+        overlay.className = 'search-overlay';
+        overlay.setAttribute('role', 'dialog');
+        overlay.setAttribute('aria-label', 'Search the site');
+        overlay.innerHTML = [
+            '<div class="search-dialog">',
+            '  <div class="search-input-wrap">',
+            '    <i class="fa-solid fa-magnifying-glass"></i>',
+            '    <input type="text" class="search-input" placeholder="Search pages\u2026" autocomplete="off" spellcheck="false">',
+            '    <span class="search-kbd">ESC</span>',
+            '  </div>',
+            '  <div class="search-results"></div>',
+            '  <div class="search-footer">',
+            '    <span><kbd>\u2191</kbd> <kbd>\u2193</kbd> navigate</span>',
+            '    <span><kbd>\u21B5</kbd> open</span>',
+            '    <span><kbd>esc</kbd> close</span>',
+            '  </div>',
+            '</div>'
+        ].join('\n');
+        document.body.appendChild(overlay);
+
+        var searchInput = overlay.querySelector('.search-input');
+        var searchResults = overlay.querySelector('.search-results');
+        var activeIndex = -1;
+
+        function openSearch() {
+            overlay.classList.add('open');
+            searchInput.value = '';
+            activeIndex = -1;
+            renderResults('');
+            // Focus after transition
+            setTimeout(function() { searchInput.focus(); }, 50);
         }
+
+        function closeSearch() {
+            overlay.classList.remove('open');
+            searchInput.blur();
+        }
+
+        function renderResults(query) {
+            var q = query.trim().toLowerCase();
+            var filtered = searchTargets;
+
+            if (q.length > 0) {
+                filtered = searchTargets.filter(function(t) {
+                    if (t.label.toLowerCase().indexOf(q) !== -1) return true;
+                    if (t.desc.toLowerCase().indexOf(q) !== -1) return true;
+                    return t.keywords.some(function(k) { return k.indexOf(q) !== -1; });
+                });
+
+                // Sort: exact label match first, then label contains, then rest
+                filtered.sort(function(a, b) {
+                    var aLabel = a.label.toLowerCase();
+                    var bLabel = b.label.toLowerCase();
+                    var aExact = aLabel === q;
+                    var bExact = bLabel === q;
+                    if (aExact && !bExact) return -1;
+                    if (!aExact && bExact) return 1;
+                    var aStarts = aLabel.indexOf(q) === 0;
+                    var bStarts = bLabel.indexOf(q) === 0;
+                    if (aStarts && !bStarts) return -1;
+                    if (!aStarts && bStarts) return 1;
+                    return 0;
+                });
+            }
+
+            if (filtered.length === 0) {
+                searchResults.innerHTML = '<div class="search-empty"><i class="fa-solid fa-magnifying-glass"></i>No results found</div>';
+                activeIndex = -1;
+                return;
+            }
+
+            searchResults.innerHTML = filtered.map(function(t, i) {
+                return [
+                    '<a href="' + t.href + '" class="search-result' + (i === 0 && q.length > 0 ? ' active' : '') + '" data-index="' + i + '">',
+                    '  <span class="search-result-icon"><i class="' + t.icon + '"></i></span>',
+                    '  <span class="search-result-text">',
+                    '    <span class="search-result-title">' + t.label + '</span>',
+                    '    <span class="search-result-desc">' + t.desc + '</span>',
+                    '  </span>',
+                    '  <i class="fa-solid fa-arrow-right search-result-arrow"></i>',
+                    '</a>'
+                ].join('');
+            }).join('');
+
+            activeIndex = q.length > 0 ? 0 : -1;
+        }
+
+        function setActiveResult(index) {
+            var items = searchResults.querySelectorAll('.search-result');
+            if (items.length === 0) return;
+            items.forEach(function(el) { el.classList.remove('active'); });
+            if (index >= 0 && index < items.length) {
+                items[index].classList.add('active');
+                items[index].scrollIntoView({ block: 'nearest' });
+            }
+            activeIndex = index;
+        }
+
+        searchInput.addEventListener('input', function() {
+            renderResults(searchInput.value);
+        });
+
+        searchInput.addEventListener('keydown', function(e) {
+            var items = searchResults.querySelectorAll('.search-result');
+            var count = items.length;
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                setActiveResult(activeIndex < count - 1 ? activeIndex + 1 : 0);
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                setActiveResult(activeIndex > 0 ? activeIndex - 1 : count - 1);
+            } else if (e.key === 'Enter') {
+                e.preventDefault();
+                if (activeIndex >= 0 && activeIndex < count) {
+                    items[activeIndex].click();
+                }
+            } else if (e.key === 'Escape') {
+                closeSearch();
+            }
+        });
+
+        // Close on backdrop click
+        overlay.addEventListener('click', function(e) {
+            if (e.target === overlay) closeSearch();
+        });
+
+        // Open search on button click
+        if (searchButton) {
+            searchButton.addEventListener('click', openSearch);
+        }
+
+        // Keyboard shortcut: Cmd/Ctrl+K
+        document.addEventListener('keydown', function(e) {
+            if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+                e.preventDefault();
+                if (overlay.classList.contains('open')) {
+                    closeSearch();
+                } else {
+                    openSearch();
+                }
+            }
+            // Also allow / to open search when not in an input
+            if (e.key === '/' && !overlay.classList.contains('open')) {
+                var tag = (e.target.tagName || '').toLowerCase();
+                if (tag !== 'input' && tag !== 'textarea' && !e.target.isContentEditable) {
+                    e.preventDefault();
+                    openSearch();
+                }
+            }
+        });
 
         var savedTheme = window.localStorage.getItem('theme');
         if (savedTheme === 'dark') {

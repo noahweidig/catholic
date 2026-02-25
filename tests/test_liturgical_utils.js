@@ -1,10 +1,10 @@
 
 const assert = require('assert');
-const { toTitleCase } = require('../scripts/liturgical_utils');
+const { toTitleCase, formatSummary } = require('../scripts/liturgical_utils');
 
 console.log('Running tests for toTitleCase...');
 
-const testCases = [
+const toTitleCaseTests = [
     { input: "john paul ii", expected: "John Paul II" },
     { input: "the feast of the immaculate conception", expected: "The Feast of the Immaculate Conception" },
     { input: "sunday of the word of god", expected: "Sunday of the Word of God" },
@@ -29,7 +29,7 @@ const testCases = [
 let passed = 0;
 let failed = 0;
 
-for (const { input, expected } of testCases) {
+for (const { input, expected } of toTitleCaseTests) {
     try {
         const result = toTitleCase(input);
         assert.strictEqual(result, expected);
@@ -42,7 +42,39 @@ for (const { input, expected } of testCases) {
     }
 }
 
-console.log(`\nTests completed: ${passed} passed, ${failed} failed.`);
+console.log(`toTitleCase: ${passed} passed, ${failed} failed.`);
+
+console.log('\nRunning tests for formatSummary...');
+
+const formatSummaryTests = [
+    { input: "Saint Joseph", expected: "St. Joseph" },
+    { input: "Saints Peter and Paul", expected: "Sts. Peter & Paul" },
+    { input: "Blessed Carlo Acutis", expected: "Bl. Carlo Acutis" },
+    { input: "Saint Michael, Gabriel and Raphael, Archangels", expected: "St. Michael" }, // Removes after comma
+    { input: "Saints Joachim and Anne", expected: "Sts. Joachim & Anne" },
+    { input: "The Visit of the Blessed Virgin Mary", expected: "The Visit of the Bl. Virgin Mary" },
+    { input: "Blessed Virgin Mary", expected: "Bl. Virgin Mary" },
+    { input: "Saint Peter and Saint Paul", expected: "St. Peter & St. Paul" },
+    { input: "Our Lord Jesus Christ, King of the Universe", expected: "Our Lord Jesus Christ" },
+];
+
+passed = 0;
+failed = 0;
+
+for (const { input, expected } of formatSummaryTests) {
+    try {
+        const result = formatSummary(input);
+        assert.strictEqual(result, expected);
+        passed++;
+    } catch (e) {
+        console.error(`FAILED: "${input}"`);
+        console.error(`  Expected: "${expected}"`);
+        console.error(`  Actual:   "${formatSummary(input)}"`);
+        failed++;
+    }
+}
+
+console.log(`formatSummary: ${passed} passed, ${failed} failed.`);
 
 if (failed > 0) {
     process.exit(1);

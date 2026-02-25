@@ -6,7 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getFastAbstinenceDescription, toTitleCase } = require('./liturgical_utils');
+const { getFastAbstinenceDescription, formatSummary } = require('./liturgical_utils');
 
 // Helper to determine rank value (same as generate_calendar.js)
 function getRankValue(rank) {
@@ -19,16 +19,8 @@ function getRankValue(rank) {
     }
 }
 
-function formatSummary(summary) {
-    if (summary.includes(',')) {
-        summary = summary.split(',')[0];
-    }
-    summary = summary.replace(/Saint /g, 'St. ');
-    summary = summary.replace(/Saints /g, 'Sts. ');
-    summary = summary.replace(/Blessed /g, 'Bl. ');
-    summary = summary.replace(/ and /g, ' & ');
-    return toTitleCase(summary);
-}
+// Optimization: Pre-compile regex
+const DTSTART_REGEX = /-/g;
 
 async function generateMajorFeasts() {
     try {
@@ -97,7 +89,7 @@ async function generateMajorFeasts() {
             yearEvents.sort((a, b) => a.date.localeCompare(b.date));
 
             for (const event of yearEvents) {
-                const dtStart = event.date.replace(/-/g, '');
+                const dtStart = event.date.replace(DTSTART_REGEX, '');
                 const uid = `${dtStart}-majorfeasts-calendar@noahweidig.com`;
 
                 icsContent.push('BEGIN:VEVENT');

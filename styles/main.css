@@ -1501,3 +1501,59 @@ body.theme-dark .search-dialog {
         display: none;
     }
 }
+
+/* ========================
+   PRINT STYLES
+   ======================== */
+@media print {
+    /* Hide navigation, header, footer, and interactive elements */
+    header, footer, .hero, .page-banner, .skip-link, .back-to-top,
+    .search-overlay, .theme-toggle, .nav-search, .calendar-subscription,
+    .hamburger {
+        display: none !important;
+    }
+
+    /* Reset body and main container for print */
+    body {
+        background: white !important;
+        color: black !important;
+        font-size: 12pt;
+    }
+
+    main {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        width: 100% !important;
+    }
+
+    /* Ensure text is readable and visible */
+    p, h1, h2, h3, h4, li, blockquote {
+        color: black !important;
+        page-break-inside: avoid;
+    }
+
+    .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+    /* Links */
+    a {
+        text-decoration: underline;
+        color: black !important;
+    }
+
+    /* Expand details for printing */
+    details {
+        border: none !important;
+    }
+    details[open] {
+        background: transparent !important;
+        padding: 0 !important;
+        margin-bottom: 1rem;
+    }
+}

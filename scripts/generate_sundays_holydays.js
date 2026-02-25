@@ -6,7 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getAscensionDate, toTitleCase } = require('./liturgical_utils');
+const { getAscensionDate, formatSummary } = require('./liturgical_utils');
 
 // Helper to determine rank value
 function getRankValue(rank) {
@@ -19,16 +19,9 @@ function getRankValue(rank) {
     }
 }
 
-function formatSummary(summary) {
-    if (summary.includes(',')) {
-        summary = summary.split(',')[0];
-    }
-    summary = summary.replace(/Saint /g, 'St. ');
-    summary = summary.replace(/Saints /g, 'Sts. ');
-    summary = summary.replace(/Blessed /g, 'Bl. ');
-    summary = summary.replace(/ and /g, ' & ');
-    return toTitleCase(summary);
-}
+// Optimization: Pre-compile regex
+const DTSTART_REGEX = /-/g;
+const UID_REGEX = /[^a-zA-Z0-9]/g;
 
 async function generateSundaysHolydays() {
     try {
@@ -113,9 +106,9 @@ async function generateSundaysHolydays() {
 
             // 5. Generate ICS lines
             for (const event of sortedEvents) {
-                const dtStart = event.date.replace(/-/g, '');
+                const dtStart = event.date.replace(DTSTART_REGEX, '');
                 // Unique UID per event
-                const uid = `${dtStart}-${event.title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}@noahweidig.com`;
+                const uid = `${dtStart}-${event.title.replace(UID_REGEX, '-').toLowerCase()}@noahweidig.com`;
 
                 icsContent.push('BEGIN:VEVENT');
                 icsContent.push(`UID:${uid}`);

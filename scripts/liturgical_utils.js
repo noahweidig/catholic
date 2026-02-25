@@ -154,13 +154,20 @@ const romanNumeralsSet = new Set([
     'XXXI', 'XXXII', 'XXXIII', 'XXXIV', 'XXXV', 'XXXVI', 'XXXVII', 'XXXVIII', 'XXXIX'
 ]);
 
+// Optimization: Pre-compile Regex for faster replace
+const WORD_REGEX = /\w\S*/g;
+const SAINT_REGEX = /Saint /g;
+const SAINTS_REGEX = /Saints /g;
+const BLESSED_REGEX = /Blessed /g;
+const AND_REGEX = / and /g;
+
 /**
  * Converts a string to Title Case.
  * @param {string} str
  * @returns {string}
  */
 function toTitleCase(str) {
-    return str.replace(/\w\S*/g, (txt, offset) => {
+    return str.replace(WORD_REGEX, (txt, offset) => {
         const upper = txt.toUpperCase();
         // Check for Roman Numerals first
         if (romanNumeralsSet.has(upper)) {
@@ -176,11 +183,28 @@ function toTitleCase(str) {
     });
 }
 
+/**
+ * Formats the event summary (title) by shortening common words and applying Title Case.
+ * @param {string} summary
+ * @returns {string}
+ */
+function formatSummary(summary) {
+    if (summary.includes(',')) {
+        summary = summary.split(',')[0];
+    }
+    summary = summary.replace(SAINT_REGEX, 'St. ');
+    summary = summary.replace(SAINTS_REGEX, 'Sts. ');
+    summary = summary.replace(BLESSED_REGEX, 'Bl. ');
+    summary = summary.replace(AND_REGEX, ' & ');
+    return toTitleCase(summary);
+}
+
 module.exports = {
     getEasterDate,
     getAscensionDate,
     getAshWednesdayDate,
     getGoodFridayDate,
     getFastAbstinenceDescription,
-    toTitleCase
+    toTitleCase,
+    formatSummary
 };

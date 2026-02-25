@@ -6,7 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getFastAbstinenceDescription, toTitleCase } = require('./liturgical_utils');
+const { getFastAbstinenceDescription, formatSummary } = require('./liturgical_utils');
 
 // Helper to determine rank value
 function getRankValue(rank) {
@@ -18,6 +18,9 @@ function getRankValue(rank) {
         default: return 1; // WEEKDAY, FERIA, etc.
     }
 }
+
+// Optimization: Pre-compile regex
+const DTSTART_REGEX = /-/g;
 
 async function generateICS() {
     try {
@@ -63,26 +66,10 @@ async function generateICS() {
             });
 
             const selectedEvent = sortedEvents[0];
-            const dtStart = dateStr.replace(/-/g, ''); // YYYYMMDD
+            const dtStart = dateStr.replace(DTSTART_REGEX, ''); // YYYYMMDD
 
             // Format name
-            let summary = selectedEvent.name;
-
-            // Remove titles: split by comma and take first part
-            if (summary.includes(',')) {
-                summary = summary.split(',')[0];
-            }
-
-            // Replace "Saint "/"Saints "/"Blessed " with "St. "/"Sts. "/"Bl. "
-            summary = summary.replace(/Saint /g, 'St. ');
-            summary = summary.replace(/Saints /g, 'Sts. ');
-            summary = summary.replace(/Blessed /g, 'Bl. ');
-
-            // Replace " and " with " & "
-            summary = summary.replace(/ and /g, ' & ');
-
-            // Apply Title Case
-            summary = toTitleCase(summary);
+            const summary = formatSummary(selectedEvent.name);
 
             // Create VEVENT
             icsContent.push('BEGIN:VEVENT');

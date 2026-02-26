@@ -7,3 +7,8 @@
 **Vulnerability:** The application is a static site (likely hosted on GitHub Pages or similar) which limits the ability to set HTTP response headers like `Referrer-Policy` or `X-Frame-Options` via server configuration.
 **Learning:** Security headers are a critical layer of defense, but their absence in static hosting environments is a common gap. We must rely on `<meta>` tags within the HTML itself to enforce policies where possible.
 **Prevention:** For static sites, audit available `<meta>` tag equivalents for security headers (e.g., `Content-Security-Policy`, `Referrer-Policy`) and enforce their presence via automated testing (e.g., Python scripts in `tests/`).
+
+## 2026-08-15 - Reverse Tabnabbing: The Hidden Danger of target="_blank"
+**Vulnerability:** External links using `target="_blank"` allow the newly opened page to access the original window object via `window.opener`. A malicious site could use this to redirect the original page to a phishing site (reverse tabnabbing).
+**Learning:** Even simple HTML attributes can have profound security implications. Developers often overlook the `window.opener` behavior, assuming the new tab is fully isolated.
+**Prevention:** Always combine `target="_blank"` with `rel="noopener noreferrer"`. This cuts the reference to the opener window. We implemented an automated fix in `scripts/main.js` to enforce this pattern on all external links dynamically.

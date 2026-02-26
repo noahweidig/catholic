@@ -536,5 +536,24 @@ document.addEventListener('DOMContentLoaded', function () {
             srText.textContent = ' (opens in a new tab)';
             link.appendChild(srText);
         }
+
+        // Security: Add rel="noopener noreferrer" to prevent reverse tabnabbing
+        // This is only applied if target="_blank" is present (which is guaranteed by the selector)
+        // and if it's an external link (implied by typical usage, but enforced here).
+        // We do not want to hide the referrer for internal links if they accidentally have target="_blank",
+        // but target="_blank" on internal links is generally discouraged anyway.
+        // Given the selector 'a[target="_blank"]', we should enforce safety regardless of destination
+        // to prevent tabnabbing if an internal page is compromised or redirects.
+
+        var rel = link.getAttribute('rel') || '';
+        var relTokens = rel.split(/\s+/).filter(Boolean); // Robust token splitting
+
+        if (relTokens.indexOf('noopener') === -1) {
+            relTokens.push('noopener');
+        }
+        if (relTokens.indexOf('noreferrer') === -1) {
+            relTokens.push('noreferrer');
+        }
+        link.setAttribute('rel', relTokens.join(' '));
     });
 });

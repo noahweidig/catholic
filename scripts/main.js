@@ -507,4 +507,34 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         backToTopBtn.blur();
     });
+
+    // Enhance external links (accessibility & UX)
+    var externalLinks = document.querySelectorAll('a[target="_blank"]');
+    externalLinks.forEach(function (link) {
+        // Skip if it contains an image
+        if (link.querySelector('img')) return;
+
+        // Add visual icon if missing
+        var icon = link.querySelector('.fa-arrow-up-right-from-square');
+        if (!icon) {
+            icon = document.createElement('i');
+            icon.className = 'fa-solid fa-arrow-up-right-from-square';
+            icon.style.marginLeft = '0.35em';
+            icon.style.fontSize = '0.75em';
+            link.appendChild(icon);
+        }
+
+        // Ensure icon is hidden from screen readers (redundant with text below)
+        if (!icon.getAttribute('aria-hidden')) {
+            icon.setAttribute('aria-hidden', 'true');
+        }
+
+        // Add SR text if missing
+        if (!link.querySelector('.sr-only')) {
+            var srText = document.createElement('span');
+            srText.className = 'sr-only';
+            srText.textContent = ' (opens in a new tab)';
+            link.appendChild(srText);
+        }
+    });
 });

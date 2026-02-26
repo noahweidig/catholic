@@ -78,6 +78,10 @@ async function generateICS() {
             icsContent.push(`DTSTART;VALUE=DATE:${dtStart}`);
             icsContent.push(`SUMMARY:${summary}`);
 
+            if (selectedEvent.colors && selectedEvent.colors.length > 0) {
+                icsContent.push(`X-LITURGICAL-COLOR:${selectedEvent.colors[0].toLowerCase()}`);
+            }
+
             const description = getFastAbstinenceDescription(dateStr, selectedEvent.rank, selectedEvent.calendar.dayOfWeek);
             if (description) {
                 icsContent.push(`DESCRIPTION:${description}`);

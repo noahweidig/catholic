@@ -8,257 +8,308 @@ BEGIN:VEVENT
 UID:20260101-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260101
 SUMMARY:The Octave Day of the Nativity of the Lord: Solemnity of Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260102-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260102
 SUMMARY:Sts. Basil the Great & Gregory Nazianzen
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260103-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260103
 SUMMARY:The Most Holy Name of Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260104-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260104
 SUMMARY:The Epiphany of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260105-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260105
 SUMMARY:St. John Neumann
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260106-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260106
 SUMMARY:St. André Bessette
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260107-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260107
 SUMMARY:St. Raymond of Penyafort
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260108-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260108
 SUMMARY:Thursday After the Epiphany of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260109-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260109
 SUMMARY:Friday After the Epiphany of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260110-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260110
 SUMMARY:Saturday After the Epiphany of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260111-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260111
 SUMMARY:The Baptism of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260112-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260112
 SUMMARY:Monday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260113-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260113
 SUMMARY:St. Hilary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260114
 SUMMARY:Wednesday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260115-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260115
 SUMMARY:Thursday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260116-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260116
 SUMMARY:Friday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260117-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260117
 SUMMARY:St. Anthony
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260118-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260118
 SUMMARY:Second Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260119
 SUMMARY:Monday of the Second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260120-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260120
 SUMMARY:St. Fabian
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260121-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260121
 SUMMARY:St. Agnes
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260122-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260122
 SUMMARY:Thursday of the Second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260123-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260123
 SUMMARY:St. Vincent
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260124-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260124
 SUMMARY:St. Francis De Sales
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260125-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260125
 SUMMARY:Third Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260126-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260126
 SUMMARY:Sts. Timothy & Titus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260127-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260127
 SUMMARY:St. Angela Merici
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260128-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260128
 SUMMARY:St. Thomas Aquinas
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260129
 SUMMARY:Thursday of the Third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260130-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260130
 SUMMARY:Friday of the Third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260131-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260131
 SUMMARY:St. John Bosco
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260201
 SUMMARY:Fourth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260202-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260202
 SUMMARY:The Presentation of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260203-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260203
 SUMMARY:St. Blaise
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260204-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260204
 SUMMARY:Wednesday of the Fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260205-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260205
 SUMMARY:St. Agatha
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260206-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260206
 SUMMARY:St. Paul Miki & Companions
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260207-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260207
 SUMMARY:Saturday of the Fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260208-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260208
 SUMMARY:Fifth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260209-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260209
 SUMMARY:Monday of the Fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260210-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260210
 SUMMARY:St. Scholastica
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260211-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260211
 SUMMARY:Our Lady of Lourdes
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260212-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260212
 SUMMARY:Thursday of the Fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260213-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260213
 SUMMARY:Friday of the Fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260214-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260214
 SUMMARY:Sts. Cyril
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260215
 SUMMARY:Sixth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260216
 SUMMARY:Monday of the Sixth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260217-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260217
 SUMMARY:The Seven Holy Founders of the Servite Order
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260218-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260218
 SUMMARY:Ash Wednesday
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260219-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260219
 SUMMARY:Thursday After Ash Wednesday
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260220-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260220
 SUMMARY:Friday After Ash Wednesday
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
@@ -270,6 +321,7 @@ BEGIN:VEVENT
 UID:20260222-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260222
 SUMMARY:First Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260223-catholic-calendar@noahweidig.com
@@ -280,16 +332,19 @@ BEGIN:VEVENT
 UID:20260224-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260224
 SUMMARY:Tuesday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260225
 SUMMARY:Wednesday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260226-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260226
 SUMMARY:Thursday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260227-catholic-calendar@noahweidig.com
@@ -301,16 +356,19 @@ BEGIN:VEVENT
 UID:20260228-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260228
 SUMMARY:Saturday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260301-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260301
 SUMMARY:Second Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260302-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260302
 SUMMARY:Monday of the Second Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260303-catholic-calendar@noahweidig.com
@@ -326,11 +384,13 @@ BEGIN:VEVENT
 UID:20260305-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260305
 SUMMARY:Thursday of the Second Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260306-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260306
 SUMMARY:Friday of the Second Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
@@ -342,6 +402,7 @@ BEGIN:VEVENT
 UID:20260308-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260308
 SUMMARY:Third Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260309-catholic-calendar@noahweidig.com
@@ -352,37 +413,44 @@ BEGIN:VEVENT
 UID:20260310-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260310
 SUMMARY:Tuesday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260311-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260311
 SUMMARY:Wednesday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260312-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260312
 SUMMARY:Thursday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260313-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260313
 SUMMARY:Friday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260314-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260314
 SUMMARY:Saturday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260315-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260315
 SUMMARY:Fourth Sunday of Lent
+X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
 UID:20260316-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260316
 SUMMARY:Monday of the Fourth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260317-catholic-calendar@noahweidig.com
@@ -398,22 +466,26 @@ BEGIN:VEVENT
 UID:20260319-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260319
 SUMMARY:St. Joseph
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260320-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260320
 SUMMARY:Friday of the Fourth Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260321-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260321
 SUMMARY:Saturday of the Fourth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260322-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260322
 SUMMARY:Fifth Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260323-catholic-calendar@noahweidig.com
@@ -424,57 +496,68 @@ BEGIN:VEVENT
 UID:20260324-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260324
 SUMMARY:Tuesday of the Fifth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260325-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260325
 SUMMARY:The Annunciation of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260326-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260326
 SUMMARY:Thursday of the Fifth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260327-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260327
 SUMMARY:Friday of the Fifth Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260328-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260328
 SUMMARY:Saturday of the Fifth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260329-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260329
 SUMMARY:Palm Sunday of the Passion of the Lord
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260330-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260330
 SUMMARY:Monday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260331-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260331
 SUMMARY:Tuesday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260401-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260401
 SUMMARY:Wednesday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260402-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260402
 SUMMARY:Thursday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260403-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260403
 SUMMARY:Friday of the Passion of the Lord
+X-LITURGICAL-COLOR:red
 DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
@@ -486,1301 +569,1561 @@ BEGIN:VEVENT
 UID:20260405-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260405
 SUMMARY:Easter Sunday of the Resurrection of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260406-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260406
 SUMMARY:Monday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260407-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260407
 SUMMARY:Tuesday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260408-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260408
 SUMMARY:Wednesday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260409-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260409
 SUMMARY:Thursday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260410-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260410
 SUMMARY:Friday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260411-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260411
 SUMMARY:Saturday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260412-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260412
 SUMMARY:Second Sunday of Easter or Sunday of Divine Mercy
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260413-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260413
 SUMMARY:St. Martin I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260414-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260414
 SUMMARY:Tuesday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260415-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260415
 SUMMARY:Wednesday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260416-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260416
 SUMMARY:Thursday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260417-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260417
 SUMMARY:Friday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260418-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260418
 SUMMARY:Saturday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260419-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260419
 SUMMARY:Third Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260420-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260420
 SUMMARY:Monday of the Third Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260421-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260421
 SUMMARY:St. Anselm
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260422-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260422
 SUMMARY:Wednesday of the Third Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260423-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260423
 SUMMARY:St. George
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260424-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260424
 SUMMARY:St. Fidelis of Sigmaringen
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260425-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260425
 SUMMARY:St. Mark
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260426-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260426
 SUMMARY:Fourth Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260427-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260427
 SUMMARY:Monday of the Fourth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260428-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260428
 SUMMARY:St. Peter Chanel
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260429-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260429
 SUMMARY:St. Catherine of Siena
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260430-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260430
 SUMMARY:St. Pius V
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260501-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260501
 SUMMARY:St. Joseph the Worker
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260502-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260502
 SUMMARY:St. Athanasius
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260503-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260503
 SUMMARY:Fifth Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260504-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260504
 SUMMARY:Monday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260505-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260505
 SUMMARY:Tuesday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260506-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260506
 SUMMARY:Wednesday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260507-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260507
 SUMMARY:Thursday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260508-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260508
 SUMMARY:Friday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260509-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260509
 SUMMARY:Saturday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260510-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260510
 SUMMARY:Sixth Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260511-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260511
 SUMMARY:Monday of the Sixth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260512-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260512
 SUMMARY:Sts. Nereus & Achilleus
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260513-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260513
 SUMMARY:Our Lady of Fatima
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260514-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260514
 SUMMARY:St. Matthias
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260515-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260515
 SUMMARY:St. Isidore
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260516-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260516
 SUMMARY:Saturday of the Sixth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260517-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260517
 SUMMARY:The Ascension of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260518-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260518
 SUMMARY:St. John I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260519-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260519
 SUMMARY:Tuesday of the Seventh Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260520-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260520
 SUMMARY:St. Bernardine of Siena
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260521-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260521
 SUMMARY:St. Christopher Magallanes
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260522-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260522
 SUMMARY:St. Rita of Cascia
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260523-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260523
 SUMMARY:Saturday of the Seventh Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260524-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260524
 SUMMARY:Pentecost Sunday
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260525-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260525
 SUMMARY:Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260526-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260526
 SUMMARY:St. Philip Neri
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260527-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260527
 SUMMARY:St. Augustine of Canterbury
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260528-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260528
 SUMMARY:Thursday of the Eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260529-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260529
 SUMMARY:St. Paul VI
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260530-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260530
 SUMMARY:Saturday of the Eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260531
 SUMMARY:The Most Holy Trinity
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260601-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260601
 SUMMARY:St. Justin
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260602-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260602
 SUMMARY:Sts. Marcellinus & Peter
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260603-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260603
 SUMMARY:Sts. Charles Lwanga & Companions
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260604-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Thursday of the Ninth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260605-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260605
 SUMMARY:St. Boniface
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260606-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260606
 SUMMARY:St. Norbert
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260607-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260607
 SUMMARY:The Most Holy Body & Blood of Christ
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260608-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260608
 SUMMARY:Monday of the Tenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260609-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260609
 SUMMARY:St. Ephrem
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260610-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260610
 SUMMARY:Wednesday of the Tenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260611-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260611
 SUMMARY:St. Barnabas
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260612-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260612
 SUMMARY:The Most Sacred Heart of Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260613-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260613
 SUMMARY:The Immaculate Heart of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260614-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260614
 SUMMARY:Eleventh Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260615-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260615
 SUMMARY:Monday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260616-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260616
 SUMMARY:Tuesday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260617-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260617
 SUMMARY:Wednesday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260618-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260618
 SUMMARY:Thursday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260619-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260619
 SUMMARY:St. Romuald
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260620-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260620
 SUMMARY:Saturday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260621-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260621
 SUMMARY:Twelfth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260622-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260622
 SUMMARY:St. Paulinus of Nola
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260623-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260623
 SUMMARY:Tuesday of the Twelfth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260624-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260624
 SUMMARY:The Nativity of St. John the Baptist
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260625-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260625
 SUMMARY:Thursday of the Twelfth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260626-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260626
 SUMMARY:Friday of the Twelfth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260627-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260627
 SUMMARY:St. Cyril of Alexandria
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260628-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260628
 SUMMARY:Thirteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260629-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260629
 SUMMARY:Sts. Peter & Paul
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260630-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260630
 SUMMARY:The First Martyrs of the Holy Roman Church
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260701-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260701
 SUMMARY:St. Junípero Serra
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260702-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260702
 SUMMARY:Thursday of the Thirteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260703-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260703
 SUMMARY:St. Thomas
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260704-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260704
 SUMMARY:Saturday of the Thirteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260705-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260705
 SUMMARY:Fourteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260706-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260706
 SUMMARY:St. Maria Goretti
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260707-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260707
 SUMMARY:Tuesday of the Fourteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260708-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260708
 SUMMARY:Wednesday of the Fourteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260709-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260709
 SUMMARY:St. Augustine Zhao Rong
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260710-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260710
 SUMMARY:Friday of the Fourteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260711-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260711
 SUMMARY:St. Benedict
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260712-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260712
 SUMMARY:Fifteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260713-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260713
 SUMMARY:St. Henry
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260714-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260714
 SUMMARY:St. Kateri Tekakwitha
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260715-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260715
 SUMMARY:St. Bonaventure
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260716-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260716
 SUMMARY:Our Lady of Mount Carmel
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260717-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260717
 SUMMARY:Friday of the Fifteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260718-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260718
 SUMMARY:St. Camillus De Lellis
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260719-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260719
 SUMMARY:Sixteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260720-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260720
 SUMMARY:St. Apollinaris
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260721-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260721
 SUMMARY:St. Lawrence of Brindisi
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260722-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260722
 SUMMARY:St. Mary Magdalene
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260723-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260723
 SUMMARY:St. Bridget
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260724-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260724
 SUMMARY:St. Sharbel Makhlūf
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260725-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260725
 SUMMARY:St. James
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260726-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260726
 SUMMARY:Seventeenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260727-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260727
 SUMMARY:Monday of the Seventeenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260728-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260728
 SUMMARY:Tuesday of the Seventeenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260729-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260729
 SUMMARY:Sts. Martha
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260730-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260730
 SUMMARY:St. Peter Chrysologus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260731-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260731
 SUMMARY:St. Ignatius of Loyola
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260801-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260801
 SUMMARY:St. Alphonsus Mary Liguori
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260802-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260802
 SUMMARY:Eighteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260803-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260803
 SUMMARY:Monday of the Eighteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260804-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260804
 SUMMARY:St. John Mary Vianney
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260805-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260805
 SUMMARY:The Dedication of the Basilica of St. Mary Major
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260806-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260806
 SUMMARY:The Transfiguration of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260807-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260807
 SUMMARY:St. Sixtus II
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260808-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260808
 SUMMARY:St. Dominic
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260809-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260809
 SUMMARY:Nineteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260810-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260810
 SUMMARY:St. Lawrence
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260811-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260811
 SUMMARY:St. Clare
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260812-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260812
 SUMMARY:St. Jane Frances De Chantal
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260813-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260813
 SUMMARY:Sts. Pontian
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260814-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260814
 SUMMARY:St. Maximilian Mary Kolbe
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260815-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260815
 SUMMARY:The Assumption of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260816-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260816
 SUMMARY:Twentieth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260817-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260817
 SUMMARY:Monday of the Twentieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260818-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260818
 SUMMARY:Tuesday of the Twentieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260819-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260819
 SUMMARY:St. John Eudes
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260820-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260820
 SUMMARY:St. Bernard
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260821-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260821
 SUMMARY:St. Pius X
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260822-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260822
 SUMMARY:The Queenship of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260823-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260823
 SUMMARY:Twenty-first Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260824-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260824
 SUMMARY:St. Bartholomew
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260825-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260825
 SUMMARY:St. Louis
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260826-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260826
 SUMMARY:Wednesday of the Twenty-first Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260827-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260827
 SUMMARY:St. Monica
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260828-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260828
 SUMMARY:St. Augustine
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260829-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260829
 SUMMARY:The Passion of St. John the Baptist
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260830-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260830
 SUMMARY:Twenty-second Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260831-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260831
 SUMMARY:Monday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260901-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260901
 SUMMARY:Tuesday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260902-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260902
 SUMMARY:Wednesday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260903-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260903
 SUMMARY:St. Gregory the Great
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260904-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260904
 SUMMARY:Friday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260905-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260905
 SUMMARY:St. Teresa of Calcutta
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260906-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260906
 SUMMARY:Twenty-third Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260907-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260907
 SUMMARY:Monday of the Twenty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260908
 SUMMARY:The Nativity of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260909-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260909
 SUMMARY:St. Peter Claver
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260910-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260910
 SUMMARY:Thursday of the Twenty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260911-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260911
 SUMMARY:Friday of the Twenty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260912-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260912
 SUMMARY:The Most Holy Name of Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260913-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260913
 SUMMARY:Twenty-fourth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260914-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260914
 SUMMARY:The Exaltation of the Holy Cross
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260915-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260915
 SUMMARY:Our Lady of Sorrows
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260916-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260916
 SUMMARY:Sts. Cornelius
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260917-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260917
 SUMMARY:St. Hildegard of Bingen
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260918-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260918
 SUMMARY:Friday of the Twenty-fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260919-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260919
 SUMMARY:St. Januarius
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260920-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Twenty-fifth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260921-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260921
 SUMMARY:St. Matthew
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260922-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260922
 SUMMARY:Tuesday of the Twenty-fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260923-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260923
 SUMMARY:St. Pius of Pietrelcina
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260924-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260924
 SUMMARY:Thursday of the Twenty-fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260925-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Friday of the Twenty-fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260926-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260926
 SUMMARY:Sts. Cosmas & Damian
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260927-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260927
 SUMMARY:Twenty-sixth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260928-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260928
 SUMMARY:St. Wenceslaus
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20260929-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260929
 SUMMARY:Sts. Michael
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260930-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260930
 SUMMARY:St. Jerome
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261001-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261001
 SUMMARY:St. Thérèse of the Child Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261002-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261002
 SUMMARY:The Holy Guardian Angels
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261003-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261003
 SUMMARY:Saturday of the Twenty-sixth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261004-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Twenty-seventh Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261005-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261005
 SUMMARY:St. Faustina Kowalska
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261006-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261006
 SUMMARY:St. Bruno
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261007-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261007
 SUMMARY:Our Lady of the Rosary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261008-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261008
 SUMMARY:Thursday of the Twenty-seventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261009-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261009
 SUMMARY:St. Denis
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261010-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261010
 SUMMARY:Saturday of the Twenty-seventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261011-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261011
 SUMMARY:Twenty-eighth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261012-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Monday of the Twenty-eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261013-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261013
 SUMMARY:Tuesday of the Twenty-eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261014-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261014
 SUMMARY:St. Callistus I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261015-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261015
 SUMMARY:St. Teresa of Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261016-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261016
 SUMMARY:St. Hedwig
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261017-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261017
 SUMMARY:St. Ignatius of Antioch
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261018-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Twenty-ninth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261019-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261019
 SUMMARY:Sts. John De Brébeuf & Isaac Jogues
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261020-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261020
 SUMMARY:St. Paul of the Cross
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261021-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261021
 SUMMARY:Wednesday of the Twenty-ninth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261022-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261022
 SUMMARY:St. John Paul II
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261023-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261023
 SUMMARY:St. John of Capistrano
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261024
 SUMMARY:St. Anthony Mary Claret
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261025
 SUMMARY:Thirtieth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261026-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Monday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261027-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261027
 SUMMARY:Tuesday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261028-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261028
 SUMMARY:Sts. Simon & Jude
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261029-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261029
 SUMMARY:Thursday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261030
 SUMMARY:Friday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261031
 SUMMARY:Saturday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261101
 SUMMARY:All Saints
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261102-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261102
 SUMMARY:The Commemoration of All the Faithful Departed (All Soul’s Day)
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261103-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261103
 SUMMARY:St. Martin De Porres
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261104-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261104
 SUMMARY:St. Charles Borromeo
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261105-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261105
 SUMMARY:Thursday of the Thirty-first Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261106-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Friday of the Thirty-first Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261107-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261107
 SUMMARY:Saturday of the Thirty-first Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261108-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Thirty-second Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261109-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261109
 SUMMARY:The Dedication of the Lateran Basilica
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261110-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261110
 SUMMARY:St. Leo the Great
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261111-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261111
 SUMMARY:St. Martin of Tours
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261112
 SUMMARY:St. Josaphat
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261113-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261113
 SUMMARY:St. Frances Xavier Cabrini
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261114
 SUMMARY:Saturday of the Thirty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Thirty-third Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261116-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261116
 SUMMARY:St. Margaret of Scotland
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261117-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261117
 SUMMARY:St. Elizabeth of Hungary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261118-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261118
 SUMMARY:The Dedication of the Basilicas of Sts. Peter & Paul
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Thursday of the Thirty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261120-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Friday of the Thirty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261121-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261121
 SUMMARY:The Presentation of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Our Lord Jesus Christ
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261123-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261123
 SUMMARY:St. Clement I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261124-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261124
 SUMMARY:St. Andrew Dũng-lạc
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261125-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261125
 SUMMARY:St. Catherine of Alexandria
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261126
 SUMMARY:Thursday of the Thirty-fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261127-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261127
 SUMMARY:Friday of the Thirty-fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261128-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Saturday of the Thirty-fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261129
 SUMMARY:First Sunday of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261130-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261130
 SUMMARY:St. Andrew
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Tuesday of the First Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261202-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261202
 SUMMARY:Wednesday of the First Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261203-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261203
 SUMMARY:St. Francis Xavier
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261204-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261204
 SUMMARY:St. John Damascene
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261205-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261205
 SUMMARY:Saturday of the First Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261206-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261206
 SUMMARY:Second Sunday of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261207-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261207
 SUMMARY:St. Ambrose
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261208-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261208
 SUMMARY:The Immaculate Conception of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261209-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261209
 SUMMARY:St. Juan Diego Cuauhtlatoatzin
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261210-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261210
 SUMMARY:Our Lady of Loreto
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261211-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261211
 SUMMARY:St. Damasus I
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261212-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261212
 SUMMARY:Our Lady of Guadalupe
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261213-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261213
 SUMMARY:Third Sunday of Advent
+X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
 UID:20261214-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261214
 SUMMARY:St. John of the Cross
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Tuesday of the Third Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261216
 SUMMARY:Wednesday of the Third Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261217-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261217
 SUMMARY:December 17
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261218-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261218
 SUMMARY:December 18
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261219-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261219
 SUMMARY:December 19
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261220-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261220
 SUMMARY:Fourth Sunday of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261221-catholic-calendar@noahweidig.com
@@ -1791,6 +2134,7 @@ BEGIN:VEVENT
 UID:20261222-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261222
 SUMMARY:December 22
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261223-catholic-calendar@noahweidig.com
@@ -1801,26 +2145,31 @@ BEGIN:VEVENT
 UID:20261224-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261224
 SUMMARY:December 24
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261225
 SUMMARY:The Nativity of the Lord (Christmas)
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261226-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261226
 SUMMARY:St. Stephen
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261227-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261227
 SUMMARY:The Holy Family of Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261228-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261228
 SUMMARY:The Holy Innocents
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20261229-catholic-calendar@noahweidig.com
@@ -1831,6 +2180,7 @@ BEGIN:VEVENT
 UID:20261230-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261230
 SUMMARY:Sixth Day Within the Octave of the Nativity of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20261231-catholic-calendar@noahweidig.com
@@ -1841,206 +2191,247 @@ BEGIN:VEVENT
 UID:20270101-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270101
 SUMMARY:The Octave Day of the Nativity of the Lord: Solemnity of Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270102-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270102
 SUMMARY:Sts. Basil the Great & Gregory Nazianzen
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270103-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270103
 SUMMARY:The Epiphany of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270104-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270104
 SUMMARY:St. Elizabeth Ann Seton
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270105-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270105
 SUMMARY:St. John Neumann
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270106-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270106
 SUMMARY:St. André Bessette
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270107-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270107
 SUMMARY:St. Raymond of Penyafort
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270108-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Friday After the Epiphany of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270109-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270109
 SUMMARY:Saturday After the Epiphany of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270110-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270110
 SUMMARY:The Baptism of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270111-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270111
 SUMMARY:Monday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270112-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270112
 SUMMARY:Tuesday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270113-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270113
 SUMMARY:St. Hilary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270114
 SUMMARY:Thursday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270115-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Friday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270116-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270116
 SUMMARY:Saturday of the First Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270117-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270117
 SUMMARY:Second Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270118-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270118
 SUMMARY:Monday of the Second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270119
 SUMMARY:Tuesday of the Second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270120-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270120
 SUMMARY:St. Fabian
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270121-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270121
 SUMMARY:St. Agnes
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270122-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270122
 SUMMARY:Friday of the Second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270123-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270123
 SUMMARY:St. Vincent
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270124-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270124
 SUMMARY:Third Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270125-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270125
 SUMMARY:The Conversion of St. Paul the Apostle
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270126-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270126
 SUMMARY:Sts. Timothy & Titus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270127-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270127
 SUMMARY:St. Angela Merici
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270128-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270128
 SUMMARY:St. Thomas Aquinas
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270129
 SUMMARY:Friday of the Third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270130-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270130
 SUMMARY:Saturday of the Third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270131-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270131
 SUMMARY:Fourth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Monday of the Fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270202-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270202
 SUMMARY:The Presentation of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270203-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270203
 SUMMARY:St. Blaise
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270204-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270204
 SUMMARY:Thursday of the Fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270205-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270205
 SUMMARY:St. Agatha
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270206-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270206
 SUMMARY:St. Paul Miki & Companions
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270207-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270207
 SUMMARY:Fifth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270208-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270208
 SUMMARY:St. Jerome Emiliani
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270209-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270209
 SUMMARY:Tuesday of the Fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270210-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270210
 SUMMARY:Ash Wednesday
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
@@ -2052,27 +2443,32 @@ BEGIN:VEVENT
 UID:20270212-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270212
 SUMMARY:Friday After Ash Wednesday
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270213-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270213
 SUMMARY:Saturday After Ash Wednesday
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270214-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270214
 SUMMARY:First Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Monday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270216
 SUMMARY:Tuesday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270217-catholic-calendar@noahweidig.com
@@ -2083,27 +2479,32 @@ BEGIN:VEVENT
 UID:20270218-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270218
 SUMMARY:Thursday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270219-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270219
 SUMMARY:Friday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270220-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270220
 SUMMARY:Saturday of the First Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270221-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270221
 SUMMARY:Second Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270222-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270222
 SUMMARY:The Chair of St. Peter the Apostle
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270223-catholic-calendar@noahweidig.com
@@ -2114,16 +2515,19 @@ BEGIN:VEVENT
 UID:20270224-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270224
 SUMMARY:Wednesday of the Second Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270225
 SUMMARY:Thursday of the Second Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270226-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270226
 SUMMARY:Friday of the Second Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
@@ -2135,16 +2539,19 @@ BEGIN:VEVENT
 UID:20270228-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270228
 SUMMARY:Third Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270301-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Monday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270302-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270302
 SUMMARY:Tuesday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270303-catholic-calendar@noahweidig.com
@@ -2160,17 +2567,20 @@ BEGIN:VEVENT
 UID:20270305-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270305
 SUMMARY:Friday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270306-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270306
 SUMMARY:Saturday of the Third Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270307-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270307
 SUMMARY:Fourth Sunday of Lent
+X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
 UID:20270308-catholic-calendar@noahweidig.com
@@ -2186,37 +2596,44 @@ BEGIN:VEVENT
 UID:20270310-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270310
 SUMMARY:Wednesday of the Fourth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270311-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270311
 SUMMARY:Thursday of the Fourth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270312-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270312
 SUMMARY:Friday of the Fourth Week of Lent
+X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270313-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270313
 SUMMARY:Saturday of the Fourth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270314-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270314
 SUMMARY:Fifth Sunday of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270315-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270315
 SUMMARY:Monday of the Fifth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270316-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270316
 SUMMARY:Tuesday of the Fifth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270317-catholic-calendar@noahweidig.com
@@ -2232,41 +2649,49 @@ BEGIN:VEVENT
 UID:20270319-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270319
 SUMMARY:St. Joseph
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270320-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270320
 SUMMARY:Saturday of the Fifth Week of Lent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270321-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270321
 SUMMARY:Palm Sunday of the Passion of the Lord
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270322-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270322
 SUMMARY:Monday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270323-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270323
 SUMMARY:Tuesday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270324-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270324
 SUMMARY:Wednesday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270325-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270325
 SUMMARY:Thursday of Holy Week
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270326-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270326
 SUMMARY:Friday of the Passion of the Lord
+X-LITURGICAL-COLOR:red
 DESCRIPTION:Obligatory Day of Fast & Abstinence
 END:VEVENT
 BEGIN:VEVENT
@@ -2278,1341 +2703,1609 @@ BEGIN:VEVENT
 UID:20270328-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270328
 SUMMARY:Easter Sunday of the Resurrection of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270329-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270329
 SUMMARY:Monday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270330-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270330
 SUMMARY:Tuesday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270331-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270331
 SUMMARY:Wednesday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270401-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270401
 SUMMARY:Thursday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270402-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270402
 SUMMARY:Friday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270403-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270403
 SUMMARY:Saturday Within the Octave of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270404-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270404
 SUMMARY:Second Sunday of Easter or Sunday of Divine Mercy
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270405-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270405
 SUMMARY:The Annunciation of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270406-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270406
 SUMMARY:Tuesday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270407-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270407
 SUMMARY:St. John Baptist De La Salle
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270408-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270408
 SUMMARY:Thursday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270409-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270409
 SUMMARY:Friday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270410-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270410
 SUMMARY:Saturday of the Second Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270411-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270411
 SUMMARY:Third Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270412-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270412
 SUMMARY:Monday of the Third Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270413-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270413
 SUMMARY:St. Martin I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270414-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270414
 SUMMARY:Wednesday of the Third Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270415-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270415
 SUMMARY:Thursday of the Third Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270416-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270416
 SUMMARY:Friday of the Third Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270417-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270417
 SUMMARY:Saturday of the Third Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270418-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270418
 SUMMARY:Fourth Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270419-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270419
 SUMMARY:Monday of the Fourth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270420-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270420
 SUMMARY:Tuesday of the Fourth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270421-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270421
 SUMMARY:St. Anselm
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270422-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270422
 SUMMARY:Thursday of the Fourth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270423-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270423
 SUMMARY:St. George
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270424-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270424
 SUMMARY:St. Fidelis of Sigmaringen
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270425-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270425
 SUMMARY:Fifth Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270426-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270426
 SUMMARY:Monday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270427-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270427
 SUMMARY:Tuesday of the Fifth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270428-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270428
 SUMMARY:St. Peter Chanel
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270429-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270429
 SUMMARY:St. Catherine of Siena
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270430-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270430
 SUMMARY:St. Pius V
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270501-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270501
 SUMMARY:St. Joseph the Worker
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270502-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270502
 SUMMARY:Sixth Sunday of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270503-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270503
 SUMMARY:Sts. Philip & James
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270504-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270504
 SUMMARY:Tuesday of the Sixth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270505-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270505
 SUMMARY:Wednesday of the Sixth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270506-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270506
 SUMMARY:Thursday of the Sixth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270507-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270507
 SUMMARY:Friday of the Sixth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270508-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270508
 SUMMARY:Saturday of the Sixth Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270509-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270509
 SUMMARY:The Ascension of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270510-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270510
 SUMMARY:St. John of ÁVila
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270511-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270511
 SUMMARY:Tuesday of the Seventh Week of Easter
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270512-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270512
 SUMMARY:Sts. Nereus & Achilleus
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270513-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270513
 SUMMARY:Our Lady of Fatima
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270514-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270514
 SUMMARY:St. Matthias
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270515-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270515
 SUMMARY:St. Isidore
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270516-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270516
 SUMMARY:Pentecost Sunday
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270517-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270517
 SUMMARY:Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270518-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270518
 SUMMARY:St. John I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270519-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270519
 SUMMARY:Wednesday of the Seventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270520-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270520
 SUMMARY:St. Bernardine of Siena
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270521-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270521
 SUMMARY:St. Christopher Magallanes
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270522-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270522
 SUMMARY:St. Rita of Cascia
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270523-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270523
 SUMMARY:The Most Holy Trinity
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270524-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270524
 SUMMARY:Monday of the Eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270525-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270525
 SUMMARY:St. Bede the Venerable
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270526-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270526
 SUMMARY:St. Philip Neri
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270527-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270527
 SUMMARY:St. Augustine of Canterbury
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270528-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270528
 SUMMARY:Friday of the Eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270529-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270529
 SUMMARY:St. Paul VI
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270530-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270530
 SUMMARY:The Most Holy Body & Blood of Christ
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270531-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270531
 SUMMARY:The Visitation of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270601-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270601
 SUMMARY:St. Justin
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270602-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270602
 SUMMARY:Sts. Marcellinus & Peter
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270603-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270603
 SUMMARY:Sts. Charles Lwanga & Companions
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270604-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270604
 SUMMARY:The Most Sacred Heart of Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270605-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270605
 SUMMARY:The Immaculate Heart of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270606-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270606
 SUMMARY:Tenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270607-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270607
 SUMMARY:Monday of the Tenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270608-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270608
 SUMMARY:Tuesday of the Tenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270609-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270609
 SUMMARY:St. Ephrem
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270610-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270610
 SUMMARY:Thursday of the Tenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270611-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270611
 SUMMARY:St. Barnabas
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270612-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270612
 SUMMARY:Saturday of the Tenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270613-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270613
 SUMMARY:Eleventh Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270614-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270614
 SUMMARY:Monday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270615-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270615
 SUMMARY:Tuesday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270616-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270616
 SUMMARY:Wednesday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270617-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270617
 SUMMARY:Thursday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270618-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270618
 SUMMARY:Friday of the Eleventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270619-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270619
 SUMMARY:St. Romuald
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270620-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270620
 SUMMARY:Twelfth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270621-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270621
 SUMMARY:St. Aloysius Gonzaga
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270622-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270622
 SUMMARY:St. Paulinus of Nola
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270623-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270623
 SUMMARY:Wednesday of the Twelfth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270624-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270624
 SUMMARY:The Nativity of St. John the Baptist
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270625-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270625
 SUMMARY:Friday of the Twelfth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270626-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270626
 SUMMARY:Saturday of the Twelfth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270627-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270627
 SUMMARY:Thirteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270628-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270628
 SUMMARY:St. Irenaeus
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270629-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270629
 SUMMARY:Sts. Peter & Paul
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270630-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270630
 SUMMARY:The First Martyrs of the Holy Roman Church
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270701-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270701
 SUMMARY:St. Junípero Serra
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270702-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270702
 SUMMARY:Friday of the Thirteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270703-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270703
 SUMMARY:St. Thomas
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270704-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270704
 SUMMARY:Fourteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270705-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270705
 SUMMARY:St. Elizabeth of Portugal
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270706-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270706
 SUMMARY:St. Maria Goretti
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270707-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270707
 SUMMARY:Wednesday of the Fourteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270708-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270708
 SUMMARY:Thursday of the Fourteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270709-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270709
 SUMMARY:St. Augustine Zhao Rong
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270710-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270710
 SUMMARY:Saturday of the Fourteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270711-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270711
 SUMMARY:Fifteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270712-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270712
 SUMMARY:Monday of the Fifteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270713-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270713
 SUMMARY:St. Henry
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270714-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270714
 SUMMARY:St. Kateri Tekakwitha
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270715-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270715
 SUMMARY:St. Bonaventure
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270716-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270716
 SUMMARY:Our Lady of Mount Carmel
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270717-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270717
 SUMMARY:Saturday of the Fifteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270718-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270718
 SUMMARY:Sixteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270719-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270719
 SUMMARY:Monday of the Sixteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270720-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270720
 SUMMARY:St. Apollinaris
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270721-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270721
 SUMMARY:St. Lawrence of Brindisi
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270722-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270722
 SUMMARY:St. Mary Magdalene
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270723-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270723
 SUMMARY:St. Bridget
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270724-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270724
 SUMMARY:St. Sharbel Makhlūf
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270725-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270725
 SUMMARY:Seventeenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270726-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270726
 SUMMARY:Sts. Joachim & Anne
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270727-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270727
 SUMMARY:Tuesday of the Seventeenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270728-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270728
 SUMMARY:Wednesday of the Seventeenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270729-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270729
 SUMMARY:Sts. Martha
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270730-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270730
 SUMMARY:St. Peter Chrysologus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270731-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270731
 SUMMARY:St. Ignatius of Loyola
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270801-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270801
 SUMMARY:Eighteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270802-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270802
 SUMMARY:St. Eusebius of Vercelli
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270803-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270803
 SUMMARY:Tuesday of the Eighteenth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270804-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270804
 SUMMARY:St. John Mary Vianney
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270805-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270805
 SUMMARY:The Dedication of the Basilica of St. Mary Major
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270806-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270806
 SUMMARY:The Transfiguration of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270807-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270807
 SUMMARY:St. Sixtus II
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270808-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270808
 SUMMARY:Nineteenth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270809-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270809
 SUMMARY:St. Teresa Benedicta of the Cross Stein
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270810-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270810
 SUMMARY:St. Lawrence
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270811-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270811
 SUMMARY:St. Clare
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270812-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270812
 SUMMARY:St. Jane Frances De Chantal
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270813-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270813
 SUMMARY:Sts. Pontian
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270814-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270814
 SUMMARY:St. Maximilian Mary Kolbe
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270815-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270815
 SUMMARY:The Assumption of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270816-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270816
 SUMMARY:St. Stephen of Hungary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270817-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270817
 SUMMARY:Tuesday of the Twentieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270818-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270818
 SUMMARY:Wednesday of the Twentieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270819-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270819
 SUMMARY:St. John Eudes
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270820-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270820
 SUMMARY:St. Bernard
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270821-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270821
 SUMMARY:St. Pius X
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270822-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270822
 SUMMARY:Twenty-first Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270823-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270823
 SUMMARY:St. Rose of Lima
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270824-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270824
 SUMMARY:St. Bartholomew
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270825-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270825
 SUMMARY:St. Louis
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270826-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270826
 SUMMARY:Thursday of the Twenty-first Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270827-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270827
 SUMMARY:St. Monica
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270828-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270828
 SUMMARY:St. Augustine
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270829-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270829
 SUMMARY:Twenty-second Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270830-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270830
 SUMMARY:Monday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270831-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270831
 SUMMARY:Tuesday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270901-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270901
 SUMMARY:Wednesday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270902-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270902
 SUMMARY:Thursday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270903-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270903
 SUMMARY:St. Gregory the Great
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270904-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270904
 SUMMARY:Saturday of the Twenty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270905-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270905
 SUMMARY:Twenty-third Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270906-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270906
 SUMMARY:Monday of the Twenty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270907-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270907
 SUMMARY:Tuesday of the Twenty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270908-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270908
 SUMMARY:The Nativity of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270909-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270909
 SUMMARY:St. Peter Claver
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270910-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270910
 SUMMARY:Friday of the Twenty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270911-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270911
 SUMMARY:Saturday of the Twenty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270912-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270912
 SUMMARY:Twenty-fourth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270913-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270913
 SUMMARY:St. John Chrysostom
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270914-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270914
 SUMMARY:The Exaltation of the Holy Cross
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270915-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270915
 SUMMARY:Our Lady of Sorrows
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270916-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270916
 SUMMARY:Sts. Cornelius
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270917-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270917
 SUMMARY:St. Hildegard of Bingen
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270918-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270918
 SUMMARY:Saturday of the Twenty-fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270919-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270919
 SUMMARY:Twenty-fifth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270920-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270920
 SUMMARY:Sts. Andrew Kim Tae-gŏn
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270921-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270921
 SUMMARY:St. Matthew
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270922-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270922
 SUMMARY:Wednesday of the Twenty-fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270923-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270923
 SUMMARY:St. Pius of Pietrelcina
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270924-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270924
 SUMMARY:Friday of the Twenty-fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270925-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270925
 SUMMARY:Saturday of the Twenty-fifth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270926-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270926
 SUMMARY:Twenty-sixth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270927-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270927
 SUMMARY:St. Vincent De Paul
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270928-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270928
 SUMMARY:St. Wenceslaus
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20270929-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270929
 SUMMARY:Sts. Michael
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270930-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270930
 SUMMARY:St. Jerome
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271001-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271001
 SUMMARY:St. Thérèse of the Child Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271002-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271002
 SUMMARY:The Holy Guardian Angels
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271003-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271003
 SUMMARY:Twenty-seventh Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271004-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271004
 SUMMARY:St. Francis of Assisi
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271005-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271005
 SUMMARY:St. Faustina Kowalska
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271006-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271006
 SUMMARY:St. Bruno
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271007-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271007
 SUMMARY:Our Lady of the Rosary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271008-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271008
 SUMMARY:Friday of the Twenty-seventh Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271009-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271009
 SUMMARY:St. Denis
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271010-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271010
 SUMMARY:Twenty-eighth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271011-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271011
 SUMMARY:St. John XXIII
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271012-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271012
 SUMMARY:Tuesday of the Twenty-eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271013-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271013
 SUMMARY:Wednesday of the Twenty-eighth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271014-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271014
 SUMMARY:St. Callistus I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271015-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271015
 SUMMARY:St. Teresa of Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271016-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271016
 SUMMARY:St. Hedwig
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271017-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271017
 SUMMARY:Twenty-ninth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271018-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271018
 SUMMARY:St. Luke
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271019-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271019
 SUMMARY:Sts. John De Brébeuf & Isaac Jogues
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271020-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271020
 SUMMARY:St. Paul of the Cross
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271021-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271021
 SUMMARY:Thursday of the Twenty-ninth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271022-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271022
 SUMMARY:St. John Paul II
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271023-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271023
 SUMMARY:St. John of Capistrano
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271024-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271024
 SUMMARY:Thirtieth Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271025-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271025
 SUMMARY:Monday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271026-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271026
 SUMMARY:Tuesday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271027-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271027
 SUMMARY:Wednesday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271028-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271028
 SUMMARY:Sts. Simon & Jude
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271029-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271029
 SUMMARY:Friday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271030-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271030
 SUMMARY:Saturday of the Thirtieth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271031-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271031
 SUMMARY:Thirty-first Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271101-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271101
 SUMMARY:All Saints
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271102-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271102
 SUMMARY:The Commemoration of All the Faithful Departed (All Soul’s Day)
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271103-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271103
 SUMMARY:St. Martin De Porres
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271104-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271104
 SUMMARY:St. Charles Borromeo
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271105-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271105
 SUMMARY:Friday of the Thirty-first Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271106-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271106
 SUMMARY:Saturday of the Thirty-first Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271107-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271107
 SUMMARY:Thirty-second Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271108-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271108
 SUMMARY:Monday of the Thirty-second Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271109-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271109
 SUMMARY:The Dedication of the Lateran Basilica
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271110-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271110
 SUMMARY:St. Leo the Great
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271111-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271111
 SUMMARY:St. Martin of Tours
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271112-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271112
 SUMMARY:St. Josaphat
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271113-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271113
 SUMMARY:St. Frances Xavier Cabrini
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271114
 SUMMARY:Thirty-third Sunday in Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271115-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271115
 SUMMARY:St. Albert the Great
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271116-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271116
 SUMMARY:St. Margaret of Scotland
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271117-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271117
 SUMMARY:St. Elizabeth of Hungary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271118-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271118
 SUMMARY:The Dedication of the Basilicas of Sts. Peter & Paul
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271119
 SUMMARY:Friday of the Thirty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271120-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271120
 SUMMARY:Saturday of the Thirty-third Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271121-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271121
 SUMMARY:Our Lord Jesus Christ
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271122-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271122
 SUMMARY:St. Cecilia
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271123-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271123
 SUMMARY:St. Clement I
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271124-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271124
 SUMMARY:St. Andrew Dũng-lạc
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271125-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271125
 SUMMARY:St. Catherine of Alexandria
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271126-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271126
 SUMMARY:Friday of the Thirty-fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271127-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271127
 SUMMARY:Saturday of the Thirty-fourth Week of Ordinary Time
+X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271128-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271128
 SUMMARY:First Sunday of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271129
 SUMMARY:Monday of the First Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271130-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271130
 SUMMARY:St. Andrew
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271201
 SUMMARY:Wednesday of the First Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271202-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271202
 SUMMARY:Thursday of the First Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271203-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271203
 SUMMARY:St. Francis Xavier
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271204-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271204
 SUMMARY:St. John Damascene
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271205-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271205
 SUMMARY:Second Sunday of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271206-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271206
 SUMMARY:St. Nicholas
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271207-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271207
 SUMMARY:St. Ambrose
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271208-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271208
 SUMMARY:The Immaculate Conception of the Bl. Virgin Mary
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271209-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271209
 SUMMARY:St. Juan Diego Cuauhtlatoatzin
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271210-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271210
 SUMMARY:Our Lady of Loreto
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271211-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271211
 SUMMARY:St. Damasus I
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271212-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271212
 SUMMARY:Third Sunday of Advent
+X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
 UID:20271213-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271213
 SUMMARY:St. Lucy
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271214-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271214
 SUMMARY:St. John of the Cross
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271215
 SUMMARY:Wednesday of the Third Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271216
 SUMMARY:Thursday of the Third Week of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271217-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271217
 SUMMARY:December 17
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271218-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271218
 SUMMARY:December 18
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271219-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271219
 SUMMARY:Fourth Sunday of Advent
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271220-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271220
 SUMMARY:December 20
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271221-catholic-calendar@noahweidig.com
@@ -3623,6 +4316,7 @@ BEGIN:VEVENT
 UID:20271222-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271222
 SUMMARY:December 22
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271223-catholic-calendar@noahweidig.com
@@ -3633,26 +4327,31 @@ BEGIN:VEVENT
 UID:20271224-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271224
 SUMMARY:December 24
+X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271225
 SUMMARY:The Nativity of the Lord (Christmas)
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271226-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271226
 SUMMARY:The Holy Family of Jesus
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271227-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271227
 SUMMARY:St. John
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271228-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271228
 SUMMARY:The Holy Innocents
+X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
 UID:20271229-catholic-calendar@noahweidig.com
@@ -3663,6 +4362,7 @@ BEGIN:VEVENT
 UID:20271230-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271230
 SUMMARY:Sixth Day Within the Octave of the Nativity of the Lord
+X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20271231-catholic-calendar@noahweidig.com

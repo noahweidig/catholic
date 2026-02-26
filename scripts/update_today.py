@@ -3,6 +3,7 @@ import json
 import subprocess
 import re
 import html
+import os
 from datetime import datetime
 from catholic_mass_readings import USCCB
 
@@ -10,6 +11,48 @@ from catholic_mass_readings import USCCB
 HEADER_REGEX = re.compile(r'(<header[^>]*class=["\'])(.*?)(["\'][^>]*>)')
 DAY_REGEX = re.compile(r'(<div id="liturgical-day">)(.*?)(</div>)')
 MAIN_REGEX = re.compile(r'(<main id="readings-content">)(.*?)(</main>)', re.DOTALL)
+
+def get_liturgical_info_from_ics():
+    """Tries to get today's liturgical info from litcal.ics"""
+    try:
+        today_str = datetime.now().strftime("%Y%m%d")
+        filepath = 'litcal.ics'
+        if not os.path.exists(filepath):
+            return None
+
+        with open(filepath, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+
+        in_event = False
+        current_event = {}
+
+        for line in lines:
+            line = line.strip()
+            if line == 'BEGIN:VEVENT':
+                in_event = True
+                current_event = {}
+            elif line == 'END:VEVENT':
+                in_event = False
+                # Check if this event is for today
+                if current_event.get('DTSTART') == today_str:
+                    # Found it!
+                    return {
+                        'name': current_event.get('SUMMARY', ''),
+                        'color': current_event.get('X-LITURGICAL-COLOR', 'green')
+                    }
+            elif in_event:
+                if ':' in line:
+                    key, value = line.split(':', 1)
+                    # Handle attributes like DTSTART;VALUE=DATE
+                    if ';' in key:
+                         key = key.split(';')[0]
+
+                    current_event[key] = value
+
+        return None
+    except Exception as e:
+        print(f"Error reading ICS: {e}")
+        return None
 
 async def get_liturgical_info():
     try:
@@ -176,7 +219,15 @@ def update_today_file(filepath, color, html_content):
 
 async def main():
     print("Fetching liturgical info...")
-    liturgical_info = await get_liturgical_info()
+
+    # Try getting info from cached ICS first
+    liturgical_info = get_liturgical_info_from_ics()
+
+    if liturgical_info and liturgical_info.get('color'):
+        print("Used cached ICS data.")
+    else:
+        print("ICS data missing or incomplete, falling back to node script...")
+        liturgical_info = await get_liturgical_info()
 
     color = 'green'
     romcal_name = ''

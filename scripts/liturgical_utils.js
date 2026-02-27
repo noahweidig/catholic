@@ -156,10 +156,7 @@ const romanNumeralsSet = new Set([
 
 // Optimization: Pre-compile Regex for faster replace
 const WORD_REGEX = /\w\S*/g;
-const SAINT_REGEX = /Saint /g;
-const SAINTS_REGEX = /Saints /g;
-const BLESSED_REGEX = /Blessed /g;
-const AND_REGEX = / and /g;
+const FORMAT_SUMMARY_REGEX = /Saints? |Blessed | and /g;
 
 /**
  * Converts a string to Title Case.
@@ -189,13 +186,19 @@ function toTitleCase(str) {
  * @returns {string}
  */
 function formatSummary(summary) {
-    if (summary.includes(',')) {
-        summary = summary.split(',')[0];
+    const commaIndex = summary.indexOf(',');
+    if (commaIndex !== -1) {
+        summary = summary.substring(0, commaIndex);
     }
-    summary = summary.replace(SAINT_REGEX, 'St. ');
-    summary = summary.replace(SAINTS_REGEX, 'Sts. ');
-    summary = summary.replace(BLESSED_REGEX, 'Bl. ');
-    summary = summary.replace(AND_REGEX, ' & ');
+
+    summary = summary.replace(FORMAT_SUMMARY_REGEX, (match) => {
+        if (match === 'Saint ') return 'St. ';
+        if (match === 'Saints ') return 'Sts. ';
+        if (match === 'Blessed ') return 'Bl. ';
+        if (match === ' and ') return ' & ';
+        return match;
+    });
+
     return toTitleCase(summary);
 }
 

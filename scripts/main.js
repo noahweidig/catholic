@@ -203,18 +203,45 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
 
-            searchResults.innerHTML = filtered.map(function(t, i) {
-                return [
-                    '<a href="' + t.href + '" class="search-result' + (i === 0 && q.length > 0 ? ' active' : '') + '" data-index="' + i + '">',
-                    '  <span class="search-result-icon"><i class="' + t.icon + '"></i></span>',
-                    '  <span class="search-result-text">',
-                    '    <span class="search-result-title">' + t.label + '</span>',
-                    '    <span class="search-result-desc">' + t.desc + '</span>',
-                    '  </span>',
-                    '  <i class="fa-solid fa-arrow-right search-result-arrow"></i>',
-                    '</a>'
-                ].join('');
-            }).join('');
+            searchResults.innerHTML = '';
+
+            filtered.forEach(function(t, i) {
+                var a = document.createElement('a');
+                a.href = t.href;
+                a.className = 'search-result' + (i === 0 && q.length > 0 ? ' active' : '');
+                a.setAttribute('data-index', i);
+
+                var iconSpan = document.createElement('span');
+                iconSpan.className = 'search-result-icon';
+                var iIcon = document.createElement('i');
+                iIcon.className = t.icon;
+                iconSpan.appendChild(iIcon);
+
+                var textSpan = document.createElement('span');
+                textSpan.className = 'search-result-text';
+
+                var titleSpan = document.createElement('span');
+                titleSpan.className = 'search-result-title';
+                titleSpan.textContent = t.label; // Secure against XSS
+
+                var descSpan = document.createElement('span');
+                descSpan.className = 'search-result-desc';
+                descSpan.textContent = t.desc; // Secure against XSS
+
+                textSpan.appendChild(titleSpan);
+                // Add whitespace node to match original HTML structure
+                textSpan.appendChild(document.createTextNode(' '));
+                textSpan.appendChild(descSpan);
+
+                var arrowIcon = document.createElement('i');
+                arrowIcon.className = 'fa-solid fa-arrow-right search-result-arrow';
+
+                a.appendChild(iconSpan);
+                a.appendChild(textSpan);
+                a.appendChild(arrowIcon);
+
+                searchResults.appendChild(a);
+            });
 
             activeIndex = q.length > 0 ? 0 : -1;
         }

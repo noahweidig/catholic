@@ -556,4 +556,30 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         link.setAttribute('rel', relTokens.join(' '));
     });
+
+    // Estimated Reading Time
+    function initReadingTime() {
+        var banner = document.querySelector('.page-banner');
+        var mainContent = document.querySelector('main');
+
+        if (!banner || !mainContent) return;
+
+        // Use textContent to get only text, not HTML tags
+        var text = mainContent.textContent || '';
+        var wordCount = text.trim().split(/\s+/).length;
+
+        // Only show for substantial content (> 100 words)
+        if (wordCount < 100) return;
+
+        // Assume average reading speed of 200 wpm
+        var minutes = Math.ceil(wordCount / 200);
+
+        var readingTimeEl = document.createElement('div');
+        readingTimeEl.className = 'reading-time';
+        readingTimeEl.innerHTML = '<i class="fa-solid fa-clock"></i> ' + minutes + ' min read';
+
+        banner.appendChild(readingTimeEl);
+    }
+
+    initReadingTime();
 });

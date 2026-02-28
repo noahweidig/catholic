@@ -70,6 +70,17 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Accessibility: Global focus visible for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -1317,6 +1328,11 @@ body.theme-dark .search-dialog {
     gap: 0.75rem;
     padding: 1rem 1.25rem;
     border-bottom: 1px solid var(--border-color);
+    transition: border-color 0.2s ease;
+}
+
+.search-input-wrap:focus-within {
+    border-bottom-color: var(--accent-color);
 }
 
 .search-input-wrap i {
@@ -1334,6 +1350,10 @@ body.theme-dark .search-dialog {
     font-family: var(--font-body);
     font-size: 1rem;
     line-height: 1.5;
+}
+
+.search-input:focus-visible {
+    outline: none; /* Inherits focus indication from .search-input-wrap:focus-within */
 }
 
 .search-input::placeholder {

@@ -9,3 +9,7 @@
 ## 2026-02-21 - Print Accessibility for Liturgical Content
 **Learning:** Users often need physical copies of liturgical readings for offline use (e.g., in church). Default browser printing includes distracting UI elements (nav, footer) and wastes ink. A clean print layout is a critical accessibility feature for this domain.
 **Action:** Always implement a dedicated `@media print` stylesheet that hides navigation/interactive elements and resets the main content container for maximum readability and ink efficiency.
+
+## 2026-02-28 - Focus Visibility
+**Learning:** Relying solely on default browser outlines or using `outline: none` (like in the search input) severely impairs keyboard navigation. Using `:focus-visible` globally for interactive elements ensures keyboard accessibility without affecting mouse users. For complex inputs (like search bars with icons), `:focus-within` on the wrapper provides a clean, accessible focus state.
+**Action:** Always verify that interactive elements (`a`, `button`, `input`) have distinct `:focus-visible` states defined in the design system. Use `:focus-within` for input wrappers when the input itself has its outline removed.

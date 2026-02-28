@@ -13,3 +13,7 @@
 ## 2024-06-03 - [Optimize String Truncation and Multiple Regex Replaces]
 **Learning:** For simple string truncation before a character (like `,`), `indexOf` + `substring` is significantly faster than `.includes()` + `.split()[0]`. Additionally, chaining multiple `.replace(/regex/g)` on a string is slower than combining them into a single regex (e.g., `/regex1|regex2/g`) with a replacer function, saving string allocations and multiple passes over the text.
 **Action:** Use `indexOf` and `substring` when discarding parts of a string. When formatting text with multiple find-and-replaces, merge them into a single regex and process matches in one pass via a callback.
+
+## 2024-06-03 - [Optimize Date String Formatting]
+**Learning:** `Date.toISOString().split('T')[0]` is highly inefficient for generating simple `YYYY-MM-DD` strings. Creating a helper function that uses UTC getters (`getUTCFullYear`, `getUTCMonth`, `getUTCDate`) and simple string concatenation (with inline padding) is ~80% faster in Node.js.
+**Action:** Always favor specific date component getters and string concatenation for simple date formats rather than creating, slicing, and allocating multiple arrays and strings via `toISOString` and `split`.

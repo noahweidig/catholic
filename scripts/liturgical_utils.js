@@ -38,6 +38,14 @@ function getEasterDate(year) {
     return date;
 }
 
+// Helper to format a Date as YYYY-MM-DD significantly faster than toISOString().split('T')[0]
+function formatToYMD(date) {
+    const y = date.getUTCFullYear();
+    const m = date.getUTCMonth() + 1;
+    const d = date.getUTCDate();
+    return y + '-' + (m < 10 ? '0' : '') + m + '-' + (d < 10 ? '0' : '') + d;
+}
+
 /**
  * Calculates the date of Ash Wednesday (46 days before Easter Sunday).
  * @param {number} year
@@ -50,7 +58,7 @@ function getAshWednesdayDate(year) {
 
     const easter = getEasterDate(year);
     const ashWed = new Date(easter.getTime() - 46 * 24 * 60 * 60 * 1000);
-    const dateStr = ashWed.toISOString().split('T')[0];
+    const dateStr = formatToYMD(ashWed);
 
     ashWedCache.set(year, dateStr);
     return dateStr;
@@ -68,7 +76,7 @@ function getGoodFridayDate(year) {
 
     const easter = getEasterDate(year);
     const goodFri = new Date(easter.getTime() - 2 * 24 * 60 * 60 * 1000);
-    const dateStr = goodFri.toISOString().split('T')[0];
+    const dateStr = formatToYMD(goodFri);
 
     goodFriCache.set(year, dateStr);
     return dateStr;
@@ -87,7 +95,7 @@ function getAscensionDate(year) {
     const easter = getEasterDate(year);
     // Add 39 days in milliseconds
     const ascension = new Date(easter.getTime() + 39 * 24 * 60 * 60 * 1000);
-    const dateStr = ascension.toISOString().split('T')[0];
+    const dateStr = formatToYMD(ascension);
 
     ascensionCache.set(year, dateStr);
     return dateStr;

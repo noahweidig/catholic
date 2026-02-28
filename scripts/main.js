@@ -197,24 +197,66 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
 
+            searchResults.innerHTML = ''; // Clear previous results safely
+
             if (filtered.length === 0) {
-                searchResults.innerHTML = '<div class="search-empty"><i class="fa-solid fa-magnifying-glass"></i>No results found</div>';
+                var emptyDiv = document.createElement('div');
+                emptyDiv.className = 'search-empty';
+                var emptyIcon = document.createElement('i');
+                emptyIcon.className = 'fa-solid fa-magnifying-glass';
+                emptyDiv.appendChild(emptyIcon);
+                emptyDiv.appendChild(document.createTextNode('No results found'));
+                searchResults.appendChild(emptyDiv);
                 activeIndex = -1;
                 return;
             }
 
-            searchResults.innerHTML = filtered.map(function(t, i) {
-                return [
-                    '<a href="' + t.href + '" class="search-result' + (i === 0 && q.length > 0 ? ' active' : '') + '" data-index="' + i + '">',
-                    '  <span class="search-result-icon"><i class="' + t.icon + '"></i></span>',
-                    '  <span class="search-result-text">',
-                    '    <span class="search-result-title">' + t.label + '</span>',
-                    '    <span class="search-result-desc">' + t.desc + '</span>',
-                    '  </span>',
-                    '  <i class="fa-solid fa-arrow-right search-result-arrow"></i>',
-                    '</a>'
-                ].join('');
-            }).join('');
+            filtered.forEach(function(t, i) {
+                var a = document.createElement('a');
+                a.href = t.href;
+                a.className = 'search-result' + (i === 0 && q.length > 0 ? ' active' : '');
+                a.setAttribute('data-index', i);
+
+                a.appendChild(document.createTextNode('\n  '));
+
+                var iconSpan = document.createElement('span');
+                iconSpan.className = 'search-result-icon';
+                var iconI = document.createElement('i');
+                iconI.className = t.icon;
+                iconSpan.appendChild(iconI);
+                a.appendChild(iconSpan);
+
+                a.appendChild(document.createTextNode('\n  '));
+
+                var textSpan = document.createElement('span');
+                textSpan.className = 'search-result-text';
+
+                var titleSpan = document.createElement('span');
+                titleSpan.className = 'search-result-title';
+                titleSpan.textContent = t.label;
+
+                var descSpan = document.createElement('span');
+                descSpan.className = 'search-result-desc';
+                descSpan.textContent = t.desc;
+
+                textSpan.appendChild(document.createTextNode('\n    '));
+                textSpan.appendChild(titleSpan);
+                textSpan.appendChild(document.createTextNode('\n    '));
+                textSpan.appendChild(descSpan);
+                textSpan.appendChild(document.createTextNode('\n  '));
+
+                a.appendChild(textSpan);
+
+                a.appendChild(document.createTextNode('\n  '));
+
+                var arrowI = document.createElement('i');
+                arrowI.className = 'fa-solid fa-arrow-right search-result-arrow';
+                a.appendChild(arrowI);
+
+                a.appendChild(document.createTextNode('\n'));
+
+                searchResults.appendChild(a);
+            });
 
             activeIndex = q.length > 0 ? 0 : -1;
         }

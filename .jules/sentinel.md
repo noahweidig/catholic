@@ -12,3 +12,8 @@
 **Vulnerability:** External links using `target="_blank"` allow the newly opened page to access the original window object via `window.opener`. A malicious site could use this to redirect the original page to a phishing site (reverse tabnabbing).
 **Learning:** Even simple HTML attributes can have profound security implications. Developers often overlook the `window.opener` behavior, assuming the new tab is fully isolated.
 **Prevention:** Always combine `target="_blank"` with `rel="noopener noreferrer"`. This cuts the reference to the opener window. We implemented an automated fix in `scripts/main.js` to enforce this pattern on all external links dynamically.
+
+## 2026-11-05 - DOM-based XSS Risk: Unsafe Use of `innerHTML`
+**Vulnerability:** The client-side search functionality (`renderResults` in `scripts/main.js`) used `innerHTML` to inject search results directly into the DOM. If user input were to be improperly sanitized or incorporated into the search targets, it could result in Cross-Site Scripting (XSS).
+**Learning:** `innerHTML` inherently executes injected scripts or dangerous HTML if not properly scrubbed. It bypasses many built-in protections and is heavily discouraged for rendering user-facing content or even internal data that might be modified.
+**Prevention:** Construct HTML using safe DOM manipulation APIs (`document.createElement()`, `element.textContent`, `element.appendChild()`). This approach inherently escapes text, ensuring no injected string is interpreted as HTML tags or scripts. Whitespace nodes can be added explicitly to maintain exact rendering structures.

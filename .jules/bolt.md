@@ -13,3 +13,7 @@
 ## 2024-06-03 - [Optimize String Truncation and Multiple Regex Replaces]
 **Learning:** For simple string truncation before a character (like `,`), `indexOf` + `substring` is significantly faster than `.includes()` + `.split()[0]`. Additionally, chaining multiple `.replace(/regex/g)` on a string is slower than combining them into a single regex (e.g., `/regex1|regex2/g`) with a replacer function, saving string allocations and multiple passes over the text.
 **Action:** Use `indexOf` and `substring` when discarding parts of a string. When formatting text with multiple find-and-replaces, merge them into a single regex and process matches in one pass via a callback.
+
+## 2026-03-01 - [Optimize Simple YYYY-MM-DD Date Formatting]
+**Learning:** Using `.toISOString().split('T')[0]` to format dates into YYYY-MM-DD allocates multiple temporary strings (the full ISO string, the array, and its isolated elements). In loops, such as when parsing or generating multiple calendar events, this causes measurable GC overhead and slows down execution.
+**Action:** To maximize performance when formatting dates as YYYY-MM-DD in JavaScript, use standard UTC getters (`getUTCFullYear`, `getUTCMonth`, `getUTCDate`) combined with simple string concatenation.

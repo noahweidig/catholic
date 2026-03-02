@@ -8,6 +8,19 @@ const goodFriCache = new Map();
 const ascensionCache = new Map();
 
 /**
+ * Fast formatting of a Date object to YYYY-MM-DD using UTC methods.
+ * This avoids the allocation overhead of toISOString().split('T')[0].
+ * @param {Date} date
+ * @returns {string} Date string in YYYY-MM-DD format
+ */
+function formatYYYYMMDD(date) {
+    const y = date.getUTCFullYear();
+    const m = date.getUTCMonth() + 1;
+    const d = date.getUTCDate();
+    return y + '-' + (m < 10 ? '0' + m : m) + '-' + (d < 10 ? '0' + d : d);
+}
+
+/**
  * Calculates the date of Easter Sunday for a given year using the Meeus/Jones/Butcher algorithm.
  * @param {number} year
  * @returns {Date} Easter Sunday date (UTC midnight)
@@ -50,7 +63,7 @@ function getAshWednesdayDate(year) {
 
     const easter = getEasterDate(year);
     const ashWed = new Date(easter.getTime() - 46 * 24 * 60 * 60 * 1000);
-    const dateStr = ashWed.toISOString().split('T')[0];
+    const dateStr = formatYYYYMMDD(ashWed);
 
     ashWedCache.set(year, dateStr);
     return dateStr;
@@ -68,7 +81,7 @@ function getGoodFridayDate(year) {
 
     const easter = getEasterDate(year);
     const goodFri = new Date(easter.getTime() - 2 * 24 * 60 * 60 * 1000);
-    const dateStr = goodFri.toISOString().split('T')[0];
+    const dateStr = formatYYYYMMDD(goodFri);
 
     goodFriCache.set(year, dateStr);
     return dateStr;
@@ -87,7 +100,7 @@ function getAscensionDate(year) {
     const easter = getEasterDate(year);
     // Add 39 days in milliseconds
     const ascension = new Date(easter.getTime() + 39 * 24 * 60 * 60 * 1000);
-    const dateStr = ascension.toISOString().split('T')[0];
+    const dateStr = formatYYYYMMDD(ascension);
 
     ascensionCache.set(year, dateStr);
     return dateStr;

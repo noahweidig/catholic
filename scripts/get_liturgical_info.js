@@ -18,7 +18,12 @@ async function getLiturgicalInfo() {
         const year = today.getFullYear();
         const offset = today.getTimezoneOffset() * 60000;
         const localDate = new Date(today.getTime() - offset);
-        const todayString = localDate.toISOString().split('T')[0];
+
+        // Fast formatting to avoid allocation overhead of toISOString().split('T')[0]
+        const y = localDate.getUTCFullYear();
+        const m = localDate.getUTCMonth() + 1;
+        const d = localDate.getUTCDate();
+        const todayString = y + '-' + (m < 10 ? '0' + m : m) + '-' + (d < 10 ? '0' + d : d);
 
         const romcal = new Romcal({
             localizedCalendar: UnitedStates_En

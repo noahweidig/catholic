@@ -13,3 +13,7 @@
 ## 2026-02-28 - Focus Visibility
 **Learning:** Relying solely on default browser outlines or using `outline: none` (like in the search input) severely impairs keyboard navigation. Using `:focus-visible` globally for interactive elements ensures keyboard accessibility without affecting mouse users. For complex inputs (like search bars with icons), `:focus-within` on the wrapper provides a clean, accessible focus state.
 **Action:** Always verify that interactive elements (`a`, `button`, `input`) have distinct `:focus-visible` states defined in the design system. Use `:focus-within` for input wrappers when the input itself has its outline removed.
+
+## 2026-03-01 - Dynamic Client-Side Search Accessibility
+**Learning:** For dynamic client-side search interfaces (like a search dialog that filters results as you type), screen readers are blind to the visual updates happening in the results list. It is critical to inject an `aria-live="polite"` region (e.g., `<div class="sr-only" aria-live="polite"></div>`) and update its text content (e.g., "5 results found") to audibly announce the state changes. Additionally, when opening modal dialogs via keyboard shortcuts or buttons, saving `document.activeElement` and restoring focus to it upon closing the dialog is essential for keyboard navigation continuity.
+**Action:** Always implement an `aria-live` announcer for dynamic, as-you-type search inputs, and ensure modal dialogs trap/restore focus properly.

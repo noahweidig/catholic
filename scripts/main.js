@@ -139,10 +139,11 @@ document.addEventListener('DOMContentLoaded', function () {
             '<div class="search-dialog">',
             '  <div class="search-input-wrap">',
             '    <i class="fa-solid fa-magnifying-glass"></i>',
-            '    <input type="text" class="search-input" placeholder="Search pages\u2026" autocomplete="off" spellcheck="false">',
+            '    <input type="text" class="search-input" placeholder="Search pages\u2026" autocomplete="off" spellcheck="false" aria-label="Search pages">',
             '    <span class="search-kbd">ESC</span>',
             '  </div>',
             '  <div class="search-results"></div>',
+            '  <div class="sr-only" aria-live="polite" id="search-announcer"></div>',
             '  <div class="search-footer">',
             '    <span><kbd>\u2191</kbd> <kbd>\u2193</kbd> navigate</span>',
             '    <span><kbd>\u21B5</kbd> open</span>',
@@ -154,9 +155,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var searchInput = overlay.querySelector('.search-input');
         var searchResults = overlay.querySelector('.search-results');
+        var searchAnnouncer = overlay.querySelector('#search-announcer');
         var activeIndex = -1;
+        var previousActiveElement = null;
 
         function openSearch() {
+            previousActiveElement = document.activeElement;
             overlay.classList.add('open');
             searchInput.value = '';
             activeIndex = -1;
@@ -168,6 +172,9 @@ document.addEventListener('DOMContentLoaded', function () {
         function closeSearch() {
             overlay.classList.remove('open');
             searchInput.blur();
+            if (previousActiveElement) {
+                previousActiveElement.focus();
+            }
         }
 
         function renderResults(query) {
@@ -208,7 +215,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 emptyDiv.appendChild(document.createTextNode('No results found'));
                 searchResults.appendChild(emptyDiv);
                 activeIndex = -1;
+                if (searchAnnouncer) searchAnnouncer.textContent = 'No results found';
                 return;
+            }
+
+            if (searchAnnouncer) {
+                searchAnnouncer.textContent = filtered.length + (filtered.length === 1 ? ' result found' : ' results found');
             }
 
             filtered.forEach(function(t, i) {

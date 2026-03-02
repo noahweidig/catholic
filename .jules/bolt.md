@@ -17,3 +17,7 @@
 ## 2026-03-01 - [Optimize Simple YYYY-MM-DD Date Formatting]
 **Learning:** Using `.toISOString().split('T')[0]` to format dates into YYYY-MM-DD allocates multiple temporary strings (the full ISO string, the array, and its isolated elements). In loops, such as when parsing or generating multiple calendar events, this causes measurable GC overhead and slows down execution.
 **Action:** To maximize performance when formatting dates as YYYY-MM-DD in JavaScript, use standard UTC getters (`getUTCFullYear`, `getUTCMonth`, `getUTCDate`) combined with simple string concatenation.
+
+## 2026-03-02 - [Optimize Large String Word Counting]
+**Learning:** For large blocks of text (like entire webpage main contents), using `.trim().split(/\s+/).length` to count words forces the engine to allocate an array of thousands of individual word strings, causing massive GC overhead and slow execution times.
+**Action:** Always count words in large text by iterating characters and toggling a boolean `inWord` flag (checking for space, tab, newline, return character codes). This achieves the same count in O(n) time with zero allocations.

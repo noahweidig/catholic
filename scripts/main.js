@@ -600,7 +600,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // to prevent tabnabbing if an internal page is compromised or redirects.
 
         var rel = link.getAttribute('rel') || '';
-        var relTokens = rel.split(/\s+/).filter(Boolean); // Robust token splitting
+        // Optimization: match(/\S+/g) avoids intermediate string allocations created by split().filter()
+        var relTokens = rel.match(/\S+/g) || [];
 
         if (relTokens.indexOf('noopener') === -1) {
             relTokens.push('noopener');
@@ -620,7 +621,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Use textContent to get only text, not HTML tags
         var text = mainContent.textContent || '';
-        var wordCount = text.trim().split(/\s+/).length;
+
+        // Optimization: Iterating characters avoids allocating thousands of short strings via split()
+        var wordCount = 0;
+        var inWord = false;
+        var len = text.length;
+        for (var i = 0; i < len; i++) {
+            var charCode = text.charCodeAt(i);
+            // Check for space, tab, newline, carriage return
+            if (charCode === 32 || charCode === 9 || charCode === 10 || charCode === 13) {
+                inWord = false;
+            } else if (!inWord) {
+                wordCount++;
+                inWord = true;
+            }
+        }
 
         // Only show for substantial content (> 100 words)
         if (wordCount < 100) return;

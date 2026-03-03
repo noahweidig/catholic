@@ -17,3 +17,11 @@
 ## 2026-03-01 - Dynamic Client-Side Search Accessibility
 **Learning:** For dynamic client-side search interfaces (like a search dialog that filters results as you type), screen readers are blind to the visual updates happening in the results list. It is critical to inject an `aria-live="polite"` region (e.g., `<div class="sr-only" aria-live="polite"></div>`) and update its text content (e.g., "5 results found") to audibly announce the state changes. Additionally, when opening modal dialogs via keyboard shortcuts or buttons, saving `document.activeElement` and restoring focus to it upon closing the dialog is essential for keyboard navigation continuity.
 **Action:** Always implement an `aria-live` announcer for dynamic, as-you-type search inputs, and ensure modal dialogs trap/restore focus properly.
+
+## 2026-03-02 - Custom Menu Escape Key Accessibility
+**Learning:** Custom dropdown menus and mobile off-canvas navs built with basic DOM manipulation often handle mouse/touch (click outside) but forget keyboard users who need the `Escape` key to dismiss the menu and return focus to the trigger. This is a critical WCAG requirement (WCAG 2.1.1, 1.4.13).
+**Action:** Always bind a global or scoped `keydown` listener for `Escape` whenever implementing `aria-expanded` toggle patterns to ensure proper keyboard accessibility and focus management.
+
+## 2026-03-02 - Custom Menu Escape Key Accessibility
+**Learning:** Custom dropdown menus and mobile off-canvas navs built with basic DOM manipulation often handle mouse/touch (click outside) but forget keyboard users who need the `Escape` key to dismiss the menu and return focus to the trigger. This is a critical WCAG requirement (WCAG 2.1.1, 1.4.13).
+**Action:** Always bind a global or scoped `keydown` listener for `Escape` whenever implementing `aria-expanded` toggle patterns to ensure proper keyboard accessibility and focus management.

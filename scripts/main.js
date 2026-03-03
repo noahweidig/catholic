@@ -55,7 +55,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 button.className = 'menu-trigger';
                 button.type = 'button';
                 button.setAttribute('aria-expanded', 'false');
-                button.innerHTML = '<i class="' + group.icon + '"></i>' + group.label + ' <i class="fa-solid fa-chevron-down"></i>';
+
+                var groupIcon = document.createElement('i');
+                groupIcon.className = group.icon;
+                button.appendChild(groupIcon);
+                button.appendChild(document.createTextNode(group.label + ' '));
+
+                var chevronIcon = document.createElement('i');
+                chevronIcon.className = 'fa-solid fa-chevron-down';
+                button.appendChild(chevronIcon);
 
                 var subMenu = document.createElement('ul');
                 subMenu.className = 'submenu';
@@ -65,7 +73,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     var subItem = document.createElement('li');
                     var link = document.createElement('a');
                     link.href = linkObj.href;
-                    link.innerHTML = '<i class="' + linkObj.icon + '"></i>' + linkObj.label;
+
+                    var linkIcon = document.createElement('i');
+                    linkIcon.className = linkObj.icon;
+                    link.appendChild(linkIcon);
+                    link.appendChild(document.createTextNode(linkObj.label));
+
                     if (activeHref === linkObj.href) {
                         link.classList.add('active');
                         link.setAttribute('aria-current', 'page');
@@ -89,7 +102,12 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 var topLink = document.createElement('a');
                 topLink.href = group.href;
-                topLink.innerHTML = '<i class="' + group.icon + '"></i>' + group.label;
+
+                var topGroupIcon = document.createElement('i');
+                topGroupIcon.className = group.icon;
+                topLink.appendChild(topGroupIcon);
+                topLink.appendChild(document.createTextNode(group.label));
+
                 if (activeHref === group.href) {
                     topLink.classList.add('active');
                     topLink.setAttribute('aria-current', 'page');
@@ -100,19 +118,49 @@ document.addEventListener('DOMContentLoaded', function () {
             navList.appendChild(item);
         });
 
-        nav.innerHTML = '';
+        nav.textContent = '';
         nav.appendChild(navList);
 
         var utilities = document.createElement('div');
         utilities.className = 'menu-utilities';
-        utilities.innerHTML = [
-            '<button type="button" class="icon-btn nav-search" aria-label="Search the site" title="Search (\u2318K)"><i class="fa-solid fa-magnifying-glass"></i></button>',
-            '<button type="button" class="icon-btn theme-toggle" aria-label="Toggle dark mode" aria-pressed="false"><i class="fa-solid fa-moon"></i></button>'
-        ].join('');
+
+        var searchBtn = document.createElement('button');
+        searchBtn.type = 'button';
+        searchBtn.className = 'icon-btn nav-search';
+        searchBtn.setAttribute('aria-label', 'Search the site');
+        searchBtn.setAttribute('title', 'Search (\u2318K)');
+        var searchBtnIcon = document.createElement('i');
+        searchBtnIcon.className = 'fa-solid fa-magnifying-glass';
+        searchBtn.appendChild(searchBtnIcon);
+        utilities.appendChild(searchBtn);
+
+        var themeBtn = document.createElement('button');
+        themeBtn.type = 'button';
+        themeBtn.className = 'icon-btn theme-toggle';
+        themeBtn.setAttribute('aria-label', 'Toggle dark mode');
+        themeBtn.setAttribute('aria-pressed', 'false');
+        var themeBtnIcon = document.createElement('i');
+        themeBtnIcon.className = 'fa-solid fa-moon';
+        themeBtn.appendChild(themeBtnIcon);
+        utilities.appendChild(themeBtn);
+
         header.appendChild(utilities);
 
         if (siteTitle) {
-            siteTitle.innerHTML = '<a href="index.html" class="brand-link"><img src="images/favicon.svg" alt="Catholic logo" class="brand-logo">Catholic</a>';
+            siteTitle.textContent = '';
+            var brandLink = document.createElement('a');
+            brandLink.href = 'index.html';
+            brandLink.className = 'brand-link';
+
+            var brandLogo = document.createElement('img');
+            brandLogo.src = 'images/favicon.svg';
+            brandLogo.alt = 'Catholic logo';
+            brandLogo.className = 'brand-logo';
+
+            brandLink.appendChild(brandLogo);
+            brandLink.appendChild(document.createTextNode('Catholic'));
+
+            siteTitle.appendChild(brandLink);
             siteTitle.setAttribute('aria-label', 'Catholic home');
         }
 
@@ -130,32 +178,80 @@ document.addEventListener('DOMContentLoaded', function () {
             { label: 'Resources', href: 'resources.html', icon: 'fa-solid fa-book-open', desc: 'Further reading, links, and calendars', keywords: ['resources', 'links', 'reading', 'books', 'calendar', 'subscribe', 'catechism', 'learn', 'study'] }
         ];
 
-        // Build search overlay
+        // Build search overlay safely using DOM methods
         var overlay = document.createElement('div');
         overlay.className = 'search-overlay';
         overlay.setAttribute('role', 'dialog');
         overlay.setAttribute('aria-label', 'Search the site');
-        overlay.innerHTML = [
-            '<div class="search-dialog">',
-            '  <div class="search-input-wrap">',
-            '    <i class="fa-solid fa-magnifying-glass"></i>',
-            '    <input type="text" class="search-input" placeholder="Search pages\u2026" autocomplete="off" spellcheck="false" aria-label="Search pages">',
-            '    <span class="search-kbd">ESC</span>',
-            '  </div>',
-            '  <div class="search-results"></div>',
-            '  <div class="sr-only" aria-live="polite" id="search-announcer"></div>',
-            '  <div class="search-footer">',
-            '    <span><kbd>\u2191</kbd> <kbd>\u2193</kbd> navigate</span>',
-            '    <span><kbd>\u21B5</kbd> open</span>',
-            '    <span><kbd>esc</kbd> close</span>',
-            '  </div>',
-            '</div>'
-        ].join('\n');
-        document.body.appendChild(overlay);
 
-        var searchInput = overlay.querySelector('.search-input');
-        var searchResults = overlay.querySelector('.search-results');
-        var searchAnnouncer = overlay.querySelector('#search-announcer');
+        var searchDialog = document.createElement('div');
+        searchDialog.className = 'search-dialog';
+
+        var searchInputWrap = document.createElement('div');
+        searchInputWrap.className = 'search-input-wrap';
+
+        var searchMagIcon = document.createElement('i');
+        searchMagIcon.className = 'fa-solid fa-magnifying-glass';
+        searchInputWrap.appendChild(searchMagIcon);
+
+        var searchInput = document.createElement('input');
+        searchInput.type = 'text';
+        searchInput.className = 'search-input';
+        searchInput.placeholder = 'Search pages\u2026';
+        searchInput.autocomplete = 'off';
+        searchInput.spellcheck = false;
+        searchInput.setAttribute('aria-label', 'Search pages');
+        searchInputWrap.appendChild(searchInput);
+
+        var searchKbd = document.createElement('span');
+        searchKbd.className = 'search-kbd';
+        searchKbd.textContent = 'ESC';
+        searchInputWrap.appendChild(searchKbd);
+
+        searchDialog.appendChild(searchInputWrap);
+
+        var searchResults = document.createElement('div');
+        searchResults.className = 'search-results';
+        searchDialog.appendChild(searchResults);
+
+        var searchAnnouncer = document.createElement('div');
+        searchAnnouncer.className = 'sr-only';
+        searchAnnouncer.setAttribute('aria-live', 'polite');
+        searchAnnouncer.id = 'search-announcer';
+        searchDialog.appendChild(searchAnnouncer);
+
+        var searchFooter = document.createElement('div');
+        searchFooter.className = 'search-footer';
+
+        var navSpan = document.createElement('span');
+        var kbdUp = document.createElement('kbd');
+        kbdUp.textContent = '\u2191';
+        var kbdDown = document.createElement('kbd');
+        kbdDown.textContent = '\u2193';
+        navSpan.appendChild(kbdUp);
+        navSpan.appendChild(document.createTextNode(' '));
+        navSpan.appendChild(kbdDown);
+        navSpan.appendChild(document.createTextNode(' navigate'));
+        searchFooter.appendChild(navSpan);
+
+        var openSpan = document.createElement('span');
+        var kbdEnter = document.createElement('kbd');
+        kbdEnter.textContent = '\u21B5';
+        openSpan.appendChild(kbdEnter);
+        openSpan.appendChild(document.createTextNode(' open'));
+        searchFooter.appendChild(openSpan);
+
+        var closeSpan = document.createElement('span');
+        var kbdEsc = document.createElement('kbd');
+        kbdEsc.textContent = 'esc';
+        closeSpan.appendChild(kbdEsc);
+        closeSpan.appendChild(document.createTextNode(' close'));
+        searchFooter.appendChild(closeSpan);
+
+        searchDialog.appendChild(searchFooter);
+        overlay.appendChild(searchDialog);
+
+        document.body.appendChild(overlay);
         var activeIndex = -1;
         var previousActiveElement = null;
 
@@ -204,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
 
-            searchResults.innerHTML = ''; // Clear previous results safely
+            searchResults.textContent = ''; // Clear previous results safely
 
             if (filtered.length === 0) {
                 var emptyDiv = document.createElement('div');
@@ -478,8 +574,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     // Button visual feedback
                     if (!btn.classList.contains('success')) {
-                        btn.dataset.originalHtml = btn.innerHTML;
-                        btn.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+                        // Store the old child nodes directly on the element object
+                        btn._originalNodes = Array.from(btn.childNodes);
+
+                        btn.textContent = '';
+                        var checkIcon = document.createElement('i');
+                        checkIcon.className = 'fa-solid fa-check';
+                        btn.appendChild(checkIcon);
+                        btn.appendChild(document.createTextNode(' Copied!'));
                         btn.classList.add('success');
                     }
 
@@ -489,12 +591,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
 
                     var timeoutId = setTimeout(function() {
-                        if (btn.dataset.originalHtml) {
-                            btn.innerHTML = btn.dataset.originalHtml;
+                        if (btn._originalNodes) {
+                            btn.textContent = '';
+                            btn._originalNodes.forEach(function(node) {
+                                btn.appendChild(node);
+                            });
+                            delete btn._originalNodes;
                         }
                         btn.classList.remove('success');
                         delete btn.dataset.timeoutId;
-                        delete btn.dataset.originalHtml;
                     }, 2000);
 
                     btn.dataset.timeoutId = timeoutId;
@@ -535,7 +640,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var backToTopBtn = document.createElement('button');
     backToTopBtn.id = 'back-to-top';
     backToTopBtn.className = 'back-to-top';
-    backToTopBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+    var backToTopIcon = document.createElement('i');
+    backToTopIcon.className = 'fa-solid fa-arrow-up';
+    backToTopBtn.appendChild(backToTopIcon);
     backToTopBtn.setAttribute('aria-label', 'Back to top');
     document.body.appendChild(backToTopBtn);
 
@@ -645,7 +752,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var readingTimeEl = document.createElement('div');
         readingTimeEl.className = 'reading-time';
-        readingTimeEl.innerHTML = '<i class="fa-solid fa-clock"></i> ' + minutes + ' min read';
+        var clockIcon = document.createElement('i');
+        clockIcon.className = 'fa-solid fa-clock';
+        readingTimeEl.appendChild(clockIcon);
+        readingTimeEl.appendChild(document.createTextNode(' ' + minutes + ' min read'));
 
         banner.appendChild(readingTimeEl);
     }

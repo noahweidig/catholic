@@ -636,4 +636,36 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     initReadingTime();
+
+    // Accessibility: Close menus with Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            // Close desktop dropdowns
+            var openDropdowns = document.querySelectorAll('.menu-dropdown.open');
+            openDropdowns.forEach(function(menu) {
+                menu.classList.remove('open');
+                var trigger = menu.querySelector('.menu-trigger');
+                if (trigger) {
+                    trigger.setAttribute('aria-expanded', 'false');
+                    // Only restore focus if focus was inside the menu
+                    if (menu.contains(document.activeElement)) {
+                        trigger.focus();
+                    }
+                }
+            });
+
+            // Close mobile nav
+            var headerNav = document.querySelector('header nav');
+            var hamburgerBtn = document.querySelector('.hamburger');
+            if (headerNav && headerNav.classList.contains('open') && hamburgerBtn) {
+                headerNav.classList.remove('open');
+                hamburgerBtn.setAttribute('aria-expanded', 'false');
+                var icon = hamburgerBtn.querySelector('i');
+                if (icon) icon.className = 'fa-solid fa-bars';
+                if (headerNav.contains(document.activeElement)) {
+                    hamburgerBtn.focus();
+                }
+            }
+        }
+    });
 });

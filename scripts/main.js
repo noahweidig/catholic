@@ -644,6 +644,8 @@ document.addEventListener('DOMContentLoaded', function () {
     backToTopIcon.className = 'fa-solid fa-arrow-up';
     backToTopBtn.appendChild(backToTopIcon);
     backToTopBtn.setAttribute('aria-label', 'Back to top');
+    backToTopBtn.setAttribute('tabindex', '-1');
+    backToTopBtn.setAttribute('aria-hidden', 'true');
     document.body.appendChild(backToTopBtn);
 
     var backToTopTicking = false;
@@ -652,8 +654,12 @@ document.addEventListener('DOMContentLoaded', function () {
             window.requestAnimationFrame(function() {
                 if (window.scrollY > 300) {
                     backToTopBtn.classList.add('visible');
+                    backToTopBtn.removeAttribute('tabindex');
+                    backToTopBtn.removeAttribute('aria-hidden');
                 } else {
                     backToTopBtn.classList.remove('visible');
+                    backToTopBtn.setAttribute('tabindex', '-1');
+                    backToTopBtn.setAttribute('aria-hidden', 'true');
                 }
                 backToTopTicking = false;
             });

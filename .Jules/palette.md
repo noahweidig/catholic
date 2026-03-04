@@ -25,3 +25,7 @@
 ## 2026-03-02 - Custom Menu Escape Key Accessibility
 **Learning:** Custom dropdown menus and mobile off-canvas navs built with basic DOM manipulation often handle mouse/touch (click outside) but forget keyboard users who need the `Escape` key to dismiss the menu and return focus to the trigger. This is a critical WCAG requirement (WCAG 2.1.1, 1.4.13).
 **Action:** Always bind a global or scoped `keydown` listener for `Escape` whenever implementing `aria-expanded` toggle patterns to ensure proper keyboard accessibility and focus management.
+
+## 2026-03-03 - Focusability of visually hidden elements
+**Learning:** Relying purely on CSS like `opacity: 0` or `pointer-events: none` hides elements from view and prevents mouse interaction, but leaves them present in the DOM accessibility/focus tree. A keyboard user navigating with `Tab` will unexpectedly focus these "invisible" items, leading to confusion and broken navigation flow.
+**Action:** When a focusable element (like a button) is hidden with opacity or transforms, ensure you dynamically apply `tabindex="-1"` and `aria-hidden="true"` via JavaScript to fully remove it from keyboard navigation and screen reader visibility until it is revealed again.

@@ -21,3 +21,7 @@
 ## 2026-03-02 - [Optimize Large String Word Counting]
 **Learning:** For large blocks of text (like entire webpage main contents), using `.trim().split(/\s+/).length` to count words forces the engine to allocate an array of thousands of individual word strings, causing massive GC overhead and slow execution times.
 **Action:** Always count words in large text by iterating characters and toggling a boolean `inWord` flag (checking for space, tab, newline, return character codes). This achieves the same count in O(n) time with zero allocations.
+
+## 2026-03-03 - [Optimize File Reading Memory Overhead]
+**Learning:** Using `f.readlines()` in Python reads the entire file content into a massive array of strings in memory. For large text files (like generated `.ics` liturgical calendars), this causes significant memory allocation overhead and Garbage Collection spikes.
+**Action:** Always iterate directly over the file object (`for line in f:`) when reading files line-by-line. This approaches the task efficiently in an iterative O(1) memory footprint without loading the entire contents at once.

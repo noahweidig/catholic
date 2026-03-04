@@ -21,33 +21,32 @@ def get_liturgical_info_from_ics():
             return None
 
         with open(filepath, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
+            in_event = False
+            current_event = {}
 
-        in_event = False
-        current_event = {}
+            # Optimization: Iterate file object directly (lazy load) instead of f.readlines() to avoid massive memory allocation for large ICS files
+            for line in f:
+                line = line.strip()
+                if line == 'BEGIN:VEVENT':
+                    in_event = True
+                    current_event = {}
+                elif line == 'END:VEVENT':
+                    in_event = False
+                    # Check if this event is for today
+                    if current_event.get('DTSTART') == today_str:
+                        # Found it!
+                        return {
+                            'name': current_event.get('SUMMARY', ''),
+                            'color': current_event.get('X-LITURGICAL-COLOR', 'green')
+                        }
+                elif in_event:
+                    if ':' in line:
+                        key, value = line.split(':', 1)
+                        # Handle attributes like DTSTART;VALUE=DATE
+                        if ';' in key:
+                             key = key.split(';')[0]
 
-        for line in lines:
-            line = line.strip()
-            if line == 'BEGIN:VEVENT':
-                in_event = True
-                current_event = {}
-            elif line == 'END:VEVENT':
-                in_event = False
-                # Check if this event is for today
-                if current_event.get('DTSTART') == today_str:
-                    # Found it!
-                    return {
-                        'name': current_event.get('SUMMARY', ''),
-                        'color': current_event.get('X-LITURGICAL-COLOR', 'green')
-                    }
-            elif in_event:
-                if ':' in line:
-                    key, value = line.split(':', 1)
-                    # Handle attributes like DTSTART;VALUE=DATE
-                    if ';' in key:
-                         key = key.split(';')[0]
-
-                    current_event[key] = value
+                        current_event[key] = value
 
         return None
     except Exception as e:

@@ -25,3 +25,7 @@
 ## 2026-03-03 - [Optimize File Reading Memory Overhead]
 **Learning:** Using `f.readlines()` in Python reads the entire file content into a massive array of strings in memory. For large text files (like generated `.ics` liturgical calendars), this causes significant memory allocation overhead and Garbage Collection spikes.
 **Action:** Always iterate directly over the file object (`for line in f:`) when reading files line-by-line. This approaches the task efficiently in an iterative O(1) memory footprint without loading the entire contents at once.
+
+## 2026-03-04 - [Batch DOM Insertions with DocumentFragment]
+**Learning:** Appending elements directly to a live DOM node inside a loop (like rendering search results on every keystroke) causes layout thrashing and unnecessary repaints, degrading performance.
+**Action:** Always batch DOM insertions by creating a `DocumentFragment`, appending elements to the fragment within the loop, and appending the fragment to the live DOM once.

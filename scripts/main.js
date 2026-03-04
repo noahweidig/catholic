@@ -319,6 +319,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 searchAnnouncer.textContent = filtered.length + (filtered.length === 1 ? ' result found' : ' results found');
             }
 
+            // Optimization: Use a DocumentFragment to batch DOM insertions
+            var fragment = document.createDocumentFragment();
+
             filtered.forEach(function(t, i) {
                 var a = document.createElement('a');
                 a.href = t.href;
@@ -363,8 +366,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 a.appendChild(document.createTextNode('\n'));
 
-                searchResults.appendChild(a);
+                fragment.appendChild(a);
             });
+
+            searchResults.appendChild(fragment);
 
             activeIndex = q.length > 0 ? 0 : -1;
         }

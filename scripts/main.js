@@ -258,6 +258,7 @@ document.addEventListener('DOMContentLoaded', function () {
         function openSearch() {
             previousActiveElement = document.activeElement;
             overlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
             searchInput.value = '';
             activeIndex = -1;
             renderResults('');
@@ -267,6 +268,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function closeSearch() {
             overlay.classList.remove('open');
+            document.body.style.overflow = '';
             searchInput.blur();
             if (previousActiveElement) {
                 previousActiveElement.focus();
@@ -448,7 +450,9 @@ document.addEventListener('DOMContentLoaded', function () {
             var isDark = document.body.classList.contains('theme-dark');
             var icon = themeButton.querySelector('i');
             themeButton.setAttribute('aria-pressed', String(isDark));
-            themeButton.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+            var labelText = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+            themeButton.setAttribute('aria-label', labelText);
+            themeButton.setAttribute('title', labelText);
             if (icon) {
                 icon.className = isDark ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
             }
@@ -649,6 +653,7 @@ document.addEventListener('DOMContentLoaded', function () {
     backToTopIcon.className = 'fa-solid fa-arrow-up';
     backToTopBtn.appendChild(backToTopIcon);
     backToTopBtn.setAttribute('aria-label', 'Back to top');
+    backToTopBtn.setAttribute('title', 'Back to top');
     backToTopBtn.setAttribute('tabindex', '-1');
     backToTopBtn.setAttribute('aria-hidden', 'true');
     document.body.appendChild(backToTopBtn);

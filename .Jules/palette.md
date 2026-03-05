@@ -29,3 +29,11 @@
 ## 2026-03-03 - Focusability of visually hidden elements
 **Learning:** Relying purely on CSS like `opacity: 0` or `pointer-events: none` hides elements from view and prevents mouse interaction, but leaves them present in the DOM accessibility/focus tree. A keyboard user navigating with `Tab` will unexpectedly focus these "invisible" items, leading to confusion and broken navigation flow.
 **Action:** When a focusable element (like a button) is hidden with opacity or transforms, ensure you dynamically apply `tabindex="-1"` and `aria-hidden="true"` via JavaScript to fully remove it from keyboard navigation and screen reader visibility until it is revealed again.
+
+## 2026-03-05 - Modal Background Scrolling
+**Learning:** When opening full-screen modal overlays (like a search dialog), users can easily lose their position on the underlying page if they accidentally scroll. This leads to disorientation when closing the modal.
+**Action:** When opening a full-screen modal, dynamically set `document.body.style.overflow = 'hidden'` to lock the background content in place, and restore it to `''` when the modal is closed.
+
+## 2026-03-05 - Icon-Only Tooltips
+**Learning:** While `aria-label` ensures screen readers can understand icon-only buttons, sighted users who may not instantly recognize an icon's meaning are left guessing unless there is a visible tooltip.
+**Action:** For icon-only buttons (like a theme toggle or back-to-top button), always mirror the `aria-label` text to a `title` attribute so sighted mouse users get helpful context on hover.

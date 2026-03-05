@@ -8,6 +8,18 @@ const goodFriCache = new Map();
 const ascensionCache = new Map();
 
 /**
+ * Optimization: Fast removal of hyphens from YYYY-MM-DD to YYYYMMDD.
+ * Using substring concatenation is significantly faster than .replace(/-/g, '')
+ * because it avoids the regex engine and intermediate string allocations.
+ * @param {string} dateStr YYYY-MM-DD
+ * @returns {string} YYYYMMDD
+ */
+function stripHyphens(dateStr) {
+    if (!dateStr || dateStr.length !== 10) return dateStr;
+    return dateStr.substring(0, 4) + dateStr.substring(5, 7) + dateStr.substring(8, 10);
+}
+
+/**
  * Fast formatting of a Date object to YYYY-MM-DD using UTC methods.
  * This avoids the allocation overhead of toISOString().split('T')[0].
  * @param {Date} date
@@ -216,6 +228,7 @@ function formatSummary(summary) {
 }
 
 module.exports = {
+    stripHyphens,
     getEasterDate,
     getAscensionDate,
     getAshWednesdayDate,

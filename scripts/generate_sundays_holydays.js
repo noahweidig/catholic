@@ -6,7 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getAscensionDate, formatSummary } = require('./liturgical_utils');
+const { getAscensionDate, formatSummary, stripHyphens } = require('./liturgical_utils');
 
 // Helper to determine rank value
 function getRankValue(rank) {
@@ -20,7 +20,6 @@ function getRankValue(rank) {
 }
 
 // Optimization: Pre-compile regex
-const DTSTART_REGEX = /-/g;
 const UID_REGEX = /[^a-zA-Z0-9]/g;
 
 async function generateSundaysHolydays() {
@@ -106,7 +105,7 @@ async function generateSundaysHolydays() {
 
             // 5. Generate ICS lines
             for (const event of sortedEvents) {
-                const dtStart = event.date.replace(DTSTART_REGEX, '');
+                const dtStart = stripHyphens(event.date);
                 // Unique UID per event
                 const uid = `${dtStart}-${event.title.replace(UID_REGEX, '-').toLowerCase()}@noahweidig.com`;
 

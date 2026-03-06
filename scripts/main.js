@@ -151,17 +151,18 @@ document.addEventListener('DOMContentLoaded', function () {
             var brandLink = document.createElement('a');
             brandLink.href = 'index.html';
             brandLink.className = 'brand-link';
+            brandLink.setAttribute('aria-label', 'Catholic home');
 
             var brandLogo = document.createElement('img');
             brandLogo.src = 'images/favicon.svg';
-            brandLogo.alt = 'Catholic logo';
+            brandLogo.alt = '';
+            brandLogo.setAttribute('aria-hidden', 'true');
             brandLogo.className = 'brand-logo';
 
             brandLink.appendChild(brandLogo);
             brandLink.appendChild(document.createTextNode('Catholic'));
 
             siteTitle.appendChild(brandLink);
-            siteTitle.setAttribute('aria-label', 'Catholic home');
         }
 
         var searchButton = header.querySelector('.nav-search');
@@ -182,6 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var overlay = document.createElement('div');
         overlay.className = 'search-overlay';
         overlay.setAttribute('role', 'dialog');
+        overlay.setAttribute('aria-modal', 'true');
         overlay.setAttribute('aria-label', 'Search the site');
 
         var searchDialog = document.createElement('div');
@@ -642,6 +644,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     fallbackCopy();
                 }
             }
+        }
+    });
+
+    // Auto-select readonly inputs on click
+    document.addEventListener('click', function(e) {
+        var target = e.target;
+        if (target && target.tagName && target.tagName.toLowerCase() === 'input' && target.readOnly) {
+            target.select();
         }
     });
 

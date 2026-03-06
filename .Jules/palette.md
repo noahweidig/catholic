@@ -37,3 +37,15 @@
 ## 2026-03-05 - Icon-Only Tooltips
 **Learning:** While `aria-label` ensures screen readers can understand icon-only buttons, sighted users who may not instantly recognize an icon's meaning are left guessing unless there is a visible tooltip.
 **Action:** For icon-only buttons (like a theme toggle or back-to-top button), always mirror the `aria-label` text to a `title` attribute so sighted mouse users get helpful context on hover.
+
+## 2026-03-06 - Readonly Input Selection
+**Learning:** Users often click on `readonly` inputs (like copyable URLs) expecting the text to be selected, but they must manually drag to select the text. Auto-selecting the text on click significantly reduces friction for this common interaction pattern.
+**Action:** When creating `readonly` inputs that hold copyable text, add a click event listener that calls `.select()` on the target.
+
+## 2026-03-06 - Redundant Image Alt Text
+**Learning:** When an image is inside a link alongside text (like a brand logo next to the brand name), giving the image descriptive `alt` text causes screen readers to read the link text twice (e.g., "Catholic logo Catholic").
+**Action:** For decorative or redundant images inside links, set `alt=""` and `aria-hidden="true"` on the image to hide it from screen readers, and place any necessary `aria-label` on the interactive `a` element itself, not on non-interactive wrappers.
+
+## 2026-03-06 - Aria-Modal Dialogs
+**Learning:** Providing `role="dialog"` to a custom modal is not enough; without `aria-modal="true"`, screen reader users can inadvertently navigate out of the modal using virtual cursors and interact with the blurred background content, causing confusion and a broken experience.
+**Action:** Always include `aria-modal="true"` alongside `role="dialog"` for custom modal overlays.

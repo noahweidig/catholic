@@ -183,6 +183,22 @@ const romanNumeralsSet = new Set([
 const WORD_REGEX = /\w\S*/g;
 const FORMAT_SUMMARY_REGEX = /Saints? |Blessed | and /g;
 
+// Ordinal word to numeric suffix map (compound ordinals before simple ones)
+const ORDINAL_REGEX = /\b(thirty-fourth|thirty-third|thirty-second|thirty-first|thirtieth|twenty-ninth|twenty-eighth|twenty-seventh|twenty-sixth|twenty-fifth|twenty-fourth|twenty-third|twenty-second|twenty-first|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first)\b/gi;
+const ORDINAL_MAP = {
+    'first': '1st', 'second': '2nd', 'third': '3rd', 'fourth': '4th',
+    'fifth': '5th', 'sixth': '6th', 'seventh': '7th', 'eighth': '8th',
+    'ninth': '9th', 'tenth': '10th', 'eleventh': '11th', 'twelfth': '12th',
+    'thirteenth': '13th', 'fourteenth': '14th', 'fifteenth': '15th',
+    'sixteenth': '16th', 'seventeenth': '17th', 'eighteenth': '18th',
+    'nineteenth': '19th', 'twentieth': '20th',
+    'twenty-first': '21st', 'twenty-second': '22nd', 'twenty-third': '23rd',
+    'twenty-fourth': '24th', 'twenty-fifth': '25th', 'twenty-sixth': '26th',
+    'twenty-seventh': '27th', 'twenty-eighth': '28th', 'twenty-ninth': '29th',
+    'thirtieth': '30th', 'thirty-first': '31st', 'thirty-second': '32nd',
+    'thirty-third': '33rd', 'thirty-fourth': '34th'
+};
+
 /**
  * Converts a string to Title Case.
  * @param {string} str
@@ -211,6 +227,24 @@ function toTitleCase(str) {
  * @returns {string}
  */
 function formatSummary(summary) {
+    // All Souls Day: use the short common name
+    summary = summary.replace(/The Commemoration of All the Faithful Departed[^]*/i, "All Souls' Day");
+
+    // Christmas: remove parenthetical "(Christmas)"
+    summary = summary.replace(/\s*\(Christmas\)/i, '');
+
+    // Jan 1 (Solemnity of Mary): strip the long prefix before the colon
+    summary = summary.replace(/The Octave Day of the Nativity of the Lord:\s*/i, '');
+
+    // "Within the Octave" → "in the Octave"
+    summary = summary.replace(/\bWithin the Octave\b/gi, 'in the Octave');
+
+    // Divine Mercy Sunday
+    summary = summary.replace(/Second Sunday of Easter or Sunday of Divine Mercy/i, 'Divine Mercy Sunday');
+
+    // Replace spelled-out ordinals with numeric equivalents
+    summary = summary.replace(ORDINAL_REGEX, (match) => ORDINAL_MAP[match.toLowerCase()] || match);
+
     const commaIndex = summary.indexOf(',');
     if (commaIndex !== -1) {
         summary = summary.substring(0, commaIndex);

@@ -6,7 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getFastAbstinenceDescription, formatSummary } = require('./liturgical_utils');
+const { getFastAbstinenceDescription, formatSummary, stripHyphens } = require('./liturgical_utils');
 
 // Helper to determine rank value
 function getRankValue(rank) {
@@ -18,9 +18,6 @@ function getRankValue(rank) {
         default: return 1; // WEEKDAY, FERIA, etc.
     }
 }
-
-// Optimization: Pre-compile regex
-const DTSTART_REGEX = /-/g;
 
 async function generateICS() {
     try {
@@ -66,7 +63,7 @@ async function generateICS() {
             });
 
             const selectedEvent = sortedEvents[0];
-            const dtStart = dateStr.replace(DTSTART_REGEX, ''); // YYYYMMDD
+            const dtStart = stripHyphens(dateStr); // YYYYMMDD
 
             // Format name
             const summary = formatSummary(selectedEvent.name);

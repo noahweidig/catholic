@@ -6,7 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getAshWednesdayDate, getGoodFridayDate, formatSummary } = require('./liturgical_utils');
+const { getAshWednesdayDate, getGoodFridayDate, formatSummary, stripHyphens } = require('./liturgical_utils');
 
 // Helper to determine rank value (same as generate_calendar.js)
 function getRankValue(rank) {
@@ -18,9 +18,6 @@ function getRankValue(rank) {
         default: return 1; // WEEKDAY, FERIA, etc.
     }
 }
-
-// Optimization: Pre-compile regex
-const DTSTART_REGEX = /-/g;
 
 async function generateFastAbstain() {
     try {
@@ -106,7 +103,7 @@ async function generateFastAbstain() {
 
             // Generate ICS lines
             for (const event of yearEvents) {
-                const dtStart = event.date.replace(DTSTART_REGEX, '');
+                const dtStart = stripHyphens(event.date);
                 // Unique UID
                 const uid = `${dtStart}-fastabstain-calendar@noahweidig.com`;
 

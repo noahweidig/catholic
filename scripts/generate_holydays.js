@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { getAscensionDate } = require('./liturgical_utils');
+const { getAscensionDate, stripHyphens } = require('./liturgical_utils');
 
 function generateHolydays() {
     try {
@@ -45,7 +45,7 @@ function generateHolydays() {
 
             // Generate ICS entries
             for (const event of yearEvents) {
-                const dtStart = event.date.replace(/-/g, '');
+                const dtStart = stripHyphens(event.date);
                 // Simple UID
                 const uid = `${dtStart}-${event.title.replace(/\s+/g, '-').toLowerCase()}@noahweidig.com`;
 

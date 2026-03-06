@@ -4,6 +4,7 @@ console.info = () => {};
 
 const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
+const { formatSummary } = require('./liturgical_utils');
 
 // Restore console.info (optional, but good practice if used later)
 // console.info = originalInfo;
@@ -53,7 +54,7 @@ async function getLiturgicalInfo() {
              }
         }
 
-        const name = selectedEvent.name;
+        const name = formatSummary(selectedEvent.name);
         const color = (selectedEvent.colors && selectedEvent.colors.length > 0)
             ? selectedEvent.colors[0].toLowerCase()
             : 'green';

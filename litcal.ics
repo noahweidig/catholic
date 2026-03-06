@@ -7,7 +7,7 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 UID:20260101-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260101
-SUMMARY:The Octave Day of the Nativity of the Lord: Solemnity of Mary
+SUMMARY:Solemnity of Mary
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -73,7 +73,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260112-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260112
-SUMMARY:Monday of the First Week of Ordinary Time
+SUMMARY:Monday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -85,19 +85,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260114
-SUMMARY:Wednesday of the First Week of Ordinary Time
+SUMMARY:Wednesday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260115-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260115
-SUMMARY:Thursday of the First Week of Ordinary Time
+SUMMARY:Thursday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260116-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260116
-SUMMARY:Friday of the First Week of Ordinary Time
+SUMMARY:Friday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -109,13 +109,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260118-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260118
-SUMMARY:Second Sunday in Ordinary Time
+SUMMARY:2nd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260119
-SUMMARY:Monday of the Second Week of Ordinary Time
+SUMMARY:Monday of the 2nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -133,7 +133,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260122-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260122
-SUMMARY:Thursday of the Second Week of Ordinary Time
+SUMMARY:Thursday of the 2nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -151,7 +151,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260125-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260125
-SUMMARY:Third Sunday in Ordinary Time
+SUMMARY:3rd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -175,13 +175,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260129
-SUMMARY:Thursday of the Third Week of Ordinary Time
+SUMMARY:Thursday of the 3rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260130-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260130
-SUMMARY:Friday of the Third Week of Ordinary Time
+SUMMARY:Friday of the 3rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -193,7 +193,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260201
-SUMMARY:Fourth Sunday in Ordinary Time
+SUMMARY:4th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -211,7 +211,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260204-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260204
-SUMMARY:Wednesday of the Fourth Week of Ordinary Time
+SUMMARY:Wednesday of the 4th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -229,19 +229,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260207-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260207
-SUMMARY:Saturday of the Fourth Week of Ordinary Time
+SUMMARY:Saturday of the 4th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260208-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260208
-SUMMARY:Fifth Sunday in Ordinary Time
+SUMMARY:5th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260209-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260209
-SUMMARY:Monday of the Fifth Week of Ordinary Time
+SUMMARY:Monday of the 5th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -259,13 +259,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260212-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260212
-SUMMARY:Thursday of the Fifth Week of Ordinary Time
+SUMMARY:Thursday of the 5th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260213-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260213
-SUMMARY:Friday of the Fifth Week of Ordinary Time
+SUMMARY:Friday of the 5th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -277,13 +277,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260215
-SUMMARY:Sixth Sunday in Ordinary Time
+SUMMARY:6th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260216
-SUMMARY:Monday of the Sixth Week of Ordinary Time
+SUMMARY:Monday of the 6th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -320,7 +320,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260222-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260222
-SUMMARY:First Sunday of Lent
+SUMMARY:1st Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -331,19 +331,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260224-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260224
-SUMMARY:Tuesday of the First Week of Lent
+SUMMARY:Tuesday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260225
-SUMMARY:Wednesday of the First Week of Lent
+SUMMARY:Wednesday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260226-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260226
-SUMMARY:Thursday of the First Week of Lent
+SUMMARY:Thursday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -355,19 +355,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260228-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260228
-SUMMARY:Saturday of the First Week of Lent
+SUMMARY:Saturday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260301-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260301
-SUMMARY:Second Sunday of Lent
+SUMMARY:2nd Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260302-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260302
-SUMMARY:Monday of the Second Week of Lent
+SUMMARY:Monday of the 2nd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -383,13 +383,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260305-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260305
-SUMMARY:Thursday of the Second Week of Lent
+SUMMARY:Thursday of the 2nd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260306-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260306
-SUMMARY:Friday of the Second Week of Lent
+SUMMARY:Friday of the 2nd Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
@@ -401,7 +401,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260308-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260308
-SUMMARY:Third Sunday of Lent
+SUMMARY:3rd Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -412,44 +412,44 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260310-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260310
-SUMMARY:Tuesday of the Third Week of Lent
+SUMMARY:Tuesday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260311-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260311
-SUMMARY:Wednesday of the Third Week of Lent
+SUMMARY:Wednesday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260312-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260312
-SUMMARY:Thursday of the Third Week of Lent
+SUMMARY:Thursday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260313-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260313
-SUMMARY:Friday of the Third Week of Lent
+SUMMARY:Friday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260314-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260314
-SUMMARY:Saturday of the Third Week of Lent
+SUMMARY:Saturday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260315-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260315
-SUMMARY:Fourth Sunday of Lent
+SUMMARY:4th Sunday of Lent
 X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
 UID:20260316-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260316
-SUMMARY:Monday of the Fourth Week of Lent
+SUMMARY:Monday of the 4th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -471,20 +471,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260320-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260320
-SUMMARY:Friday of the Fourth Week of Lent
+SUMMARY:Friday of the 4th Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260321-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260321
-SUMMARY:Saturday of the Fourth Week of Lent
+SUMMARY:Saturday of the 4th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260322-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260322
-SUMMARY:Fifth Sunday of Lent
+SUMMARY:5th Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -495,7 +495,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260324-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260324
-SUMMARY:Tuesday of the Fifth Week of Lent
+SUMMARY:Tuesday of the 5th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -507,20 +507,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260326-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260326
-SUMMARY:Thursday of the Fifth Week of Lent
+SUMMARY:Thursday of the 5th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20260327-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260327
-SUMMARY:Friday of the Fifth Week of Lent
+SUMMARY:Friday of the 5th Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20260328-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260328
-SUMMARY:Saturday of the Fifth Week of Lent
+SUMMARY:Saturday of the 5th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -574,43 +574,43 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260406-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260406
-SUMMARY:Monday Within the Octave of Easter
+SUMMARY:Monday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260407-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260407
-SUMMARY:Tuesday Within the Octave of Easter
+SUMMARY:Tuesday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260408-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260408
-SUMMARY:Wednesday Within the Octave of Easter
+SUMMARY:Wednesday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260409-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260409
-SUMMARY:Thursday Within the Octave of Easter
+SUMMARY:Thursday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260410-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260410
-SUMMARY:Friday Within the Octave of Easter
+SUMMARY:Friday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260411-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260411
-SUMMARY:Saturday Within the Octave of Easter
+SUMMARY:Saturday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260412-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260412
-SUMMARY:Second Sunday of Easter or Sunday of Divine Mercy
+SUMMARY:Divine Mercy Sunday
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -622,43 +622,43 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260414-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260414
-SUMMARY:Tuesday of the Second Week of Easter
+SUMMARY:Tuesday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260415-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260415
-SUMMARY:Wednesday of the Second Week of Easter
+SUMMARY:Wednesday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260416-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260416
-SUMMARY:Thursday of the Second Week of Easter
+SUMMARY:Thursday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260417-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260417
-SUMMARY:Friday of the Second Week of Easter
+SUMMARY:Friday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260418-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260418
-SUMMARY:Saturday of the Second Week of Easter
+SUMMARY:Saturday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260419-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260419
-SUMMARY:Third Sunday of Easter
+SUMMARY:3rd Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260420-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260420
-SUMMARY:Monday of the Third Week of Easter
+SUMMARY:Monday of the 3rd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -670,7 +670,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260422-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260422
-SUMMARY:Wednesday of the Third Week of Easter
+SUMMARY:Wednesday of the 3rd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -694,13 +694,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260426-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260426
-SUMMARY:Fourth Sunday of Easter
+SUMMARY:4th Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260427-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260427
-SUMMARY:Monday of the Fourth Week of Easter
+SUMMARY:Monday of the 4th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -736,55 +736,55 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260503-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260503
-SUMMARY:Fifth Sunday of Easter
+SUMMARY:5th Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260504-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260504
-SUMMARY:Monday of the Fifth Week of Easter
+SUMMARY:Monday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260505-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260505
-SUMMARY:Tuesday of the Fifth Week of Easter
+SUMMARY:Tuesday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260506-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260506
-SUMMARY:Wednesday of the Fifth Week of Easter
+SUMMARY:Wednesday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260507-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260507
-SUMMARY:Thursday of the Fifth Week of Easter
+SUMMARY:Thursday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260508-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260508
-SUMMARY:Friday of the Fifth Week of Easter
+SUMMARY:Friday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260509-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260509
-SUMMARY:Saturday of the Fifth Week of Easter
+SUMMARY:Saturday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260510-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260510
-SUMMARY:Sixth Sunday of Easter
+SUMMARY:6th Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20260511-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260511
-SUMMARY:Monday of the Sixth Week of Easter
+SUMMARY:Monday of the 6th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -814,7 +814,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260516-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260516
-SUMMARY:Saturday of the Sixth Week of Easter
+SUMMARY:Saturday of the 6th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -832,7 +832,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260519-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260519
-SUMMARY:Tuesday of the Seventh Week of Easter
+SUMMARY:Tuesday of the 7th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -856,7 +856,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260523-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260523
-SUMMARY:Saturday of the Seventh Week of Easter
+SUMMARY:Saturday of the 7th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -886,7 +886,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260528-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260528
-SUMMARY:Thursday of the Eighth Week of Ordinary Time
+SUMMARY:Thursday of the 8th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -898,7 +898,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260530-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260530
-SUMMARY:Saturday of the Eighth Week of Ordinary Time
+SUMMARY:Saturday of the 8th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -928,7 +928,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260604-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260604
-SUMMARY:Thursday of the Ninth Week of Ordinary Time
+SUMMARY:Thursday of the 9th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -952,7 +952,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260608-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260608
-SUMMARY:Monday of the Tenth Week of Ordinary Time
+SUMMARY:Monday of the 10th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -964,7 +964,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260610-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260610
-SUMMARY:Wednesday of the Tenth Week of Ordinary Time
+SUMMARY:Wednesday of the 10th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -988,31 +988,31 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260614-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260614
-SUMMARY:Eleventh Sunday in Ordinary Time
+SUMMARY:11th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260615-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260615
-SUMMARY:Monday of the Eleventh Week of Ordinary Time
+SUMMARY:Monday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260616-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260616
-SUMMARY:Tuesday of the Eleventh Week of Ordinary Time
+SUMMARY:Tuesday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260617-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260617
-SUMMARY:Wednesday of the Eleventh Week of Ordinary Time
+SUMMARY:Wednesday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260618-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260618
-SUMMARY:Thursday of the Eleventh Week of Ordinary Time
+SUMMARY:Thursday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1024,13 +1024,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260620-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260620
-SUMMARY:Saturday of the Eleventh Week of Ordinary Time
+SUMMARY:Saturday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260621-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260621
-SUMMARY:Twelfth Sunday in Ordinary Time
+SUMMARY:12th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1042,7 +1042,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260623-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260623
-SUMMARY:Tuesday of the Twelfth Week of Ordinary Time
+SUMMARY:Tuesday of the 12th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1054,13 +1054,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260625-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260625
-SUMMARY:Thursday of the Twelfth Week of Ordinary Time
+SUMMARY:Thursday of the 12th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260626-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260626
-SUMMARY:Friday of the Twelfth Week of Ordinary Time
+SUMMARY:Friday of the 12th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1072,7 +1072,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260628-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260628
-SUMMARY:Thirteenth Sunday in Ordinary Time
+SUMMARY:13th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1084,7 +1084,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260630-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260630
-SUMMARY:The First Martyrs of the Holy Roman Church
+SUMMARY:The 1st Martyrs of the Holy Roman Church
 X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
@@ -1096,7 +1096,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260702-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260702
-SUMMARY:Thursday of the Thirteenth Week of Ordinary Time
+SUMMARY:Thursday of the 13th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1108,13 +1108,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260704-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260704
-SUMMARY:Saturday of the Thirteenth Week of Ordinary Time
+SUMMARY:Saturday of the 13th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260705-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260705
-SUMMARY:Fourteenth Sunday in Ordinary Time
+SUMMARY:14th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1126,13 +1126,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260707-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260707
-SUMMARY:Tuesday of the Fourteenth Week of Ordinary Time
+SUMMARY:Tuesday of the 14th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260708-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260708
-SUMMARY:Wednesday of the Fourteenth Week of Ordinary Time
+SUMMARY:Wednesday of the 14th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1144,7 +1144,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260710-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260710
-SUMMARY:Friday of the Fourteenth Week of Ordinary Time
+SUMMARY:Friday of the 14th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1156,7 +1156,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260712-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260712
-SUMMARY:Fifteenth Sunday in Ordinary Time
+SUMMARY:15th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1186,7 +1186,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260717-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260717
-SUMMARY:Friday of the Fifteenth Week of Ordinary Time
+SUMMARY:Friday of the 15th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1198,7 +1198,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260719-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260719
-SUMMARY:Sixteenth Sunday in Ordinary Time
+SUMMARY:16th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1240,19 +1240,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260726-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260726
-SUMMARY:Seventeenth Sunday in Ordinary Time
+SUMMARY:17th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260727-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260727
-SUMMARY:Monday of the Seventeenth Week of Ordinary Time
+SUMMARY:Monday of the 17th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260728-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260728
-SUMMARY:Tuesday of the Seventeenth Week of Ordinary Time
+SUMMARY:Tuesday of the 17th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1282,13 +1282,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260802-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260802
-SUMMARY:Eighteenth Sunday in Ordinary Time
+SUMMARY:18th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260803-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260803
-SUMMARY:Monday of the Eighteenth Week of Ordinary Time
+SUMMARY:Monday of the 18th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1324,7 +1324,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260809-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260809
-SUMMARY:Nineteenth Sunday in Ordinary Time
+SUMMARY:19th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1366,19 +1366,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260816-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260816
-SUMMARY:Twentieth Sunday in Ordinary Time
+SUMMARY:20th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260817-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260817
-SUMMARY:Monday of the Twentieth Week of Ordinary Time
+SUMMARY:Monday of the 20th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260818-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260818
-SUMMARY:Tuesday of the Twentieth Week of Ordinary Time
+SUMMARY:Tuesday of the 20th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1408,7 +1408,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260823-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260823
-SUMMARY:Twenty-first Sunday in Ordinary Time
+SUMMARY:21st Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1426,7 +1426,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260826-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260826
-SUMMARY:Wednesday of the Twenty-first Week of Ordinary Time
+SUMMARY:Wednesday of the 21st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1450,25 +1450,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260830-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260830
-SUMMARY:Twenty-second Sunday in Ordinary Time
+SUMMARY:22nd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260831-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260831
-SUMMARY:Monday of the Twenty-second Week of Ordinary Time
+SUMMARY:Monday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260901-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260901
-SUMMARY:Tuesday of the Twenty-second Week of Ordinary Time
+SUMMARY:Tuesday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260902-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260902
-SUMMARY:Wednesday of the Twenty-second Week of Ordinary Time
+SUMMARY:Wednesday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1480,7 +1480,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260904-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260904
-SUMMARY:Friday of the Twenty-second Week of Ordinary Time
+SUMMARY:Friday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1492,13 +1492,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260906-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260906
-SUMMARY:Twenty-third Sunday in Ordinary Time
+SUMMARY:23rd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260907-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260907
-SUMMARY:Monday of the Twenty-third Week of Ordinary Time
+SUMMARY:Monday of the 23rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1516,13 +1516,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260910-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260910
-SUMMARY:Thursday of the Twenty-third Week of Ordinary Time
+SUMMARY:Thursday of the 23rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260911-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260911
-SUMMARY:Friday of the Twenty-third Week of Ordinary Time
+SUMMARY:Friday of the 23rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1534,7 +1534,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260913-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260913
-SUMMARY:Twenty-fourth Sunday in Ordinary Time
+SUMMARY:24th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1564,7 +1564,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260918-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260918
-SUMMARY:Friday of the Twenty-fourth Week of Ordinary Time
+SUMMARY:Friday of the 24th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1576,7 +1576,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260920-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260920
-SUMMARY:Twenty-fifth Sunday in Ordinary Time
+SUMMARY:25th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1588,7 +1588,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260922-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260922
-SUMMARY:Tuesday of the Twenty-fifth Week of Ordinary Time
+SUMMARY:Tuesday of the 25th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1600,13 +1600,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260924-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260924
-SUMMARY:Thursday of the Twenty-fifth Week of Ordinary Time
+SUMMARY:Thursday of the 25th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20260925-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260925
-SUMMARY:Friday of the Twenty-fifth Week of Ordinary Time
+SUMMARY:Friday of the 25th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1618,7 +1618,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20260927-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20260927
-SUMMARY:Twenty-sixth Sunday in Ordinary Time
+SUMMARY:26th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1654,13 +1654,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261003-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261003
-SUMMARY:Saturday of the Twenty-sixth Week of Ordinary Time
+SUMMARY:Saturday of the 26th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261004-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261004
-SUMMARY:Twenty-seventh Sunday in Ordinary Time
+SUMMARY:27th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1684,7 +1684,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261008-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261008
-SUMMARY:Thursday of the Twenty-seventh Week of Ordinary Time
+SUMMARY:Thursday of the 27th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1696,25 +1696,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261010-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261010
-SUMMARY:Saturday of the Twenty-seventh Week of Ordinary Time
+SUMMARY:Saturday of the 27th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261011-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261011
-SUMMARY:Twenty-eighth Sunday in Ordinary Time
+SUMMARY:28th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261012-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261012
-SUMMARY:Monday of the Twenty-eighth Week of Ordinary Time
+SUMMARY:Monday of the 28th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261013-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261013
-SUMMARY:Tuesday of the Twenty-eighth Week of Ordinary Time
+SUMMARY:Tuesday of the 28th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1744,7 +1744,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261018-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261018
-SUMMARY:Twenty-ninth Sunday in Ordinary Time
+SUMMARY:29th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1762,7 +1762,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261021-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261021
-SUMMARY:Wednesday of the Twenty-ninth Week of Ordinary Time
+SUMMARY:Wednesday of the 29th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1786,19 +1786,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261025-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261025
-SUMMARY:Thirtieth Sunday in Ordinary Time
+SUMMARY:30th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261026-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261026
-SUMMARY:Monday of the Thirtieth Week of Ordinary Time
+SUMMARY:Monday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261027-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261027
-SUMMARY:Tuesday of the Thirtieth Week of Ordinary Time
+SUMMARY:Tuesday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1810,19 +1810,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261029-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261029
-SUMMARY:Thursday of the Thirtieth Week of Ordinary Time
+SUMMARY:Thursday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261030
-SUMMARY:Friday of the Thirtieth Week of Ordinary Time
+SUMMARY:Friday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261031
-SUMMARY:Saturday of the Thirtieth Week of Ordinary Time
+SUMMARY:Saturday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1834,7 +1834,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261102-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261102
-SUMMARY:The Commemoration of All the Faithful Departed (All Soul’s Day)
+SUMMARY:All Souls' Day
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -1852,25 +1852,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261105-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261105
-SUMMARY:Thursday of the Thirty-first Week of Ordinary Time
+SUMMARY:Thursday of the 31st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261106-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261106
-SUMMARY:Friday of the Thirty-first Week of Ordinary Time
+SUMMARY:Friday of the 31st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261107-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261107
-SUMMARY:Saturday of the Thirty-first Week of Ordinary Time
+SUMMARY:Saturday of the 31st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261108-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261108
-SUMMARY:Thirty-second Sunday in Ordinary Time
+SUMMARY:32nd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1906,13 +1906,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261114
-SUMMARY:Saturday of the Thirty-second Week of Ordinary Time
+SUMMARY:Saturday of the 32nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261115
-SUMMARY:Thirty-third Sunday in Ordinary Time
+SUMMARY:33rd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1936,13 +1936,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261119
-SUMMARY:Thursday of the Thirty-third Week of Ordinary Time
+SUMMARY:Thursday of the 33rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261120-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261120
-SUMMARY:Friday of the Thirty-third Week of Ordinary Time
+SUMMARY:Friday of the 33rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -1978,25 +1978,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261126-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261126
-SUMMARY:Thursday of the Thirty-fourth Week of Ordinary Time
+SUMMARY:Thursday of the 34th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261127-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261127
-SUMMARY:Friday of the Thirty-fourth Week of Ordinary Time
+SUMMARY:Friday of the 34th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261128-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261128
-SUMMARY:Saturday of the Thirty-fourth Week of Ordinary Time
+SUMMARY:Saturday of the 34th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261129
-SUMMARY:First Sunday of Advent
+SUMMARY:1st Sunday of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2008,13 +2008,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261201
-SUMMARY:Tuesday of the First Week of Advent
+SUMMARY:Tuesday of the 1st Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261202-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261202
-SUMMARY:Wednesday of the First Week of Advent
+SUMMARY:Wednesday of the 1st Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2032,13 +2032,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261205-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261205
-SUMMARY:Saturday of the First Week of Advent
+SUMMARY:Saturday of the 1st Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261206-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261206
-SUMMARY:Second Sunday of Advent
+SUMMARY:2nd Sunday of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2080,7 +2080,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261213-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261213
-SUMMARY:Third Sunday of Advent
+SUMMARY:3rd Sunday of Advent
 X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
@@ -2092,13 +2092,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261215
-SUMMARY:Tuesday of the Third Week of Advent
+SUMMARY:Tuesday of the 3rd Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20261216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261216
-SUMMARY:Wednesday of the Third Week of Advent
+SUMMARY:Wednesday of the 3rd Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2122,7 +2122,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261220-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261220
-SUMMARY:Fourth Sunday of Advent
+SUMMARY:4th Sunday of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2150,7 +2150,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261225
-SUMMARY:The Nativity of the Lord (Christmas)
+SUMMARY:The Nativity of the Lord
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2179,7 +2179,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20261230-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20261230
-SUMMARY:Sixth Day Within the Octave of the Nativity of the Lord
+SUMMARY:6th Day in the Octave of the Nativity of the Lord
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2190,7 +2190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270101-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270101
-SUMMARY:The Octave Day of the Nativity of the Lord: Solemnity of Mary
+SUMMARY:Solemnity of Mary
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2250,13 +2250,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270111-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270111
-SUMMARY:Monday of the First Week of Ordinary Time
+SUMMARY:Monday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270112-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270112
-SUMMARY:Tuesday of the First Week of Ordinary Time
+SUMMARY:Tuesday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2268,37 +2268,37 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270114
-SUMMARY:Thursday of the First Week of Ordinary Time
+SUMMARY:Thursday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270115-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270115
-SUMMARY:Friday of the First Week of Ordinary Time
+SUMMARY:Friday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270116-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270116
-SUMMARY:Saturday of the First Week of Ordinary Time
+SUMMARY:Saturday of the 1st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270117-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270117
-SUMMARY:Second Sunday in Ordinary Time
+SUMMARY:2nd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270118-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270118
-SUMMARY:Monday of the Second Week of Ordinary Time
+SUMMARY:Monday of the 2nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270119
-SUMMARY:Tuesday of the Second Week of Ordinary Time
+SUMMARY:Tuesday of the 2nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2316,7 +2316,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270122-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270122
-SUMMARY:Friday of the Second Week of Ordinary Time
+SUMMARY:Friday of the 2nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2328,7 +2328,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270124-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270124
-SUMMARY:Third Sunday in Ordinary Time
+SUMMARY:3rd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2358,25 +2358,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270129
-SUMMARY:Friday of the Third Week of Ordinary Time
+SUMMARY:Friday of the 3rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270130-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270130
-SUMMARY:Saturday of the Third Week of Ordinary Time
+SUMMARY:Saturday of the 3rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270131-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270131
-SUMMARY:Fourth Sunday in Ordinary Time
+SUMMARY:4th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270201
-SUMMARY:Monday of the Fourth Week of Ordinary Time
+SUMMARY:Monday of the 4th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2394,7 +2394,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270204-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270204
-SUMMARY:Thursday of the Fourth Week of Ordinary Time
+SUMMARY:Thursday of the 4th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2412,7 +2412,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270207-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270207
-SUMMARY:Fifth Sunday in Ordinary Time
+SUMMARY:5th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2424,7 +2424,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270209-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270209
-SUMMARY:Tuesday of the Fifth Week of Ordinary Time
+SUMMARY:Tuesday of the 5th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -2455,19 +2455,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270214-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270214
-SUMMARY:First Sunday of Lent
+SUMMARY:1st Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270215
-SUMMARY:Monday of the First Week of Lent
+SUMMARY:Monday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270216
-SUMMARY:Tuesday of the First Week of Lent
+SUMMARY:Tuesday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2478,26 +2478,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270218-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270218
-SUMMARY:Thursday of the First Week of Lent
+SUMMARY:Thursday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270219-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270219
-SUMMARY:Friday of the First Week of Lent
+SUMMARY:Friday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270220-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270220
-SUMMARY:Saturday of the First Week of Lent
+SUMMARY:Saturday of the 1st Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270221-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270221
-SUMMARY:Second Sunday of Lent
+SUMMARY:2nd Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2514,19 +2514,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270224-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270224
-SUMMARY:Wednesday of the Second Week of Lent
+SUMMARY:Wednesday of the 2nd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270225
-SUMMARY:Thursday of the Second Week of Lent
+SUMMARY:Thursday of the 2nd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270226-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270226
-SUMMARY:Friday of the Second Week of Lent
+SUMMARY:Friday of the 2nd Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
@@ -2538,19 +2538,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270228-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270228
-SUMMARY:Third Sunday of Lent
+SUMMARY:3rd Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270301-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270301
-SUMMARY:Monday of the Third Week of Lent
+SUMMARY:Monday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270302-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270302
-SUMMARY:Tuesday of the Third Week of Lent
+SUMMARY:Tuesday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2566,20 +2566,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270305-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270305
-SUMMARY:Friday of the Third Week of Lent
+SUMMARY:Friday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270306-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270306
-SUMMARY:Saturday of the Third Week of Lent
+SUMMARY:Saturday of the 3rd Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270307-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270307
-SUMMARY:Fourth Sunday of Lent
+SUMMARY:4th Sunday of Lent
 X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
@@ -2595,44 +2595,44 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270310-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270310
-SUMMARY:Wednesday of the Fourth Week of Lent
+SUMMARY:Wednesday of the 4th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270311-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270311
-SUMMARY:Thursday of the Fourth Week of Lent
+SUMMARY:Thursday of the 4th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270312-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270312
-SUMMARY:Friday of the Fourth Week of Lent
+SUMMARY:Friday of the 4th Week of Lent
 X-LITURGICAL-COLOR:purple
 DESCRIPTION:Obligatory Day of Abstinence
 END:VEVENT
 BEGIN:VEVENT
 UID:20270313-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270313
-SUMMARY:Saturday of the Fourth Week of Lent
+SUMMARY:Saturday of the 4th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270314-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270314
-SUMMARY:Fifth Sunday of Lent
+SUMMARY:5th Sunday of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270315-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270315
-SUMMARY:Monday of the Fifth Week of Lent
+SUMMARY:Monday of the 5th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20270316-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270316
-SUMMARY:Tuesday of the Fifth Week of Lent
+SUMMARY:Tuesday of the 5th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2654,7 +2654,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270320-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270320
-SUMMARY:Saturday of the Fifth Week of Lent
+SUMMARY:Saturday of the 5th Week of Lent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -2708,43 +2708,43 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270329-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270329
-SUMMARY:Monday Within the Octave of Easter
+SUMMARY:Monday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270330-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270330
-SUMMARY:Tuesday Within the Octave of Easter
+SUMMARY:Tuesday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270331-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270331
-SUMMARY:Wednesday Within the Octave of Easter
+SUMMARY:Wednesday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270401-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270401
-SUMMARY:Thursday Within the Octave of Easter
+SUMMARY:Thursday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270402-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270402
-SUMMARY:Friday Within the Octave of Easter
+SUMMARY:Friday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270403-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270403
-SUMMARY:Saturday Within the Octave of Easter
+SUMMARY:Saturday in the Octave of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270404-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270404
-SUMMARY:Second Sunday of Easter or Sunday of Divine Mercy
+SUMMARY:Divine Mercy Sunday
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2756,7 +2756,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270406-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270406
-SUMMARY:Tuesday of the Second Week of Easter
+SUMMARY:Tuesday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2768,31 +2768,31 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270408-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270408
-SUMMARY:Thursday of the Second Week of Easter
+SUMMARY:Thursday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270409-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270409
-SUMMARY:Friday of the Second Week of Easter
+SUMMARY:Friday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270410-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270410
-SUMMARY:Saturday of the Second Week of Easter
+SUMMARY:Saturday of the 2nd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270411-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270411
-SUMMARY:Third Sunday of Easter
+SUMMARY:3rd Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270412-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270412
-SUMMARY:Monday of the Third Week of Easter
+SUMMARY:Monday of the 3rd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2804,43 +2804,43 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270414-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270414
-SUMMARY:Wednesday of the Third Week of Easter
+SUMMARY:Wednesday of the 3rd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270415-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270415
-SUMMARY:Thursday of the Third Week of Easter
+SUMMARY:Thursday of the 3rd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270416-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270416
-SUMMARY:Friday of the Third Week of Easter
+SUMMARY:Friday of the 3rd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270417-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270417
-SUMMARY:Saturday of the Third Week of Easter
+SUMMARY:Saturday of the 3rd Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270418-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270418
-SUMMARY:Fourth Sunday of Easter
+SUMMARY:4th Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270419-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270419
-SUMMARY:Monday of the Fourth Week of Easter
+SUMMARY:Monday of the 4th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270420-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270420
-SUMMARY:Tuesday of the Fourth Week of Easter
+SUMMARY:Tuesday of the 4th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2852,7 +2852,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270422-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270422
-SUMMARY:Thursday of the Fourth Week of Easter
+SUMMARY:Thursday of the 4th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2870,19 +2870,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270425-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270425
-SUMMARY:Fifth Sunday of Easter
+SUMMARY:5th Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270426-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270426
-SUMMARY:Monday of the Fifth Week of Easter
+SUMMARY:Monday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270427-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270427
-SUMMARY:Tuesday of the Fifth Week of Easter
+SUMMARY:Tuesday of the 5th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2912,7 +2912,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270502-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270502
-SUMMARY:Sixth Sunday of Easter
+SUMMARY:6th Sunday of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2924,31 +2924,31 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270504-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270504
-SUMMARY:Tuesday of the Sixth Week of Easter
+SUMMARY:Tuesday of the 6th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270505-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270505
-SUMMARY:Wednesday of the Sixth Week of Easter
+SUMMARY:Wednesday of the 6th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270506-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270506
-SUMMARY:Thursday of the Sixth Week of Easter
+SUMMARY:Thursday of the 6th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270507-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270507
-SUMMARY:Friday of the Sixth Week of Easter
+SUMMARY:Friday of the 6th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
 UID:20270508-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270508
-SUMMARY:Saturday of the Sixth Week of Easter
+SUMMARY:Saturday of the 6th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -2966,7 +2966,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270511-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270511
-SUMMARY:Tuesday of the Seventh Week of Easter
+SUMMARY:Tuesday of the 7th Week of Easter
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -3014,7 +3014,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270519-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270519
-SUMMARY:Wednesday of the Seventh Week of Ordinary Time
+SUMMARY:Wednesday of the 7th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3044,7 +3044,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270524-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270524
-SUMMARY:Monday of the Eighth Week of Ordinary Time
+SUMMARY:Monday of the 8th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3068,7 +3068,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270528-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270528
-SUMMARY:Friday of the Eighth Week of Ordinary Time
+SUMMARY:Friday of the 8th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3122,19 +3122,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270606-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270606
-SUMMARY:Tenth Sunday in Ordinary Time
+SUMMARY:10th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270607-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270607
-SUMMARY:Monday of the Tenth Week of Ordinary Time
+SUMMARY:Monday of the 10th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270608-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270608
-SUMMARY:Tuesday of the Tenth Week of Ordinary Time
+SUMMARY:Tuesday of the 10th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3146,7 +3146,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270610-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270610
-SUMMARY:Thursday of the Tenth Week of Ordinary Time
+SUMMARY:Thursday of the 10th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3158,43 +3158,43 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270612-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270612
-SUMMARY:Saturday of the Tenth Week of Ordinary Time
+SUMMARY:Saturday of the 10th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270613-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270613
-SUMMARY:Eleventh Sunday in Ordinary Time
+SUMMARY:11th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270614-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270614
-SUMMARY:Monday of the Eleventh Week of Ordinary Time
+SUMMARY:Monday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270615-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270615
-SUMMARY:Tuesday of the Eleventh Week of Ordinary Time
+SUMMARY:Tuesday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270616-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270616
-SUMMARY:Wednesday of the Eleventh Week of Ordinary Time
+SUMMARY:Wednesday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270617-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270617
-SUMMARY:Thursday of the Eleventh Week of Ordinary Time
+SUMMARY:Thursday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270618-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270618
-SUMMARY:Friday of the Eleventh Week of Ordinary Time
+SUMMARY:Friday of the 11th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3206,7 +3206,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270620-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270620
-SUMMARY:Twelfth Sunday in Ordinary Time
+SUMMARY:12th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3224,7 +3224,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270623-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270623
-SUMMARY:Wednesday of the Twelfth Week of Ordinary Time
+SUMMARY:Wednesday of the 12th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3236,19 +3236,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270625-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270625
-SUMMARY:Friday of the Twelfth Week of Ordinary Time
+SUMMARY:Friday of the 12th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270626-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270626
-SUMMARY:Saturday of the Twelfth Week of Ordinary Time
+SUMMARY:Saturday of the 12th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270627-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270627
-SUMMARY:Thirteenth Sunday in Ordinary Time
+SUMMARY:13th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3266,7 +3266,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270630-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270630
-SUMMARY:The First Martyrs of the Holy Roman Church
+SUMMARY:The 1st Martyrs of the Holy Roman Church
 X-LITURGICAL-COLOR:red
 END:VEVENT
 BEGIN:VEVENT
@@ -3278,7 +3278,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270702-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270702
-SUMMARY:Friday of the Thirteenth Week of Ordinary Time
+SUMMARY:Friday of the 13th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3290,7 +3290,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270704-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270704
-SUMMARY:Fourteenth Sunday in Ordinary Time
+SUMMARY:14th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3308,13 +3308,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270707-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270707
-SUMMARY:Wednesday of the Fourteenth Week of Ordinary Time
+SUMMARY:Wednesday of the 14th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270708-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270708
-SUMMARY:Thursday of the Fourteenth Week of Ordinary Time
+SUMMARY:Thursday of the 14th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3326,19 +3326,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270710-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270710
-SUMMARY:Saturday of the Fourteenth Week of Ordinary Time
+SUMMARY:Saturday of the 14th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270711-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270711
-SUMMARY:Fifteenth Sunday in Ordinary Time
+SUMMARY:15th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270712-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270712
-SUMMARY:Monday of the Fifteenth Week of Ordinary Time
+SUMMARY:Monday of the 15th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3368,19 +3368,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270717-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270717
-SUMMARY:Saturday of the Fifteenth Week of Ordinary Time
+SUMMARY:Saturday of the 15th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270718-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270718
-SUMMARY:Sixteenth Sunday in Ordinary Time
+SUMMARY:16th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270719-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270719
-SUMMARY:Monday of the Sixteenth Week of Ordinary Time
+SUMMARY:Monday of the 16th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3416,7 +3416,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270725-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270725
-SUMMARY:Seventeenth Sunday in Ordinary Time
+SUMMARY:17th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3428,13 +3428,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270727-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270727
-SUMMARY:Tuesday of the Seventeenth Week of Ordinary Time
+SUMMARY:Tuesday of the 17th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270728-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270728
-SUMMARY:Wednesday of the Seventeenth Week of Ordinary Time
+SUMMARY:Wednesday of the 17th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3458,7 +3458,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270801-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270801
-SUMMARY:Eighteenth Sunday in Ordinary Time
+SUMMARY:18th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3470,7 +3470,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270803-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270803
-SUMMARY:Tuesday of the Eighteenth Week of Ordinary Time
+SUMMARY:Tuesday of the 18th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3500,7 +3500,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270808-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270808
-SUMMARY:Nineteenth Sunday in Ordinary Time
+SUMMARY:19th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3554,13 +3554,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270817-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270817
-SUMMARY:Tuesday of the Twentieth Week of Ordinary Time
+SUMMARY:Tuesday of the 20th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270818-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270818
-SUMMARY:Wednesday of the Twentieth Week of Ordinary Time
+SUMMARY:Wednesday of the 20th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3584,7 +3584,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270822-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270822
-SUMMARY:Twenty-first Sunday in Ordinary Time
+SUMMARY:21st Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3608,7 +3608,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270826-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270826
-SUMMARY:Thursday of the Twenty-first Week of Ordinary Time
+SUMMARY:Thursday of the 21st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3626,31 +3626,31 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270829-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270829
-SUMMARY:Twenty-second Sunday in Ordinary Time
+SUMMARY:22nd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270830-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270830
-SUMMARY:Monday of the Twenty-second Week of Ordinary Time
+SUMMARY:Monday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270831-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270831
-SUMMARY:Tuesday of the Twenty-second Week of Ordinary Time
+SUMMARY:Tuesday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270901-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270901
-SUMMARY:Wednesday of the Twenty-second Week of Ordinary Time
+SUMMARY:Wednesday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270902-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270902
-SUMMARY:Thursday of the Twenty-second Week of Ordinary Time
+SUMMARY:Thursday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3662,25 +3662,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270904-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270904
-SUMMARY:Saturday of the Twenty-second Week of Ordinary Time
+SUMMARY:Saturday of the 22nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270905-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270905
-SUMMARY:Twenty-third Sunday in Ordinary Time
+SUMMARY:23rd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270906-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270906
-SUMMARY:Monday of the Twenty-third Week of Ordinary Time
+SUMMARY:Monday of the 23rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270907-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270907
-SUMMARY:Tuesday of the Twenty-third Week of Ordinary Time
+SUMMARY:Tuesday of the 23rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3698,19 +3698,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270910-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270910
-SUMMARY:Friday of the Twenty-third Week of Ordinary Time
+SUMMARY:Friday of the 23rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270911-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270911
-SUMMARY:Saturday of the Twenty-third Week of Ordinary Time
+SUMMARY:Saturday of the 23rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270912-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270912
-SUMMARY:Twenty-fourth Sunday in Ordinary Time
+SUMMARY:24th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3746,13 +3746,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270918-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270918
-SUMMARY:Saturday of the Twenty-fourth Week of Ordinary Time
+SUMMARY:Saturday of the 24th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270919-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270919
-SUMMARY:Twenty-fifth Sunday in Ordinary Time
+SUMMARY:25th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3770,7 +3770,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270922-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270922
-SUMMARY:Wednesday of the Twenty-fifth Week of Ordinary Time
+SUMMARY:Wednesday of the 25th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3782,19 +3782,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20270924-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270924
-SUMMARY:Friday of the Twenty-fifth Week of Ordinary Time
+SUMMARY:Friday of the 25th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270925-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270925
-SUMMARY:Saturday of the Twenty-fifth Week of Ordinary Time
+SUMMARY:Saturday of the 25th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20270926-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20270926
-SUMMARY:Twenty-sixth Sunday in Ordinary Time
+SUMMARY:26th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3836,7 +3836,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271003-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271003
-SUMMARY:Twenty-seventh Sunday in Ordinary Time
+SUMMARY:27th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3866,7 +3866,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271008-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271008
-SUMMARY:Friday of the Twenty-seventh Week of Ordinary Time
+SUMMARY:Friday of the 27th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3878,7 +3878,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271010-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271010
-SUMMARY:Twenty-eighth Sunday in Ordinary Time
+SUMMARY:28th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3890,13 +3890,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271012-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271012
-SUMMARY:Tuesday of the Twenty-eighth Week of Ordinary Time
+SUMMARY:Tuesday of the 28th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271013-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271013
-SUMMARY:Wednesday of the Twenty-eighth Week of Ordinary Time
+SUMMARY:Wednesday of the 28th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3920,7 +3920,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271017-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271017
-SUMMARY:Twenty-ninth Sunday in Ordinary Time
+SUMMARY:29th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3944,7 +3944,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271021-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271021
-SUMMARY:Thursday of the Twenty-ninth Week of Ordinary Time
+SUMMARY:Thursday of the 29th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3962,25 +3962,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271024-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271024
-SUMMARY:Thirtieth Sunday in Ordinary Time
+SUMMARY:30th Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271025-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271025
-SUMMARY:Monday of the Thirtieth Week of Ordinary Time
+SUMMARY:Monday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271026-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271026
-SUMMARY:Tuesday of the Thirtieth Week of Ordinary Time
+SUMMARY:Tuesday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271027-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271027
-SUMMARY:Wednesday of the Thirtieth Week of Ordinary Time
+SUMMARY:Wednesday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -3992,19 +3992,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271029-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271029
-SUMMARY:Friday of the Thirtieth Week of Ordinary Time
+SUMMARY:Friday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271030-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271030
-SUMMARY:Saturday of the Thirtieth Week of Ordinary Time
+SUMMARY:Saturday of the 30th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271031-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271031
-SUMMARY:Thirty-first Sunday in Ordinary Time
+SUMMARY:31st Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -4016,7 +4016,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271102-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271102
-SUMMARY:The Commemoration of All the Faithful Departed (All Soul’s Day)
+SUMMARY:All Souls' Day
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -4034,25 +4034,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271105-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271105
-SUMMARY:Friday of the Thirty-first Week of Ordinary Time
+SUMMARY:Friday of the 31st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271106-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271106
-SUMMARY:Saturday of the Thirty-first Week of Ordinary Time
+SUMMARY:Saturday of the 31st Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271107-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271107
-SUMMARY:Thirty-second Sunday in Ordinary Time
+SUMMARY:32nd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271108-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271108
-SUMMARY:Monday of the Thirty-second Week of Ordinary Time
+SUMMARY:Monday of the 32nd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -4088,7 +4088,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271114-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271114
-SUMMARY:Thirty-third Sunday in Ordinary Time
+SUMMARY:33rd Sunday in Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -4118,13 +4118,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271119-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271119
-SUMMARY:Friday of the Thirty-third Week of Ordinary Time
+SUMMARY:Friday of the 33rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271120-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271120
-SUMMARY:Saturday of the Thirty-third Week of Ordinary Time
+SUMMARY:Saturday of the 33rd Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
@@ -4160,25 +4160,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271126-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271126
-SUMMARY:Friday of the Thirty-fourth Week of Ordinary Time
+SUMMARY:Friday of the 34th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271127-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271127
-SUMMARY:Saturday of the Thirty-fourth Week of Ordinary Time
+SUMMARY:Saturday of the 34th Week of Ordinary Time
 X-LITURGICAL-COLOR:green
 END:VEVENT
 BEGIN:VEVENT
 UID:20271128-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271128
-SUMMARY:First Sunday of Advent
+SUMMARY:1st Sunday of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271129-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271129
-SUMMARY:Monday of the First Week of Advent
+SUMMARY:Monday of the 1st Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -4190,13 +4190,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271201-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271201
-SUMMARY:Wednesday of the First Week of Advent
+SUMMARY:Wednesday of the 1st Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271202-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271202
-SUMMARY:Thursday of the First Week of Advent
+SUMMARY:Thursday of the 1st Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -4214,7 +4214,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271205-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271205
-SUMMARY:Second Sunday of Advent
+SUMMARY:2nd Sunday of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -4256,7 +4256,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271212-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271212
-SUMMARY:Third Sunday of Advent
+SUMMARY:3rd Sunday of Advent
 X-LITURGICAL-COLOR:rose
 END:VEVENT
 BEGIN:VEVENT
@@ -4274,13 +4274,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271215-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271215
-SUMMARY:Wednesday of the Third Week of Advent
+SUMMARY:Wednesday of the 3rd Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
 UID:20271216-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271216
-SUMMARY:Thursday of the Third Week of Advent
+SUMMARY:Thursday of the 3rd Week of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -4298,7 +4298,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271219-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271219
-SUMMARY:Fourth Sunday of Advent
+SUMMARY:4th Sunday of Advent
 X-LITURGICAL-COLOR:purple
 END:VEVENT
 BEGIN:VEVENT
@@ -4332,7 +4332,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271225-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271225
-SUMMARY:The Nativity of the Lord (Christmas)
+SUMMARY:The Nativity of the Lord
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT
@@ -4361,7 +4361,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20271230-catholic-calendar@noahweidig.com
 DTSTART;VALUE=DATE:20271230
-SUMMARY:Sixth Day Within the Octave of the Nativity of the Lord
+SUMMARY:6th Day in the Octave of the Nativity of the Lord
 X-LITURGICAL-COLOR:white
 END:VEVENT
 BEGIN:VEVENT

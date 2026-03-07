@@ -49,3 +49,7 @@
 ## 2026-03-06 - Aria-Modal Dialogs
 **Learning:** Providing `role="dialog"` to a custom modal is not enough; without `aria-modal="true"`, screen reader users can inadvertently navigate out of the modal using virtual cursors and interact with the blurred background content, causing confusion and a broken experience.
 **Action:** Always include `aria-modal="true"` alongside `role="dialog"` for custom modal overlays.
+
+## 2026-03-08 - OS-Aware Keyboard Shortcut Hints
+**Learning:** Hardcoding a Mac-specific keyboard shortcut hint (like "⌘K") in a tooltip alienates Windows and Linux users, who rely on "Ctrl" instead of "Cmd". A good UX must accurately reflect the user's operating system to prevent confusion and frustration.
+**Action:** When displaying keyboard shortcuts in tooltips or UI elements, always use JavaScript to detect the user's OS (`navigator.platform` or `navigator.userAgent`) and display the appropriate modifier key (`⌘` for Mac, `Ctrl` for others).

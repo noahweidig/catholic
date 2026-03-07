@@ -128,7 +128,8 @@ document.addEventListener('DOMContentLoaded', function () {
         searchBtn.type = 'button';
         searchBtn.className = 'icon-btn nav-search';
         searchBtn.setAttribute('aria-label', 'Search the site');
-        searchBtn.setAttribute('title', 'Search (\u2318K)');
+        var isMac = navigator.userAgent.indexOf('Mac OS X') !== -1;
+        searchBtn.setAttribute('title', isMac ? 'Search (\u2318K)' : 'Search (Ctrl+K)');
         var searchBtnIcon = document.createElement('i');
         searchBtnIcon.className = 'fa-solid fa-magnifying-glass';
         searchBtn.appendChild(searchBtnIcon);

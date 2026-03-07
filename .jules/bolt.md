@@ -33,3 +33,7 @@
 ## 2026-03-05 - [Optimize Rigid Format String Manipulation]
 **Learning:** For rigid strings like dates formatted as YYYY-MM-DD, using `substring` to selectively copy parts of the string (e.g. `str.substring(0, 4) + str.substring(5, 7) + str.substring(8, 10)`) is roughly 100x faster than `.replace(/-/g, '')`. Regex replacement introduces engine overhead and creates intermediate string allocations.
 **Action:** When removing characters at known indices from strings with guaranteed, rigid formats, strictly use `substring` concatenation over `.replace()`.
+
+## 2026-03-06 - [Batch DOM Reads and Writes in Scroll Handlers]
+**Learning:** Having multiple `window.addEventListener('scroll')` handlers, each with its own `requestAnimationFrame`, causes DOM reads (like `window.scrollY`) and DOM writes (like `.classList.add()`) to interleave. This "layout thrashing" forces the browser to synchronously recalculate layout multiple times per frame, drastically degrading scroll performance and increasing memory overhead.
+**Action:** Always combine scroll-dependent UI updates into a single unified `requestAnimationFrame` loop. Structure the loop to explicitly batch all DOM reads first, followed by all DOM writes, ensuring layout is only calculated once per frame.

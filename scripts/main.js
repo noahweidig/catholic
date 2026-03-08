@@ -510,29 +510,69 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Header shrink on scroll (throttled with rAF)
+    // Unified scroll handler to prevent layout thrashing
+    // Batches all DOM reads (scrollY) before DOM writes (classList changes)
     var header = document.querySelector('header');
-    if (header) {
-        var ticking = false;
-        window.addEventListener('scroll', function () {
-            if (!ticking) {
-                window.requestAnimationFrame(function () {
-                    // Optimized: Use hysteresis (80px vs 15px) instead of timeout blocking
-                    var scrollY = window.scrollY;
-                    var isScrolled = header.classList.contains('scrolled');
 
-                    if (scrollY > 80 && !isScrolled) {
+    // Back to Top Button setup
+    var backToTopBtn = document.createElement('button');
+    backToTopBtn.id = 'back-to-top';
+    backToTopBtn.className = 'back-to-top';
+    var backToTopIcon = document.createElement('i');
+    backToTopIcon.className = 'fa-solid fa-arrow-up';
+    backToTopBtn.appendChild(backToTopIcon);
+    backToTopBtn.setAttribute('aria-label', 'Back to top');
+    backToTopBtn.setAttribute('title', 'Back to top');
+    backToTopBtn.setAttribute('tabindex', '-1');
+    backToTopBtn.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(backToTopBtn);
+
+    backToTopBtn.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+        backToTopBtn.blur();
+    });
+
+    var scrollTicking = false;
+    window.addEventListener('scroll', function () {
+        if (!scrollTicking) {
+            window.requestAnimationFrame(function () {
+                // DOM READS
+                var scrollY = window.scrollY;
+
+                var headerShouldBeScrolled = scrollY > 80;
+                var headerShouldBeUnscrolled = scrollY < 15;
+                var isHeaderScrolled = header ? header.classList.contains('scrolled') : false;
+
+                var backToTopShouldBeVisible = scrollY > 300;
+                var isBackToTopVisible = backToTopBtn.classList.contains('visible');
+
+                // DOM WRITES
+                if (header) {
+                    if (headerShouldBeScrolled && !isHeaderScrolled) {
                         header.classList.add('scrolled');
-                    } else if (scrollY < 15 && isScrolled) {
+                    } else if (headerShouldBeUnscrolled && isHeaderScrolled) {
                         header.classList.remove('scrolled');
                     }
+                }
 
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        }, { passive: true });
-    }
+                if (backToTopShouldBeVisible && !isBackToTopVisible) {
+                    backToTopBtn.classList.add('visible');
+                    backToTopBtn.removeAttribute('tabindex');
+                    backToTopBtn.removeAttribute('aria-hidden');
+                } else if (!backToTopShouldBeVisible && isBackToTopVisible) {
+                    backToTopBtn.classList.remove('visible');
+                    backToTopBtn.setAttribute('tabindex', '-1');
+                    backToTopBtn.setAttribute('aria-hidden', 'true');
+                }
+
+                scrollTicking = false;
+            });
+            scrollTicking = true;
+        }
+    }, { passive: true });
 
     // Hamburger menu toggle
     var hamburger = document.querySelector('.hamburger');
@@ -654,46 +694,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (target && target.tagName && target.tagName.toLowerCase() === 'input' && target.readOnly) {
             target.select();
         }
-    });
-
-    // Back to Top Button
-    var backToTopBtn = document.createElement('button');
-    backToTopBtn.id = 'back-to-top';
-    backToTopBtn.className = 'back-to-top';
-    var backToTopIcon = document.createElement('i');
-    backToTopIcon.className = 'fa-solid fa-arrow-up';
-    backToTopBtn.appendChild(backToTopIcon);
-    backToTopBtn.setAttribute('aria-label', 'Back to top');
-    backToTopBtn.setAttribute('title', 'Back to top');
-    backToTopBtn.setAttribute('tabindex', '-1');
-    backToTopBtn.setAttribute('aria-hidden', 'true');
-    document.body.appendChild(backToTopBtn);
-
-    var backToTopTicking = false;
-    window.addEventListener('scroll', function() {
-        if (!backToTopTicking) {
-            window.requestAnimationFrame(function() {
-                if (window.scrollY > 300) {
-                    backToTopBtn.classList.add('visible');
-                    backToTopBtn.removeAttribute('tabindex');
-                    backToTopBtn.removeAttribute('aria-hidden');
-                } else {
-                    backToTopBtn.classList.remove('visible');
-                    backToTopBtn.setAttribute('tabindex', '-1');
-                    backToTopBtn.setAttribute('aria-hidden', 'true');
-                }
-                backToTopTicking = false;
-            });
-            backToTopTicking = true;
-        }
-    }, { passive: true });
-
-    backToTopBtn.addEventListener('click', function() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-        backToTopBtn.blur();
     });
 
     // Enhance external links (accessibility & UX)

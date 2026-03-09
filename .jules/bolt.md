@@ -37,3 +37,7 @@
 ## 2026-03-06 - [Batch DOM Reads and Writes in Scroll Handlers]
 **Learning:** Having multiple `window.addEventListener('scroll')` handlers, each with its own `requestAnimationFrame`, causes DOM reads (like `window.scrollY`) and DOM writes (like `.classList.add()`) to interleave. This "layout thrashing" forces the browser to synchronously recalculate layout multiple times per frame, drastically degrading scroll performance and increasing memory overhead.
 **Action:** Always combine scroll-dependent UI updates into a single unified `requestAnimationFrame` loop. Structure the loop to explicitly batch all DOM reads first, followed by all DOM writes, ensuring layout is only calculated once per frame.
+
+## 2026-03-07 - [Optimize Multiple Sequential Regex Replaces]
+**Learning:** Chaining multiple distinct `.replace(/regex/g)` calls forces the JavaScript engine to make multiple full passes over the string and creates a new string allocation for every replacement. In hot paths (like `formatSummary` called repeatedly during calendar generation), this causes substantial overhead.
+**Action:** When a string requires multiple different regex replacements, combine all patterns into a single grouped regex (e.g., `/patternA|patternB/g`) and use a replacer callback function to determine the correct replacement text. This completes all operations in a single engine pass and minimizes intermediate allocations.

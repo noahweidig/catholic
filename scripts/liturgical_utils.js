@@ -181,10 +181,11 @@ const romanNumeralsSet = new Set([
 
 // Optimization: Pre-compile Regex for faster replace
 const WORD_REGEX = /\w\S*/g;
-const FORMAT_SUMMARY_REGEX = /Saints? |Blessed | and /g;
+
+// Combined regex for all summary formatting replacements to avoid multiple string allocations and engine passes
+const COMBINED_SUMMARY_REGEX = /The Commemoration of All the Faithful Departed[^]*|\s*\(Christmas\)|The Octave Day of the Nativity of the Lord:\s*|\bWithin the Octave\b|Second Sunday of Easter or Sunday of Divine Mercy|\b(thirty-fourth|thirty-third|thirty-second|thirty-first|thirtieth|twenty-ninth|twenty-eighth|twenty-seventh|twenty-sixth|twenty-fifth|twenty-fourth|twenty-third|twenty-second|twenty-first|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first)\b|Saints? |Blessed | and /gi;
 
 // Ordinal word to numeric suffix map (compound ordinals before simple ones)
-const ORDINAL_REGEX = /\b(thirty-fourth|thirty-third|thirty-second|thirty-first|thirtieth|twenty-ninth|twenty-eighth|twenty-seventh|twenty-sixth|twenty-fifth|twenty-fourth|twenty-third|twenty-second|twenty-first|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first)\b/gi;
 const ORDINAL_MAP = {
     'first': '1st', 'second': '2nd', 'third': '3rd', 'fourth': '4th',
     'fifth': '5th', 'sixth': '6th', 'seventh': '7th', 'eighth': '8th',
@@ -227,34 +228,29 @@ function toTitleCase(str) {
  * @returns {string}
  */
 function formatSummary(summary) {
-    // All Souls Day: use the short common name
-    summary = summary.replace(/The Commemoration of All the Faithful Departed[^]*/i, "All Souls' Day");
-
-    // Christmas: remove parenthetical "(Christmas)"
-    summary = summary.replace(/\s*\(Christmas\)/i, '');
-
-    // Jan 1 (Solemnity of Mary): strip the long prefix before the colon
-    summary = summary.replace(/The Octave Day of the Nativity of the Lord:\s*/i, '');
-
-    // "Within the Octave" → "in the Octave"
-    summary = summary.replace(/\bWithin the Octave\b/gi, 'in the Octave');
-
-    // Divine Mercy Sunday
-    summary = summary.replace(/Second Sunday of Easter or Sunday of Divine Mercy/i, 'Divine Mercy Sunday');
-
-    // Replace spelled-out ordinals with numeric equivalents
-    summary = summary.replace(ORDINAL_REGEX, (match) => ORDINAL_MAP[match.toLowerCase()] || match);
-
+    // Optimization: Truncate at comma first to reduce string size before regex
     const commaIndex = summary.indexOf(',');
     if (commaIndex !== -1) {
         summary = summary.substring(0, commaIndex);
     }
 
-    summary = summary.replace(FORMAT_SUMMARY_REGEX, (match) => {
+    // Optimization: Single regex replace with callback avoids 7 distinct string allocations
+    summary = summary.replace(COMBINED_SUMMARY_REGEX, (match, p1) => {
+        if (p1) return ORDINAL_MAP[p1.toLowerCase()] || match;
+
+        const lowerMatch = match.toLowerCase();
+        if (lowerMatch.startsWith('the commemoration of all the faithful departed')) return "All Souls' Day";
+        if (lowerMatch.includes('(christmas)')) return '';
+        if (lowerMatch.startsWith('the octave day of the nativity of the lord:')) return '';
+        if (lowerMatch === 'within the octave') return 'in the Octave';
+        if (lowerMatch === 'second sunday of easter or sunday of divine mercy') return 'Divine Mercy Sunday';
+
+        // Exact case-sensitive matches for original FORMAT_SUMMARY_REGEX
         if (match === 'Saint ') return 'St. ';
         if (match === 'Saints ') return 'Sts. ';
         if (match === 'Blessed ') return 'Bl. ';
         if (match === ' and ') return ' & ';
+
         return match;
     });
 

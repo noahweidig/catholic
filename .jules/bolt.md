@@ -23,7 +23,7 @@
 **Action:** Always count words in large text by iterating characters and toggling a boolean `inWord` flag (checking for space, tab, newline, return character codes). This achieves the same count in O(n) time with zero allocations.
 
 ## 2026-03-03 - [Optimize File Reading Memory Overhead]
-**Learning:** Using `f.readlines()` in Python reads the entire file content into a massive array of strings in memory. For large text files (like generated `.ics` liturgical calendars), this causes significant memory allocation overhead and Garbage Collection spikes.
+**Learning:** Using `f.readlines()` in Python reads the entire file content into a massive array of strings in memory. For large text files (like generated `.ics` calendars), this causes significant memory allocation overhead and Garbage Collection spikes.
 **Action:** Always iterate directly over the file object (`for line in f:`) when reading files line-by-line. This approaches the task efficiently in an iterative O(1) memory footprint without loading the entire contents at once.
 
 ## 2026-03-04 - [Batch DOM Insertions with DocumentFragment]
@@ -41,3 +41,7 @@
 ## 2026-03-07 - [Optimize Multiple Sequential Regex Replaces]
 **Learning:** Chaining multiple distinct `.replace(/regex/g)` calls forces the JavaScript engine to make multiple full passes over the string and creates a new string allocation for every replacement. In hot paths (like `formatSummary` called repeatedly during calendar generation), this causes substantial overhead.
 **Action:** When a string requires multiple different regex replacements, combine all patterns into a single grouped regex (e.g., `/patternA|patternB/g`) and use a replacer callback function to determine the correct replacement text. This completes all operations in a single engine pass and minimizes intermediate allocations.
+
+## 2026-03-08 - [Optimize Title Case Word Conversions]
+**Learning:** In hot loops processing words (like `toTitleCase`), redundantly converting every matched word to both uppercase (`toUpperCase()`) and lowercase (`toLowerCase()`) to check against static reference sets generates immense string allocation overhead and wastes CPU cycles for 99% of regular words.
+**Action:** Store the reference sets logically to require only a single case-conversion per word (e.g. comparing Roman numerals against a `Set` of lowercase numerals). Use character-specific indexing (`charAt(0).toUpperCase()`) rather than generating fully-capitalized strings for typical words.

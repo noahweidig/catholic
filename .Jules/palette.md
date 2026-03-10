@@ -57,3 +57,7 @@
 ## 2026-03-09 - Summary Elements Focus Visibility
 **Learning:** Native `<summary>` elements act as interactive toggles for `<details>` sections and receive keyboard focus, but they are not always included in global `:focus-visible` resets alongside buttons and links. Without explicit CSS for `summary:focus-visible`, keyboard users cannot see when these elements are focused, severely harming accessibility.
 **Action:** Always include `summary:focus-visible` in the global focus outline definitions when using native `<details>`/`<summary>` elements for expand/collapse functionality.
+
+## 2024-05-14 - Actionable Search Empty States
+**Learning:** Displaying a generic "No results found" message creates a dead-end for users. Empty states should guide the user by explaining why there are no results (e.g., injecting the query string "No results found for 'xyz'") and providing alternative actions or suggestions (e.g., "Try searching for 'Mass', 'Sacraments', or 'Rosary'"). This improves both UX (reduces frustration, keeps users engaged) and accessibility (clear context). Additionally, updating the `aria-live` region with the specific query ensures screen reader users are explicitly informed of what was not found.
+**Action:** When designing or modifying search functionality or filtering systems, always implement an empty state that explicitly references the user's input safely to prevent XSS and provides actionable suggestions to help the user recover.

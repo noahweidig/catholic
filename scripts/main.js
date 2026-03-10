@@ -310,13 +310,44 @@ document.addEventListener('DOMContentLoaded', function () {
             if (filtered.length === 0) {
                 var emptyDiv = document.createElement('div');
                 emptyDiv.className = 'search-empty';
+
                 var emptyIcon = document.createElement('i');
                 emptyIcon.className = 'fa-solid fa-magnifying-glass';
                 emptyDiv.appendChild(emptyIcon);
-                emptyDiv.appendChild(document.createTextNode('No results found'));
+
+                var emptyText = document.createElement('div');
+                emptyText.style.marginBottom = '0.5rem';
+                emptyText.style.color = 'var(--primary-color)';
+
+                if (q.length > 0) {
+                    emptyText.appendChild(document.createTextNode('No results found for "'));
+                    var strong = document.createElement('strong');
+                    strong.style.fontWeight = 'bold';
+                    strong.style.color = 'var(--text-color)';
+                    strong.appendChild(document.createTextNode(q));
+                    emptyText.appendChild(strong);
+                    emptyText.appendChild(document.createTextNode('"'));
+                } else {
+                    emptyText.appendChild(document.createTextNode('No results found'));
+                }
+                emptyDiv.appendChild(emptyText);
+
+                var emptyHelp = document.createElement('div');
+                emptyHelp.style.fontSize = '0.85rem';
+                emptyHelp.style.opacity = '0.7';
+                emptyHelp.style.fontStyle = 'italic';
+                emptyHelp.style.color = 'var(--text-color)';
+                emptyHelp.appendChild(document.createTextNode("Try searching for 'Mass', 'Sacraments', or 'Rosary'"));
+                emptyDiv.appendChild(emptyHelp);
+
                 searchResults.appendChild(emptyDiv);
                 activeIndex = -1;
-                if (searchAnnouncer) searchAnnouncer.textContent = 'No results found';
+
+                if (searchAnnouncer) {
+                    searchAnnouncer.textContent = q.length > 0
+                        ? 'No results found for ' + q
+                        : 'No results found';
+                }
                 return;
             }
 

@@ -53,3 +53,7 @@
 ## 2026-03-08 - OS-Aware Keyboard Shortcut Hints
 **Learning:** Hardcoding a Mac-specific keyboard shortcut hint (like "⌘K") in a tooltip alienates Windows and Linux users, who rely on "Ctrl" instead of "Cmd". A good UX must accurately reflect the user's operating system to prevent confusion and frustration.
 **Action:** When displaying keyboard shortcuts in tooltips or UI elements, always use JavaScript to detect the user's OS (`navigator.platform` or `navigator.userAgent`) and display the appropriate modifier key (`⌘` for Mac, `Ctrl` for others).
+
+## 2026-03-09 - Summary Elements Focus Visibility
+**Learning:** Native `<summary>` elements act as interactive toggles for `<details>` sections and receive keyboard focus, but they are not always included in global `:focus-visible` resets alongside buttons and links. Without explicit CSS for `summary:focus-visible`, keyboard users cannot see when these elements are focused, severely harming accessibility.
+**Action:** Always include `summary:focus-visible` in the global focus outline definitions when using native `<details>`/`<summary>` elements for expand/collapse functionality.

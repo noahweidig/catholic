@@ -172,11 +172,11 @@ function getFastAbstinenceDescription(dateStr, rank, dayOfWeek, yearArg) {
 
 // Optimization: Pre-compile Sets for faster lookup
 const smallWordsSet = new Set(['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'from', 'by', 'in', 'of']);
-const romanNumeralsSet = new Set([
-    'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X',
-    'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII', 'XIX', 'XX',
-    'XXI', 'XXII', 'XXIII', 'XXIV', 'XXV', 'XXVI', 'XXVII', 'XXVIII', 'XXIX', 'XXX',
-    'XXXI', 'XXXII', 'XXXIII', 'XXXIV', 'XXXV', 'XXXVI', 'XXXVII', 'XXXVIII', 'XXXIX'
+const romanNumeralsSetLower = new Set([
+    'i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x',
+    'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi', 'xvii', 'xviii', 'xix', 'xx',
+    'xxi', 'xxii', 'xxiii', 'xxiv', 'xxv', 'xxvi', 'xxvii', 'xxviii', 'xxix', 'xxx',
+    'xxxi', 'xxxii', 'xxxiii', 'xxxiv', 'xxxv', 'xxxvi', 'xxxvii', 'xxxviii', 'xxxix'
 ]);
 
 // Optimization: Pre-compile Regex for faster replace
@@ -207,18 +207,19 @@ const ORDINAL_MAP = {
  */
 function toTitleCase(str) {
     return str.replace(WORD_REGEX, (txt, offset) => {
-        const upper = txt.toUpperCase();
-        // Check for Roman Numerals first
-        if (romanNumeralsSet.has(upper)) {
-            return upper;
-        }
-
         const lower = txt.toLowerCase();
+
+        // Check for small words first
         if (offset !== 0 && smallWordsSet.has(lower)) {
             return lower;
         }
 
-        return upper.charAt(0) + lower.slice(1);
+        // Check for Roman Numerals
+        if (romanNumeralsSetLower.has(lower)) {
+            return txt.toUpperCase();
+        }
+
+        return txt.charAt(0).toUpperCase() + lower.slice(1);
     });
 }
 

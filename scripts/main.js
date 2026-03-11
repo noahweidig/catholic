@@ -526,7 +526,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
 
-        document.addEventListener('click', function (event) {
+        function closeMenus(event) {
             var openMenus = nav.querySelectorAll('.menu-dropdown.open');
             openMenus.forEach(function (menu) {
                 if (!menu.contains(event.target)) {
@@ -537,7 +537,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 }
             });
-        });
+        }
+        document.addEventListener('click', closeMenus);
+        document.addEventListener('focusin', closeMenus);
     }
 
     setupMenubar();
@@ -643,8 +645,8 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        // Close mobile nav on outside click
-        document.addEventListener('click', function (event) {
+        // Close mobile nav on outside click or focus
+        function closeMobileNav(event) {
             if (nav.classList.contains('open') &&
                 !nav.contains(event.target) &&
                 !hamburger.contains(event.target)) {
@@ -653,7 +655,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 var icon = hamburger.querySelector('i');
                 if (icon) icon.className = 'fa-solid fa-bars';
             }
-        });
+        }
+        document.addEventListener('click', closeMobileNav);
+        document.addEventListener('focusin', closeMobileNav);
     }
 
     // Calendar copy functionality (Event Delegation)

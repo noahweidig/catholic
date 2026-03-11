@@ -73,3 +73,6 @@
 ## 2025-03-11 - Search Modal Close UX Pattern
 **Learning:** Sighted and touch users may struggle to intuit how to close modal dialogs if an explicit "Close" button is missing. Using static keyboard hints (like an "ESC" badge) is unhelpful for mobile users.
 **Action:** When designing modals with keyboard shortcut hints, convert the hint badge itself into an interactive, dual-purpose `<button>`. Style it with hover states using inline JS (or CSS) to provide tactile feedback without needing new design patterns, and ensure it has an `aria-label` and `title` for screen readers and tooltips. Also, ensure global keyboard event listeners exist to handle `Escape` so focus doesn't become trapped.
+## 2024-05-24 - Enhance contrast for search modal text and badges
+**Learning:** Text placeholders, keyboard shortcuts, and empty-state texts often use low opacity values (`0.4` or `0.5`) to appear secondary, which fails WCAG AA contrast ratios (4.5:1) against light backgrounds.
+**Action:** When designing secondary or hint text, increase opacity to at least `0.8` or `0.85` to ensure adequate contrast while still differentiating it from primary text, or use explicitly defined contrast-compliant text colors.

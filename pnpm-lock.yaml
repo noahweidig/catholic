@@ -1,0 +1,59 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@romcal/calendar.united-states':
+        specifier: ^3.0.0-dev.119
+        version: 3.0.0-dev.124(romcal@3.0.0)
+      romcal:
+        specifier: ^3.0.0-dev.119
+        version: 3.0.0
+
+packages:
+
+  '@babel/runtime@7.28.6':
+    resolution: {integrity: sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==}
+    engines: {node: '>=6.9.0'}
+
+  '@romcal/calendar.united-states@3.0.0-dev.124':
+    resolution: {integrity: sha512-fdoCikPCnJ3lpPZKmKCmItfj5LI0cCr5+hDSkogExuqTK1nNACi2Gv2wOJNmGur+I5jjr8JhE06nIUdHfnYgsQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      romcal: 3.0.0-dev.124
+
+  i18next@21.10.0:
+    resolution: {integrity: sha512-YeuIBmFsGjUfO3qBmMOc0rQaun4mIpGKET5WDwvu8lU7gvwpcariZLNtL0Fzj+zazcHUrlXHiptcFhBMFaxzfg==}
+
+  romcal@3.0.0:
+    resolution: {integrity: sha512-aqhIErU3qBl5lsQ8G8eTigcnKW2ZR4eQrfHPDMFriTdqbkqv07YJ3AzaAki544LIg18ArUWNAi75TQF58XBuXA==}
+    engines: {node: ^14.16 || >=16.0.0}
+    deprecated: this package has been deprecated
+
+  ts-deepmerge@6.2.1:
+    resolution: {integrity: sha512-8CYSLazCyj0DJDpPIxOFzJG46r93uh6EynYjuey+bxcLltBeqZL7DMfaE5ZPzZNFlav7wx+2TDa/mBl8gkTYzw==}
+    engines: {node: '>=14.13.1'}
+
+snapshots:
+
+  '@babel/runtime@7.28.6': {}
+
+  '@romcal/calendar.united-states@3.0.0-dev.124(romcal@3.0.0)':
+    dependencies:
+      romcal: 3.0.0
+
+  i18next@21.10.0:
+    dependencies:
+      '@babel/runtime': 7.28.6
+
+  romcal@3.0.0:
+    dependencies:
+      i18next: 21.10.0
+      ts-deepmerge: 6.2.1
+
+  ts-deepmerge@6.2.1: {}

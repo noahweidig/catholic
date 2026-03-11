@@ -2,20 +2,21 @@ from playwright.sync_api import sync_playwright
 
 def verify_beliefs_order(page):
     # Navigate to the local beliefs.html file
-    page.goto(f"file:///app/beliefs.html")
+    page.goto("file:///app/beliefs.html")
 
-    # Wait for the main content to be visible
-    page.wait_for_selector("#main-content")
+    # Scroll down to ensure elements are visible and reveal animations trigger
+    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+    page.wait_for_timeout(1000) # Wait for reveal animations to finish
 
-    # Scroll down to ensure both Original Sin and Jesus Christ sections are visible
-    # We evaluate script to scroll to the Original Sin section
-    page.evaluate("() => { const el = Array.from(document.querySelectorAll('h2')).find(h => h.textContent.includes('Original Sin')); if(el) el.scrollIntoView({block: 'center'}); }")
+    # Scroll to The Four Last Things heading
+    four_last_things = page.locator("h2:has-text('The Four Last Things')")
+    four_last_things.scroll_into_view_if_needed()
 
-    # Give it a moment to render
-    page.wait_for_timeout(1000)
+    # Wait a moment for any potential sticky headers or scrolling to settle
+    page.wait_for_timeout(500)
 
-    # Take a screenshot
-    page.screenshot(path="verification/beliefs_order.png", full_page=True)
+    # Take a screenshot showing the order
+    page.screenshot(path="/app/verification/beliefs_order.png", full_page=True)
 
 if __name__ == "__main__":
     with sync_playwright() as p:

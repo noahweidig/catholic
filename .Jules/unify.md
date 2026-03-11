@@ -15,3 +15,7 @@
 ## 2025-02-12 - Relocate The Magisterium for Logical Flow
 **Learning:** In hierarchical structural explanations, collective functions (like The Magisterium, the teaching office of the Pope and Bishops) should immediately follow the entities that comprise them, rather than being disjointedly appended later in the sequence.
 **Action:** When structuring pages describing organizational roles or hierarchies, always group the collective governing/teaching body directly after defining its constituent members to maintain logical narrative flow.
+
+## 2025-02-13 - [Establishing frameworks before specifics]
+**Learning:** Introducing specific concepts (like Purgatory) before establishing the broader framework they exist within (like The Four Last Things: Death, Judgment, Heaven, and Hell) creates a disjointed narrative and forces the specific to explain the general.
+**Action:** When explaining theological structures or concepts with a clear hierarchy, always introduce the broad framework first to establish context, allowing the narrative to logically drill down into the specifics.

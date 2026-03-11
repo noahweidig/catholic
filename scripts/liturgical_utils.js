@@ -6,6 +6,8 @@ const easterCache = new Map();
 const ashWedCache = new Map();
 const goodFriCache = new Map();
 const ascensionCache = new Map();
+const titleCaseCache = new Map();
+const summaryCache = new Map();
 
 /**
  * Optimization: Fast removal of hyphens from YYYY-MM-DD to YYYYMMDD.
@@ -206,7 +208,11 @@ const ORDINAL_MAP = {
  * @returns {string}
  */
 function toTitleCase(str) {
-    return str.replace(WORD_REGEX, (txt, offset) => {
+    if (titleCaseCache.has(str)) {
+        return titleCaseCache.get(str);
+    }
+
+    const result = str.replace(WORD_REGEX, (txt, offset) => {
         const lower = txt.toLowerCase();
 
         // Check for small words first
@@ -221,6 +227,9 @@ function toTitleCase(str) {
 
         return txt.charAt(0).toUpperCase() + lower.slice(1);
     });
+
+    titleCaseCache.set(str, result);
+    return result;
 }
 
 /**
@@ -229,6 +238,12 @@ function toTitleCase(str) {
  * @returns {string}
  */
 function formatSummary(summary) {
+    if (summaryCache.has(summary)) {
+        return summaryCache.get(summary);
+    }
+
+    const originalSummary = summary;
+
     // Optimization: Truncate at comma first to reduce string size before regex
     const commaIndex = summary.indexOf(',');
     if (commaIndex !== -1) {
@@ -255,7 +270,9 @@ function formatSummary(summary) {
         return match;
     });
 
-    return toTitleCase(summary);
+    const result = toTitleCase(summary);
+    summaryCache.set(originalSummary, result);
+    return result;
 }
 
 module.exports = {

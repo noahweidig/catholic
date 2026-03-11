@@ -11,3 +11,7 @@
 ## 2025-02-13 - [Grouping related concepts for narrative cohesion]
 **Learning:** Placing unrelated sections between related ones breaks narrative progression. Splitting "The Blessed Virgin Mary" from "The Communion of Saints", or "Purgatory" from "The Four Last Things", creates an abrupt and disjointed experience for the reader.
 **Action:** Always group thematic or related sections sequentially. Ensure that a concept introduced naturally flows into the next (e.g., teaching about Mary -> teaching about all saints; rules of morality -> specific precepts -> consequences of actions).
+
+## 2025-02-12 - Relocate The Magisterium for Logical Flow
+**Learning:** In hierarchical structural explanations, collective functions (like The Magisterium, the teaching office of the Pope and Bishops) should immediately follow the entities that comprise them, rather than being disjointedly appended later in the sequence.
+**Action:** When structuring pages describing organizational roles or hierarchies, always group the collective governing/teaching body directly after defining its constituent members to maintain logical narrative flow.

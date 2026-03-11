@@ -65,3 +65,7 @@
 ## 2026-03-09 - Search Input Clear Button
 **Learning:** For search inputs, especially inside modal dialogs, users often type long queries and need a quick way to clear them without holding backspace. A dedicated "Clear Search" button improves efficiency and recovery from dead-end searches.
 **Action:** Always include a conditionally visible "Clear" button (like an 'X' icon) within search input wrappers that clears the value and restores focus to the input.
+
+## 2026-03-11 - Focus Out Accessibility for Custom Menus
+**Learning:** For custom dropdown menus and off-canvas navigation that toggle via `aria-expanded` and rely on "click outside" listeners to close, keyboard users can become trapped visually. If a user tabs out of the menu, the menu remains visually open and obscures content, despite the keyboard focus being elsewhere. This severely breaks navigation flow for screen reader and keyboard-only users.
+**Action:** Always bind a global `focusin` event listener alongside `click` listeners to ensure that custom dropdowns and mobile menus automatically close when focus moves outside of them.

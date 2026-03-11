@@ -210,6 +210,7 @@ document.addEventListener('DOMContentLoaded', function () {
         searchClearBtn.type = 'button';
         searchClearBtn.className = 'icon-btn';
         searchClearBtn.setAttribute('aria-label', 'Clear search');
+        searchClearBtn.setAttribute('title', 'Clear search');
         searchClearBtn.style.display = 'none';
         searchClearBtn.style.width = '1.8rem';
         searchClearBtn.style.height = '1.8rem';
@@ -220,9 +221,29 @@ document.addEventListener('DOMContentLoaded', function () {
         searchClearBtn.appendChild(clearIcon);
         searchInputWrap.appendChild(searchClearBtn);
 
-        var searchKbd = document.createElement('span');
+        var searchKbd = document.createElement('button');
+        searchKbd.type = 'button';
         searchKbd.className = 'search-kbd';
         searchKbd.textContent = 'ESC';
+        searchKbd.setAttribute('aria-label', 'Close search');
+        searchKbd.setAttribute('title', 'Close search');
+        searchKbd.style.cursor = 'pointer';
+        searchKbd.style.transition = 'opacity 0.2s ease, background 0.2s ease, color 0.2s ease';
+        searchKbd.addEventListener('mouseover', function() {
+            searchKbd.style.opacity = '1';
+            searchKbd.style.color = 'var(--primary-color)';
+            searchKbd.style.background = 'var(--accent-light)';
+            searchKbd.style.borderColor = 'var(--accent-color)';
+        });
+        searchKbd.addEventListener('mouseout', function() {
+            searchKbd.style.opacity = '0.4';
+            searchKbd.style.color = 'var(--text-color)';
+            searchKbd.style.background = 'var(--bg-color)';
+            searchKbd.style.borderColor = 'var(--border-color)';
+        });
+        searchKbd.addEventListener('click', function() {
+            closeSearch();
+        });
         searchInputWrap.appendChild(searchKbd);
 
         searchDialog.appendChild(searchInputWrap);
@@ -494,6 +515,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     e.preventDefault();
                     openSearch();
                 }
+            }
+            // Escape key globally closes search modal if it's open
+            if (e.key === 'Escape' && overlay.classList.contains('open')) {
+                e.preventDefault();
+                closeSearch();
             }
         });
 

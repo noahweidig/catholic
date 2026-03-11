@@ -1368,14 +1368,14 @@ body.theme-dark .search-dialog {
 
 .search-input::placeholder {
     color: var(--text-color);
-    opacity: 0.4;
+    opacity: 0.85;
 }
 
 .search-kbd {
     font-family: var(--font-heading);
     font-size: 0.65rem;
     color: var(--text-color);
-    opacity: 0.4;
+    opacity: 0.85;
     background: var(--bg-color);
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -1482,7 +1482,7 @@ body.theme-dark .search-dialog {
     text-align: center;
     padding: 2rem 1rem;
     color: var(--text-color);
-    opacity: 0.5;
+    opacity: 0.85;
     font-size: 0.9rem;
 }
 
@@ -1491,7 +1491,7 @@ body.theme-dark .search-dialog {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--accent-color);
-    opacity: 0.5;
+    opacity: 0.85;
 }
 
 .search-footer {
@@ -1503,7 +1503,7 @@ body.theme-dark .search-dialog {
     border-top: 1px solid var(--border-color);
     font-size: 0.7rem;
     color: var(--text-color);
-    opacity: 0.4;
+    opacity: 0.85;
     font-family: var(--font-heading);
     letter-spacing: 0.03em;
 }

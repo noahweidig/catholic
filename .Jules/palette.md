@@ -61,3 +61,7 @@
 ## 2024-05-14 - Actionable Search Empty States
 **Learning:** Displaying a generic "No results found" message creates a dead-end for users. Empty states should guide the user by explaining why there are no results (e.g., injecting the query string "No results found for 'xyz'") and providing alternative actions or suggestions (e.g., "Try searching for 'Mass', 'Sacraments', or 'Rosary'"). This improves both UX (reduces frustration, keeps users engaged) and accessibility (clear context). Additionally, updating the `aria-live` region with the specific query ensures screen reader users are explicitly informed of what was not found.
 **Action:** When designing or modifying search functionality or filtering systems, always implement an empty state that explicitly references the user's input safely to prevent XSS and provides actionable suggestions to help the user recover.
+
+## 2026-03-09 - Search Input Clear Button
+**Learning:** For search inputs, especially inside modal dialogs, users often type long queries and need a quick way to clear them without holding backspace. A dedicated "Clear Search" button improves efficiency and recovery from dead-end searches.
+**Action:** Always include a conditionally visible "Clear" button (like an 'X' icon) within search input wrappers that clears the value and restores focus to the input.

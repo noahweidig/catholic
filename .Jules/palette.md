@@ -69,3 +69,7 @@
 ## 2026-03-11 - Focus Out Accessibility for Custom Menus
 **Learning:** For custom dropdown menus and off-canvas navigation that toggle via `aria-expanded` and rely on "click outside" listeners to close, keyboard users can become trapped visually. If a user tabs out of the menu, the menu remains visually open and obscures content, despite the keyboard focus being elsewhere. This severely breaks navigation flow for screen reader and keyboard-only users.
 **Action:** Always bind a global `focusin` event listener alongside `click` listeners to ensure that custom dropdowns and mobile menus automatically close when focus moves outside of them.
+
+## 2025-03-11 - Search Modal Close UX Pattern
+**Learning:** Sighted and touch users may struggle to intuit how to close modal dialogs if an explicit "Close" button is missing. Using static keyboard hints (like an "ESC" badge) is unhelpful for mobile users.
+**Action:** When designing modals with keyboard shortcut hints, convert the hint badge itself into an interactive, dual-purpose `<button>`. Style it with hover states using inline JS (or CSS) to provide tactile feedback without needing new design patterns, and ensure it has an `aria-label` and `title` for screen readers and tooltips. Also, ensure global keyboard event listeners exist to handle `Escape` so focus doesn't become trapped.

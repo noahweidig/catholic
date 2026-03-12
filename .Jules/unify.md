@@ -22,3 +22,6 @@
 ## 2026-03-12 - Unified external resource CTA links in resources.html
 **Learning:** Inconsistent external link phrasing (e.g., 'Read the...' vs 'Visit...') creates unnecessary cognitive load when scanning lists of external resources. Using a single, action-oriented verb establishes a predictable pattern.
 **Action:** When creating lists of external links or resources, align all CTAs to a single verb structure (like 'Visit [Resource]') to ensure predictability and scannability across the UI.
+## 2026-03-12 - Reordering apologetics.html for Logical Flow
+**Learning:** Introducing specific doctrines (like the Eucharist or Confession) before establishing the foundational frameworks that support them (like Sacred Tradition and Papal Authority) creates a disjointed narrative where the specific is forced to explain the general.
+**Action:** When organizing apologetic or defensive arguments, always group them logically starting from foundational principles (how/who guarantees the teachings) and progressing into specific applications (salvation, sacraments, intercessors, eschatology).

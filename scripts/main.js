@@ -370,10 +370,62 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 var emptyHelp = document.createElement('div');
                 emptyHelp.style.fontSize = '0.85rem';
-                emptyHelp.style.opacity = '0.7';
-                emptyHelp.style.fontStyle = 'italic';
                 emptyHelp.style.color = 'var(--text-color)';
-                emptyHelp.appendChild(document.createTextNode("Try searching for 'Mass', 'Sacraments', or 'Rosary'"));
+                emptyHelp.style.marginTop = '1rem';
+
+                var helpText = document.createElement('span');
+                helpText.style.opacity = '0.7';
+                helpText.style.fontStyle = 'italic';
+                helpText.appendChild(document.createTextNode("Try searching for: "));
+                emptyHelp.appendChild(helpText);
+
+                var suggestionsWrap = document.createElement('div');
+                suggestionsWrap.style.display = 'flex';
+                suggestionsWrap.style.justifyContent = 'center';
+                suggestionsWrap.style.gap = '0.5rem';
+                suggestionsWrap.style.marginTop = '0.75rem';
+                suggestionsWrap.style.flexWrap = 'wrap';
+
+                var suggestions = ['Mass', 'Sacraments', 'Rosary'];
+                suggestions.forEach(function(term) {
+                    var btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.textContent = term;
+                    btn.setAttribute('aria-label', 'Search for ' + term);
+                    // Inline styling to match chip-like appearance without modifying CSS
+                    btn.style.background = 'var(--accent-light)';
+                    btn.style.color = 'var(--primary-color)';
+                    btn.style.border = '1px solid var(--border-color)';
+                    btn.style.borderRadius = '1rem';
+                    btn.style.padding = '0.2rem 0.8rem';
+                    btn.style.fontSize = '0.8rem';
+                    btn.style.fontFamily = 'var(--font-heading)';
+                    btn.style.cursor = 'pointer';
+                    btn.style.transition = 'all 0.2s ease';
+
+                    btn.addEventListener('mouseover', function() {
+                        btn.style.background = 'var(--accent-color)';
+                        btn.style.color = 'var(--paper-color)';
+                        btn.style.borderColor = 'var(--accent-color)';
+                    });
+
+                    btn.addEventListener('mouseout', function() {
+                        btn.style.background = 'var(--accent-light)';
+                        btn.style.color = 'var(--primary-color)';
+                        btn.style.borderColor = 'var(--border-color)';
+                    });
+
+                    btn.addEventListener('click', function() {
+                        searchInput.value = term;
+                        renderResults(term);
+                        if (searchClearBtn) searchClearBtn.style.display = 'inline-flex';
+                        searchInput.focus();
+                    });
+
+                    suggestionsWrap.appendChild(btn);
+                });
+
+                emptyHelp.appendChild(suggestionsWrap);
                 emptyDiv.appendChild(emptyHelp);
 
                 searchResults.appendChild(emptyDiv);

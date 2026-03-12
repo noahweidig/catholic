@@ -76,3 +76,7 @@
 ## 2024-05-24 - Enhance contrast for search modal text and badges
 **Learning:** Text placeholders, keyboard shortcuts, and empty-state texts often use low opacity values (`0.4` or `0.5`) to appear secondary, which fails WCAG AA contrast ratios (4.5:1) against light backgrounds.
 **Action:** When designing secondary or hint text, increase opacity to at least `0.8` or `0.85` to ensure adequate contrast while still differentiating it from primary text, or use explicitly defined contrast-compliant text colors.
+
+## 2026-03-12 - Actionable Search Empty States
+**Learning:** Users encountering an empty search state experience higher friction when given only static text suggestions. Converting static suggestions into interactive chip-like buttons that automatically populate the search input and focus it provides a much smoother recovery path.
+**Action:** When designing empty states for search or filters, provide actionable alternatives (like clickable suggestions or a "clear filters" button) rather than just static text, and ensure the action restores keyboard focus to the input.

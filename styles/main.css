@@ -1185,6 +1185,8 @@ header nav {
     color: var(--text-color);
     cursor: pointer;
     padding: 0.35rem 0.55rem;
+    min-width: 44px;
+    min-height: 44px;
     line-height: 1;
     align-items: center;
     justify-content: center;

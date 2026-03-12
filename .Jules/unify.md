@@ -19,3 +19,6 @@
 ## 2025-02-13 - [Establishing frameworks before specifics]
 **Learning:** Introducing specific concepts (like Purgatory) before establishing the broader framework they exist within (like The Four Last Things: Death, Judgment, Heaven, and Hell) creates a disjointed narrative and forces the specific to explain the general.
 **Action:** When explaining theological structures or concepts with a clear hierarchy, always introduce the broad framework first to establish context, allowing the narrative to logically drill down into the specifics.
+## 2026-03-12 - Unified external resource CTA links in resources.html
+**Learning:** Inconsistent external link phrasing (e.g., 'Read the...' vs 'Visit...') creates unnecessary cognitive load when scanning lists of external resources. Using a single, action-oriented verb establishes a predictable pattern.
+**Action:** When creating lists of external links or resources, align all CTAs to a single verb structure (like 'Visit [Resource]') to ensure predictability and scannability across the UI.

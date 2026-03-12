@@ -1,28 +1,27 @@
 from playwright.sync_api import sync_playwright
+import os
 
-def verify_beliefs_order(page):
-    # Navigate to the local beliefs.html file
-    page.goto("file:///app/beliefs.html")
+def run():
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        # To visually verify animations and prefers-reduced-motion media queries using Playwright, create a new browser context with browser.new_context(reduced_motion='reduce') to test accessibility states.
+        # However, here we just want to ensure we capture the whole page properly.
+        # But wait, memory says: "When visually verifying UI changes using Playwright, note that elements with the CSS .reveal class require the script to scroll down and back up to trigger the animation before taking a screenshot, otherwise the text may be hidden."
 
-    # Scroll down to ensure elements are visible and reveal animations trigger
-    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-    page.wait_for_timeout(1000) # Wait for reveal animations to finish
+        context = browser.new_context(viewport={'width': 1280, 'height': 800})
+        page = context.new_page()
 
-    # Scroll to The Four Last Things heading
-    four_last_things = page.locator("h2:has-text('The Four Last Things')")
-    four_last_things.scroll_into_view_if_needed()
+        file_path = f"file://{os.path.abspath('beliefs.html')}"
+        page.goto(file_path)
 
-    # Wait a moment for any potential sticky headers or scrolling to settle
-    page.wait_for_timeout(500)
+        # Scroll down and back up to trigger .reveal elements
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        page.wait_for_timeout(500)
+        page.evaluate("window.scrollTo(0, 0)")
+        page.wait_for_timeout(500)
 
-    # Take a screenshot showing the order
-    page.screenshot(path="/app/verification/beliefs_order.png", full_page=True)
+        page.screenshot(path="verification/beliefs_flow.png", full_page=True)
+        browser.close()
 
 if __name__ == "__main__":
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        try:
-            verify_beliefs_order(page)
-        finally:
-            browser.close()
+    run()

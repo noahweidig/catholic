@@ -55,16 +55,22 @@ def get_liturgical_info_from_ics():
 
 async def get_liturgical_info():
     try:
-        process = subprocess.run(
-            ['node', 'scripts/get_liturgical_info.js'],
-            capture_output=True,
-            text=True,
-            check=True
+        process = await asyncio.create_subprocess_exec(
+            'node', 'scripts/get_liturgical_info.js',
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE
         )
-        return json.loads(process.stdout)
-    except subprocess.CalledProcessError as e:
+        stdout, stderr = await process.communicate()
+
+        if process.returncode != 0:
+            print(f"Error running node script: subprocess returned non-zero exit status {process.returncode}")
+            if stderr:
+                print(stderr.decode('utf-8'))
+            return None
+
+        return json.loads(stdout.decode('utf-8'))
+    except Exception as e:
         print(f"Error running node script: {e}")
-        print(e.stderr)
         return None
 
 async def get_readings():

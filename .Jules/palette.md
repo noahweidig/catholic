@@ -80,3 +80,7 @@
 ## 2026-03-12 - Actionable Search Empty States
 **Learning:** Users encountering an empty search state experience higher friction when given only static text suggestions. Converting static suggestions into interactive chip-like buttons that automatically populate the search input and focus it provides a much smoother recovery path.
 **Action:** When designing empty states for search or filters, provide actionable alternatives (like clickable suggestions or a "clear filters" button) rather than just static text, and ensure the action restores keyboard focus to the input.
+
+## 2026-03-12 - [Focus Cue for Hero Call-to-Action]
+**Learning:** [When guiding user attention to a key Call to Action using subtle animations like a pulsing `box-shadow`, it's critical to ensure the animation pauses on user interaction (hover and focus) to avoid conflicting with existing interaction styles, and respects the `prefers-reduced-motion` media query to remain accessible.]
+**Action:** [When implementing UI animations for attention guidance, use the Web Animations API conditionally based on `prefers-reduced-motion` and bind `mouseenter`/`mouseleave` and `focus`/`blur` event listeners to control the animation playback state (`play()` / `pause()`).]

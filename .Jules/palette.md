@@ -84,3 +84,7 @@
 ## 2026-03-12 - [Focus Cue for Hero Call-to-Action]
 **Learning:** [When guiding user attention to a key Call to Action using subtle animations like a pulsing `box-shadow`, it's critical to ensure the animation pauses on user interaction (hover and focus) to avoid conflicting with existing interaction styles, and respects the `prefers-reduced-motion` media query to remain accessible.]
 **Action:** [When implementing UI animations for attention guidance, use the Web Animations API conditionally based on `prefers-reduced-motion` and bind `mouseenter`/`mouseleave` and `focus`/`blur` event listeners to control the animation playback state (`play()` / `pause()`).]
+
+## 2026-03-12 - Back to Top Focus Management
+**Learning:** Using `window.scrollTo` for a "Back to Top" button visually moves the user to the top of the page, but it does not move the keyboard focus. If a keyboard user presses Tab after clicking "Back to Top", their focus will jump right back to where the button was (or the next element in the DOM), completely breaking their navigation flow.
+**Action:** When implementing a "Back to Top" feature, explicitly move focus to the top of the document (e.g., `document.body.setAttribute('tabindex', '-1'); document.body.focus({ preventScroll: true });`) and clean up the `tabindex` on blur to ensure keyboard focus continuity matches the visual state.

@@ -88,3 +88,7 @@
 ## 2026-03-12 - Back to Top Focus Management
 **Learning:** Using `window.scrollTo` for a "Back to Top" button visually moves the user to the top of the page, but it does not move the keyboard focus. If a keyboard user presses Tab after clicking "Back to Top", their focus will jump right back to where the button was (or the next element in the DOM), completely breaking their navigation flow.
 **Action:** When implementing a "Back to Top" feature, explicitly move focus to the top of the document (e.g., `document.body.setAttribute('tabindex', '-1'); document.body.focus({ preventScroll: true });`) and clean up the `tabindex` on blur to ensure keyboard focus continuity matches the visual state.
+
+## 2026-03-12 - Ensure Contextual Priority in Contrast Enhancements
+**Learning:** When attempting to improve contrast, targeting obscure, secondary, or hidden UI elements (like a search result description or a superscript footnote) fails the requirement to pick an "immediately noticeable" target if there are glaring readability issues elsewhere on the main page.
+**Action:** Always prioritize elements in the primary viewing area when making contrast enhancements. Do not target obscure, non-existent, or visually hidden CSS classes if there are obvious WCAG violations in the main UI.

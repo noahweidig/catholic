@@ -17,3 +17,7 @@
 **Vulnerability:** The client-side search functionality (`renderResults` in `scripts/main.js`) used `innerHTML` to inject search results directly into the DOM. If user input were to be improperly sanitized or incorporated into the search targets, it could result in Cross-Site Scripting (XSS).
 **Learning:** `innerHTML` inherently executes injected scripts or dangerous HTML if not properly scrubbed. It bypasses many built-in protections and is heavily discouraged for rendering user-facing content or even internal data that might be modified.
 **Prevention:** Construct HTML using safe DOM manipulation APIs (`document.createElement()`, `element.textContent`, `element.appendChild()`). This approach inherently escapes text, ensuring no injected string is interpreted as HTML tags or scripts. Whitespace nodes can be added explicitly to maintain exact rendering structures.
+## 2025-03-05 - Avoid exposing system internals in exception logging
+**Vulnerability:** Information leakage through verbose exception output.
+**Learning:** Uncaught Python exceptions or unhandled standard error from `subprocess` can inadvertently expose file paths, package versions, and system environment variables in public GitHub action logs.
+**Prevention:** In backend scripts like `update_today.py`, explicitly trap `Exception`, log a safe/generic warning message, and gracefully return `None` (or exit safely) without printing `e.stderr` or `e.stack`.

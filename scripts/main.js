@@ -661,12 +661,17 @@ document.addEventListener('DOMContentLoaded', function () {
     backToTopBtn.setAttribute('aria-hidden', 'true');
     document.body.appendChild(backToTopBtn);
 
-    backToTopBtn.addEventListener('click', function() {
+    backToTopBtn.addEventListener("click", function() {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
+            behavior: "smooth"
         });
-        backToTopBtn.blur();
+        document.body.setAttribute("tabindex", "-1");
+        document.body.focus({ preventScroll: true });
+        document.body.addEventListener("blur", function removeTabindex() {
+            document.body.removeAttribute("tabindex");
+            document.body.removeEventListener("blur", removeTabindex);
+        });
     });
 
     var scrollTicking = false;

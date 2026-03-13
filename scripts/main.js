@@ -999,4 +999,19 @@ document.addEventListener('DOMContentLoaded', function () {
         heroCta.addEventListener('focus', function() { ctaPulse.pause(); });
         heroCta.addEventListener('blur', function() { ctaPulse.play(); });
     }
+
+    // Accessibility: Skip link focus management
+    var skipLinks = document.querySelectorAll('.skip-link');
+    skipLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            var targetId = this.getAttribute('href').substring(1);
+            var targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                targetElement.setAttribute('tabindex', '-1');
+                targetElement.style.outline = 'none';
+                targetElement.focus();
+            }
+        });
+    });
 });

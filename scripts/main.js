@@ -930,25 +930,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     initReadingTime();
 
-    // Subtle attention cue for main CTA
-    var heroCta = document.querySelector('.hero-cta');
-    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (heroCta && typeof heroCta.animate === 'function' && !prefersReducedMotion) {
-        var ctaPulse = heroCta.animate([
-            { boxShadow: '0 0 0 0 rgba(166, 139, 91, 0.6)' },
-            { boxShadow: '0 0 0 10px rgba(166, 139, 91, 0)' }
-        ], {
-            duration: 2000,
-            iterations: Infinity,
-            easing: 'ease-out'
-        });
-
-        heroCta.addEventListener('mouseenter', function() { ctaPulse.pause(); });
-        heroCta.addEventListener('mouseleave', function() { ctaPulse.play(); });
-        heroCta.addEventListener('focus', function() { ctaPulse.pause(); });
-        heroCta.addEventListener('blur', function() { ctaPulse.play(); });
-    }
-
     // Accessibility: Close menus with Escape key
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') {

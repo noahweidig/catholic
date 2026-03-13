@@ -24,6 +24,11 @@
 }
 
 /* Animations */
+@keyframes ctaPulse {
+    0% { box-shadow: 0 0 0 0 rgba(166, 139, 91, 0.6); }
+    100% { box-shadow: 0 0 0 10px rgba(166, 139, 91, 0); }
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -263,6 +268,16 @@ nav a:hover i {
     border-radius: 2px;
     transition: background 0.4s ease, color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeInUp 0.8s ease 0.6s both;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .hero .hero-cta {
+        animation: fadeInUp 0.8s ease 0.6s both, ctaPulse 2s ease-out 1.4s infinite;
+    }
+}
+
+.hero .hero-cta:hover, .hero .hero-cta:focus {
+    animation-play-state: paused;
 }
 
 .hero .hero-cta:hover {

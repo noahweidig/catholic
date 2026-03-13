@@ -92,3 +92,7 @@
 ## 2026-03-12 - Ensure Contextual Priority in Contrast Enhancements
 **Learning:** When attempting to improve contrast, targeting obscure, secondary, or hidden UI elements (like a search result description or a superscript footnote) fails the requirement to pick an "immediately noticeable" target if there are glaring readability issues elsewhere on the main page.
 **Action:** Always prioritize elements in the primary viewing area when making contrast enhancements. Do not target obscure, non-existent, or visually hidden CSS classes if there are obvious WCAG violations in the main UI.
+
+## 2026-03-12 - Skip Link Focus Management
+**Learning:** When a keyboard user activates a 'Skip to main content' link, visually scrolling to the target element is insufficient. If the target element is not natively focusable (like a `<main>` tag), the keyboard focus remains at the top of the document. When the user presses Tab again, focus continues from the original position, completely negating the skip link's purpose.
+**Action:** When implementing skip links, always bind a click event listener that dynamically applies `tabindex="-1"` to the target element, removes any default outline, and explicitly calls `.focus()` on it to properly advance the keyboard focus tree.

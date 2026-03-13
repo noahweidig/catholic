@@ -28,3 +28,6 @@
 ## 2026-03-12 - Reordering beliefs.html for Logical Flow
 **Learning:** Introducing specific doctrines (like The Most Holy Trinity) before establishing the foundational frameworks that explain how those truths are known (like Scripture and Tradition) creates a disjointed narrative where the "what" precedes the "how."
 **Action:** When organizing doctrinal or explanatory content, always establish the foundational epistemology (how the truth is transmitted or guaranteed) before detailing the specific tenets that flow from it.
+## 2026-03-13 - [Unified external resource CTA links in resources.html]
+**Learning:** Inconsistent external link phrasing (e.g., 'Read the...' vs 'Visit...') creates unnecessary cognitive load when scanning lists of external resources. Using a single, action-oriented verb establishes a predictable pattern.
+**Action:** When creating lists of external links or resources, align all CTAs to a single verb structure (like 'Visit [Resource]') to ensure predictability and scannability across the UI.

@@ -48,3 +48,6 @@
 ## 2025-03-11 - [String Formatting Memoization]
 **Learning:** Heavy string manipulation (like Regex replacements and Title Casing) in utility functions called frequently (e.g., generating thousands of liturgical calendar events) creates a significant CPU overhead, even when optimized with combined regexes. Repeated identical string inputs multiply this cost needlessly.
 **Action:** Use a simple module-level `Map` to memoize the results of these pure string formatting functions (`formatSummary` and `toTitleCase`), turning O(N) regex operations into O(1) cache lookups and drastically reducing the execution time (e.g., 99% reduction in synthetic benchmarks with repeated inputs).
+## 2024-03-14 - Removed JS Main-Thread Animations
+**Learning:** Found a performance bottleneck where identical `ctaPulse` continuous animations were being applied to the `.hero-cta` button via both hardware-accelerated CSS `@keyframes` and the JavaScript Web Animations API (`element.animate`). The JS implementation unnecessarily blocked the main thread and introduced redundant event listeners.
+**Action:** Always prefer hardware-accelerated CSS `@keyframes` over JavaScript's Web Animations API for continuous animations to offload workload to the compositor thread, ensuring functionality like `prefers-reduced-motion` and hover/focus pausing states are preserved natively via CSS.

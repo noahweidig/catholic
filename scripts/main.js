@@ -516,10 +516,23 @@ document.addEventListener('DOMContentLoaded', function () {
             searchClearBtn.style.display = 'none';
         });
 
-        searchInput.addEventListener('input', function() {
+        // Optimization: Debounce search input to prevent layout thrashing and unnecessary DOM manipulation on every keystroke
+        function debounce(func, wait) {
+            var timeout;
+            return function() {
+                var context = this;
+                var args = arguments;
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    func.apply(context, args);
+                }, wait);
+            };
+        }
+
+        searchInput.addEventListener('input', debounce(function() {
             renderResults(searchInput.value);
             searchClearBtn.style.display = searchInput.value.length > 0 ? 'inline-flex' : 'none';
-        });
+        }, 150));
 
         searchInput.addEventListener('keydown', function(e) {
             var items = searchResults.querySelectorAll('.search-result');

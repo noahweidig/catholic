@@ -51,3 +51,6 @@
 ## 2024-03-14 - Removed JS Main-Thread Animations
 **Learning:** Found a performance bottleneck where identical `ctaPulse` continuous animations were being applied to the `.hero-cta` button via both hardware-accelerated CSS `@keyframes` and the JavaScript Web Animations API (`element.animate`). The JS implementation unnecessarily blocked the main thread and introduced redundant event listeners.
 **Action:** Always prefer hardware-accelerated CSS `@keyframes` over JavaScript's Web Animations API for continuous animations to offload workload to the compositor thread, ensuring functionality like `prefers-reduced-motion` and hover/focus pausing states are preserved natively via CSS.
+## 2026-03-16 - [Debounce High-Frequency DOM Mutations]
+**Learning:** The global search input triggers `renderResults` on every `input` event. On fast typing, this completely clears and rebuilds the DOM node (`searchResults.appendChild(fragment)`) and triggers a reflow for the entire list before the user finishes their query, leading to noticeable UI lag and layout thrashing.
+**Action:** Always wrap high-frequency `input` event listeners with a `debounce` function (e.g., 150ms delay) when the event handler performs significant DOM manipulations like replacing lists of elements.

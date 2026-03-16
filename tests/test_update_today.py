@@ -177,8 +177,7 @@ def test_update_today_file_read_error(mock_file, capsys):
     update_today_file('today.html', 'green', "<p>Content</p>")
 
     captured = capsys.readouterr()
-    assert "Error updating today.html" in captured.out
-    assert "Failed to read file" in captured.out
+    assert "Error updating today.html: An unexpected error occurred" in captured.out
 
 @patch("builtins.open", new_callable=mock_open, read_data='<header class="some-class"></header>')
 def test_update_today_file_partial_placeholders(mock_file):

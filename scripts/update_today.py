@@ -4,8 +4,11 @@ import subprocess
 import re
 import html
 import os
+import logging
 from datetime import datetime
 from catholic_mass_readings import USCCB
+
+logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Compiled Regex Patterns
 HEADER_REGEX = re.compile(r'(<header[^>]*class=["\'])(.*?)(["\'][^>]*>)')
@@ -50,7 +53,8 @@ def get_liturgical_info_from_ics():
 
         return None
     except Exception as e:
-        print(f"Error reading ICS: {e}")
+        logging.warning("Error reading ICS: %s", e)
+        print("Error reading ICS: An unexpected error occurred")
         return None
 
 async def get_liturgical_info():
@@ -63,21 +67,22 @@ async def get_liturgical_info():
         stdout, stderr = await process.communicate()
 
         if process.returncode != 0:
-            print(f"Error running node script: subprocess returned non-zero exit status {process.returncode}")
-            if stderr:
-                print(stderr.decode('utf-8'))
+            logging.warning("Error running node script: subprocess returned non-zero exit status %s. stderr: %s", process.returncode, stderr.decode('utf-8') if stderr else '')
+            print("Error running node script: subprocess returned non-zero exit status")
             return None
 
         return json.loads(stdout.decode('utf-8'))
     except Exception as e:
-        print(f"Error running node script: {e}")
+        logging.warning("Error running node script: %s", e)
+        print("Error running node script: An unexpected error occurred")
         return None
 
 async def get_readings():
     try:
         return await USCCB().get_today_mass()
     except Exception as e:
-        print(f"Error fetching readings: {e}")
+        logging.warning("Error fetching readings: %s", e)
+        print("Error fetching readings: An unexpected error occurred")
         return None
 
 def format_readings_html(mass_object):
@@ -168,7 +173,8 @@ def update_file_header(filepath, color, feast_name, is_index=False):
 
         print(f"Updated header in {filepath}")
     except Exception as e:
-        print(f"Error updating header in {filepath}: {e}")
+        logging.warning("Error updating header in %s: %s", filepath, e)
+        print(f"Error updating header in {filepath}: An unexpected error occurred")
 
 def update_today_file(filepath, color, html_content):
     """Updates today.html efficiently in one pass."""
@@ -219,7 +225,8 @@ def update_today_file(filepath, color, html_content):
 
         print(f"Updated {filepath} (Header + Readings)")
     except Exception as e:
-        print(f"Error updating {filepath}: {e}")
+        logging.warning("Error updating %s: %s", filepath, e)
+        print(f"Error updating {filepath}: An unexpected error occurred")
 
 
 async def main():

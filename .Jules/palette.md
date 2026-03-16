@@ -96,3 +96,7 @@
 ## 2026-03-12 - Skip Link Focus Management
 **Learning:** When a keyboard user activates a 'Skip to main content' link, visually scrolling to the target element is insufficient. If the target element is not natively focusable (like a `<main>` tag), the keyboard focus remains at the top of the document. When the user presses Tab again, focus continues from the original position, completely negating the skip link's purpose.
 **Action:** When implementing skip links, always bind a click event listener that dynamically applies `tabindex="-1"` to the target element, removes any default outline, and explicitly calls `.focus()` on it to properly advance the keyboard focus tree.
+
+## 2026-03-12 - Skip Link Tabindex Cleanup
+**Learning:** While applying `tabindex="-1"` to a skip link target allows it to receive programmatic focus, leaving the `tabindex` on the element after it loses focus can cause it to inadvertently trap or receive focus again later through JavaScript interactions or stray mouse clicks, creating an inconsistent keyboard navigation experience.
+**Action:** When setting `tabindex="-1"` on an element for temporary focus management (like skip links), always bind a one-time `blur` event listener that immediately calls `removeAttribute('tabindex')` once the user tabs away.

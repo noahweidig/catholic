@@ -974,6 +974,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 targetElement.setAttribute('tabindex', '-1');
                 targetElement.style.outline = 'none';
                 targetElement.focus();
+                targetElement.addEventListener('blur', function removeTabindex() {
+                    targetElement.removeAttribute('tabindex');
+                    targetElement.removeEventListener('blur', removeTabindex);
+                });
             }
         });
     });

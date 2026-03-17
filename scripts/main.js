@@ -139,6 +139,7 @@ document.addEventListener('DOMContentLoaded', function () {
         themeBtn.type = 'button';
         themeBtn.className = 'icon-btn theme-toggle';
         themeBtn.setAttribute('aria-label', 'Toggle dark mode');
+        themeBtn.setAttribute('title', 'Toggle dark mode');
         themeBtn.setAttribute('aria-pressed', 'false');
         var themeBtnIcon = document.createElement('i');
         themeBtnIcon.className = 'fa-solid fa-moon';

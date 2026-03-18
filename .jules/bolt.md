@@ -54,3 +54,7 @@
 ## 2026-03-16 - [Debounce High-Frequency DOM Mutations]
 **Learning:** The global search input triggers `renderResults` on every `input` event. On fast typing, this completely clears and rebuilds the DOM node (`searchResults.appendChild(fragment)`) and triggers a reflow for the entire list before the user finishes their query, leading to noticeable UI lag and layout thrashing.
 **Action:** Always wrap high-frequency `input` event listeners with a `debounce` function (e.g., 150ms delay) when the event handler performs significant DOM manipulations like replacing lists of elements.
+
+## 2026-03-18 - [Optimize High-Frequency Object Filtering]
+**Learning:** During "search as you type" filtering operations, running `.toLowerCase()` and `.indexOf()` across multiple object properties (label, desc, keywords array) for every keystroke creates unnecessary GC overhead and multiple passes over string data.
+**Action:** Always pre-compute and store a single, concatenated, lowercased searchable string property on target objects during initialization. This reduces the filter check to a single O(1) property lookup and O(n) `.indexOf()` operation per target, eliminating repetitive string allocations.

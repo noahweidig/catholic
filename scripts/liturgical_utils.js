@@ -275,7 +275,24 @@ function formatSummary(summary) {
     return result;
 }
 
+
+/**
+ * Helper to determine rank priority value for sorting events
+ * @param {string} rank
+ * @returns {number} Priority value (higher is more important)
+ */
+function getRankValue(rank) {
+    switch (rank) {
+        case 'SOLEMNITY': return 5;
+        case 'FEAST': return 4;
+        case 'MEMORIAL': return 3;
+        case 'OPTIONAL_MEMORIAL': return 2;
+        default: return 1; // WEEKDAY, FERIA, etc.
+    }
+}
+
 module.exports = {
+    getRankValue,
     stripHyphens,
     getEasterDate,
     getAscensionDate,

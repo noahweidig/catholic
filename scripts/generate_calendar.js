@@ -6,18 +6,7 @@ const { Romcal } = require('romcal');
 const { UnitedStates_En } = require('@romcal/calendar.united-states');
 const fs = require('fs');
 const path = require('path');
-const { getFastAbstinenceDescription, formatSummary, stripHyphens } = require('./liturgical_utils');
-
-// Helper to determine rank value
-function getRankValue(rank) {
-    switch (rank) {
-        case 'SOLEMNITY': return 5;
-        case 'FEAST': return 4;
-        case 'MEMORIAL': return 3;
-        case 'OPTIONAL_MEMORIAL': return 2;
-        default: return 1; // WEEKDAY, FERIA, etc.
-    }
-}
+const { getRankValue, getFastAbstinenceDescription, formatSummary, stripHyphens } = require('./liturgical_utils');
 
 async function generateICS() {
     try {

@@ -181,6 +181,12 @@ document.addEventListener('DOMContentLoaded', function () {
             { label: 'Resources', href: 'resources.html', icon: 'fa-solid fa-book-open', desc: 'Further reading, links, and calendars', keywords: ['resources', 'links', 'reading', 'books', 'calendar', 'subscribe', 'catechism', 'learn', 'study'] }
         ];
 
+        // Optimization: Pre-compute a single searchable string per target to avoid repeated `.toLowerCase()` and string allocations on every keystroke
+        for (var i = 0; i < searchTargets.length; i++) {
+            var target = searchTargets[i];
+            target._searchString = (target.label + ' ' + target.desc + ' ' + target.keywords.join(' ')).toLowerCase();
+        }
+
         // Build search overlay safely using DOM methods
         var overlay = document.createElement('div');
         overlay.className = 'search-overlay';
@@ -320,10 +326,9 @@ document.addEventListener('DOMContentLoaded', function () {
             var filtered = searchTargets;
 
             if (q.length > 0) {
+                // Optimization: Use pre-computed _searchString to avoid multiple indexOf calls and string allocations per target
                 filtered = searchTargets.filter(function(t) {
-                    if (t.label.toLowerCase().indexOf(q) !== -1) return true;
-                    if (t.desc.toLowerCase().indexOf(q) !== -1) return true;
-                    return t.keywords.some(function(k) { return k.indexOf(q) !== -1; });
+                    return t._searchString.indexOf(q) !== -1;
                 });
 
                 // Sort: exact label match first, then label contains, then rest

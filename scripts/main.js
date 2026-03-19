@@ -182,9 +182,11 @@ document.addEventListener('DOMContentLoaded', function () {
         ];
 
         // Optimization: Pre-compute a single searchable string per target to avoid repeated `.toLowerCase()` and string allocations on every keystroke
+        // Also pre-compute lowercased label for O(1) property lookup during O(n log n) sort operations
         for (var i = 0; i < searchTargets.length; i++) {
             var target = searchTargets[i];
             target._searchString = (target.label + ' ' + target.desc + ' ' + target.keywords.join(' ')).toLowerCase();
+            target._lowerLabel = target.label.toLowerCase();
         }
 
         // Build search overlay safely using DOM methods
@@ -333,8 +335,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // Sort: exact label match first, then label contains, then rest
                 filtered.sort(function(a, b) {
-                    var aLabel = a.label.toLowerCase();
-                    var bLabel = b.label.toLowerCase();
+                    var aLabel = a._lowerLabel;
+                    var bLabel = b._lowerLabel;
                     var aExact = aLabel === q;
                     var bExact = bLabel === q;
                     if (aExact && !bExact) return -1;

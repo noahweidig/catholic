@@ -21,3 +21,7 @@
 **Vulnerability:** Information leakage through verbose exception output.
 **Learning:** Uncaught Python exceptions or unhandled standard error from `subprocess` can inadvertently expose file paths, package versions, and system environment variables in public GitHub action logs.
 **Prevention:** In backend scripts like `update_today.py`, explicitly trap `Exception`, log a safe/generic warning message, and gracefully return `None` (or exit safely) without printing `e.stderr` or `e.stack`.
+## 2026-12-05 - Security Enhancements Bypassed by UI conditionals
+**Vulnerability:** A script intended to automatically add `rel="noopener noreferrer"` to all `target="_blank"` external links to prevent reverse tabnabbing contained a UI conditional: it returned early if the link contained an image (to avoid adding an "external link" icon next to images). Because the early return was placed *before* the security attributes were added, image links with `target="_blank"` remained completely unprotected.
+**Learning:** Security fixes must never be coupled with or placed after non-security-related conditionals or UI early returns in the same iteration block. Doing so risks leaving parts of the application vulnerable.
+**Prevention:** Apply sweeping security modifications (like DOM manipulation for security headers or attributes) at the very top of execution blocks or in entirely separate, dedicated loops from visual or UX enhancements.

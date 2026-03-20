@@ -71,8 +71,8 @@ async function generateMajorFeasts() {
                 }
             }
 
-            // Sort by date (Object.entries order is not guaranteed)
-            yearEvents.sort((a, b) => a.date.localeCompare(b.date));
+            // Optimization: String comparison (<, >) is significantly faster than localeCompare for ISO dates
+            yearEvents.sort((a, b) => a.date < b.date ? -1 : (a.date > b.date ? 1 : 0));
 
             for (const event of yearEvents) {
                 const dtStart = stripHyphens(event.date);

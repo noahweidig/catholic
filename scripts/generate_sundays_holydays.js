@@ -90,7 +90,8 @@ async function generateSundaysHolydays() {
             }
 
             // 4. Convert to array and sort
-            const sortedEvents = Array.from(dateMap.values()).sort((a, b) => a.date.localeCompare(b.date));
+            // Optimization: String comparison (<, >) is significantly faster than localeCompare for ISO dates
+            const sortedEvents = Array.from(dateMap.values()).sort((a, b) => a.date < b.date ? -1 : (a.date > b.date ? 1 : 0));
 
             // 5. Generate ICS lines
             for (const event of sortedEvents) {

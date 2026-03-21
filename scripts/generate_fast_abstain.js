@@ -73,8 +73,17 @@ async function generateFastAbstain() {
                               // Get best event name
                               let summary = 'Friday of Lent';
                               if (events.length > 0) {
-                                  const sorted = [...events].sort((a, b) => getRankValue(b.rank) - getRankValue(a.rank));
-                                  summary = formatSummary(sorted[0].name);
+                                  // Optimization: Find highest rank event in O(n) instead of O(n log n) sorting
+                                  let bestEvent = events[0];
+                                  let maxRank = getRankValue(bestEvent.rank);
+                                  for (let i = 1; i < events.length; i++) {
+                                      const currentRank = getRankValue(events[i].rank);
+                                      if (currentRank > maxRank) {
+                                          maxRank = currentRank;
+                                          bestEvent = events[i];
+                                      }
+                                  }
+                                  summary = formatSummary(bestEvent.name);
                               }
 
                               yearEvents.push({

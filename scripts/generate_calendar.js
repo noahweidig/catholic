@@ -44,14 +44,16 @@ async function generateICS() {
             const events = allEvents[dateStr];
             if (!events || events.length === 0) continue;
 
-            // Prioritize events: Highest rank first.
-            const sortedEvents = [...events].sort((a, b) => {
-                const rankA = getRankValue(a.rank);
-                const rankB = getRankValue(b.rank);
-                return rankB - rankA; // Descending
-            });
-
-            const selectedEvent = sortedEvents[0];
+            // Optimization: Find highest rank event in O(n) instead of O(n log n) sorting
+            let selectedEvent = events[0];
+            let maxRank = getRankValue(selectedEvent.rank);
+            for (let i = 1; i < events.length; i++) {
+                const currentRank = getRankValue(events[i].rank);
+                if (currentRank > maxRank) {
+                    maxRank = currentRank;
+                    selectedEvent = events[i];
+                }
+            }
             const dtStart = stripHyphens(dateStr); // YYYYMMDD
 
             // Format name

@@ -43,14 +43,16 @@ async function generateSundaysHolydays() {
                 // new Date(dateStr) is UTC midnight
                 // Optimized: Use romcal's dayOfWeek (0=Sunday) instead of creating Date object
                 if (events.length > 0 && events[0].calendar.dayOfWeek === 0) {
-                    // It's a Sunday. Pick the best event based on rank.
-                    const sortedEvents = [...events].sort((a, b) => {
-                        const rankA = getRankValue(a.rank);
-                        const rankB = getRankValue(b.rank);
-                        return rankB - rankA; // Descending
-                    });
-
-                    const selectedEvent = sortedEvents[0];
+                    // Optimization: Find highest rank event in O(n) instead of O(n log n) sorting
+                    let selectedEvent = events[0];
+                    let maxRank = getRankValue(selectedEvent.rank);
+                    for (let i = 1; i < events.length; i++) {
+                        const currentRank = getRankValue(events[i].rank);
+                        if (currentRank > maxRank) {
+                            maxRank = currentRank;
+                            selectedEvent = events[i];
+                        }
+                    }
 
                     // We only care about Sundays.
                     // Note: romcal might return 'FEAST' or 'SOLEMNITY' on a Sunday (replacing the Sunday rank).

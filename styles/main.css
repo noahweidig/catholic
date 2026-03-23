@@ -1087,6 +1087,19 @@ header nav {
     transition: width 0.35s ease;
 }
 
+.menu-root > li > a::before,
+.menu-trigger::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 44px;
+    min-height: 44px;
+    width: 100%;
+    height: 100%;
+}
+
 .menu-trigger i:last-child {
     font-size: 0.65em;
     transition: transform 0.2s ease;
@@ -1145,6 +1158,19 @@ header nav {
     letter-spacing: 0.05em;
     color: var(--text-color);
     transition: background 0.2s;
+    position: relative;
+}
+
+.submenu a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 44px;
+    min-height: 44px;
+    width: 100%;
+    height: 100%;
 }
 
 .submenu a:hover,
@@ -1178,6 +1204,19 @@ header nav {
     cursor: pointer;
     font-size: 0.82rem;
     transition: color 0.2s, border-color 0.2s, background 0.2s, transform 0.2s;
+    position: relative;
+}
+
+.icon-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 44px;
+    min-height: 44px;
+    width: 100%;
+    height: 100%;
 }
 
 .icon-btn:hover {
@@ -1399,6 +1438,19 @@ body.theme-dark .search-dialog {
     padding: 0.15rem 0.45rem;
     letter-spacing: 0.05em;
     flex-shrink: 0;
+    position: relative;
+}
+
+.search-kbd::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 44px;
+    min-height: 44px;
+    width: 100%;
+    height: 100%;
 }
 
 .search-results {

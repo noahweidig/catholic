@@ -208,11 +208,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var searchInput = document.createElement('input');
         searchInput.type = 'text';
+        searchInput.inputMode = 'search';
         searchInput.className = 'search-input';
         searchInput.placeholder = 'Search pages\u2026';
         searchInput.autocomplete = 'off';
         searchInput.spellcheck = false;
+        searchInput.setAttribute('role', 'searchbox');
         searchInput.setAttribute('aria-label', 'Search pages');
+        searchInput.setAttribute('enterkeyhint', 'search');
         searchInputWrap.appendChild(searchInput);
 
         var searchClearBtn = document.createElement('button');

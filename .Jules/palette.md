@@ -100,3 +100,7 @@
 ## 2026-03-12 - Skip Link Tabindex Cleanup
 **Learning:** While applying `tabindex="-1"` to a skip link target allows it to receive programmatic focus, leaving the `tabindex` on the element after it loses focus can cause it to inadvertently trap or receive focus again later through JavaScript interactions or stray mouse clicks, creating an inconsistent keyboard navigation experience.
 **Action:** When setting `tabindex="-1"` on an element for temporary focus management (like skip links), always bind a one-time `blur` event listener that immediately calls `removeAttribute('tabindex')` once the user tabs away.
+
+## 2026-03-24 - Mobile Search Input Semantics and CSP
+**Learning:** While changing a search input to `type="search"` provides mobile keyboard optimizations, it forces the browser to render a native clear button (`::-webkit-search-cancel-button`). If the app already has a custom clear button, this creates a confusing double-clear UI. Attempting to hide the native button by injecting inline `<style>` tags via JS violates Content Security Policies (CSP) and strict "no custom CSS" design boundaries.
+**Action:** To achieve semantic and mobile optimizations safely without triggering native browser UI conflicts or CSP issues, keep the input as `type="text"` and instead apply `inputmode="search"`, `role="searchbox"`, and `enterkeyhint="search"`.

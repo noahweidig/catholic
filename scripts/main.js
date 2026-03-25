@@ -241,6 +241,7 @@ document.addEventListener('DOMContentLoaded', function () {
         searchKbd.setAttribute('title', 'Close search');
         searchKbd.style.cursor = 'pointer';
         searchKbd.style.transition = 'opacity 0.2s ease, background 0.2s ease, color 0.2s ease';
+        searchKbd.style.opacity = '0.85';
         searchKbd.addEventListener('mouseover', function() {
             searchKbd.style.opacity = '1';
             searchKbd.style.color = 'var(--primary-color)';
@@ -248,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function () {
             searchKbd.style.borderColor = 'var(--accent-color)';
         });
         searchKbd.addEventListener('mouseout', function() {
-            searchKbd.style.opacity = '0.4';
+            searchKbd.style.opacity = '0.85';
             searchKbd.style.color = 'var(--text-color)';
             searchKbd.style.background = 'var(--bg-color)';
             searchKbd.style.borderColor = 'var(--border-color)';
@@ -385,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 emptyHelp.style.marginTop = '1rem';
 
                 var helpText = document.createElement('span');
-                helpText.style.opacity = '0.7';
+                helpText.style.opacity = '0.85';
                 helpText.style.fontStyle = 'italic';
                 helpText.appendChild(document.createTextNode("Try searching for: "));
                 emptyHelp.appendChild(helpText);

@@ -650,13 +650,24 @@ document.addEventListener('DOMContentLoaded', function () {
     // Scroll reveal animation using Intersection Observer
     var revealElements = document.querySelectorAll('.reveal');
     if (revealElements.length > 0 && 'IntersectionObserver' in window) {
+        // Optimization: Batch DOM writes (classList.add) using requestAnimationFrame.
+        // This prevents potential layout thrashing when multiple elements intersect simultaneously during fast scrolling.
         var observer = new IntersectionObserver(function (entries) {
+            var elementsToReveal = [];
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
+                    elementsToReveal.push(entry.target);
                     observer.unobserve(entry.target);
                 }
             });
+
+            if (elementsToReveal.length > 0) {
+                window.requestAnimationFrame(function () {
+                    elementsToReveal.forEach(function (el) {
+                        el.classList.add('revealed');
+                    });
+                });
+            }
         }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
         revealElements.forEach(function (el) {

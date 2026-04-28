@@ -603,6 +603,8 @@ document.addEventListener('DOMContentLoaded', function () {
         var savedTheme = window.localStorage.getItem('theme');
         if (savedTheme === 'dark') {
             document.body.classList.add('theme-dark');
+        } else if (!savedTheme) {
+            window.localStorage.setItem('theme', 'light');
         }
 
         function updateThemeButton() {

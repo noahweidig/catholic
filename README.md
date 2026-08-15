@@ -47,6 +47,9 @@ The site covers nine areas of Catholic life:
 - **Fully accessible** — ARIA labels, skip links, screen-reader support, and semantic HTML throughout
 - **Mobile responsive** — Hamburger menu and fluid layout for all screen sizes
 - **Secure** — Content Security Policy, Subresource Integrity, referrer policy, and sanitized HTML updates
+- **Search-engine ready** — Canonical URLs, per-page descriptions, `schema.org` structured data, `sitemap.xml`, and `robots.txt`
+- **Social share cards** — A 1200×630 Open Graph / Twitter card generated for every page
+- **Installable** — Web app manifest with SVG, PNG, and maskable icons for home-screen installs
 
 ---
 
@@ -134,10 +137,16 @@ catholic/
 ├── .github/workflows/
 │   └── update_liturgical_day.yml   # Daily automation
 ├── images/
-│   ├── cross-ornate.svg
-│   └── favicon.svg
+│   ├── og/                         # Open Graph share cards (one per page)
+│   ├── favicon.svg                 # Brand mark / favicon
+│   ├── favicon.ico, favicon-*.png  # Legacy raster favicons
+│   ├── apple-touch-icon.png
+│   ├── icon-192.png, icon-512.png, icon-maskable-512.png
+│   └── cross-ornate.svg
 ├── scripts/
 │   ├── main.js                     # Frontend UI (dark mode, search, menu)
+│   ├── site_pages.json             # Page titles, descriptions, share-card copy
+│   ├── generate_og_images.js       # Renders images/og/*.jpg with Playwright
 │   ├── liturgical_utils.js         # Easter, Ash Wednesday, fast day logic
 │   ├── get_liturgical_info.js      # Today's feast and liturgical color
 │   ├── generate_calendar.js        # Generate litcal.ics
@@ -147,13 +156,34 @@ catholic/
 │   ├── generate_sundays_holydays.js
 │   └── update_today.py             # Daily readings updater
 ├── styles/
-│   └── main.css                    # Liturgical color theming, animations
+│   └── main.css                    # Design system, liturgical theming, dark mode
 ├── tests/                          # Unit and integration tests
 ├── *.html                          # Site pages
 ├── *.ics                           # Calendar subscription files
+├── site.webmanifest                # Installable web app metadata
+├── sitemap.xml, robots.txt         # Search engine directives
 ├── package.json
 └── requirements.txt
 ```
+
+---
+
+## Design & Metadata
+
+The site is styled as a printed book: parchment surfaces, deep navy, and antique gold,
+set in Cinzel (headings), Lora (body), and Cormorant Garamond (quotes). All design
+tokens — colour, spacing, radius, shadow, and type — live at the top of
+`styles/main.css`, and dark mode simply re-declares them under `body.theme-dark`.
+
+Page copy used for `<title>`, meta descriptions and share cards is stored once in
+`scripts/site_pages.json`. To regenerate the Open Graph cards after editing it:
+
+```bash
+node scripts/generate_og_images.js
+```
+
+Cards are written to `images/og/<slug>.jpg` at 1200×630 and committed, so crawlers
+fetch them as ordinary static assets.
 
 ---
 

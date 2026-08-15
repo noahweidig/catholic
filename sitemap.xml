@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://noahweidig.com/catholic/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/home.jpg</image:loc>
+      <image:title>The Catholic Faith</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/today.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/today.jpg</image:loc>
+      <image:title>Today's Liturgy</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/beliefs.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/beliefs.jpg</image:loc>
+      <image:title>What Catholics Believe</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/sacraments.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/sacraments.jpg</image:loc>
+      <image:title>The Sacraments</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/prayer.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/prayer.jpg</image:loc>
+      <image:title>Prayer &amp; Devotion</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/history.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/history.jpg</image:loc>
+      <image:title>Church History</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/structure.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/structure.jpg</image:loc>
+      <image:title>Structure of the Church</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/apologetics.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/apologetics.jpg</image:loc>
+      <image:title>Scriptural Defense</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://noahweidig.com/catholic/resources.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://noahweidig.com/catholic/images/og/resources.jpg</image:loc>
+      <image:title>Resources</image:title>
+    </image:image>
+  </url>
+</urlset>

@@ -1,6 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
-  <circle cx="60" cy="60" r="55" stroke="#a68b5b" stroke-width="1.5" opacity="0.3"/>
-  <circle cx="60" cy="60" r="42" stroke="#a68b5b" stroke-width="1" opacity="0.2"/>
-  <rect x="56" y="18" width="8" height="84" rx="2" fill="#a68b5b" opacity="0.6"/>
-  <rect x="30" y="38" width="60" height="8" rx="2" fill="#a68b5b" opacity="0.6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="Ornamental cross">
+  <title>Ornamental cross</title>
+  <defs>
+    <linearGradient id="ornateGold" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#e2c98f"/>
+      <stop offset="0.45" stop-color="#c9a25a"/>
+      <stop offset="1" stop-color="#8a6a34"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="55" stroke="url(#ornateGold)" stroke-width="1" opacity="0.28"/>
+  <circle cx="60" cy="60" r="46" stroke="url(#ornateGold)" stroke-width="0.75" opacity="0.18"/>
+  <circle cx="60" cy="55" r="24" stroke="url(#ornateGold)" stroke-width="1.75" opacity="0.55"/>
+  <path fill="url(#ornateGold)" opacity="0.85" d="
+    M60 16
+    c3.4 0 6 1.9 6 1.9 -1.7 2.9-2.1 5.6-2.1 9.1 v14.6 h11
+    c3.5 0 6.2-.4 9.1-2.1 0 0 1.9 2.6 1.9 6 s-1.9 6-1.9 6
+    c-2.9-1.7-5.6-2.1-9.1-2.1 h-11 v36.8
+    c0 3.5.4 6.2 2.1 9.1 0 0-2.6 1.9-6 1.9 s-6-1.9-6-1.9
+    c1.7-2.9 2.1-5.6 2.1-9.1 v-36.8 h-11
+    c-3.5 0-6.2.4-9.1 2.1 0 0-1.9-2.6-1.9-6 s1.9-6 1.9-6
+    c2.9 1.7 5.6 2.1 9.1 2.1 h11 v-14.6
+    c0-3.5-.4-6.2-2.1-9.1 0 0 2.6-1.9 6-1.9 z"/>
 </svg>

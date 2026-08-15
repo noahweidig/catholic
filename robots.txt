@@ -1,0 +1,5 @@
+# https://noahweidig.com/catholic/
+User-agent: *
+Allow: /
+
+Sitemap: https://noahweidig.com/catholic/sitemap.xml

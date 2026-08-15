@@ -1,0 +1,87 @@
+{
+  "baseUrl": "https://noahweidig.com/catholic/",
+  "siteName": "Catholic",
+  "pages": [
+    {
+      "file": "index.html",
+      "slug": "home",
+      "eyebrow": "An Introduction",
+      "title": "The Catholic Faith",
+      "subtitle": "A reverent introduction to the beliefs, sacraments, prayer, and history of the Church.",
+      "metaTitle": "The Catholic Faith — A Reverent Introduction",
+      "description": "A reverent introduction to the Catholic faith: what Catholics believe, the seven sacraments, prayer and devotion, Church history, and the daily Mass readings."
+    },
+    {
+      "file": "today.html",
+      "slug": "today",
+      "eyebrow": "The Liturgical Day",
+      "title": "Today's Liturgy",
+      "subtitle": "The daily Mass readings, the feast of the day, and the proper liturgical colour.",
+      "metaTitle": "Today's Liturgy — Daily Mass Readings & Feast Day",
+      "description": "Today's Catholic Mass readings from the USCCB lectionary, with the feast or memorial of the day and the proper liturgical colour, updated every morning."
+    },
+    {
+      "file": "beliefs.html",
+      "slug": "beliefs",
+      "eyebrow": "Doctrine",
+      "title": "What Catholics Believe",
+      "subtitle": "The core truths and teachings handed down since the Apostles.",
+      "metaTitle": "What Catholics Believe — Core Teachings of the Church",
+      "description": "An accessible overview of core Catholic beliefs: the Trinity, Jesus Christ, Scripture and Tradition, grace and salvation, the Eucharist, Mary, the saints, and the last things."
+    },
+    {
+      "file": "sacraments.html",
+      "slug": "sacraments",
+      "eyebrow": "The Seven Sacraments",
+      "title": "The Sacraments",
+      "subtitle": "Seven visible encounters with the living God.",
+      "metaTitle": "The Seven Sacraments of the Catholic Church",
+      "description": "The seven sacraments explained: Baptism, Confirmation, the Eucharist, Reconciliation, Anointing of the Sick, Holy Orders, and Matrimony — what each is and why it matters."
+    },
+    {
+      "file": "prayer.html",
+      "slug": "prayer",
+      "eyebrow": "Devotion",
+      "title": "Prayer & Devotion",
+      "subtitle": "A guide to the Mass, the Rosary, and a life of daily prayer.",
+      "metaTitle": "Catholic Prayer — The Mass, the Rosary & Daily Devotion",
+      "description": "A guide to Catholic prayer: the structure of the Mass, how to pray the Rosary and its mysteries, traditional prayers, devotions, and forms of daily prayer."
+    },
+    {
+      "file": "history.html",
+      "slug": "history",
+      "eyebrow": "Two Thousand Years",
+      "title": "Church History",
+      "subtitle": "Two thousand years of saints, struggle, and salvation.",
+      "metaTitle": "Catholic Church History — Two Thousand Years",
+      "description": "A brief history of the Catholic Church, from the apostolic age and the early councils through the medieval era, the Reformation, and the modern Church."
+    },
+    {
+      "file": "structure.html",
+      "slug": "structure",
+      "eyebrow": "The Church Visible",
+      "title": "Structure of the Church",
+      "subtitle": "How the Church is ordered to preach the Gospel.",
+      "metaTitle": "Structure of the Catholic Church — Hierarchy Explained",
+      "description": "How the Catholic Church is organized: the Pope and the Holy See, cardinals, bishops and dioceses, priests, deacons, parishes, religious orders, and the laity."
+    },
+    {
+      "file": "apologetics.html",
+      "slug": "apologetics",
+      "eyebrow": "Apologetics",
+      "title": "Scriptural Defense",
+      "subtitle": "Scriptural foundations for common questions about the faith.",
+      "metaTitle": "Catholic Apologetics — Scriptural Answers to Common Questions",
+      "description": "Scriptural foundations for Catholic doctrine: the papacy, the Eucharist, confession, Mary and the saints, purgatory, Tradition, and the authority of the Church."
+    },
+    {
+      "file": "resources.html",
+      "slug": "resources",
+      "eyebrow": "Further Study",
+      "title": "Resources",
+      "subtitle": "Books, trusted websites, and liturgical calendars for further study.",
+      "metaTitle": "Catholic Resources — Books, Links & Liturgical Calendars",
+      "description": "Trusted Catholic resources for further study: recommended books and websites, the Catechism, and downloadable liturgical calendar subscriptions in ICS format."
+    }
+  ]
+}

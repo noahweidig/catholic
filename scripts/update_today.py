@@ -77,9 +77,51 @@ async def get_liturgical_info():
         print("Error running node script: An unexpected error occurred")
         return None
 
+class _FallbackMass:
+    def __init__(self, title, sections):
+        self.title = title
+        self._sections = sections
+
+    def to_dict(self):
+        return {'sections': self._sections}
+
+
+def _scrape_usccb(date):
+    """Fallback parser for the current bible.usccb.org markup (header.content-header + sibling <p>)."""
+    import requests
+    from bs4 import BeautifulSoup
+    url = f"https://bible.usccb.org/bible/readings/{date.strftime('%m%d%y')}.cfm"
+    r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=30)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, 'html.parser')
+    title = soup.find('title').get_text(strip=True).split('|')[0].strip()
+    sections = []
+    for header in soup.select('header.content-header'):
+        name = header.find(class_='name')
+        address = header.find(class_='address')
+        if not name or not address:
+            continue
+        verses = [{'text': ' '.join(a.get_text().split())} for a in address.find_all('a', href=True)]
+        paras = []
+        for sib in header.find_next_siblings():
+            if sib.name == 'p':
+                paras.append(' '.join(sib.get_text(' ', strip=True).split()))
+        text = ' '.join(t for t in paras if t)
+        if verses and text:
+            sections.append({'header': ' '.join(name.get_text().split()),
+                             'readings': [{'verses': verses, 'text': text}]})
+    if not sections:
+        raise ValueError('No readings parsed from USCCB page')
+    return _FallbackMass(title, sections)
+
+
 async def get_readings():
     try:
         return await USCCB().get_today_mass()
+    except Exception as e:
+        logging.warning("Error fetching readings with library, trying fallback parser: %s", e)
+    try:
+        return await asyncio.to_thread(_scrape_usccb, datetime.now().date())
     except Exception as e:
         logging.warning("Error fetching readings: %s", e)
         print("Error fetching readings: An unexpected error occurred")

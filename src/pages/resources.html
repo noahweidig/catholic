@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-TPrnMfO4WYYE/GzsIDxYrtrZe2VI1pS0JzSv4LuT8wc='; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; base-uri 'self'; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-TPrnMfO4WYYE/GzsIDxYrtrZe2VI1pS0JzSv4LuT8wc='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; base-uri 'self'; object-src 'none';">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <title>Catholic Resources — Books, Links &amp; Liturgical Calendars | Catholic</title>
@@ -51,9 +51,7 @@
     <!-- Typography & styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="styles/main.css">
 
     <!-- Structured data -->
@@ -135,19 +133,19 @@
 <header>
     <div class="site-title">Catholic</div>
     <button class="hamburger" aria-label="Toggle navigation" title="Toggle navigation" aria-expanded="false">
-        <i class="fa-solid fa-bars"></i>
+        <i data-lucide="menu" aria-hidden="true"></i>
     </button>
     <nav aria-label="Main Navigation">
         <ul>
-            <li><a href="index.html"><i class="fa-solid fa-home"></i> Home</a></li>
-            <li><a href="today.html"><i class="fa-solid fa-calendar-day"></i> Today</a></li>
-            <li><a href="beliefs.html"><i class="fa-solid fa-book-bible"></i> Beliefs</a></li>
-            <li><a href="sacraments.html"><i class="fa-solid fa-water"></i> Sacraments</a></li>
-            <li><a href="prayer.html"><i class="fa-solid fa-hands-praying"></i> Prayer</a></li>
-            <li><a href="history.html"><i class="fa-solid fa-scroll"></i> History</a></li>
-            <li><a href="structure.html"><i class="fa-solid fa-church"></i> Structure</a></li>
-            <li><a href="apologetics.html"><i class="fa-solid fa-shield-halved"></i> Apologetics</a></li>
-            <li><a href="resources.html" class="active" aria-current="page"><i class="fa-solid fa-bookmark"></i> Resources</a></li>
+            <li><a href="index.html"><i data-lucide="house" aria-hidden="true"></i> Home</a></li>
+            <li><a href="today.html"><i data-lucide="calendar-days" aria-hidden="true"></i> Today</a></li>
+            <li><a href="beliefs.html"><i data-lucide="book-marked" aria-hidden="true"></i> Beliefs</a></li>
+            <li><a href="sacraments.html"><i data-lucide="waves" aria-hidden="true"></i> Sacraments</a></li>
+            <li><a href="prayer.html"><i data-lucide="hand-heart" aria-hidden="true"></i> Prayer</a></li>
+            <li><a href="history.html"><i data-lucide="scroll" aria-hidden="true"></i> History</a></li>
+            <li><a href="structure.html"><i data-lucide="church" aria-hidden="true"></i> Structure</a></li>
+            <li><a href="apologetics.html"><i data-lucide="shield-half" aria-hidden="true"></i> Apologetics</a></li>
+            <li><a href="resources.html" class="active" aria-current="page"><i data-lucide="bookmark" aria-hidden="true"></i> Resources</a></li>
         </ul>
     </nav>
 </header>
@@ -164,32 +162,32 @@
 
     <ul class="resource-list">
         <li class="reveal">
-            <h3><i class="fa-solid fa-book-bible"></i> The Holy Bible</h3>
+            <h3><i data-lucide="book-marked" aria-hidden="true"></i> The Holy Bible</h3>
             <p>The inspired Word of God. Recommended translations include the RSV-2CE (Revised Standard Version - Second Catholic Edition) and the NABRE (New American Bible Revised Edition).</p>
-            <p><a href="https://bible.usccb.org/bible" target="_blank" rel="noopener noreferrer">Visit the USCCB Bible <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p><a href="https://bible.usccb.org/bible" target="_blank" rel="noopener noreferrer">Visit the USCCB Bible <i data-lucide="external-link" aria-hidden="true"></i></a></p>
         </li>
         <li class="reveal">
-            <h3><i class="fa-solid fa-book"></i> Catechism of the Catholic Church</h3>
+            <h3><i data-lucide="book" aria-hidden="true"></i> Catechism of the Catholic Church</h3>
             <p>A systematic presentation of the faith, including the Creed, the Sacraments, the Commandments, and Prayer. It is the sure norm for teaching the faith.</p>
-            <p><a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener noreferrer">Visit the Catechism <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p><a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener noreferrer">Visit the Catechism <i data-lucide="external-link" aria-hidden="true"></i></a></p>
         </li>
         <li class="reveal">
-            <h3><i class="fa-solid fa-globe"></i> Vatican Website</h3>
+            <h3><i data-lucide="globe" aria-hidden="true"></i> Vatican Website</h3>
             <p>The official website of the Holy See, containing encyclicals, homilies, and news from the Pope and the Roman Curia.</p>
-            <p><a href="https://www.vatican.va/" target="_blank" rel="noopener noreferrer">Visit Vatican.va <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p><a href="https://www.vatican.va/" target="_blank" rel="noopener noreferrer">Visit Vatican.va <i data-lucide="external-link" aria-hidden="true"></i></a></p>
         </li>
         <li class="reveal">
-            <h3><i class="fa-solid fa-circle-question"></i> Catholic Answers</h3>
+            <h3><i data-lucide="circle-help" aria-hidden="true"></i> Catholic Answers</h3>
             <p>A lay apostolate dedicated to explaining and defending the Catholic faith. A great resource for specific questions.</p>
-            <p><a href="https://www.catholic.com/" target="_blank" rel="noopener noreferrer">Visit Catholic Answers <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p><a href="https://www.catholic.com/" target="_blank" rel="noopener noreferrer">Visit Catholic Answers <i data-lucide="external-link" aria-hidden="true"></i></a></p>
         </li>
         <li class="reveal">
-            <h3><i class="fa-solid fa-landmark"></i> New Advent</h3>
+            <h3><i data-lucide="landmark" aria-hidden="true"></i> New Advent</h3>
             <p>Features the Catholic Encyclopedia, writings of the Church Fathers, and the Summa Theologica of St. Thomas Aquinas.</p>
-            <p><a href="https://www.newadvent.org/" target="_blank" rel="noopener noreferrer">Visit New Advent <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p><a href="https://www.newadvent.org/" target="_blank" rel="noopener noreferrer">Visit New Advent <i data-lucide="external-link" aria-hidden="true"></i></a></p>
         </li>
         <li class="reveal">
-            <h3><i class="fa-solid fa-map"></i> Start Here Formation Path</h3>
+            <h3><i data-lucide="map" aria-hidden="true"></i> Start Here Formation Path</h3>
             <p>A simple sequence for those new to Catholicism or returning after time away.</p>
             <ol>
                 <li>Gospel and basic proclamation of Jesus Christ.</li>
@@ -201,49 +199,49 @@
             </ol>
         </li>
         <li class="reveal">
-            <h3><i class="fa-solid fa-road"></i> Catholic Bible and Catechism Roadmap</h3>
+            <h3><i data-lucide="route" aria-hidden="true"></i> Catholic Bible and Catechism Roadmap</h3>
             <p>For study, read Scripture as one salvation story and use the Catechism's four-part structure: Creed, Sacraments, Moral Life, and Prayer. This helps new readers keep doctrine, worship, and daily discipleship united.</p>
-            <p><a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener noreferrer">Visit the Catechism structure <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p><a href="https://www.vatican.va/archive/ENG0015/_INDEX.HTM" target="_blank" rel="noopener noreferrer">Visit the Catechism structure <i data-lucide="external-link" aria-hidden="true"></i></a></p>
         </li>
 
         <li class="reveal">
-            <h3><i class="fa-solid fa-calendar-days"></i> Catholic Liturgical Calendar</h3>
+            <h3><i data-lucide="calendar-days" aria-hidden="true"></i> Catholic Liturgical Calendar</h3>
             <p>Add a liturgical calendar to your device.</p>
 
             <h4>Full Calendar</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/litcal.ics" id="calendar-url" aria-label="Full Liturgical Calendar subscription URL" readonly>
-                <button data-input-id="calendar-url" data-message-id="copy-message" class="copy-btn" aria-label="Copy Full Liturgical Calendar link"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <button data-input-id="calendar-url" data-message-id="copy-message" class="copy-btn" aria-label="Copy Full Liturgical Calendar link"><i data-lucide="copy" aria-hidden="true"></i> Copy Link</button>
             </div>
-            <p id="copy-message" role="alert" class="copy-success-message sr-only"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="copy-message" role="alert" class="copy-success-message sr-only"><i data-lucide="check" aria-hidden="true"></i> Link copied!</p>
 
             <h4 class="calendar-subsection-title">Holy Days of Obligation (US)</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/holydays.ics" id="holydays-url" aria-label="Holy Days of Obligation subscription URL" readonly>
-                <button data-input-id="holydays-url" data-message-id="holydays-message" class="copy-btn" aria-label="Copy Holy Days of Obligation link"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <button data-input-id="holydays-url" data-message-id="holydays-message" class="copy-btn" aria-label="Copy Holy Days of Obligation link"><i data-lucide="copy" aria-hidden="true"></i> Copy Link</button>
             </div>
-            <p id="holydays-message" role="alert" class="copy-success-message sr-only"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="holydays-message" role="alert" class="copy-success-message sr-only"><i data-lucide="check" aria-hidden="true"></i> Link copied!</p>
 
             <h4 class="calendar-subsection-title">Sundays & Holy Days</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/sundaysholydays.ics" id="sundays-holydays-url" aria-label="Sundays and Holy Days subscription URL" readonly>
-                <button data-input-id="sundays-holydays-url" data-message-id="sundays-holydays-message" class="copy-btn" aria-label="Copy Sundays and Holy Days link"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <button data-input-id="sundays-holydays-url" data-message-id="sundays-holydays-message" class="copy-btn" aria-label="Copy Sundays and Holy Days link"><i data-lucide="copy" aria-hidden="true"></i> Copy Link</button>
             </div>
-            <p id="sundays-holydays-message" role="alert" class="copy-success-message sr-only"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="sundays-holydays-message" role="alert" class="copy-success-message sr-only"><i data-lucide="check" aria-hidden="true"></i> Link copied!</p>
 
             <h4 class="calendar-subsection-title">Days of Fast & Abstinence (US)</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/fastabstain.ics" id="fastabstain-url" aria-label="Days of Fast and Abstinence subscription URL" readonly>
-                <button data-input-id="fastabstain-url" data-message-id="fastabstain-message" class="copy-btn" aria-label="Copy Days of Fast and Abstinence link"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <button data-input-id="fastabstain-url" data-message-id="fastabstain-message" class="copy-btn" aria-label="Copy Days of Fast and Abstinence link"><i data-lucide="copy" aria-hidden="true"></i> Copy Link</button>
             </div>
-            <p id="fastabstain-message" role="alert" class="copy-success-message sr-only"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="fastabstain-message" role="alert" class="copy-success-message sr-only"><i data-lucide="check" aria-hidden="true"></i> Link copied!</p>
 
             <h4 class="calendar-subsection-title">Major Feasts & Fast Days</h4>
             <div class="calendar-subscription">
                 <input type="text" value="webcal://noahweidig.com/catholic/majorfeasts.ics" id="majorfeasts-url" aria-label="Major Feasts and Fast Days subscription URL" readonly>
-                <button data-input-id="majorfeasts-url" data-message-id="majorfeasts-message" class="copy-btn" aria-label="Copy Major Feasts and Fast Days link"><i class="fa-solid fa-copy"></i> Copy Link</button>
+                <button data-input-id="majorfeasts-url" data-message-id="majorfeasts-message" class="copy-btn" aria-label="Copy Major Feasts and Fast Days link"><i data-lucide="copy" aria-hidden="true"></i> Copy Link</button>
             </div>
-            <p id="majorfeasts-message" role="alert" class="copy-success-message sr-only"><i class="fa-solid fa-check"></i> Link copied!</p>
+            <p id="majorfeasts-message" role="alert" class="copy-success-message sr-only"><i data-lucide="check" aria-hidden="true"></i> Link copied!</p>
         </li>
     </ul>
 
@@ -268,6 +266,7 @@
     <p class="footer-legal">&copy; 2026 Catholic Faith &middot; A quiet place to learn the faith.</p>
 </footer>
 
+<script src="scripts/vendor/lucide.min.js"></script>
 <script src="scripts/main.js"></script>
 </body>
 </html>

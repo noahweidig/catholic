@@ -80,7 +80,7 @@ async function generateICS() {
 
         icsContent.push('END:VCALENDAR');
 
-        const outputPath = path.join(__dirname, '..', 'litcal.ics');
+        const outputPath = path.join(__dirname, '..', 'public', 'litcal.ics');
         fs.writeFileSync(outputPath, icsContent.join('\r\n'));
         console.log(`Calendar generated at ${outputPath}`);
 

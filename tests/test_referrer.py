@@ -7,7 +7,7 @@ def test_referrer_policy_meta_tag():
     Verify that all HTML files have the correct Referrer-Policy meta tag.
     This ensures we don't leak full paths to external sites.
     """
-    files = glob.glob('*.html')
+    files = glob.glob('src/pages/*.html')
 
     # Check that we found some files
     assert len(files) > 0, "No HTML files found to check."

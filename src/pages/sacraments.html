@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-QLJ/PQe68B6FidV28iGsfgBaBrDEgulsM4UTt/5XPag='; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; base-uri 'self'; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-QLJ/PQe68B6FidV28iGsfgBaBrDEgulsM4UTt/5XPag='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; base-uri 'self'; object-src 'none';">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <title>The Seven Sacraments of the Catholic Church | Catholic</title>
@@ -51,9 +51,7 @@
     <!-- Typography & styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="styles/main.css">
 
     <!-- Structured data -->
@@ -135,19 +133,19 @@
 <header>
     <div class="site-title">Catholic</div>
     <button class="hamburger" aria-label="Toggle navigation" title="Toggle navigation" aria-expanded="false">
-        <i class="fa-solid fa-bars"></i>
+        <i data-lucide="menu" aria-hidden="true"></i>
     </button>
     <nav aria-label="Main Navigation">
         <ul>
-            <li><a href="index.html"><i class="fa-solid fa-home"></i> Home</a></li>
-            <li><a href="today.html"><i class="fa-solid fa-calendar-day"></i> Today</a></li>
-            <li><a href="beliefs.html"><i class="fa-solid fa-book-bible"></i> Beliefs</a></li>
-            <li><a href="sacraments.html" class="active" aria-current="page"><i class="fa-solid fa-water"></i> Sacraments</a></li>
-            <li><a href="prayer.html"><i class="fa-solid fa-hands-praying"></i> Prayer</a></li>
-            <li><a href="history.html"><i class="fa-solid fa-scroll"></i> History</a></li>
-            <li><a href="structure.html"><i class="fa-solid fa-church"></i> Structure</a></li>
-            <li><a href="apologetics.html"><i class="fa-solid fa-shield-halved"></i> Apologetics</a></li>
-            <li><a href="resources.html"><i class="fa-solid fa-bookmark"></i> Resources</a></li>
+            <li><a href="index.html"><i data-lucide="house" aria-hidden="true"></i> Home</a></li>
+            <li><a href="today.html"><i data-lucide="calendar-days" aria-hidden="true"></i> Today</a></li>
+            <li><a href="beliefs.html"><i data-lucide="book-marked" aria-hidden="true"></i> Beliefs</a></li>
+            <li><a href="sacraments.html" class="active" aria-current="page"><i data-lucide="waves" aria-hidden="true"></i> Sacraments</a></li>
+            <li><a href="prayer.html"><i data-lucide="hand-heart" aria-hidden="true"></i> Prayer</a></li>
+            <li><a href="history.html"><i data-lucide="scroll" aria-hidden="true"></i> History</a></li>
+            <li><a href="structure.html"><i data-lucide="church" aria-hidden="true"></i> Structure</a></li>
+            <li><a href="apologetics.html"><i data-lucide="shield-half" aria-hidden="true"></i> Apologetics</a></li>
+            <li><a href="resources.html"><i data-lucide="bookmark" aria-hidden="true"></i> Resources</a></li>
         </ul>
     </nav>
 </header>
@@ -165,49 +163,49 @@
     <div class="sacrament-grid">
 
         <section class="reveal">
-            <h2><i class="fa-solid fa-water"></i> <a href="https://www.vatican.va/archive/ENG0015/__P3G.HTM" target="_blank" rel="noopener noreferrer">Baptism</a></h2>
+            <h2><i data-lucide="waves" aria-hidden="true"></i> <a href="https://www.vatican.va/archive/ENG0015/__P3G.HTM" target="_blank" rel="noopener noreferrer">Baptism</a></h2>
             <p>
                 The basis of the whole Christian life, the gateway to life in the Spirit, and the door which gives access to the other sacraments. Through Baptism we are freed from sin and reborn as sons of God; we become members of Christ, are incorporated into the Church and made sharers in her mission.
             </p>
         </section>
 
         <section class="reveal">
-            <h2><i class="fa-solid fa-fire"></i> <a href="https://www.vatican.va/archive/ENG0015/__P3M.HTM" target="_blank" rel="noopener noreferrer">Confirmation</a></h2>
+            <h2><i data-lucide="flame" aria-hidden="true"></i> <a href="https://www.vatican.va/archive/ENG0015/__P3M.HTM" target="_blank" rel="noopener noreferrer">Confirmation</a></h2>
             <p>
                 Confirmation enriches the baptized with a special strength of the Holy Spirit. It binds us more perfectly to the Church and obliges us to spread and defend the faith by word and deed as true witnesses of Christ.
             </p>
         </section>
 
         <section class="reveal">
-            <h2><i class="fa-solid fa-wheat-awn"></i> <a href="https://www.vatican.va/archive/ENG0015/__P3W.HTM" target="_blank" rel="noopener noreferrer">The Eucharist</a></h2>
+            <h2><i data-lucide="wheat" aria-hidden="true"></i> <a href="https://www.vatican.va/archive/ENG0015/__P3W.HTM" target="_blank" rel="noopener noreferrer">The Eucharist</a></h2>
             <p>
                 The source and summit of the Christian life. In the Eucharist, the bread and wine become the true Body, Blood, Soul, and Divinity of Jesus Christ. By receiving Holy Communion, we are united intimately with Christ and with one another.
             </p>
         </section>
 
         <section class="reveal">
-            <h2><i class="fa-solid fa-hands"></i> <a href="https://www.vatican.va/archive/ENG0015/__P4C.HTM" target="_blank" rel="noopener noreferrer">Reconciliation</a></h2>
+            <h2><i data-lucide="hand-heart" aria-hidden="true"></i> <a href="https://www.vatican.va/archive/ENG0015/__P4C.HTM" target="_blank" rel="noopener noreferrer">Reconciliation</a></h2>
             <p>
                 Also known as Confession or Penance. In this sacrament, through the priest's absolution, God grants pardon for sins committed after Baptism. It reconciles us with God and with the Church.
             </p>
         </section>
 
         <section class="reveal">
-            <h2><i class="fa-solid fa-hand-holding-medical"></i> <a href="https://www.vatican.va/archive/ENG0015/__P4K.HTM" target="_blank" rel="noopener noreferrer">Anointing of the Sick</a></h2>
+            <h2><i data-lucide="heart-pulse" aria-hidden="true"></i> <a href="https://www.vatican.va/archive/ENG0015/__P4K.HTM" target="_blank" rel="noopener noreferrer">Anointing of the Sick</a></h2>
             <p>
                 By the sacred anointing of the sick and the prayer of the priests the whole Church commends those who are ill to the suffering and glorified Lord, that he may raise them up and save them.
             </p>
         </section>
 
         <section class="reveal">
-            <h2><i class="fa-solid fa-cross"></i> <a href="https://www.vatican.va/archive/ENG0015/__P4S.HTM" target="_blank" rel="noopener noreferrer">Holy Orders</a></h2>
+            <h2><i data-lucide="cross" aria-hidden="true"></i> <a href="https://www.vatican.va/archive/ENG0015/__P4S.HTM" target="_blank" rel="noopener noreferrer">Holy Orders</a></h2>
             <p>
                 The sacrament through which the mission entrusted by Christ to his apostles continues to be exercised in the Church until the end of time. It includes three degrees: episcopate (bishops), presbyterate (priests), and diaconate (deacons).
             </p>
         </section>
 
         <section class="reveal">
-            <h2><i class="fa-solid fa-ring"></i> <a href="https://www.vatican.va/archive/ENG0015/__P50.HTM" target="_blank" rel="noopener noreferrer">Matrimony</a></h2>
+            <h2><i data-lucide="circle-dot" aria-hidden="true"></i> <a href="https://www.vatican.va/archive/ENG0015/__P50.HTM" target="_blank" rel="noopener noreferrer">Matrimony</a></h2>
             <p>
                 A lifelong partnership between a man and a woman, established for their mutual good and the procreation and education of children.
             </p>
@@ -215,7 +213,7 @@
 
     </div>
 
-    <h2 class="reveal"><i class="fa-solid fa-person-circle-plus"></i> How to Become Catholic (OCIA)</h2>
+    <h2 class="reveal"><i data-lucide="user-plus" aria-hidden="true"></i> How to Become Catholic (OCIA)</h2>
     <p class="reveal">
         Adults who wish to enter the Church are usually formed through the Order of Christian Initiation of Adults (OCIA, formerly called RCIA). The ordinary path includes inquiry, the catechumenate, purification and enlightenment during Lent, reception of Baptism (if needed), Confirmation, and Eucharist at the Easter Vigil, followed by a period of mystagogy.
     </p>
@@ -250,6 +248,7 @@
     <p class="footer-legal">&copy; 2026 Catholic Faith &middot; A quiet place to learn the faith.</p>
 </footer>
 
+<script src="scripts/vendor/lucide.min.js"></script>
 <script src="scripts/main.js"></script>
 </body>
 </html>

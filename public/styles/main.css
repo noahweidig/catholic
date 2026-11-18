@@ -121,6 +121,13 @@ svg {
     max-width: 100%;
 }
 
+.lucide {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    flex-shrink: 0;
+}
+
 a {
     color: var(--primary-color);
     text-decoration: none;
@@ -386,25 +393,25 @@ nav a,
     height: 100%;
 }
 
-.menu-trigger i:last-child {
+.menu-trigger .lucide:last-child {
     font-size: 0.6em;
     opacity: 0.7;
     transition: transform 0.25s ease;
 }
 
-.menu-dropdown.open > .menu-trigger i:last-child {
+.menu-dropdown.open > .menu-trigger .lucide:last-child {
     transform: rotate(180deg);
 }
 
-nav a i,
-.menu-root i:first-child {
+nav a .lucide,
+.menu-root .lucide:first-child {
     font-size: 0.9em;
     opacity: 0.6;
     color: var(--accent-color);
     transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
-nav a:hover i {
+nav a:hover .lucide {
     opacity: 1;
 }
 
@@ -466,7 +473,7 @@ nav a.active,
     transition: background 0.2s ease, color 0.2s ease;
 }
 
-.submenu a i {
+.submenu a .lucide {
     color: var(--accent-color);
     opacity: 0.7;
     width: 1em;
@@ -704,7 +711,7 @@ nav a.active,
     animation: fadeInUp 0.8s ease 0.4s both;
 }
 
-.reading-time i {
+.reading-time .lucide {
     font-size: 0.9em;
     color: var(--accent-bright);
     opacity: 0.85;
@@ -787,7 +794,7 @@ h2 {
     gap: 0.6em;
 }
 
-h2 i {
+h2 .lucide {
     color: var(--accent-color);
     font-size: 0.8em;
     opacity: 0.9;
@@ -1014,7 +1021,7 @@ blockquote p:last-child {
     font-size: 1.1rem;
 }
 
-.resource-list h3 i {
+.resource-list h3 .lucide {
     color: var(--accent-color);
     font-size: 0.85em;
 }
@@ -1062,11 +1069,11 @@ summary::-webkit-details-marker {
 }
 
 summary::before {
-    content: '\f054';
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 900;
-    font-size: 0.62em;
-    color: var(--accent-color);
+    content: '';
+    height: 0.8em;
+    background-color: var(--accent-color);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 18 6-6-6-6'/%3E%3C/svg%3E") center / 0.8em no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 18 6-6-6-6'/%3E%3C/svg%3E") center / 0.8em no-repeat;
     transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
     display: inline-block;
     width: 1em;
@@ -1108,8 +1115,8 @@ details .scripture-ref,
     margin-bottom: 0.35rem;
 }
 
-.mystery-group h3 i,
-.mass-part h3 i {
+.mystery-group h3 .lucide,
+.mass-part h3 .lucide {
     color: var(--accent-color);
     font-size: 0.8em;
 }
@@ -1482,7 +1489,7 @@ footer a:hover {
     border-bottom-color: var(--accent-color);
 }
 
-.search-input-wrap i {
+.search-input-wrap .lucide {
     color: var(--accent-color);
     font-size: 0.95rem;
     flex-shrink: 0;
@@ -1623,7 +1630,7 @@ footer a:hover {
     font-size: 0.92rem;
 }
 
-.search-empty i {
+.search-empty .lucide {
     display: block;
     font-size: 1.4rem;
     margin-bottom: 0.6rem;

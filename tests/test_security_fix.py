@@ -28,7 +28,7 @@ def test_update_file_header_xss_prevention(mock_file):
     """Test that malicious color injection is prevented in update_file_header."""
     malicious_color = 'green"><script>alert(1)</script><div class="'
 
-    update_file_header('index.html', malicious_color, 'Feast Name')
+    update_file_header('src/pages/index.html', malicious_color, 'Feast Name')
 
     # Verify file was written
     handle = mock_file()
@@ -50,7 +50,7 @@ def test_update_today_file_xss_prevention(mock_file):
     """Test that malicious color injection is prevented in update_today_file."""
     malicious_color = 'red" onmouseover="alert(1)'
 
-    update_today_file('today.html', malicious_color, '<p>New Readings</p>')
+    update_today_file('src/pages/today.html', malicious_color, '<p>New Readings</p>')
 
     handle = mock_file()
     handle.write.assert_called()
@@ -68,7 +68,7 @@ def test_valid_color(mock_file):
     """Test that a valid color is accepted."""
     valid_color = 'dark-violet'
 
-    update_file_header('index.html', valid_color, 'Feast Name')
+    update_file_header('src/pages/index.html', valid_color, 'Feast Name')
 
     handle = mock_file()
     args, _ = handle.write.call_args

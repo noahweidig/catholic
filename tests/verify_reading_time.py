@@ -8,7 +8,7 @@ def verify_reading_time():
         page = browser.new_page()
 
         # Load beliefs.html
-        filepath = os.path.abspath("beliefs.html")
+        filepath = os.path.abspath("dist/beliefs.html")
         page.goto(f"file://{filepath}")
 
         # Check for reading time element
@@ -28,7 +28,7 @@ def verify_reading_time():
             print(f"FAIL: Error waiting for reading time on beliefs.html: {e}")
 
         # Load index.html
-        filepath = os.path.abspath("index.html")
+        filepath = os.path.abspath("dist/index.html")
         page.goto(f"file://{filepath}")
 
         # Check that reading time element is NOT present

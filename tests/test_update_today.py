@@ -146,7 +146,7 @@ def test_update_today_file_success(mock_file, mock_datetime):
     """Test successful update of today.html."""
     mock_datetime.now.return_value = datetime(2026, 3, 10)
     new_html = "<p>New Readings Content</p>"
-    update_today_file('today.html', 'purple', new_html)
+    update_today_file('src/pages/today.html', 'purple', new_html)
 
     handle = mock_file()
     handle.write.assert_called()
@@ -160,7 +160,7 @@ def test_update_today_file_success(mock_file, mock_datetime):
 @patch("builtins.open", new_callable=mock_open, read_data="<html><body>No placeholders here</body></html>")
 def test_update_today_file_missing_placeholders(mock_file, capsys):
     """Test behavior when placeholders are missing."""
-    update_today_file('today.html', 'red', "<p>Content</p>")
+    update_today_file('src/pages/today.html', 'red', "<p>Content</p>")
 
     captured = capsys.readouterr()
     assert "Warning: readings placeholder not found or unchanged" in captured.out
@@ -174,15 +174,15 @@ def test_update_today_file_missing_placeholders(mock_file, capsys):
 @patch("builtins.open", side_effect=IOError("Failed to read file"))
 def test_update_today_file_read_error(mock_file, capsys):
     """Test behavior when file reading fails."""
-    update_today_file('today.html', 'green', "<p>Content</p>")
+    update_today_file('src/pages/today.html', 'green', "<p>Content</p>")
 
     captured = capsys.readouterr()
-    assert "Error updating today.html: An unexpected error occurred" in captured.out
+    assert "Error updating src/pages/today.html: An unexpected error occurred" in captured.out
 
 @patch("builtins.open", new_callable=mock_open, read_data='<header class="some-class"></header>')
 def test_update_today_file_partial_placeholders(mock_file):
     """Test behavior when only some placeholders are present."""
-    update_today_file('today.html', 'gold', "<p>Content</p>")
+    update_today_file('src/pages/today.html', 'gold', "<p>Content</p>")
 
     handle = mock_file()
     written_content = handle.write.call_args[0][0]
@@ -195,7 +195,7 @@ def test_update_today_file_partial_placeholders(mock_file):
 def test_update_today_file_invalid_color(mock_file, capsys):
     """Test that invalid color resets to green in update_today_file."""
     invalid_color = "red; background: url(x);"
-    update_today_file('today.html', invalid_color, "<p>Content</p>")
+    update_today_file('src/pages/today.html', invalid_color, "<p>Content</p>")
 
     captured = capsys.readouterr()
     assert f"Warning: Invalid color '{invalid_color}' detected" in captured.out

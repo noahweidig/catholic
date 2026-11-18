@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,8 @@
   "dependencies": {
     "@romcal/calendar.united-states": "^3.0.0-dev.119",
     "romcal": "^3.0.0-dev.119"
+  },
+  "devDependencies": {
+    "astro": "^7.4.12"
   }
 }

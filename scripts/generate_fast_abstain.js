@@ -116,7 +116,7 @@ async function generateFastAbstain() {
 
         icsContent.push('END:VCALENDAR');
 
-        const outputPath = path.join(__dirname, '..', 'fastabstain.ics');
+        const outputPath = path.join(__dirname, '..', 'public', 'fastabstain.ics');
         fs.writeFileSync(outputPath, icsContent.join('\r\n'));
         console.log(`Fast & Abstinence calendar generated at ${outputPath}`);
 

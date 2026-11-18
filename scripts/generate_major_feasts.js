@@ -100,7 +100,7 @@ async function generateMajorFeasts() {
 
         icsContent.push('END:VCALENDAR');
 
-        const outputPath = path.join(__dirname, '..', 'majorfeasts.ics');
+        const outputPath = path.join(__dirname, '..', 'public', 'majorfeasts.ics');
         fs.writeFileSync(outputPath, icsContent.join('\r\n'));
         console.log(`Major Feasts calendar generated at ${outputPath}`);
 

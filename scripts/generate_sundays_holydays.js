@@ -111,7 +111,7 @@ async function generateSundaysHolydays() {
 
         icsContent.push('END:VCALENDAR');
 
-        const outputPath = path.join(__dirname, '..', 'sundaysholydays.ics');
+        const outputPath = path.join(__dirname, '..', 'public', 'sundaysholydays.ics');
         fs.writeFileSync(outputPath, icsContent.join('\r\n'));
         console.log(`Sundays & Holy Days calendar generated at ${outputPath}`);
 

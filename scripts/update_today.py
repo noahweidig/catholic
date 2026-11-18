@@ -19,7 +19,7 @@ def get_liturgical_info_from_ics():
     """Tries to get today's liturgical info from litcal.ics"""
     try:
         today_str = datetime.now().strftime("%Y%m%d")
-        filepath = 'litcal.ics'
+        filepath = 'public/litcal.ics'
         if not os.path.exists(filepath):
             return None
 
@@ -267,10 +267,10 @@ async def main():
     print(f"Updating files... Color: {color}, Name: {display_name}")
 
     # Update today.html (Single pass efficiency)
-    update_today_file('today.html', color, readings_html)
+    update_today_file('src/pages/today.html', color, readings_html)
 
     # Update index.html (Only header needs update)
-    update_file_header('index.html', color, display_name, is_index=True)
+    update_file_header('src/pages/index.html', color, display_name, is_index=True)
 
     print("Done.")
 

@@ -59,7 +59,7 @@ function generateHolydays() {
 
         icsContent.push('END:VCALENDAR');
 
-        const outputPath = path.join(__dirname, '..', 'holydays.ics');
+        const outputPath = path.join(__dirname, '..', 'public', 'holydays.ics');
         fs.writeFileSync(outputPath, icsContent.join('\r\n'));
         console.log(`Holy Days calendar generated at ${outputPath}`);
 

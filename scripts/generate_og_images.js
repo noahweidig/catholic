@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const OUT_DIR = path.join(ROOT, 'images', 'og');
+const OUT_DIR = path.join(ROOT, 'public', 'images', 'og');
 const CONFIG = JSON.parse(fs.readFileSync(path.join(__dirname, 'site_pages.json'), 'utf8'));
 
 const WIDTH = 1200;
@@ -36,7 +36,7 @@ function escapeHtml(value) {
         .replace(/"/g, '&quot;');
 }
 
-const MARK_SVG = fs.readFileSync(path.join(ROOT, 'images', 'favicon.svg'), 'utf8');
+const MARK_SVG = fs.readFileSync(path.join(ROOT, 'public', 'images', 'favicon.svg'), 'utf8');
 
 function cardHtml(page, siteName) {
     return `<!DOCTYPE html>

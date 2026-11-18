@@ -19,7 +19,7 @@
 
 ## Overview
 
-This repository is a static Catholic faith website that serves as both an educational resource and a liturgical companion. Each day, it automatically fetches the official Mass readings from the United States Conference of Catholic Bishops (USCCB) and updates the site with the proper feast day, liturgical color, and readings for that day.
+This repository is a static (Astro) Catholic faith website that serves as both an educational resource and a liturgical companion. Each day, it automatically fetches the official Mass readings from the United States Conference of Catholic Bishops (USCCB) and updates the site with the proper feast day, liturgical color, and readings for that day.
 
 The site covers nine areas of Catholic life:
 

@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
+    function mkIcon(name, cls) {
+        var pascal = name.replace(/(^|-)(\w)/g, function (_, a, c) { return c.toUpperCase(); });
+        var svg = lucide.createElement(lucide.icons[pascal]);
+        svg.setAttribute('class', 'lucide lucide-' + name + (cls ? ' ' + cls : ''));
+        svg.setAttribute('aria-hidden', 'true');
+        return svg;
+    }
+    function setIcon(parent, name) {
+        var old = parent.querySelector('svg, i');
+        var next = mkIcon(name);
+        if (old && old.tagName.toLowerCase() === 'svg') {
+            old.setAttribute('class', next.getAttribute('class'));
+            old.innerHTML = next.innerHTML;
+        } else if (old) old.replaceWith(next); else parent.appendChild(next);
+    }
+    lucide.createIcons({ attrs: { 'aria-hidden': 'true' } });
+
     function setupMenubar() {
         var header = document.querySelector('header');
         var nav = header ? header.querySelector('nav') : null;
@@ -11,33 +28,33 @@ document.addEventListener('DOMContentLoaded', function () {
         var menuGroups = [
             {
                 label: 'Home',
-                icon: 'fa-solid fa-house',
+                icon: 'house',
                 href: 'index.html'
             },
             {
                 label: 'Faith',
-                icon: 'fa-solid fa-cross',
+                icon: 'cross',
                 links: [
-                    { label: 'Beliefs', href: 'beliefs.html', icon: 'fa-solid fa-book-bible' },
-                    { label: 'Sacraments', href: 'sacraments.html', icon: 'fa-solid fa-water' },
-                    { label: 'Prayer', href: 'prayer.html', icon: 'fa-solid fa-hands-praying' }
+                    { label: 'Beliefs', href: 'beliefs.html', icon: 'book-marked' },
+                    { label: 'Sacraments', href: 'sacraments.html', icon: 'waves' },
+                    { label: 'Prayer', href: 'prayer.html', icon: 'hand-heart' }
                 ]
             },
             {
                 label: 'Church',
-                icon: 'fa-solid fa-church',
+                icon: 'church',
                 links: [
-                    { label: 'History', href: 'history.html', icon: 'fa-solid fa-scroll' },
-                    { label: 'Structure', href: 'structure.html', icon: 'fa-solid fa-building-columns' },
-                    { label: 'Apologetics', href: 'apologetics.html', icon: 'fa-solid fa-shield-halved' }
+                    { label: 'History', href: 'history.html', icon: 'scroll' },
+                    { label: 'Structure', href: 'structure.html', icon: 'university' },
+                    { label: 'Apologetics', href: 'apologetics.html', icon: 'shield-half' }
                 ]
             },
             {
                 label: 'Resources',
-                icon: 'fa-solid fa-bookmark',
+                icon: 'bookmark',
                 links: [
-                    { label: 'Today', href: 'today.html', icon: 'fa-solid fa-calendar-day' },
-                    { label: 'Resources', href: 'resources.html', icon: 'fa-solid fa-book-open' }
+                    { label: 'Today', href: 'today.html', icon: 'calendar-days' },
+                    { label: 'Resources', href: 'resources.html', icon: 'book-open' }
                 ]
             }
         ];
@@ -56,13 +73,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 button.type = 'button';
                 button.setAttribute('aria-expanded', 'false');
 
-                var groupIcon = document.createElement('i');
-                groupIcon.className = group.icon;
+                var groupIcon = mkIcon(group.icon);
                 button.appendChild(groupIcon);
                 button.appendChild(document.createTextNode(group.label + ' '));
 
-                var chevronIcon = document.createElement('i');
-                chevronIcon.className = 'fa-solid fa-chevron-down';
+                var chevronIcon = mkIcon('chevron-down');
                 button.appendChild(chevronIcon);
 
                 var subMenu = document.createElement('ul');
@@ -74,8 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     var link = document.createElement('a');
                     link.href = linkObj.href;
 
-                    var linkIcon = document.createElement('i');
-                    linkIcon.className = linkObj.icon;
+                    var linkIcon = mkIcon(linkObj.icon);
                     link.appendChild(linkIcon);
                     link.appendChild(document.createTextNode(linkObj.label));
 
@@ -103,8 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 var topLink = document.createElement('a');
                 topLink.href = group.href;
 
-                var topGroupIcon = document.createElement('i');
-                topGroupIcon.className = group.icon;
+                var topGroupIcon = mkIcon(group.icon);
                 topLink.appendChild(topGroupIcon);
                 topLink.appendChild(document.createTextNode(group.label));
 
@@ -130,8 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
         searchBtn.setAttribute('aria-label', 'Search the site');
         var isMac = navigator.userAgent.indexOf('Mac OS X') !== -1;
         searchBtn.setAttribute('title', isMac ? 'Search (\u2318K)' : 'Search (Ctrl+K)');
-        var searchBtnIcon = document.createElement('i');
-        searchBtnIcon.className = 'fa-solid fa-magnifying-glass';
+        var searchBtnIcon = mkIcon('search');
         searchBtn.appendChild(searchBtnIcon);
         utilities.appendChild(searchBtn);
 
@@ -141,8 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
         themeBtn.setAttribute('aria-label', 'Toggle dark mode');
         themeBtn.setAttribute('title', 'Toggle dark mode');
         themeBtn.setAttribute('aria-pressed', 'false');
-        var themeBtnIcon = document.createElement('i');
-        themeBtnIcon.className = 'fa-solid fa-moon';
+        var themeBtnIcon = mkIcon('moon');
         themeBtn.appendChild(themeBtnIcon);
         utilities.appendChild(themeBtn);
 
@@ -170,15 +181,15 @@ document.addEventListener('DOMContentLoaded', function () {
         var searchButton = header.querySelector('.nav-search');
         var themeButton = header.querySelector('.theme-toggle');
         var searchTargets = [
-            { label: 'Home', href: 'index.html', icon: 'fa-solid fa-house', desc: 'Welcome and introduction to the Catholic faith', keywords: ['home', 'welcome', 'intro', 'start', 'beginning'] },
-            { label: "Today's Liturgy", href: 'today.html', icon: 'fa-solid fa-calendar-day', desc: 'Daily Mass readings and feast day', keywords: ['today', 'liturgy', 'daily', 'readings', 'mass', 'feast', 'gospel', 'psalm'] },
-            { label: 'Beliefs', href: 'beliefs.html', icon: 'fa-solid fa-book-bible', desc: 'Core beliefs: Trinity, Christ, Scripture, Salvation', keywords: ['beliefs', 'believe', 'faith', 'trinity', 'god', 'jesus', 'christ', 'scripture', 'bible', 'salvation', 'grace', 'eucharist', 'mary', 'sin', 'purgatory', 'saints', 'creed', 'moral', 'commandments'] },
-            { label: 'Sacraments', href: 'sacraments.html', icon: 'fa-solid fa-water', desc: 'The seven sacraments instituted by Christ', keywords: ['sacraments', 'baptism', 'confirmation', 'eucharist', 'communion', 'reconciliation', 'confession', 'anointing', 'holy orders', 'matrimony', 'marriage', 'ordination'] },
-            { label: 'Prayer', href: 'prayer.html', icon: 'fa-solid fa-hands-praying', desc: 'The Mass, the Rosary, and forms of prayer', keywords: ['prayer', 'pray', 'mass', 'rosary', 'mysteries', 'joyful', 'luminous', 'sorrowful', 'glorious', 'devotion', 'saints', 'adoration', 'petition', 'intercession', 'thanksgiving', 'hail mary', 'our father'] },
-            { label: 'History', href: 'history.html', icon: 'fa-solid fa-scroll', desc: 'Two thousand years of Church history', keywords: ['history', 'timeline', 'apostles', 'councils', 'popes', 'reformation', 'tradition', 'ancient', 'medieval', 'modern'] },
-            { label: 'Structure', href: 'structure.html', icon: 'fa-solid fa-building-columns', desc: 'How the Church is organized', keywords: ['structure', 'pope', 'bishop', 'priest', 'deacon', 'cardinal', 'diocese', 'parish', 'vatican', 'hierarchy', 'organization', 'clergy', 'laity'] },
-            { label: 'Apologetics', href: 'apologetics.html', icon: 'fa-solid fa-shield-halved', desc: 'Defending and explaining the faith', keywords: ['apologetics', 'defend', 'explain', 'questions', 'objections', 'answers', 'protestant', 'scripture', 'authority', 'tradition'] },
-            { label: 'Resources', href: 'resources.html', icon: 'fa-solid fa-book-open', desc: 'Further reading, links, and calendars', keywords: ['resources', 'links', 'reading', 'books', 'calendar', 'subscribe', 'catechism', 'learn', 'study'] }
+            { label: 'Home', href: 'index.html', icon: 'house', desc: 'Welcome and introduction to the Catholic faith', keywords: ['home', 'welcome', 'intro', 'start', 'beginning'] },
+            { label: "Today's Liturgy", href: 'today.html', icon: 'calendar-days', desc: 'Daily Mass readings and feast day', keywords: ['today', 'liturgy', 'daily', 'readings', 'mass', 'feast', 'gospel', 'psalm'] },
+            { label: 'Beliefs', href: 'beliefs.html', icon: 'book-marked', desc: 'Core beliefs: Trinity, Christ, Scripture, Salvation', keywords: ['beliefs', 'believe', 'faith', 'trinity', 'god', 'jesus', 'christ', 'scripture', 'bible', 'salvation', 'grace', 'eucharist', 'mary', 'sin', 'purgatory', 'saints', 'creed', 'moral', 'commandments'] },
+            { label: 'Sacraments', href: 'sacraments.html', icon: 'waves', desc: 'The seven sacraments instituted by Christ', keywords: ['sacraments', 'baptism', 'confirmation', 'eucharist', 'communion', 'reconciliation', 'confession', 'anointing', 'holy orders', 'matrimony', 'marriage', 'ordination'] },
+            { label: 'Prayer', href: 'prayer.html', icon: 'hand-heart', desc: 'The Mass, the Rosary, and forms of prayer', keywords: ['prayer', 'pray', 'mass', 'rosary', 'mysteries', 'joyful', 'luminous', 'sorrowful', 'glorious', 'devotion', 'saints', 'adoration', 'petition', 'intercession', 'thanksgiving', 'hail mary', 'our father'] },
+            { label: 'History', href: 'history.html', icon: 'scroll', desc: 'Two thousand years of Church history', keywords: ['history', 'timeline', 'apostles', 'councils', 'popes', 'reformation', 'tradition', 'ancient', 'medieval', 'modern'] },
+            { label: 'Structure', href: 'structure.html', icon: 'university', desc: 'How the Church is organized', keywords: ['structure', 'pope', 'bishop', 'priest', 'deacon', 'cardinal', 'diocese', 'parish', 'vatican', 'hierarchy', 'organization', 'clergy', 'laity'] },
+            { label: 'Apologetics', href: 'apologetics.html', icon: 'shield-half', desc: 'Defending and explaining the faith', keywords: ['apologetics', 'defend', 'explain', 'questions', 'objections', 'answers', 'protestant', 'scripture', 'authority', 'tradition'] },
+            { label: 'Resources', href: 'resources.html', icon: 'book-open', desc: 'Further reading, links, and calendars', keywords: ['resources', 'links', 'reading', 'books', 'calendar', 'subscribe', 'catechism', 'learn', 'study'] }
         ];
 
         // Optimization: Pre-compute a single searchable string per target to avoid repeated `.toLowerCase()` and string allocations on every keystroke
@@ -202,8 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var searchInputWrap = document.createElement('div');
         searchInputWrap.className = 'search-input-wrap';
 
-        var searchMagIcon = document.createElement('i');
-        searchMagIcon.className = 'fa-solid fa-magnifying-glass';
+        var searchMagIcon = mkIcon('search');
         searchInputWrap.appendChild(searchMagIcon);
 
         var searchInput = document.createElement('input');
@@ -228,8 +238,7 @@ document.addEventListener('DOMContentLoaded', function () {
         searchClearBtn.style.height = '1.8rem';
         searchClearBtn.style.marginLeft = '0.5rem';
         searchClearBtn.style.border = 'none';
-        var clearIcon = document.createElement('i');
-        clearIcon.className = 'fa-solid fa-xmark';
+        var clearIcon = mkIcon('x');
         searchClearBtn.appendChild(clearIcon);
         searchInputWrap.appendChild(searchClearBtn);
 
@@ -359,8 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 var emptyDiv = document.createElement('div');
                 emptyDiv.className = 'search-empty';
 
-                var emptyIcon = document.createElement('i');
-                emptyIcon.className = 'fa-solid fa-magnifying-glass';
+                var emptyIcon = mkIcon('search');
                 emptyDiv.appendChild(emptyIcon);
 
                 var emptyText = document.createElement('div');
@@ -468,8 +476,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 var iconSpan = document.createElement('span');
                 iconSpan.className = 'search-result-icon';
-                var iconI = document.createElement('i');
-                iconI.className = t.icon;
+                var iconI = mkIcon(t.icon);
                 iconSpan.appendChild(iconI);
                 a.appendChild(iconSpan);
 
@@ -496,8 +503,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 a.appendChild(document.createTextNode('\n  '));
 
-                var arrowI = document.createElement('i');
-                arrowI.className = 'fa-solid fa-arrow-right search-result-arrow';
+                var arrowI = mkIcon('arrow-right', 'search-result-arrow');
                 a.appendChild(arrowI);
 
                 a.appendChild(document.createTextNode('\n'));
@@ -610,13 +616,13 @@ document.addEventListener('DOMContentLoaded', function () {
         function updateThemeButton() {
             if (!themeButton) return;
             var isDark = document.body.classList.contains('theme-dark');
-            var icon = themeButton.querySelector('i');
+            var icon = themeButton.querySelector('svg');
             themeButton.setAttribute('aria-pressed', String(isDark));
             var labelText = isDark ? 'Switch to light mode' : 'Switch to dark mode';
             themeButton.setAttribute('aria-label', labelText);
             themeButton.setAttribute('title', labelText);
             if (icon) {
-                icon.className = isDark ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+                setIcon(themeButton, isDark ? 'sun' : 'moon');
             }
         }
 
@@ -690,8 +696,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var backToTopBtn = document.createElement('button');
     backToTopBtn.id = 'back-to-top';
     backToTopBtn.className = 'back-to-top';
-    var backToTopIcon = document.createElement('i');
-    backToTopIcon.className = 'fa-solid fa-arrow-up';
+    var backToTopIcon = mkIcon('arrow-up');
     backToTopBtn.appendChild(backToTopIcon);
     backToTopBtn.setAttribute('aria-label', 'Back to top');
     backToTopBtn.setAttribute('title', 'Back to top');
@@ -758,23 +763,21 @@ document.addEventListener('DOMContentLoaded', function () {
         hamburger.addEventListener('click', function () {
             var isOpen = nav.classList.toggle('open');
             hamburger.setAttribute('aria-expanded', String(isOpen));
-            var icon = hamburger.querySelector('i');
+            var icon = hamburger.querySelector('svg');
             if (icon) {
-                icon.className = isOpen
-                    ? 'fa-solid fa-xmark'
-                    : 'fa-solid fa-bars';
+                setIcon(hamburger, isOpen ? 'x' : 'menu');
             }
         });
 
         // Close mobile nav on outside click or focus
         function closeMobileNav(event) {
             if (nav.classList.contains('open') &&
-                !nav.contains(event.target) &&
-                !hamburger.contains(event.target)) {
+                event.composedPath().indexOf(nav) === -1 &&
+                event.composedPath().indexOf(hamburger) === -1) {
                 nav.classList.remove('open');
                 hamburger.setAttribute('aria-expanded', 'false');
-                var icon = hamburger.querySelector('i');
-                if (icon) icon.className = 'fa-solid fa-bars';
+                var icon = hamburger.querySelector('svg');
+                if (icon) setIcon(hamburger, 'menu');
             }
         }
         document.addEventListener('click', closeMobileNav);
@@ -809,8 +812,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         btn._originalNodes = Array.from(btn.childNodes);
 
                         btn.textContent = '';
-                        var checkIcon = document.createElement('i');
-                        checkIcon.className = 'fa-solid fa-check';
+                        var checkIcon = mkIcon('check');
                         btn.appendChild(checkIcon);
                         btn.appendChild(document.createTextNode(' Copied!'));
                         btn.classList.add('success');
@@ -902,10 +904,9 @@ document.addEventListener('DOMContentLoaded', function () {
         if (link.querySelector('img')) return;
 
         // Add visual icon if missing
-        var icon = link.querySelector('.fa-arrow-up-right-from-square');
+        var icon = link.querySelector('.lucide-external-link');
         if (!icon) {
-            icon = document.createElement('i');
-            icon.className = 'fa-solid fa-arrow-up-right-from-square';
+            icon = mkIcon('external-link');
             icon.style.marginLeft = '0.35em';
             icon.style.fontSize = '0.75em';
             link.appendChild(icon);
@@ -958,8 +959,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var readingTimeEl = document.createElement('div');
         readingTimeEl.className = 'reading-time';
-        var clockIcon = document.createElement('i');
-        clockIcon.className = 'fa-solid fa-clock';
+        var clockIcon = mkIcon('clock');
         readingTimeEl.appendChild(clockIcon);
         readingTimeEl.appendChild(document.createTextNode(' ' + minutes + ' min read'));
 
@@ -991,8 +991,8 @@ document.addEventListener('DOMContentLoaded', function () {
             if (headerNav && headerNav.classList.contains('open') && hamburgerBtn) {
                 headerNav.classList.remove('open');
                 hamburgerBtn.setAttribute('aria-expanded', 'false');
-                var icon = hamburgerBtn.querySelector('i');
-                if (icon) icon.className = 'fa-solid fa-bars';
+                var icon = hamburgerBtn.querySelector('svg');
+                if (icon) setIcon(hamburgerBtn, 'menu');
                 if (headerNav.contains(document.activeElement)) {
                     hamburgerBtn.focus();
                 }

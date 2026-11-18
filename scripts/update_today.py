@@ -88,12 +88,13 @@ class _FallbackMass:
 
 def _scrape_usccb(date):
     """Fallback parser for the current bible.usccb.org markup (header.content-header + sibling <p>)."""
-    import requests
+    import urllib.request
     from bs4 import BeautifulSoup
     url = f"https://bible.usccb.org/bible/readings/{date.strftime('%m%d%y')}.cfm"
-    r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=30)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, 'html.parser')
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; catholic-site-updater)'})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        page = resp.read().decode('utf-8', errors='replace')
+    soup = BeautifulSoup(page, 'html.parser')
     title = soup.find('title').get_text(strip=True).split('|')[0].strip()
     sections = []
     for header in soup.select('header.content-header'):
@@ -294,6 +295,10 @@ async def main():
 
     print("Fetching readings...")
     readings = await get_readings()
+
+    if not readings:
+        print("ERROR: could not fetch readings; leaving site files unchanged")
+        raise SystemExit(1)
 
     readings_html = format_readings_html(readings)
 
